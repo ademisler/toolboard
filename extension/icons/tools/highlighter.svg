@@ -1,0 +1,15 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Highlighter body -->
+  <path d="M6 2h12c1.1 0 2 .9 2 2v16c0 1.1-.9 2-2 2H6c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2z" fill="#e0e0e0"/>
+  
+  <!-- Highlighter tip -->
+  <path d="M8 20l4-4 4 4H8z" fill="#ffeb3b"/>
+  
+  <!-- Highlighted text effect -->
+  <path d="M4 8h16v2H4V8z" fill="#ffeb3b" opacity="0.6"/>
+  <path d="M4 12h12v2H4v-2z" fill="#ffeb3b" opacity="0.4"/>
+  <path d="M4 16h8v2H4v-2z" fill="#ffeb3b" opacity="0.3"/>
+  
+  <!-- Highlighter cap -->
+  <rect x="6" y="1" width="12" height="2" rx="1" fill="#333"/>
+</svg>

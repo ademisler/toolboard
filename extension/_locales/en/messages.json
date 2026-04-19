@@ -1,0 +1,5513 @@
+{
+  "extensionName": {
+    "message": "Toolboard – Web Productivity Toolkit"
+  },
+  "extensionShortName": {
+    "message": "Toolboard"
+  },
+  "extensionDescription": {
+    "message": "82-in-1 Chrome extension with AI tools, converters, inspectors, previewers, and capture utilities for faster web workflows"
+  },
+  "buyMeACoffee": {
+    "message": "Buy Coffee"
+  },
+  "color": {
+    "message": "Color"
+  },
+  "element": {
+    "message": "Element"
+  },
+  "link": {
+    "message": "Link"
+  },
+  "font": {
+    "message": "Font Finder"
+  },
+  "media": {
+    "message": "Media Download"
+  },
+  "text": {
+    "message": "Text"
+  },
+  "close": {
+    "message": "Close"
+  },
+  "copy": {
+    "message": "Copy"
+  },
+  "colorPicker": {
+    "message": "Color Picker"
+  },
+  "elementPicker": {
+    "message": "Element Picker"
+  },
+  "linkPicker": {
+    "message": "Link Picker"
+  },
+  "fontPicker": {
+    "message": "Font Finder"
+  },
+  "mediaPicker": {
+    "message": "Media Download"
+  },
+  "textPicker": {
+    "message": "Text Picker"
+  },
+  "screenshot": {
+    "message": "Screenshot"
+  },
+  "notes": {
+    "message": "Notes"
+  },
+  "info": {
+    "message": "Info"
+  },
+  "screenshotPicker": {
+    "message": "Screenshot Picker"
+  },
+  "stickyNotesPicker": {
+    "message": "Sticky Notes Picker"
+  },
+  "siteInfoPicker": {
+    "message": "Site Info Picker"
+  },
+  "colorCopied": {
+    "message": "Color copied"
+  },
+  "colorCopiedToClipboard": {
+    "message": "Color $1 copied to clipboard!"
+  },
+  "elementInfo": {
+    "message": "Element Info"
+  },
+  "textTitle": {
+    "message": "Text"
+  },
+  "themeAuto": {
+    "message": "Auto"
+  },
+  "themeLight": {
+    "message": "Light"
+  },
+  "themeDark": {
+    "message": "Dark"
+  },
+  "eyeDropperNotSupported": {
+    "message": "EyeDropper API not supported in this browser. Please use Chrome 95+ or try a different tool."
+  },
+  "clickToPickColor": {
+    "message": "Click anywhere to pick a color..."
+  },
+  "colorPickingCancelled": {
+    "message": "Color picking cancelled"
+  },
+  "failedToProcessColor": {
+    "message": "Failed to process color. Please try again."
+  },
+  "failedToActivateColorPicker": {
+    "message": "Failed to activate color picker. Please try again."
+  },
+  "failedToExtractElementInfo": {
+    "message": "Failed to extract element information. Please try again."
+  },
+  "hoverToInspectElements": {
+    "message": "Hover over elements to inspect • Click to select • Use arrow keys to navigate"
+  },
+  "failedToActivateElementPicker": {
+    "message": "Failed to activate element picker. Please try again."
+  },
+  "screenshotDownloadFailed": {
+    "message": "Screenshot captured but download failed."
+  },
+  "screenshotCaptureInProgress": {
+    "message": "Screenshot capture already in progress. Please wait…"
+  },
+  "failedToCaptureScreenshot": {
+    "message": "Failed to capture screenshot."
+  },
+  "screenshotFailedVisibleTab": {
+    "message": "Failed to capture visible tab."
+  },
+  "screenshotFailedLoadImage": {
+    "message": "Failed to load captured image."
+  },
+  "screenshotFailedCanvasContext": {
+    "message": "Canvas rendering context unavailable."
+  },
+  "screenshotNoCaptureData": {
+    "message": "No capture data to stitch."
+  },
+  "screenshotUnableDimensions": {
+    "message": "Unable to determine page dimensions."
+  },
+  "screenshotPageTooTall": {
+    "message": "Page is too tall to capture completely."
+  },
+  "screenshotCaptureCancelled": {
+    "message": "Screenshot capture was cancelled."
+  },
+  "screenshotReadyForCopy": {
+    "message": "Screenshot downloaded. You can also copy it."
+  },
+  "screenshotDownloadedAndCopied": {
+    "message": "Screenshot downloaded and copied to clipboard."
+  },
+  "screenshotCopyButton": {
+    "message": "Copy Image"
+  },
+  "screenshotCopyAgainButton": {
+    "message": "Copy Again"
+  },
+  "screenshotCopyHint": {
+    "message": "Copy is useful when pasting directly into chat or docs."
+  },
+  "screenshotAutoCopyFailed": {
+    "message": "Auto-copy failed. You can try the button."
+  },
+  "screenshotPreparingCapture": {
+    "message": "Preparing clean capture..."
+  },
+  "screenshotCaptureProgress": {
+    "message": "Capturing page..."
+  },
+  "screenshotCopying": {
+    "message": "Copying image..."
+  },
+  "screenshotCopiedToClipboard": {
+    "message": "Screenshot copied to clipboard."
+  },
+  "screenshotCopyFailed": {
+    "message": "Could not copy screenshot to clipboard."
+  },
+  "screenshotCopyUnavailable": {
+    "message": "Clipboard image copy is not supported in this browser."
+  },
+  "textCopiedToClipboard": {
+    "message": "Text copied to clipboard"
+  },
+  "failedToAnalyzeText": {
+    "message": "Failed to analyze text. Please try again."
+  },
+  "hoverToAnalyzeText": {
+    "message": "Hover over text elements to analyze • Click to select • Enter to select • Esc to cancel"
+  },
+  "failedToActivateTextPicker": {
+    "message": "Failed to activate text picker. Please try again."
+  },
+  "dragToSelectLinks": {
+    "message": "Drag to select links • Release to extract • Ctrl/Cmd+A for all links • Esc to cancel"
+  },
+  "failedToStartLinkSelection": {
+    "message": "Failed to start link selection. Please try again."
+  },
+  "failedToExtractLinks": {
+    "message": "Failed to extract links. Please try again."
+  },
+  "failedToActivateLinkPicker": {
+    "message": "Failed to activate link picker. Please try again."
+  },
+  "fontInfoCopiedToClipboard": {
+    "message": "Font info copied to clipboard!"
+  },
+  "failedToExtractFontInfo": {
+    "message": "Failed to extract font information. Please try again."
+  },
+  "hoverToInspectFonts": {
+    "message": "Hover over text elements to inspect fonts • Click to select • Enter to select • Esc to cancel"
+  },
+  "failedToActivateFontPicker": {
+    "message": "Failed to activate font picker. Please try again."
+  },
+  "alternateMediaUrlCopied": {
+    "message": "Alternate media URL copied."
+  },
+  "mediaUrlCopiedToClipboard": {
+    "message": "Media URL copied to clipboard!"
+  },
+  "failedToShowMediaDetails": {
+    "message": "Failed to show media details."
+  },
+  "mediaUrlUnavailable": {
+    "message": "Media URL unavailable."
+  },
+  "blobUrlCannotDownload": {
+    "message": "This media uses a blob URL and cannot be downloaded directly."
+  },
+  "failedToDownloadMedia": {
+    "message": "Failed to download media."
+  },
+  "downloadStarted": {
+    "message": "Download started."
+  },
+  "blobUrlUsingAlternateSource": {
+    "message": "Stream uses a blob URL — using alternate source for copy & download."
+  },
+  "mediaDetailsAvailable": {
+    "message": "Media details available. Review the modal for download options."
+  },
+  "failedToInspectMedia": {
+    "message": "Failed to inspect media."
+  },
+  "hoverToInspectMedia": {
+    "message": "Hover over images or videos • Click to inspect • Enter to select • Esc to cancel"
+  },
+  "failedToActivateMediaPicker": {
+    "message": "Failed to activate media picker."
+  },
+  "analyzingWebsite": {
+    "message": "Analyzing website..."
+  },
+  "siteAnalysisCompleted": {
+    "message": "Site analysis completed!"
+  },
+  "failedToGenerateSiteReport": {
+    "message": "Failed to generate site report. Please try again."
+  },
+  "failedToActivateSiteInfoTool": {
+    "message": "Failed to activate site info tool. Please try again."
+  },
+  "siteAnalysisCompletedInfo": {
+    "message": "Site analysis completed"
+  },
+  "noExistingNotesFound": {
+    "message": "No existing notes found for this page. You can create new notes by clicking on the page."
+  },
+  "failedToLoadExistingNotes": {
+    "message": "Failed to load existing notes. Please try again."
+  },
+  "failedToActivateStickyNotes": {
+    "message": "Failed to activate sticky notes. Please try again."
+  },
+  "failedToCreateStickyNote": {
+    "message": "Failed to create sticky note. Please try again."
+  },
+  "allStickyNotesRemoved": {
+    "message": "All sticky notes removed"
+  },
+  "failedToClearNotes": {
+    "message": "Failed to clear notes. Please try again."
+  },
+  "notesSavedSuccessfully": {
+    "message": "Notes saved successfully!"
+  },
+  "failedToSaveNotes": {
+    "message": "Failed to save notes"
+  },
+  "notesExportedSuccessfully": {
+    "message": "Notes exported successfully!"
+  },
+  "failedToExportNotes": {
+    "message": "Failed to export notes"
+  },
+  "notesImportedSuccessfully": {
+    "message": "Notes imported successfully!"
+  },
+  "invalidNotesFileFormat": {
+    "message": "Invalid notes file format"
+  },
+  "failedToParseNotesFile": {
+    "message": "Failed to parse notes file"
+  },
+  "failedToProcessSelectedFile": {
+    "message": "Failed to process selected file"
+  },
+  "failedToImportNotes": {
+    "message": "Failed to import notes"
+  },
+  "noteDeletedSuccessfully": {
+    "message": "Note deleted successfully"
+  },
+  "failedToDeleteNote": {
+    "message": "Failed to delete note"
+  },
+  "failedToFocusNote": {
+    "message": "Failed to focus note"
+  },
+  "noNotesToDeleteForSite": {
+    "message": "No notes to delete for this site."
+  },
+  "failedToDeleteAllNotes": {
+    "message": "Failed to delete all notes. Please try again."
+  },
+  "noteDeletedSuccessfullyExclamation": {
+    "message": "Note deleted successfully!"
+  },
+  "failedToDeleteNoteExclamation": {
+    "message": "Failed to delete note. Please try again."
+  },
+  "cssCopiedToClipboard": {
+    "message": "CSS copied to clipboard!"
+  },
+  "jsonCopiedToClipboard": {
+    "message": "JSON copied to clipboard!"
+  },
+  "analyzingPageColors": {
+    "message": "Analyzing page colors..."
+  },
+  "noColorsFoundOnPage": {
+    "message": "No colors found on this page. Try a page with more visual content."
+  },
+  "colorAnalysisCompleted": {
+    "message": "Color analysis completed!"
+  },
+  "failedToAnalyzePageColors": {
+    "message": "Failed to analyze page colors. Please try again."
+  },
+  "failedToGenerateQRCode": {
+    "message": "Failed to generate QR code"
+  },
+  "failedToActivateQRCodeGenerator": {
+    "message": "Failed to activate QR code generator"
+  },
+  "failedToLoadBookmarks": {
+    "message": "Failed to load bookmarks"
+  },
+  "failedToSaveBookmarks": {
+    "message": "Failed to save bookmarks"
+  },
+  "urlAlreadyBookmarked": {
+    "message": "This URL is already bookmarked"
+  },
+  "videoRecorderWindowClosed": {
+    "message": "Video recorder window closed."
+  },
+  "recordingControlsNotReachable": {
+    "message": "Recording controls are not reachable. Please try again."
+  },
+  "recordingStarted": {
+    "message": "Recording started. Keep the control window open while recording."
+  },
+  "recordingAlreadyInProgress": {
+    "message": "Recording already in progress."
+  },
+  "recordingSavedDownloadStarted": {
+    "message": "Recording saved. Download has started."
+  },
+  "videoRecorderError": {
+    "message": "Video recorder encountered an error."
+  },
+  "videoRecorderNotSupported": {
+    "message": "Video recorder is not supported in this context."
+  },
+  "videoRecorderWindowAlreadyOpen": {
+    "message": "Video recorder window is already open."
+  },
+  "popupBlockedAllowPopups": {
+    "message": "Popup blocked. Allow popups for Toolboard to use the video recorder."
+  },
+  "recordingControlsOpened": {
+    "message": "Recording controls opened in a new window. Keep it open while recording."
+  },
+  "failedToOpenVideoRecorder": {
+    "message": "Failed to open video recorder."
+  },
+  "noReadableContentFound": {
+    "message": "No readable content found on this page"
+  },
+  "unableToCleanContent": {
+    "message": "Unable to clean content for reading"
+  },
+  "readingModeActivated": {
+    "message": "Reading Mode activated"
+  },
+  "failedToActivateReadingMode": {
+    "message": "Failed to activate Reading Mode"
+  },
+  "exitReadingMode": {
+    "message": "Exit Reading Mode"
+  },
+  "decreaseFontSize": {
+    "message": "Decrease font size"
+  },
+  "increaseFontSize": {
+    "message": "Increase font size"
+  },
+  "toggleTheme": {
+    "message": "Toggle between light, dark, or follow system preferences."
+  },
+  "showToolbar": {
+    "message": "Show toolbar"
+  },
+  "hideToolbar": {
+    "message": "Hide toolbar"
+  },
+  "bookmarkAddedSuccessfully": {
+    "message": "Bookmark added successfully!"
+  },
+  "failedToAddBookmark": {
+    "message": "Failed to add bookmark"
+  },
+  "bookmarkNotFound": {
+    "message": "Bookmark not found"
+  },
+  "bookmarkUpdated": {
+    "message": "Bookmark updated!"
+  },
+  "failedToUpdateBookmark": {
+    "message": "Failed to update bookmark"
+  },
+  "bookmarkDeleted": {
+    "message": "Bookmark deleted!"
+  },
+  "failedToDeleteBookmark": {
+    "message": "Failed to delete bookmark"
+  },
+  "failedToUpdateFavoriteStatus": {
+    "message": "Failed to update favorite status"
+  },
+  "bookmarksExportedSuccessfully": {
+    "message": "Bookmarks exported successfully!"
+  },
+  "failedToExportBookmarks": {
+    "message": "Failed to export bookmarks"
+  },
+  "failedToImportBookmarks": {
+    "message": "Failed to import bookmarks. Please check the file format."
+  },
+  "failedToOpenAddBookmarkDialog": {
+    "message": "Failed to open add bookmark dialog"
+  },
+  "bookmarkManagerActivated": {
+    "message": "Bookmark Manager activated. Click the bookmark icon to manage your bookmarks!"
+  },
+  "failedToActivateBookmarkManager": {
+    "message": "Failed to activate Bookmark Manager"
+  },
+  "qrCodeGenerated": {
+    "message": "QR code generated"
+  },
+  "noQrCodeAvailableToDownload": {
+    "message": "No QR code available to download"
+  },
+  "qrCodeDownloaded": {
+    "message": "QR code downloaded"
+  },
+  "failedToDownloadQrCode": {
+    "message": "Failed to download QR code"
+  },
+  "nothingToCopy": {
+    "message": "Nothing to copy"
+  },
+  "failedToCopyText": {
+    "message": "Failed to copy text"
+  },
+  "failedToLoadQrCodeLibrary": {
+    "message": "Failed to load QR code library"
+  },
+  "pdfGeneratedAndDownloadedSuccessfully": {
+    "message": "PDF generated and downloaded successfully!"
+  },
+  "highlightRemoved": {
+    "message": "Highlight removed"
+  },
+  "failedToRemoveHighlight": {
+    "message": "Failed to remove highlight"
+  },
+  "failedToHighlightText": {
+    "message": "Failed to highlight text"
+  },
+  "noValidLinksDetected": {
+    "message": "No valid links were detected."
+  },
+  "noTextContentFoundInElement": {
+    "message": "No text content found in this element."
+  },
+  "allTools": {
+    "message": "All Tools"
+  },
+  "developer": {
+    "message": "Developer"
+  },
+  "developerTitle": {
+    "message": "Developer"
+  },
+  "developerDescription": {
+    "message": "Created by Adem İşler. Visit my website to see more projects and get in touch."
+  },
+  "visitWebsite": {
+    "message": "Visit Website"
+  },
+  "active": {
+    "message": "Active"
+  },
+  "error": {
+    "message": "Error"
+  },
+  "rateLimited": {
+    "message": "Rate Limited"
+  },
+  "unknown": {
+    "message": "Unknown"
+  },
+  "apiKeyPlaceholder": {
+    "message": "Enter API key"
+  },
+  "hideApiKey": {
+    "message": "Hide API key"
+  },
+  "showApiKey": {
+    "message": "Show API key"
+  },
+  "testApiKey": {
+    "message": "Test API key"
+  },
+  "saveApiKey": {
+    "message": "Save API key"
+  },
+  "removeApiKeyTooltip": {
+    "message": "Remove API key"
+  },
+  "apiKeySaved": {
+    "message": "API key saved"
+  },
+  "apiKeyValid": {
+    "message": "API key is valid!"
+  },
+  "apiKeyTestFailed": {
+    "message": "API key test failed"
+  },
+  "testing": {
+    "message": "Testing..."
+  },
+  "enterApiKeyFirst": {
+    "message": "Please enter an API key first"
+  },
+  "unknownError": {
+    "message": "Unknown error"
+  },
+  "copyFailed": {
+    "message": "Copy failed. Please try manually."
+  },
+  "failedToUpdateFavorites": {
+    "message": "Failed to update favorites"
+  },
+  "copiedToClipboard": {
+    "message": "Copied to clipboard!"
+  },
+  "settingsUpdated": {
+    "message": "Settings updated"
+  },
+  "colorPickerDescription": {
+    "message": "Click elements to get colors"
+  },
+  "elementPickerDescription": {
+    "message": "Inspect HTML and CSS structure"
+  },
+  "linkPickerDescription": {
+    "message": "Find all page links"
+  },
+  "fontPickerDescription": {
+    "message": "Identify fonts with family details"
+  },
+  "mediaPickerDescription": {
+    "message": "Download images and media files"
+  },
+  "textPickerDescription": {
+    "message": "Select and copy text content"
+  },
+  "screenshotPickerDescription": {
+    "message": "Capture full page screenshots"
+  },
+  "stickyNotesPickerDescription": {
+    "message": "Add sticky notes to webpages"
+  },
+  "siteInfoPickerDescription": {
+    "message": "Analyze website technology data"
+  },
+  "settings": {
+    "message": "Settings"
+  },
+  "settingsSections": {
+    "message": "Settings sections"
+  },
+  "preferences": {
+    "message": "Preferences"
+  },
+  "tools": {
+    "message": "Tools"
+  },
+  "about": {
+    "message": "About"
+  },
+  "language": {
+    "message": "English"
+  },
+  "theme": {
+    "message": "Theme"
+  },
+  "interface": {
+    "message": "Interface"
+  },
+  "visibility": {
+    "message": "Visibility"
+  },
+  "hideTools": {
+    "message": "Hide tools from the launcher grid while keeping them searchable."
+  },
+  "tunePopup": {
+    "message": "Tune the popup to match how you work."
+  },
+  "switchLanguage": {
+    "message": "Switch the popup language instantly."
+  },
+  "reset": {
+    "message": "Reset"
+  },
+  "save": {
+    "message": "Save"
+  },
+  "english": {
+    "message": "English"
+  },
+  "turkish": {
+    "message": "Türkçe"
+  },
+  "french": {
+    "message": "Français"
+  },
+  "aboutToolboard": {
+    "message": "About Toolboard"
+  },
+  "infoTitle": {
+    "message": "83 Productivity Tools"
+  },
+  "infoDescription": {
+    "message": "Inspect, capture, enhance, and analyze any webpage with powerful tools. From color picking to AI-powered content analysis."
+  },
+  "keyboardShortcuts": {
+    "message": "Keyboard Shortcuts"
+  },
+  "colorPalette": {
+    "message": "Color Palette"
+  },
+  "colorPaletteGenerator": {
+    "message": "Color Palette Generator"
+  },
+  "colorPaletteGeneratorDescription": {
+    "message": "Extract page colors and generate harmonic palettes"
+  },
+  "inspect": {
+    "message": "Inspect"
+  },
+  "capture": {
+    "message": "Capture"
+  },
+  "enhance": {
+    "message": "Enhance"
+  },
+  "utilities": {
+    "message": "Utilities"
+  },
+  "converters": {
+    "message": "Converters"
+  },
+  "unitConverter": {
+    "message": "Unit Converter"
+  },
+  "unitConverterTitle": {
+    "message": "Unit Converter"
+  },
+  "unitConverterDescription": {
+    "message": "Convert between common measurement units quickly"
+  },
+  "unitConverterCategory": {
+    "message": "Category"
+  },
+  "unitConverterValue": {
+    "message": "Value"
+  },
+  "unitConverterInputPlaceholder": {
+    "message": "0"
+  },
+  "unitConverterFrom": {
+    "message": "From"
+  },
+  "unitConverterTo": {
+    "message": "To"
+  },
+  "unitConverterSwap": {
+    "message": "Swap"
+  },
+  "unitConverterResult": {
+    "message": "Result"
+  },
+  "unitConverterCopyResult": {
+    "message": "Copy Result"
+  },
+  "unitConverterInvalidNumber": {
+    "message": "Enter a valid number."
+  },
+  "unitConverterCopied": {
+    "message": "Result copied."
+  },
+  "unitConverterConversionFailed": {
+    "message": "Conversion failed."
+  },
+  "unitConverterGroupLength": {
+    "message": "Length"
+  },
+  "unitConverterGroupMass": {
+    "message": "Mass"
+  },
+  "unitConverterGroupTemperature": {
+    "message": "Temperature"
+  },
+  "unitConverterGroupSpeed": {
+    "message": "Speed"
+  },
+  "unitConverterGroupVolume": {
+    "message": "Volume"
+  },
+  "unitConverterGroupArea": {
+    "message": "Area"
+  },
+  "unitConverterGroupData": {
+    "message": "Data"
+  },
+  "unitConverterUnitMillimeter": {
+    "message": "Millimeter (mm)"
+  },
+  "unitConverterUnitCentimeter": {
+    "message": "Centimeter (cm)"
+  },
+  "unitConverterUnitMeter": {
+    "message": "Meter (m)"
+  },
+  "unitConverterUnitKilometer": {
+    "message": "Kilometer (km)"
+  },
+  "unitConverterUnitInch": {
+    "message": "Inch (in)"
+  },
+  "unitConverterUnitFoot": {
+    "message": "Foot (ft)"
+  },
+  "unitConverterUnitYard": {
+    "message": "Yard (yd)"
+  },
+  "unitConverterUnitMile": {
+    "message": "Mile (mi)"
+  },
+  "unitConverterUnitMilligram": {
+    "message": "Milligram (mg)"
+  },
+  "unitConverterUnitGram": {
+    "message": "Gram (g)"
+  },
+  "unitConverterUnitKilogram": {
+    "message": "Kilogram (kg)"
+  },
+  "unitConverterUnitTon": {
+    "message": "Ton (t)"
+  },
+  "unitConverterUnitOunce": {
+    "message": "Ounce (oz)"
+  },
+  "unitConverterUnitPound": {
+    "message": "Pound (lb)"
+  },
+  "unitConverterUnitCelsius": {
+    "message": "Celsius (°C)"
+  },
+  "unitConverterUnitFahrenheit": {
+    "message": "Fahrenheit (°F)"
+  },
+  "unitConverterUnitKelvin": {
+    "message": "Kelvin (K)"
+  },
+  "unitConverterUnitMeterPerSecond": {
+    "message": "Meter/second (m/s)"
+  },
+  "unitConverterUnitKilometerPerHour": {
+    "message": "Kilometer/hour (km/h)"
+  },
+  "unitConverterUnitMilePerHour": {
+    "message": "Mile/hour (mph)"
+  },
+  "unitConverterUnitKnot": {
+    "message": "Knot (kn)"
+  },
+  "unitConverterUnitMilliliter": {
+    "message": "Milliliter (mL)"
+  },
+  "unitConverterUnitLiter": {
+    "message": "Liter (L)"
+  },
+  "unitConverterUnitCubicMeter": {
+    "message": "Cubic meter (m³)"
+  },
+  "unitConverterUnitCubicFoot": {
+    "message": "Cubic foot (ft³)"
+  },
+  "unitConverterUnitUSGallon": {
+    "message": "US gallon (gal)"
+  },
+  "unitConverterUnitSquareMeter": {
+    "message": "Square meter (m²)"
+  },
+  "unitConverterUnitSquareKilometer": {
+    "message": "Square kilometer (km²)"
+  },
+  "unitConverterUnitSquareFoot": {
+    "message": "Square foot (ft²)"
+  },
+  "unitConverterUnitSquareYard": {
+    "message": "Square yard (yd²)"
+  },
+  "unitConverterUnitHectare": {
+    "message": "Hectare (ha)"
+  },
+  "unitConverterUnitAcre": {
+    "message": "Acre (ac)"
+  },
+  "unitConverterUnitByte": {
+    "message": "Byte (B)"
+  },
+  "unitConverterUnitKilobyte": {
+    "message": "Kilobyte (KB)"
+  },
+  "unitConverterUnitMegabyte": {
+    "message": "Megabyte (MB)"
+  },
+  "unitConverterUnitGigabyte": {
+    "message": "Gigabyte (GB)"
+  },
+  "unitConverterUnitTerabyte": {
+    "message": "Terabyte (TB)"
+  },
+  "currencyConverter": {
+    "message": "Currency Converter"
+  },
+  "currencyConverterTitle": {
+    "message": "Currency Converter"
+  },
+  "currencyConverterDescription": {
+    "message": "Convert between currencies with up-to-date exchange rates"
+  },
+  "currencyConverterAmount": {
+    "message": "Amount"
+  },
+  "currencyConverterAmountPlaceholder": {
+    "message": "1"
+  },
+  "currencyConverterFrom": {
+    "message": "From"
+  },
+  "currencyConverterTo": {
+    "message": "To"
+  },
+  "currencyConverterSwap": {
+    "message": "Swap"
+  },
+  "currencyConverterConvert": {
+    "message": "Convert"
+  },
+  "currencyConverterConverting": {
+    "message": "Converting..."
+  },
+  "currencyConverterResult": {
+    "message": "Result"
+  },
+  "currencyConverterRate": {
+    "message": "Rate"
+  },
+  "currencyConverterUpdated": {
+    "message": "Updated"
+  },
+  "currencyConverterInvalidAmount": {
+    "message": "Enter a valid amount greater than zero."
+  },
+  "currencyConverterFetchError": {
+    "message": "Could not fetch exchange rates. Please try again."
+  },
+  "currencyConverterCopyResult": {
+    "message": "Copy Result"
+  },
+  "currencyConverterNothingToCopy": {
+    "message": "No conversion result to copy."
+  },
+  "currencyConverterCopied": {
+    "message": "Result copied."
+  },
+  "timeZoneConverter": {
+    "message": "Time Zone Converter"
+  },
+  "timeZoneConverterTitle": {
+    "message": "Time Zone Converter"
+  },
+  "timeZoneConverterDescription": {
+    "message": "Convert date and time between major time zones"
+  },
+  "timeZoneConverterDateTime": {
+    "message": "Date & Time"
+  },
+  "timeZoneConverterFrom": {
+    "message": "From Time Zone"
+  },
+  "timeZoneConverterTo": {
+    "message": "To Time Zone"
+  },
+  "timeZoneConverterSwap": {
+    "message": "Swap"
+  },
+  "timeZoneConverterConvert": {
+    "message": "Convert"
+  },
+  "timeZoneConverterResult": {
+    "message": "Result"
+  },
+  "timeZoneConverterInvalidDate": {
+    "message": "Enter a valid date and time."
+  },
+  "timeZoneConverterConversionFailed": {
+    "message": "Time zone conversion failed."
+  },
+  "timeZoneConverterCopyResult": {
+    "message": "Copy Result"
+  },
+  "timeZoneConverterNothingToCopy": {
+    "message": "No conversion result to copy."
+  },
+  "timeZoneConverterCopied": {
+    "message": "Result copied."
+  },
+  "colorConverter": {
+    "message": "Color Converter"
+  },
+  "colorConverterTitle": {
+    "message": "Color Converter"
+  },
+  "colorConverterDescription": {
+    "message": "Convert color values between HEX, RGB, HSL, and CMYK"
+  },
+  "colorConverterConvert": {
+    "message": "Convert"
+  },
+  "colorConverterCopyAll": {
+    "message": "Copy All"
+  },
+  "colorConverterInputPlaceholder": {
+    "message": "#FF8800 / 255,136,0 / 32,100,50 / 0,47,100,0"
+  },
+  "colorConverterHexLabel": {
+    "message": "HEX"
+  },
+  "colorConverterRgbLabel": {
+    "message": "RGB"
+  },
+  "colorConverterHslLabel": {
+    "message": "HSL"
+  },
+  "colorConverterCmykLabel": {
+    "message": "CMYK"
+  },
+  "colorConverterInvalidInput": {
+    "message": "Invalid color value."
+  },
+  "colorConverterNothingToCopy": {
+    "message": "No converted values to copy."
+  },
+  "colorConverterCopied": {
+    "message": "Values copied."
+  },
+  "unixTimeConverter": {
+    "message": "Unix Time Converter"
+  },
+  "unixTimeConverterTitle": {
+    "message": "Unix Time Converter"
+  },
+  "unixTimeConverterDescription": {
+    "message": "Convert between Unix timestamp and human-readable date/time"
+  },
+  "unixTimeConverterUnixToDate": {
+    "message": "Unix → Date Time"
+  },
+  "unixTimeConverterDateToUnix": {
+    "message": "Date Time → Unix"
+  },
+  "unixTimeConverterSeconds": {
+    "message": "Seconds"
+  },
+  "unixTimeConverterMilliseconds": {
+    "message": "Milliseconds"
+  },
+  "unixTimeConverterUnixPlaceholder": {
+    "message": "1700000000"
+  },
+  "unixTimeConverterConvert": {
+    "message": "Convert"
+  },
+  "unixTimeConverterResult": {
+    "message": "Result"
+  },
+  "unixTimeConverterCopyResult": {
+    "message": "Copy Result"
+  },
+  "unixTimeConverterInvalidUnix": {
+    "message": "Enter a valid Unix value."
+  },
+  "unixTimeConverterInvalidDateTime": {
+    "message": "Enter a valid date and time."
+  },
+  "unixTimeConverterNothingToCopy": {
+    "message": "No conversion result to copy."
+  },
+  "unixTimeConverterCopied": {
+    "message": "Result copied."
+  },
+  "unixTimeConverterLocalLabel": {
+    "message": "Local"
+  },
+  "unixTimeConverterUtcLabel": {
+    "message": "UTC"
+  },
+  "unixTimeConverterIsoLabel": {
+    "message": "ISO"
+  },
+  "unixTimeConverterSecondsLabel": {
+    "message": "Seconds"
+  },
+  "unixTimeConverterMillisecondsLabel": {
+    "message": "Milliseconds"
+  },
+  "numberBaseConverter": {
+    "message": "Number Base Converter"
+  },
+  "numberBaseConverterTitle": {
+    "message": "Number Base Converter"
+  },
+  "numberBaseConverterDescription": {
+    "message": "Convert numbers between bases from 2 to 36"
+  },
+  "numberBaseConverterValue": {
+    "message": "Value"
+  },
+  "numberBaseConverterInputPlaceholder": {
+    "message": "FF / 101101 / 12345"
+  },
+  "numberBaseConverterFromBase": {
+    "message": "From Base"
+  },
+  "numberBaseConverterToBase": {
+    "message": "To Base"
+  },
+  "numberBaseConverterSwap": {
+    "message": "Swap"
+  },
+  "numberBaseConverterConvert": {
+    "message": "Convert"
+  },
+  "numberBaseConverterCopyResult": {
+    "message": "Copy Result"
+  },
+  "numberBaseConverterInvalidBase": {
+    "message": "Base must be between 2 and 36."
+  },
+  "numberBaseConverterInvalidNumber": {
+    "message": "Invalid number for selected source base."
+  },
+  "numberBaseConverterConverted": {
+    "message": "Converted"
+  },
+  "numberBaseConverterNormalized": {
+    "message": "Normalized input"
+  },
+  "numberBaseConverterNothingToCopy": {
+    "message": "No conversion result to copy."
+  },
+  "numberBaseConverterCopied": {
+    "message": "Result copied."
+  },
+  "base64Converter": {
+    "message": "Base64 Converter"
+  },
+  "base64ConverterTitle": {
+    "message": "Base64 Encode/Decode"
+  },
+  "base64ConverterDescription": {
+    "message": "Encode and decode Base64 safely with UTF-8 support"
+  },
+  "base64ConverterInput": {
+    "message": "Input"
+  },
+  "base64ConverterOutput": {
+    "message": "Output"
+  },
+  "base64ConverterInputPlaceholder": {
+    "message": "Enter text or Base64..."
+  },
+  "base64ConverterEncode": {
+    "message": "Encode"
+  },
+  "base64ConverterDecode": {
+    "message": "Decode"
+  },
+  "base64ConverterSwap": {
+    "message": "Swap"
+  },
+  "base64ConverterCopyResult": {
+    "message": "Copy Result"
+  },
+  "base64ConverterEmptyInput": {
+    "message": "Please enter text."
+  },
+  "base64ConverterEncodeFailed": {
+    "message": "Encoding failed."
+  },
+  "base64ConverterInvalidInput": {
+    "message": "Invalid Base64 input."
+  },
+  "base64ConverterNothingToCopy": {
+    "message": "No result to copy."
+  },
+  "base64ConverterCopied": {
+    "message": "Result copied."
+  },
+  "urlConverter": {
+    "message": "URL Converter"
+  },
+  "urlConverterTitle": {
+    "message": "URL Encode/Decode"
+  },
+  "urlConverterDescription": {
+    "message": "Encode and decode URL values safely"
+  },
+  "urlConverterMode": {
+    "message": "Mode"
+  },
+  "urlConverterComponentMode": {
+    "message": "Component (query/value)"
+  },
+  "urlConverterUriMode": {
+    "message": "Full URL (URI)"
+  },
+  "urlConverterInput": {
+    "message": "Input"
+  },
+  "urlConverterOutput": {
+    "message": "Output"
+  },
+  "urlConverterInputPlaceholder": {
+    "message": "Enter URL or text..."
+  },
+  "urlConverterEncode": {
+    "message": "Encode"
+  },
+  "urlConverterDecode": {
+    "message": "Decode"
+  },
+  "urlConverterSwap": {
+    "message": "Swap"
+  },
+  "urlConverterCopyResult": {
+    "message": "Copy Result"
+  },
+  "urlConverterEmptyInput": {
+    "message": "Please enter text."
+  },
+  "urlConverterEncodeFailed": {
+    "message": "URL encoding failed."
+  },
+  "urlConverterInvalidInput": {
+    "message": "Invalid URL-encoded input."
+  },
+  "urlConverterNothingToCopy": {
+    "message": "No result to copy."
+  },
+  "urlConverterCopied": {
+    "message": "Result copied."
+  },
+  "caseConverter": {
+    "message": "Case Converter"
+  },
+  "caseConverterTitle": {
+    "message": "Case Converter"
+  },
+  "caseConverterDescription": {
+    "message": "Convert text between common letter case formats"
+  },
+  "caseConverterInput": {
+    "message": "Input"
+  },
+  "caseConverterOutput": {
+    "message": "Output"
+  },
+  "caseConverterInputPlaceholder": {
+    "message": "Enter text..."
+  },
+  "caseConverterMode": {
+    "message": "Case Type"
+  },
+  "caseConverterLower": {
+    "message": "lowercase"
+  },
+  "caseConverterUpper": {
+    "message": "UPPERCASE"
+  },
+  "caseConverterTitleCase": {
+    "message": "Title Case"
+  },
+  "caseConverterSentence": {
+    "message": "Sentence case"
+  },
+  "caseConverterCamel": {
+    "message": "camelCase"
+  },
+  "caseConverterPascal": {
+    "message": "PascalCase"
+  },
+  "caseConverterSnake": {
+    "message": "snake_case"
+  },
+  "caseConverterKebab": {
+    "message": "kebab-case"
+  },
+  "caseConverterConvert": {
+    "message": "Convert"
+  },
+  "caseConverterCopyResult": {
+    "message": "Copy Result"
+  },
+  "caseConverterEmptyInput": {
+    "message": "Please enter text."
+  },
+  "caseConverterNothingToCopy": {
+    "message": "No result to copy."
+  },
+  "caseConverterCopied": {
+    "message": "Result copied."
+  },
+  "markdownHtmlConverter": {
+    "message": "Markdown HTML Converter"
+  },
+  "markdownHtmlConverterTitle": {
+    "message": "Markdown ↔ HTML Converter"
+  },
+  "markdownHtmlConverterDescription": {
+    "message": "Convert text between Markdown and HTML formats"
+  },
+  "markdownHtmlConverterMode": {
+    "message": "Mode"
+  },
+  "markdownHtmlConverterMdToHtml": {
+    "message": "Markdown → HTML"
+  },
+  "markdownHtmlConverterHtmlToMd": {
+    "message": "HTML → Markdown"
+  },
+  "markdownHtmlConverterInput": {
+    "message": "Input"
+  },
+  "markdownHtmlConverterOutput": {
+    "message": "Output"
+  },
+  "markdownHtmlConverterInputPlaceholder": {
+    "message": "Enter Markdown or HTML..."
+  },
+  "markdownHtmlConverterConvert": {
+    "message": "Convert"
+  },
+  "markdownHtmlConverterSwap": {
+    "message": "Swap"
+  },
+  "markdownHtmlConverterCopyResult": {
+    "message": "Copy Result"
+  },
+  "markdownHtmlConverterEmptyInput": {
+    "message": "Please enter text."
+  },
+  "markdownHtmlConverterConversionFailed": {
+    "message": "Conversion failed."
+  },
+  "markdownHtmlConverterNothingToCopy": {
+    "message": "No result to copy."
+  },
+  "markdownHtmlConverterCopied": {
+    "message": "Result copied."
+  },
+  "htmlEntityConverter": {
+    "message": "HTML Entity Converter"
+  },
+  "htmlEntityConverterTitle": {
+    "message": "HTML Entity Encode/Decode"
+  },
+  "htmlEntityConverterDescription": {
+    "message": "Encode and decode HTML entities safely"
+  },
+  "htmlEntityConverterInput": {
+    "message": "Input"
+  },
+  "htmlEntityConverterOutput": {
+    "message": "Output"
+  },
+  "htmlEntityConverterInputPlaceholder": {
+    "message": "Enter text or entities..."
+  },
+  "htmlEntityConverterNumericMode": {
+    "message": "Use numeric entities for non-ASCII characters"
+  },
+  "htmlEntityConverterEncode": {
+    "message": "Encode"
+  },
+  "htmlEntityConverterDecode": {
+    "message": "Decode"
+  },
+  "htmlEntityConverterSwap": {
+    "message": "Swap"
+  },
+  "htmlEntityConverterCopyResult": {
+    "message": "Copy Result"
+  },
+  "htmlEntityConverterEmptyInput": {
+    "message": "Please enter text."
+  },
+  "htmlEntityConverterEncodeFailed": {
+    "message": "Encoding failed."
+  },
+  "htmlEntityConverterDecodeFailed": {
+    "message": "Decoding failed."
+  },
+  "htmlEntityConverterNothingToCopy": {
+    "message": "No result to copy."
+  },
+  "htmlEntityConverterCopied": {
+    "message": "Result copied."
+  },
+  "textToSlugConverter": {
+    "message": "Text to Slug"
+  },
+  "textToSlugConverterTitle": {
+    "message": "Text to Slug"
+  },
+  "textToSlugConverterDescription": {
+    "message": "Convert text into clean URL-friendly slugs"
+  },
+  "textToSlugConverterInput": {
+    "message": "Input"
+  },
+  "textToSlugConverterOutput": {
+    "message": "Output"
+  },
+  "textToSlugConverterInputPlaceholder": {
+    "message": "Enter title or text..."
+  },
+  "textToSlugConverterSeparator": {
+    "message": "Separator"
+  },
+  "textToSlugConverterLowercase": {
+    "message": "Lowercase output"
+  },
+  "textToSlugConverterConvert": {
+    "message": "Convert"
+  },
+  "textToSlugConverterCopyResult": {
+    "message": "Copy Result"
+  },
+  "textToSlugConverterEmptyInput": {
+    "message": "Please enter text."
+  },
+  "textToSlugConverterNothingToCopy": {
+    "message": "No result to copy."
+  },
+  "textToSlugConverterCopied": {
+    "message": "Result copied."
+  },
+  "uuidConverter": {
+    "message": "UUID Converter"
+  },
+  "uuidConverterTitle": {
+    "message": "UUID Generator/Validator"
+  },
+  "uuidConverterDescription": {
+    "message": "Generate UUID v4 values and validate UUID versions"
+  },
+  "uuidConverterGenerateCount": {
+    "message": "Generate Count"
+  },
+  "uuidConverterGenerate": {
+    "message": "Generate v4"
+  },
+  "uuidConverterValidate": {
+    "message": "Validate"
+  },
+  "uuidConverterInput": {
+    "message": "Input (one per line for validation)"
+  },
+  "uuidConverterInputPlaceholder": {
+    "message": "Paste UUID values here..."
+  },
+  "uuidConverterOutput": {
+    "message": "Output"
+  },
+  "uuidConverterCopyResult": {
+    "message": "Copy Result"
+  },
+  "uuidConverterEmptyInput": {
+    "message": "Please enter UUID text."
+  },
+  "uuidConverterValidVersion": {
+    "message": "Valid (v$1)"
+  },
+  "uuidConverterInvalid": {
+    "message": "Invalid"
+  },
+  "uuidConverterNothingToCopy": {
+    "message": "No result to copy."
+  },
+  "uuidConverterCopied": {
+    "message": "Result copied."
+  },
+  "hashGenerator": {
+    "message": "Hash Generator"
+  },
+  "hashGeneratorTitle": {
+    "message": "Hash Generator"
+  },
+  "hashGeneratorDescription": {
+    "message": "Generate SHA hashes from text input"
+  },
+  "hashGeneratorInput": {
+    "message": "Input"
+  },
+  "hashGeneratorInputPlaceholder": {
+    "message": "Enter text..."
+  },
+  "hashGeneratorAlgorithm": {
+    "message": "Algorithm"
+  },
+  "hashGeneratorFormat": {
+    "message": "Output Format"
+  },
+  "hashGeneratorGenerate": {
+    "message": "Generate"
+  },
+  "hashGeneratorCopyResult": {
+    "message": "Copy Result"
+  },
+  "hashGeneratorOutput": {
+    "message": "Output"
+  },
+  "hashGeneratorEmptyInput": {
+    "message": "Please enter text."
+  },
+  "hashGeneratorFailed": {
+    "message": "Hash generation failed."
+  },
+  "hashGeneratorNothingToCopy": {
+    "message": "No result to copy."
+  },
+  "hashGeneratorCopied": {
+    "message": "Result copied."
+  },
+  "jwtDecoder": {
+    "message": "JWT Decoder"
+  },
+  "jwtDecoderTitle": {
+    "message": "JWT Decoder"
+  },
+  "jwtDecoderDescription": {
+    "message": "Decode JWT header and payload claims"
+  },
+  "jwtDecoderInput": {
+    "message": "JWT Token"
+  },
+  "jwtDecoderInputPlaceholder": {
+    "message": "Paste JWT token here..."
+  },
+  "jwtDecoderDecode": {
+    "message": "Decode"
+  },
+  "jwtDecoderCopyResult": {
+    "message": "Copy Result"
+  },
+  "jwtDecoderAdvanced": {
+    "message": "Advanced Analysis"
+  },
+  "jwtDecoderHeader": {
+    "message": "Header"
+  },
+  "jwtDecoderPayload": {
+    "message": "Payload"
+  },
+  "jwtDecoderSignature": {
+    "message": "Signature (raw)"
+  },
+  "jwtDecoderEmptyInput": {
+    "message": "Please enter a JWT token."
+  },
+  "jwtDecoderInvalidFormat": {
+    "message": "Invalid JWT format. Expected 3 parts."
+  },
+  "jwtDecoderInvalidPayload": {
+    "message": "JWT header or payload could not be parsed."
+  },
+  "jwtDecoderNoTemporalClaims": {
+    "message": "No temporal claims found."
+  },
+  "jwtDecoderExp": {
+    "message": "exp"
+  },
+  "jwtDecoderNbf": {
+    "message": "nbf"
+  },
+  "jwtDecoderIat": {
+    "message": "iat"
+  },
+  "jwtDecoderExpired": {
+    "message": "Expired"
+  },
+  "jwtDecoderActive": {
+    "message": "Active"
+  },
+  "jwtDecoderNotYetValid": {
+    "message": "Not yet valid"
+  },
+  "jwtDecoderValidNow": {
+    "message": "Valid now"
+  },
+  "jwtDecoderNothingToCopy": {
+    "message": "No result to copy."
+  },
+  "jwtDecoderCopied": {
+    "message": "Result copied."
+  },
+  "jsonYamlConverter": {
+    "message": "JSON ↔ YAML Converter"
+  },
+  "jsonYamlConverterTitle": {
+    "message": "JSON ↔ YAML Converter"
+  },
+  "jsonYamlConverterDescription": {
+    "message": "Convert between JSON and YAML formats"
+  },
+  "jsonYamlConverterMode": {
+    "message": "Conversion Direction"
+  },
+  "jsonYamlConverterJsonToYaml": {
+    "message": "JSON → YAML"
+  },
+  "jsonYamlConverterYamlToJson": {
+    "message": "YAML → JSON"
+  },
+  "jsonYamlConverterConvert": {
+    "message": "Convert"
+  },
+  "jsonYamlConverterSwap": {
+    "message": "Swap"
+  },
+  "jsonYamlConverterCopyResult": {
+    "message": "Copy Result"
+  },
+  "jsonYamlConverterHint": {
+    "message": "Supports common YAML structures (objects, arrays, scalar values)."
+  },
+  "jsonYamlConverterInput": {
+    "message": "Input"
+  },
+  "jsonYamlConverterInputPlaceholder": {
+    "message": "Paste JSON or YAML here..."
+  },
+  "jsonYamlConverterOutput": {
+    "message": "Output"
+  },
+  "jsonYamlConverterEmptyInput": {
+    "message": "Please enter data to convert."
+  },
+  "jsonYamlConverterFailed": {
+    "message": "Conversion failed."
+  },
+  "jsonYamlConverterIndentError": {
+    "message": "Invalid indentation."
+  },
+  "jsonYamlConverterMixedTypeError": {
+    "message": "Cannot mix list and object at the same indentation level."
+  },
+  "jsonYamlConverterInvalidLine": {
+    "message": "Invalid YAML line."
+  },
+  "jsonYamlConverterNothingToCopy": {
+    "message": "No result to copy."
+  },
+  "jsonYamlConverterCopied": {
+    "message": "Result copied."
+  },
+  "csvJsonConverter": {
+    "message": "CSV ↔ JSON Converter"
+  },
+  "csvJsonConverterTitle": {
+    "message": "CSV ↔ JSON Converter"
+  },
+  "csvJsonConverterDescription": {
+    "message": "Convert between CSV and JSON data formats"
+  },
+  "csvJsonConverterMode": {
+    "message": "Conversion Direction"
+  },
+  "csvJsonConverterCsvToJson": {
+    "message": "CSV → JSON"
+  },
+  "csvJsonConverterJsonToCsv": {
+    "message": "JSON → CSV"
+  },
+  "csvJsonConverterDelimiter": {
+    "message": "Delimiter"
+  },
+  "csvJsonConverterDelimiterComma": {
+    "message": "Comma (,)"
+  },
+  "csvJsonConverterDelimiterSemicolon": {
+    "message": "Semicolon (;)"
+  },
+  "csvJsonConverterDelimiterTab": {
+    "message": "Tab"
+  },
+  "csvJsonConverterDelimiterPipe": {
+    "message": "Pipe (|)"
+  },
+  "csvJsonConverterUseHeader": {
+    "message": "Use first row as header"
+  },
+  "csvJsonConverterTypecast": {
+    "message": "Type-cast numbers/booleans (CSV → JSON)"
+  },
+  "csvJsonConverterConvert": {
+    "message": "Convert"
+  },
+  "csvJsonConverterSwap": {
+    "message": "Swap"
+  },
+  "csvJsonConverterCopyResult": {
+    "message": "Copy Result"
+  },
+  "csvJsonConverterHint": {
+    "message": "Handles quoted fields and line breaks. Use the delimiter setting for your file format."
+  },
+  "csvJsonConverterInput": {
+    "message": "Input"
+  },
+  "csvJsonConverterInputPlaceholder": {
+    "message": "Paste CSV or JSON here..."
+  },
+  "csvJsonConverterOutput": {
+    "message": "Output"
+  },
+  "csvJsonConverterEmptyInput": {
+    "message": "Please enter data to convert."
+  },
+  "csvJsonConverterFailed": {
+    "message": "Conversion failed."
+  },
+  "csvJsonConverterUnclosedQuote": {
+    "message": "CSV contains an unclosed quoted field."
+  },
+  "csvJsonConverterNothingToCopy": {
+    "message": "No result to copy."
+  },
+  "csvJsonConverterCopied": {
+    "message": "Result copied."
+  },
+  "xmlJsonConverter": {
+    "message": "XML ↔ JSON Converter"
+  },
+  "xmlJsonConverterTitle": {
+    "message": "XML ↔ JSON Converter"
+  },
+  "xmlJsonConverterDescription": {
+    "message": "Convert between XML and JSON structures"
+  },
+  "xmlJsonConverterMode": {
+    "message": "Conversion Direction"
+  },
+  "xmlJsonConverterXmlToJson": {
+    "message": "XML → JSON"
+  },
+  "xmlJsonConverterJsonToXml": {
+    "message": "JSON → XML"
+  },
+  "xmlJsonConverterTypecast": {
+    "message": "Type-cast primitive values (XML → JSON)"
+  },
+  "xmlJsonConverterPrettyXml": {
+    "message": "Pretty XML output (JSON → XML)"
+  },
+  "xmlJsonConverterRootName": {
+    "message": "Root name (JSON → XML)"
+  },
+  "xmlJsonConverterConvert": {
+    "message": "Convert"
+  },
+  "xmlJsonConverterSwap": {
+    "message": "Swap"
+  },
+  "xmlJsonConverterCopyResult": {
+    "message": "Copy Result"
+  },
+  "xmlJsonConverterHint": {
+    "message": "XML attributes map to @attributes and text nodes map to #text."
+  },
+  "xmlJsonConverterInput": {
+    "message": "Input"
+  },
+  "xmlJsonConverterInputPlaceholder": {
+    "message": "Paste XML or JSON here..."
+  },
+  "xmlJsonConverterOutput": {
+    "message": "Output"
+  },
+  "xmlJsonConverterEmptyInput": {
+    "message": "Please enter data to convert."
+  },
+  "xmlJsonConverterFailed": {
+    "message": "Conversion failed."
+  },
+  "xmlJsonConverterInvalidXml": {
+    "message": "Invalid XML input."
+  },
+  "xmlJsonConverterNothingToCopy": {
+    "message": "No result to copy."
+  },
+  "xmlJsonConverterCopied": {
+    "message": "Result copied."
+  },
+  "imageFormatConverter": {
+    "message": "Image Format Converter"
+  },
+  "imageFormatConverterTitle": {
+    "message": "Image Format Converter"
+  },
+  "imageFormatConverterDescription": {
+    "message": "Convert images between PNG, JPG, and WEBP formats"
+  },
+  "imageFormatConverterSourceImage": {
+    "message": "Source Image"
+  },
+  "imageFormatConverterTargetFormat": {
+    "message": "Target Format"
+  },
+  "imageFormatConverterQuality": {
+    "message": "Quality"
+  },
+  "imageFormatConverterConvert": {
+    "message": "Convert"
+  },
+  "imageFormatConverterDownload": {
+    "message": "Download"
+  },
+  "imageFormatConverterChooseFile": {
+    "message": "Choose an image file to start."
+  },
+  "imageFormatConverterFileReady": {
+    "message": "File selected. Click Convert."
+  },
+  "imageFormatConverterConverting": {
+    "message": "Converting image..."
+  },
+  "imageFormatConverterReadyToDownload": {
+    "message": "Conversion completed. Ready to download."
+  },
+  "imageFormatConverterInputPreview": {
+    "message": "Input Preview"
+  },
+  "imageFormatConverterOutputPreview": {
+    "message": "Output Preview"
+  },
+  "imageFormatConverterNoFile": {
+    "message": "Please choose an image first."
+  },
+  "imageFormatConverterInvalidImage": {
+    "message": "Invalid image file."
+  },
+  "imageFormatConverterReadFailed": {
+    "message": "Could not read selected file."
+  },
+  "imageFormatConverterCanvasUnavailable": {
+    "message": "Canvas rendering is unavailable."
+  },
+  "imageFormatConverterConvertFailed": {
+    "message": "Image conversion failed."
+  },
+  "imageFormatConverterNothingToDownload": {
+    "message": "No converted file to download."
+  },
+  "imageFormatConverterDownloaded": {
+    "message": "Converted image downloaded."
+  },
+  "imageResizerCompressor": {
+    "message": "Image Resizer/Compressor"
+  },
+  "imageResizerCompressorTitle": {
+    "message": "Image Resizer/Compressor"
+  },
+  "imageResizerCompressorDescription": {
+    "message": "Resize and compress images with dimension and quality controls"
+  },
+  "imageResizerCompressorSourceImage": {
+    "message": "Source Image"
+  },
+  "imageResizerCompressorWidth": {
+    "message": "Width (px)"
+  },
+  "imageResizerCompressorHeight": {
+    "message": "Height (px)"
+  },
+  "imageResizerCompressorKeepAspect": {
+    "message": "Keep aspect ratio"
+  },
+  "imageResizerCompressorQuality": {
+    "message": "Quality"
+  },
+  "imageResizerCompressorOutputFormat": {
+    "message": "Output Format"
+  },
+  "imageResizerCompressorOutputSource": {
+    "message": "Same as source"
+  },
+  "imageResizerCompressorProcess": {
+    "message": "Resize & Compress"
+  },
+  "imageResizerCompressorDownload": {
+    "message": "Download"
+  },
+  "imageResizerCompressorChooseFile": {
+    "message": "Choose an image file to start."
+  },
+  "imageResizerCompressorFileReady": {
+    "message": "File selected. Adjust settings and process."
+  },
+  "imageResizerCompressorProcessing": {
+    "message": "Processing image..."
+  },
+  "imageResizerCompressorReady": {
+    "message": "Processing complete. Ready to download."
+  },
+  "imageResizerCompressorInputPreview": {
+    "message": "Input Preview"
+  },
+  "imageResizerCompressorOutputPreview": {
+    "message": "Output Preview"
+  },
+  "imageResizerCompressorNoFile": {
+    "message": "Please choose an image first."
+  },
+  "imageResizerCompressorInvalidImage": {
+    "message": "Invalid image file."
+  },
+  "imageResizerCompressorReadFailed": {
+    "message": "Could not read selected file."
+  },
+  "imageResizerCompressorCanvasUnavailable": {
+    "message": "Canvas rendering is unavailable."
+  },
+  "imageResizerCompressorConvertFailed": {
+    "message": "Image processing failed."
+  },
+  "imageResizerCompressorNothingToDownload": {
+    "message": "No processed file to download."
+  },
+  "imageResizerCompressorDownloaded": {
+    "message": "Processed image downloaded."
+  },
+  "svgToPngConverter": {
+    "message": "SVG to PNG Converter"
+  },
+  "svgToPngConverterTitle": {
+    "message": "SVG to PNG Converter"
+  },
+  "svgToPngConverterDescription": {
+    "message": "Convert SVG markup or files into PNG images"
+  },
+  "svgToPngConverterSourceSvg": {
+    "message": "Source SVG"
+  },
+  "svgToPngConverterScale": {
+    "message": "Scale"
+  },
+  "svgToPngConverterWhiteBackground": {
+    "message": "White background"
+  },
+  "svgToPngConverterConvert": {
+    "message": "Convert to PNG"
+  },
+  "svgToPngConverterDownload": {
+    "message": "Download PNG"
+  },
+  "svgToPngConverterHint": {
+    "message": "Paste SVG or select an SVG file to start."
+  },
+  "svgToPngConverterSvgInput": {
+    "message": "SVG Input"
+  },
+  "svgToPngConverterInputPlaceholder": {
+    "message": "Paste SVG markup here..."
+  },
+  "svgToPngConverterInputMeta": {
+    "message": "Input"
+  },
+  "svgToPngConverterOutputMeta": {
+    "message": "Output"
+  },
+  "svgToPngConverterNoInput": {
+    "message": "Please provide SVG content."
+  },
+  "svgToPngConverterInvalidFile": {
+    "message": "Please select an SVG file."
+  },
+  "svgToPngConverterInvalidSvg": {
+    "message": "Invalid SVG content."
+  },
+  "svgToPngConverterRenderFailed": {
+    "message": "Could not render SVG."
+  },
+  "svgToPngConverterCanvasUnavailable": {
+    "message": "Canvas rendering is unavailable."
+  },
+  "svgToPngConverterConvertFailed": {
+    "message": "SVG to PNG conversion failed."
+  },
+  "svgToPngConverterConverting": {
+    "message": "Converting SVG..."
+  },
+  "svgToPngConverterReady": {
+    "message": "Conversion completed. Ready to download."
+  },
+  "svgToPngConverterFileReady": {
+    "message": "SVG loaded. Click Convert."
+  },
+  "svgToPngConverterNothingToDownload": {
+    "message": "No PNG output to download."
+  },
+  "svgToPngConverterDownloaded": {
+    "message": "PNG downloaded."
+  },
+  "heicConverter": {
+    "message": "HEIC to JPG/PNG"
+  },
+  "heicConverterTitle": {
+    "message": "HEIC to JPG/PNG"
+  },
+  "heicConverterDescription": {
+    "message": "Convert HEIC/HEIF photos to JPG or PNG when decode support is available"
+  },
+  "heicConverterSourceFile": {
+    "message": "HEIC/HEIF File"
+  },
+  "heicConverterTargetFormat": {
+    "message": "Target Format"
+  },
+  "heicConverterQuality": {
+    "message": "Quality"
+  },
+  "heicConverterConvert": {
+    "message": "Convert"
+  },
+  "heicConverterDownload": {
+    "message": "Download"
+  },
+  "heicConverterHint": {
+    "message": "HEIC decode support depends on your Chrome/system codecs."
+  },
+  "heicConverterInputPreview": {
+    "message": "Input Preview"
+  },
+  "heicConverterOutputPreview": {
+    "message": "Output Preview"
+  },
+  "heicConverterNoFile": {
+    "message": "Please choose a HEIC file first."
+  },
+  "heicConverterInvalidFile": {
+    "message": "Please select a HEIC/HEIF file."
+  },
+  "heicConverterBitmapUnsupported": {
+    "message": "This browser does not support image decoding for this feature."
+  },
+  "heicConverterDecodeUnsupported": {
+    "message": "HEIC decode is not supported on this system/browser."
+  },
+  "heicConverterCanvasUnavailable": {
+    "message": "Canvas rendering is unavailable."
+  },
+  "heicConverterConvertFailed": {
+    "message": "HEIC conversion failed."
+  },
+  "heicConverterConverting": {
+    "message": "Converting HEIC image..."
+  },
+  "heicConverterReady": {
+    "message": "Conversion complete. Ready to download."
+  },
+  "heicConverterCheckingSupport": {
+    "message": "Checking HEIC decode support..."
+  },
+  "heicConverterFileReady": {
+    "message": "HEIC file loaded. Click Convert."
+  },
+  "heicConverterUnsupportedHint": {
+    "message": "Try converting HEIC in Photos/Preview first if decode support is unavailable."
+  },
+  "heicConverterNothingToDownload": {
+    "message": "No converted output to download."
+  },
+  "heicConverterDownloaded": {
+    "message": "Converted image downloaded."
+  },
+  "pdfToImage": {
+    "message": "PDF to Image"
+  },
+  "pdfToImageTitle": {
+    "message": "PDF to Image"
+  },
+  "pdfToImageDescription": {
+    "message": "Render any PDF page as PNG or JPG and download it"
+  },
+  "pdfToImageNoPdf": {
+    "message": "Please choose a PDF file first."
+  },
+  "pdfToImageRendering": {
+    "message": "Rendering page..."
+  },
+  "pdfToImageCanvasUnavailable": {
+    "message": "Canvas rendering is unavailable."
+  },
+  "pdfToImageRenderFailed": {
+    "message": "Failed to render image from PDF page."
+  },
+  "pdfToImageReady": {
+    "message": "Page $1 rendered. Image is ready to download."
+  },
+  "pdfToImageNothingToDownload": {
+    "message": "No output image to download."
+  },
+  "pdfToImageDownloaded": {
+    "message": "Image downloaded."
+  },
+  "pdfToImageInvalidFile": {
+    "message": "Please select a PDF file."
+  },
+  "pdfToImageLoadingPdf": {
+    "message": "Loading PDF..."
+  },
+  "pdfToImageFileReady": {
+    "message": "PDF loaded. Choose a page and render."
+  },
+  "pdfToImageLoadFailed": {
+    "message": "Failed to load PDF file."
+  },
+  "pdfToImageSourcePdf": {
+    "message": "Source PDF"
+  },
+  "pdfToImagePage": {
+    "message": "Page"
+  },
+  "pdfToImageScale": {
+    "message": "Scale"
+  },
+  "pdfToImageFormat": {
+    "message": "Output Format"
+  },
+  "pdfToImageQuality": {
+    "message": "JPG Quality"
+  },
+  "pdfToImageRender": {
+    "message": "Render Page"
+  },
+  "pdfToImageDownload": {
+    "message": "Download Image"
+  },
+  "pdfToImageHint": {
+    "message": "Select a PDF file, then render the page you need."
+  },
+  "pdfToImageInputInfo": {
+    "message": "Input"
+  },
+  "pdfToImageOutputInfo": {
+    "message": "Output"
+  },
+  "imageToPdf": {
+    "message": "Image to PDF"
+  },
+  "imageToPdfTitle": {
+    "message": "Image to PDF"
+  },
+  "imageToPdfDescription": {
+    "message": "Combine multiple images into a single downloadable PDF"
+  },
+  "imageToPdfSourceImages": {
+    "message": "Source Images"
+  },
+  "imageToPdfAdvancedOptions": {
+    "message": "Advanced Options"
+  },
+  "imageToPdfPageSize": {
+    "message": "Page Size"
+  },
+  "imageToPdfAutoSize": {
+    "message": "Auto (image size)"
+  },
+  "imageToPdfOrientation": {
+    "message": "Orientation"
+  },
+  "imageToPdfAuto": {
+    "message": "Auto"
+  },
+  "imageToPdfPortrait": {
+    "message": "Portrait"
+  },
+  "imageToPdfLandscape": {
+    "message": "Landscape"
+  },
+  "imageToPdfFitMode": {
+    "message": "Fit Mode"
+  },
+  "imageToPdfContain": {
+    "message": "Contain (keep all)"
+  },
+  "imageToPdfCover": {
+    "message": "Cover (fill page)"
+  },
+  "imageToPdfMarginMm": {
+    "message": "Margin (mm)"
+  },
+  "imageToPdfQuality": {
+    "message": "Image Quality"
+  },
+  "imageToPdfBuild": {
+    "message": "Create PDF"
+  },
+  "imageToPdfDownload": {
+    "message": "Download PDF"
+  },
+  "imageToPdfHint": {
+    "message": "Choose one or more images, then create your PDF."
+  },
+  "imageToPdfInputInfo": {
+    "message": "Input"
+  },
+  "imageToPdfOutputInfo": {
+    "message": "Output"
+  },
+  "imageToPdfNoImages": {
+    "message": "Please select at least one image."
+  },
+  "imageToPdfInvalidFiles": {
+    "message": "Please select image files only."
+  },
+  "imageToPdfFilesReady": {
+    "message": "Images loaded. Click Create PDF."
+  },
+  "imageToPdfBuilding": {
+    "message": "Creating PDF from images..."
+  },
+  "imageToPdfProcessingPage": {
+    "message": "Processing image $1/$2..."
+  },
+  "imageToPdfReady": {
+    "message": "PDF is ready. You can download it now."
+  },
+  "imageToPdfBuilt": {
+    "message": "PDF created successfully."
+  },
+  "imageToPdfBuildFailed": {
+    "message": "Failed to create PDF."
+  },
+  "imageToPdfNothingToDownload": {
+    "message": "No PDF output to download."
+  },
+  "imageToPdfDownloaded": {
+    "message": "PDF downloaded."
+  },
+  "imageToPdfImageLoadFailed": {
+    "message": "Failed to decode image file."
+  },
+  "imageToPdfCanvasUnavailable": {
+    "message": "Canvas rendering is unavailable."
+  },
+  "imageToPdfInvalidImage": {
+    "message": "Invalid image data."
+  },
+  "pdfMergeSplit": {
+    "message": "PDF Merge/Split"
+  },
+  "pdfMergeSplitTitle": {
+    "message": "PDF Merge/Split"
+  },
+  "pdfMergeSplitDescription": {
+    "message": "Merge multiple PDFs or split/extract pages from a PDF"
+  },
+  "pdfMergeSplitModeMerge": {
+    "message": "Merge PDFs"
+  },
+  "pdfMergeSplitModeSplit": {
+    "message": "Split/Extract"
+  },
+  "pdfMergeSplitMergeFiles": {
+    "message": "PDF Files"
+  },
+  "pdfMergeSplitSourceFile": {
+    "message": "Source PDF"
+  },
+  "pdfMergeSplitRange": {
+    "message": "Page Range"
+  },
+  "pdfMergeSplitRangePlaceholder": {
+    "message": "Example: 1-3,5"
+  },
+  "pdfMergeSplitProcess": {
+    "message": "Process PDF"
+  },
+  "pdfMergeSplitDownload": {
+    "message": "Download PDF"
+  },
+  "pdfMergeSplitMergeHint": {
+    "message": "Select multiple PDF files and click Process."
+  },
+  "pdfMergeSplitSplitHint": {
+    "message": "Select one PDF and enter page range (for example: 1-3,5)."
+  },
+  "pdfMergeSplitInputInfo": {
+    "message": "Input"
+  },
+  "pdfMergeSplitOutputInfo": {
+    "message": "Output"
+  },
+  "pdfMergeSplitNoMergeFiles": {
+    "message": "Please select PDF files to merge."
+  },
+  "pdfMergeSplitNoSplitFile": {
+    "message": "Please select a PDF file to split."
+  },
+  "pdfMergeSplitNoPagesSelected": {
+    "message": "No pages selected."
+  },
+  "pdfMergeSplitInvalidPdf": {
+    "message": "Please select a PDF file."
+  },
+  "pdfMergeSplitInvalidRange": {
+    "message": "Invalid page range."
+  },
+  "pdfMergeSplitMerging": {
+    "message": "Merging PDF files..."
+  },
+  "pdfMergeSplitSplitting": {
+    "message": "Preparing split PDF..."
+  },
+  "pdfMergeSplitProcessingFile": {
+    "message": "Processing file $1/$2..."
+  },
+  "pdfMergeSplitMerged": {
+    "message": "PDF files merged successfully."
+  },
+  "pdfMergeSplitSplitDone": {
+    "message": "PDF pages extracted successfully."
+  },
+  "pdfMergeSplitMergeFailed": {
+    "message": "Failed to merge PDF files."
+  },
+  "pdfMergeSplitSplitFailed": {
+    "message": "Failed to split PDF."
+  },
+  "pdfMergeSplitReady": {
+    "message": "PDF is ready to download."
+  },
+  "pdfMergeSplitNothingToDownload": {
+    "message": "No output PDF to download."
+  },
+  "pdfMergeSplitDownloaded": {
+    "message": "PDF downloaded."
+  },
+  "pdfMergeSplitGenericError": {
+    "message": "PDF operation failed."
+  },
+  "pdfCompress": {
+    "message": "PDF Compress"
+  },
+  "pdfCompressTitle": {
+    "message": "PDF Compress"
+  },
+  "pdfCompressDescription": {
+    "message": "Reduce PDF file size with image-based compression presets"
+  },
+  "pdfCompressSourcePdf": {
+    "message": "Source PDF"
+  },
+  "pdfCompressPreset": {
+    "message": "Compression Preset"
+  },
+  "pdfCompressLight": {
+    "message": "Light (better quality)"
+  },
+  "pdfCompressBalanced": {
+    "message": "Balanced"
+  },
+  "pdfCompressStrong": {
+    "message": "Strong (smaller file)"
+  },
+  "pdfCompressAdvancedOptions": {
+    "message": "Advanced Options"
+  },
+  "pdfCompressScale": {
+    "message": "Render Scale"
+  },
+  "pdfCompressQuality": {
+    "message": "JPEG Quality"
+  },
+  "pdfCompressInfo": {
+    "message": "Compression re-renders pages as images. Text select/search may be reduced."
+  },
+  "pdfCompressRun": {
+    "message": "Compress PDF"
+  },
+  "pdfCompressDownload": {
+    "message": "Download Compressed PDF"
+  },
+  "pdfCompressHint": {
+    "message": "Choose a PDF and click Compress."
+  },
+  "pdfCompressInputInfo": {
+    "message": "Input"
+  },
+  "pdfCompressOutputInfo": {
+    "message": "Output"
+  },
+  "pdfCompressNoFile": {
+    "message": "Please choose a PDF file first."
+  },
+  "pdfCompressInvalidFile": {
+    "message": "Please select a PDF file."
+  },
+  "pdfCompressFileReady": {
+    "message": "PDF loaded. Click Compress."
+  },
+  "pdfCompressPreparing": {
+    "message": "Compressing PDF pages..."
+  },
+  "pdfCompressProcessingPage": {
+    "message": "Processing page $1/$2..."
+  },
+  "pdfCompressCanvasUnavailable": {
+    "message": "Canvas rendering is unavailable."
+  },
+  "pdfCompressRenderFailed": {
+    "message": "Failed to render PDF page."
+  },
+  "pdfCompressDone": {
+    "message": "PDF compressed successfully."
+  },
+  "pdfCompressReady": {
+    "message": "Compressed PDF is ready to download."
+  },
+  "pdfCompressFailed": {
+    "message": "PDF compression failed."
+  },
+  "pdfCompressNothingToDownload": {
+    "message": "No compressed PDF to download."
+  },
+  "pdfCompressDownloaded": {
+    "message": "Compressed PDF downloaded."
+  },
+  "qrText": {
+    "message": "QR Text Converter"
+  },
+  "qrTextTitle": {
+    "message": "QR ↔ Text"
+  },
+  "qrTextDescription": {
+    "message": "Convert text to QR and decode QR images back to text"
+  },
+  "qrTextModeEncode": {
+    "message": "Text to QR"
+  },
+  "qrTextModeDecode": {
+    "message": "QR to Text"
+  },
+  "qrTextHintEncode": {
+    "message": "Enter text and generate QR."
+  },
+  "qrTextHintDecode": {
+    "message": "Upload a QR image to decode text."
+  },
+  "qrTextInput": {
+    "message": "Input Text"
+  },
+  "qrTextInputPlaceholder": {
+    "message": "Type text or URL..."
+  },
+  "qrTextSize": {
+    "message": "Size"
+  },
+  "qrTextGenerate": {
+    "message": "Generate QR"
+  },
+  "qrTextDownload": {
+    "message": "Download PNG"
+  },
+  "qrTextImage": {
+    "message": "QR Image"
+  },
+  "qrTextDecodedLabel": {
+    "message": "Decoded Text"
+  },
+  "qrTextCopy": {
+    "message": "Copy Text"
+  },
+  "qrTextNoInput": {
+    "message": "Please enter text first."
+  },
+  "qrTextCanvasUnavailable": {
+    "message": "Canvas rendering is unavailable."
+  },
+  "qrTextReady": {
+    "message": "QR is ready."
+  },
+  "qrTextGenerated": {
+    "message": "QR generated."
+  },
+  "qrTextGenerateFailed": {
+    "message": "Failed to generate QR."
+  },
+  "qrTextInvalidImage": {
+    "message": "Please choose an image file."
+  },
+  "qrTextDetectorUnsupported": {
+    "message": "QR decoding is not supported in this Chrome version."
+  },
+  "qrTextDecoding": {
+    "message": "Decoding QR..."
+  },
+  "qrTextNotFound": {
+    "message": "No QR code detected in image."
+  },
+  "qrTextDecodeEmpty": {
+    "message": "QR content is empty."
+  },
+  "qrTextDecoded": {
+    "message": "QR decoded successfully."
+  },
+  "qrTextDecodeFailed": {
+    "message": "Failed to decode QR."
+  },
+  "qrTextNothingToDownload": {
+    "message": "No QR image to download."
+  },
+  "qrTextDownloaded": {
+    "message": "QR image downloaded."
+  },
+  "qrTextDownloadFailed": {
+    "message": "Failed to download QR image."
+  },
+  "qrTextNothingToCopy": {
+    "message": "No decoded text to copy."
+  },
+  "qrTextCopied": {
+    "message": "Decoded text copied."
+  },
+  "qrTextCopyFailed": {
+    "message": "Failed to copy text."
+  },
+  "qrTextGenericError": {
+    "message": "QR conversion failed."
+  },
+  "audioConverter": {
+    "message": "Audio Format Converter"
+  },
+  "audioConverterTitle": {
+    "message": "Audio Format Converter"
+  },
+  "audioConverterDescription": {
+    "message": "Convert audio files to WAV and browser-supported compressed formats"
+  },
+  "audioConverterSourceFile": {
+    "message": "Source Audio File"
+  },
+  "audioConverterTargetFormat": {
+    "message": "Target Format"
+  },
+  "audioConverterSampleRate": {
+    "message": "WAV Sample Rate"
+  },
+  "audioConverterRealtimeHint": {
+    "message": "This format uses real-time recording in browser. Conversion may take as long as the audio duration."
+  },
+  "audioConverterConvert": {
+    "message": "Convert Audio"
+  },
+  "audioConverterDownload": {
+    "message": "Download Audio"
+  },
+  "audioConverterHint": {
+    "message": "Choose an audio file, then click Convert."
+  },
+  "audioConverterInputInfo": {
+    "message": "Input"
+  },
+  "audioConverterOutputInfo": {
+    "message": "Output"
+  },
+  "audioConverterInvalidFile": {
+    "message": "Please select an audio file."
+  },
+  "audioConverterLoading": {
+    "message": "Loading audio file..."
+  },
+  "audioConverterDecodeUnavailable": {
+    "message": "Audio decoding is not supported in this browser."
+  },
+  "audioConverterDecodeFailed": {
+    "message": "Failed to decode audio file."
+  },
+  "audioConverterReady": {
+    "message": "Audio loaded. Click Convert."
+  },
+  "audioConverterNoFile": {
+    "message": "Please choose an audio file first."
+  },
+  "audioConverterConverting": {
+    "message": "Converting audio..."
+  },
+  "audioConverterConvertingRealtime": {
+    "message": "Converting audio in real time..."
+  },
+  "audioConverterConverted": {
+    "message": "Conversion completed. Ready to download."
+  },
+  "audioConverterConvertFailed": {
+    "message": "Audio conversion failed."
+  },
+  "audioConverterRecorderUnavailable": {
+    "message": "This format is not supported in your browser."
+  },
+  "audioConverterNothingToDownload": {
+    "message": "No converted audio to download."
+  },
+  "audioConverterDownloaded": {
+    "message": "Converted audio downloaded."
+  },
+  "videoConverter": {
+    "message": "Video Format Converter"
+  },
+  "videoConverterTitle": {
+    "message": "Video Format Converter"
+  },
+  "videoConverterDescription": {
+    "message": "Convert videos to browser-supported formats with resolution and FPS controls"
+  },
+  "videoConverterSourceFile": {
+    "message": "Source Video File"
+  },
+  "videoConverterTargetFormat": {
+    "message": "Target Format"
+  },
+  "videoConverterResolution": {
+    "message": "Resolution"
+  },
+  "videoConverterResolutionOriginal": {
+    "message": "Original"
+  },
+  "videoConverterFps": {
+    "message": "FPS"
+  },
+  "videoConverterBitrate": {
+    "message": "Bitrate (kbps)"
+  },
+  "videoConverterRealtimeHint": {
+    "message": "Video conversion runs in real time in browser. A 2-minute video may take about 2 minutes."
+  },
+  "videoConverterConvert": {
+    "message": "Convert Video"
+  },
+  "videoConverterDownload": {
+    "message": "Download Video"
+  },
+  "videoConverterHint": {
+    "message": "Choose a video file, then click Convert."
+  },
+  "videoConverterInputInfo": {
+    "message": "Input"
+  },
+  "videoConverterOutputInfo": {
+    "message": "Output"
+  },
+  "videoConverterInvalidFile": {
+    "message": "Please select a video file."
+  },
+  "videoConverterLoading": {
+    "message": "Loading video metadata..."
+  },
+  "videoConverterReady": {
+    "message": "Video loaded. Click Convert."
+  },
+  "videoConverterLoadFailed": {
+    "message": "Failed to load video file."
+  },
+  "videoConverterNoFile": {
+    "message": "Please choose a video file first."
+  },
+  "videoConverterNoFormats": {
+    "message": "No supported output formats"
+  },
+  "videoConverterFormatUnsupported": {
+    "message": "No supported output format in this browser."
+  },
+  "videoConverterPreparing": {
+    "message": "Preparing conversion..."
+  },
+  "videoConverterConvertingRealtime": {
+    "message": "Converting video in real time..."
+  },
+  "videoConverterConverted": {
+    "message": "Conversion completed. Ready to download."
+  },
+  "videoConverterCaptureUnsupported": {
+    "message": "Video capture is not supported in this browser."
+  },
+  "videoConverterCanvasUnavailable": {
+    "message": "Canvas rendering is unavailable."
+  },
+  "videoConverterConvertFailed": {
+    "message": "Video conversion failed."
+  },
+  "videoConverterNothingToDownload": {
+    "message": "No converted video to download."
+  },
+  "videoConverterDownloaded": {
+    "message": "Converted video downloaded."
+  },
+  "subtitleConverter": {
+    "message": "Subtitle Converter"
+  },
+  "subtitleTitle": {
+    "message": "Subtitle Converter (SRT/VTT)"
+  },
+  "subtitleDescription": {
+    "message": "Convert subtitle files between SRT and VTT formats"
+  },
+  "subtitleFile": {
+    "message": "Subtitle File"
+  },
+  "subtitleSource": {
+    "message": "Source Format"
+  },
+  "subtitleTarget": {
+    "message": "Target Format"
+  },
+  "subtitleAuto": {
+    "message": "Auto Detect"
+  },
+  "subtitleInput": {
+    "message": "Input Subtitle"
+  },
+  "subtitleOutput": {
+    "message": "Output Subtitle"
+  },
+  "subtitleInputPlaceholder": {
+    "message": "Paste SRT or VTT text here..."
+  },
+  "subtitleConvert": {
+    "message": "Convert Subtitle"
+  },
+  "subtitleDownload": {
+    "message": "Download"
+  },
+  "subtitleCopy": {
+    "message": "Copy"
+  },
+  "subtitleHint": {
+    "message": "Load subtitle file or paste subtitle text, then convert."
+  },
+  "subtitleInvalidFile": {
+    "message": "Please select an SRT or VTT file."
+  },
+  "subtitleFileLoaded": {
+    "message": "Subtitle file loaded."
+  },
+  "subtitleLoadFailed": {
+    "message": "Failed to read subtitle file."
+  },
+  "subtitleNoInput": {
+    "message": "Please enter subtitle content first."
+  },
+  "subtitleDetectFailed": {
+    "message": "Could not detect subtitle format. Please select source format manually."
+  },
+  "subtitleAlreadyTarget": {
+    "message": "Source already matches target format."
+  },
+  "subtitleParseFailed": {
+    "message": "Could not parse subtitle content."
+  },
+  "subtitleConverted": {
+    "message": "Converted $1 cues successfully."
+  },
+  "subtitleConvertDone": {
+    "message": "Subtitle converted successfully."
+  },
+  "subtitleConvertFailed": {
+    "message": "Subtitle conversion failed."
+  },
+  "subtitleNothingToDownload": {
+    "message": "No converted subtitle to download."
+  },
+  "subtitleDownloaded": {
+    "message": "Subtitle file downloaded."
+  },
+  "subtitleNothingToCopy": {
+    "message": "No converted subtitle to copy."
+  },
+  "subtitleCopied": {
+    "message": "Converted subtitle copied."
+  },
+  "subtitleCopyFailed": {
+    "message": "Failed to copy subtitle text."
+  },
+  "romanNumeralConverter": {
+    "message": "Roman Numeral Converter"
+  },
+  "romanNumeralConverterTitle": {
+    "message": "Roman Numeral Converter"
+  },
+  "romanNumeralConverterDescription": {
+    "message": "Convert numbers to Roman numerals and Roman numerals to numbers"
+  },
+  "romanNumeralConverterInput": {
+    "message": "Input"
+  },
+  "romanNumeralConverterInputPlaceholder": {
+    "message": "Type a number (2026) or Roman numeral (MMXXVI)"
+  },
+  "romanNumeralConverterDirection": {
+    "message": "Direction"
+  },
+  "romanNumeralConverterDirectionAuto": {
+    "message": "Auto detect"
+  },
+  "romanNumeralConverterDirectionNumberToRoman": {
+    "message": "Number to Roman"
+  },
+  "romanNumeralConverterDirectionRomanToNumber": {
+    "message": "Roman to Number"
+  },
+  "romanNumeralConverterConvert": {
+    "message": "Convert"
+  },
+  "romanNumeralConverterSwap": {
+    "message": "Swap"
+  },
+  "romanNumeralConverterCopyResult": {
+    "message": "Copy Result"
+  },
+  "romanNumeralConverterOutput": {
+    "message": "Output"
+  },
+  "romanNumeralConverterHint": {
+    "message": "Supports 1-3999 range and strict Roman numeral notation."
+  },
+  "romanNumeralConverterNoInput": {
+    "message": "Please enter a value first."
+  },
+  "romanNumeralConverterDetectFailed": {
+    "message": "Could not detect conversion direction. Choose direction manually."
+  },
+  "romanNumeralConverterInvalidNumber": {
+    "message": "Please enter a valid number."
+  },
+  "romanNumeralConverterNumberRange": {
+    "message": "Number must be between 1 and 3999."
+  },
+  "romanNumeralConverterInvalidRoman": {
+    "message": "Invalid Roman numeral."
+  },
+  "romanNumeralConverterConverted": {
+    "message": "Conversion completed."
+  },
+  "romanNumeralConverterNothingToCopy": {
+    "message": "No conversion result to copy."
+  },
+  "romanNumeralConverterCopied": {
+    "message": "Result copied."
+  },
+  "pdf": {
+    "message": "PDF"
+  },
+  "pdfGenerator": {
+    "message": "PDF Generator"
+  },
+  "pdfGeneratorDescription": {
+    "message": "Convert current page to PDF and download"
+  },
+  "highlighter": {
+    "message": "Highlighter"
+  },
+  "textHighlighter": {
+    "message": "Text Highlighter"
+  },
+  "textHighlighterDescription": {
+    "message": "Highlight text with colors and save per site"
+  },
+  "readingMode": {
+    "message": "Reading Mode"
+  },
+  "readingModeTitle": {
+    "message": "Distraction-Free Reading"
+  },
+  "readingModeDescription": {
+    "message": "Clean page content for focused reading"
+  },
+  "qrcode": {
+    "message": "QR Code"
+  },
+  "qrCodeGenerator": {
+    "message": "QR Code Generator"
+  },
+  "qrCodeGeneratorDescription": {
+    "message": "Generate customizable QR codes for current page"
+  },
+  "bookmarkManager": {
+    "message": "Bookmark Manager"
+  },
+  "bookmarkManagerTitle": {
+    "message": "Bookmark Manager"
+  },
+  "bookmarkManagerDescription": {
+    "message": "Save and organize bookmarks with folders and tags"
+  },
+  "videoRecorder": {
+    "message": "Video Recorder"
+  },
+  "videoRecorderTitle": {
+    "message": "Record Screen Video"
+  },
+  "videoRecorderDescription": {
+    "message": "Record screen activity with audio and export formats"
+  },
+  "darkModeToggle": {
+    "message": "Dark Mode"
+  },
+  "darkModeToggleTitle": {
+    "message": "Toggle Dark Mode"
+  },
+  "darkModeToggleDescription": {
+    "message": "Apply dark mode to any website"
+  },
+  "darkModeEnabled": {
+    "message": "Dark mode enabled"
+  },
+  "darkModeDisabled": {
+    "message": "Dark mode disabled"
+  },
+  "failedToActivateDarkModeToggle": {
+    "message": "Failed to activate dark mode toggle"
+  },
+  "aiSettings": {
+    "message": "AI"
+  },
+  "aiSettingsDescription": {
+    "message": "Configure AI providers, API keys, and model preferences"
+  },
+  "aiProvider": {
+    "message": "Provider"
+  },
+  "aiProviderDescription": {
+    "message": "Choose provider, add API key, start using AI tools."
+  },
+  "aiModel": {
+    "message": "AI Model"
+  },
+  "aiModelDescription": {
+    "message": "Choose model intelligence level"
+  },
+  "aiModelAuto": {
+    "message": "Auto (Tool decides)"
+  },
+  "aiModelSmart": {
+    "message": "Smart (High quality model)"
+  },
+  "aiModelLite": {
+    "message": "Lite (Fast/cost-efficient model)"
+  },
+  "aiKeys": {
+    "message": "API Keys"
+  },
+  "aiKeysDescription": {
+    "message": "Add multiple API keys for rotation and failover"
+  },
+  "addApiKey": {
+    "message": "Add API Key"
+  },
+  "aiAdvancedOptions": {
+    "message": "Advanced provider options"
+  },
+  "optional": {
+    "message": "Optional"
+  },
+  "aiAdvancedDescription": {
+    "message": "Override endpoint/auth/model behavior or define a custom fetch wrapper."
+  },
+  "aiBaseUrl": {
+    "message": "Base URL"
+  },
+  "aiPath": {
+    "message": "Path"
+  },
+  "aiAuthHeader": {
+    "message": "Auth Header"
+  },
+  "aiAuthPrefix": {
+    "message": "Auth Prefix"
+  },
+  "aiSmartModel": {
+    "message": "Smart Model (used for auto/smart)"
+  },
+  "aiLiteModel": {
+    "message": "Lite Model"
+  },
+  "aiResponseParser": {
+    "message": "Response Parser"
+  },
+  "aiResponseParserOpenAI": {
+    "message": "OpenAI-compatible"
+  },
+  "aiResponseParserGemini": {
+    "message": "Gemini"
+  },
+  "aiResponseParserAnthropic": {
+    "message": "Anthropic"
+  },
+  "aiExtraHeaders": {
+    "message": "Extra Headers (JSON object)"
+  },
+  "aiBodyTemplate": {
+    "message": "Body Template (optional JSON with {{prompt}} and {{model}})"
+  },
+  "aiLanguage": {
+    "message": "Response Language"
+  },
+  "aiLanguageDescription": {
+    "message": "Choose language for AI responses"
+  },
+  "aiLanguageAuto": {
+    "message": "Auto (Browser Language)"
+  },
+  "aiLanguageAutoDescription": {
+    "message": "Automatically detects your browser language for AI responses, even if the UI is in English"
+  },
+  "chatWelcome": {
+    "message": "Hi! I'm ready to help. Ask me anything!"
+  },
+  "typeMessage": {
+    "message": "Type your message..."
+  },
+  "typeOrPasteText": {
+    "message": "Type or paste text here..."
+  },
+  "aiSEOAnalyzer": {
+    "message": "AI SEO Analyzer"
+  },
+  "seoAnalyzing": {
+    "message": "Analyzing SEO..."
+  },
+  "seoAnalyzingDescription": {
+    "message": "We are analyzing the page's SEO performance. This may take a few seconds."
+  },
+  "seoAnalysisSteps": {
+    "message": "Analysis Steps"
+  },
+  "seoStep1": {
+    "message": "Meta tags and title analysis"
+  },
+  "seoStep2": {
+    "message": "Content quality assessment"
+  },
+  "seoStep3": {
+    "message": "Image and link optimization"
+  },
+  "seoStep4": {
+    "message": "Technical SEO checks"
+  },
+  "seoMetaAndTitle": {
+    "message": "Meta & Title"
+  },
+  "seoContentQuality": {
+    "message": "Content Quality"
+  },
+  "seoHeadingStructure": {
+    "message": "Heading Structure"
+  },
+  "seoImageOptimization": {
+    "message": "Image Optimization"
+  },
+  "seoLinkStrategy": {
+    "message": "Link Strategy"
+  },
+  "seoTechnicalSEO": {
+    "message": "Technical SEO"
+  },
+  "seoOverallScore": {
+    "message": "Overall SEO Score"
+  },
+  "seoSummary": {
+    "message": "Summary"
+  },
+  "seoCopyReport": {
+    "message": "Copy Report"
+  },
+  "seoReportCopied": {
+    "message": "SEO report copied to clipboard!"
+  },
+  "seoCopyFailed": {
+    "message": "Failed to copy report"
+  },
+  "seoAnalysisComplete": {
+    "message": "SEO analysis completed!"
+  },
+  "seoAnalysisFailed": {
+    "message": "SEO analysis failed"
+  },
+  "seoExcellent": {
+    "message": "Excellent SEO performance!"
+  },
+  "seoGood": {
+    "message": "Good SEO performance"
+  },
+  "seoFair": {
+    "message": "Fair SEO performance"
+  },
+  "seoNeedsImprovement": {
+    "message": "Needs SEO improvement"
+  },
+  "seoPoor": {
+    "message": "Poor SEO performance"
+  },
+  "summaryLengthShort": {
+    "message": "Short (~50 words)"
+  },
+  "summaryLengthMedium": {
+    "message": "Medium (~150 words)"
+  },
+  "summaryLengthLong": {
+    "message": "Long (~300 words)"
+  },
+  "length": {
+    "message": "Length"
+  },
+  "summarizeAuto": {
+    "message": "Page Content"
+  },
+  "summarizeManual": {
+    "message": "Select Text"
+  },
+  "noContentToSummarize": {
+    "message": "No content found to summarize"
+  },
+  "selectTextFirst": {
+    "message": "Please select text on the page first"
+  },
+  "autoDetect": {
+    "message": "Auto Detect"
+  },
+  "noTextToTranslate": {
+    "message": "No text found to translate on this page"
+  },
+  "pageTranslated": {
+    "message": "Page translated successfully!"
+  },
+  "translating": {
+    "message": "Translating..."
+  },
+  "noTranslationToRestore": {
+    "message": "No translation to restore"
+  },
+  "pageRestored": {
+    "message": "Original page restored"
+  },
+  "failedToRestore": {
+    "message": "Failed to restore original page"
+  },
+  "restoreOriginal": {
+    "message": "Restore Original"
+  },
+  "textTruncated": {
+    "message": "Text was truncated to 5000 characters for translation"
+  },
+  "analyzing": {
+    "message": "Analyzing..."
+  },
+  "selectTextToAnalyze": {
+    "message": "Select text on the page to analyze"
+  },
+  "cancel": {
+    "message": "Cancel"
+  },
+  "analyzeInput": {
+    "message": "Enter Text"
+  },
+  "analyzeSelection": {
+    "message": "Select Text"
+  },
+  "analyzePage": {
+    "message": "Page Content"
+  },
+  "enterTextToAnalyze": {
+    "message": "Enter text to analyze"
+  },
+  "aiEmailGeneratorTitle": {
+    "message": "AI Email Generator"
+  },
+  "emailType": {
+    "message": "Email Type"
+  },
+  "emailTone": {
+    "message": "Email Tone"
+  },
+  "emailLength": {
+    "message": "Email Length"
+  },
+  "typeFollowUp": {
+    "message": "Follow-up"
+  },
+  "typeThankYou": {
+    "message": "Thank You"
+  },
+  "typeRequest": {
+    "message": "Request"
+  },
+  "typeComplaint": {
+    "message": "Complaint"
+  },
+  "typeIntroduction": {
+    "message": "Introduction"
+  },
+  "typeApology": {
+    "message": "Apology"
+  },
+  "typeReminder": {
+    "message": "Reminder"
+  },
+  "typeInvitation": {
+    "message": "Invitation"
+  },
+  "toneProfessional": {
+    "message": "Professional"
+  },
+  "toneFriendly": {
+    "message": "Friendly"
+  },
+  "toneFormal": {
+    "message": "Formal"
+  },
+  "toneCasual": {
+    "message": "Casual"
+  },
+  "tonePersuasive": {
+    "message": "Persuasive"
+  },
+  "emailLengthShort": {
+    "message": "Short (~50 words)"
+  },
+  "emailLengthMedium": {
+    "message": "Medium (~150 words)"
+  },
+  "emailLengthLong": {
+    "message": "Long (~300 words)"
+  },
+  "pleaseEnterEmailContext": {
+    "message": "Please enter email context"
+  },
+  "noContentToGenerateEmail": {
+    "message": "No content found to generate email"
+  },
+  "emailGenerated": {
+    "message": "Email generated successfully!"
+  },
+  "analyzeContent": {
+    "message": "Analyze Content"
+  },
+  "itemCopied": {
+    "message": "Item added to history"
+  },
+  "copyHistoryManager": {
+    "message": "Copy History"
+  },
+  "searchHistory": {
+    "message": "Search history..."
+  },
+  "clearAllHistory": {
+    "message": "Clear All History"
+  },
+  "confirmClearAll": {
+    "message": "Are you sure you want to clear all history?"
+  },
+  "copyAgain": {
+    "message": "Copy"
+  },
+  "noItemsYet": {
+    "message": "No items yet"
+  },
+  "startCopyingHint": {
+    "message": "Start copying text to see it here"
+  },
+  "historyCleared": {
+    "message": "History cleared"
+  },
+  "clearHistoryError": {
+    "message": "Failed to clear history"
+  },
+  "activationError": {
+    "message": "Failed to activate Copy History Manager"
+  },
+  "failedToActivateTool": {
+    "message": "Failed to activate tool."
+  },
+  "allNotesFromAllSites": {
+    "message": "All Notes from All Sites"
+  },
+  "noStickyNotesYet": {
+    "message": "No sticky notes yet"
+  },
+  "createFirstNoteHint": {
+    "message": "Click anywhere on the page to create your first sticky note. Each note stays pinned to its site."
+  },
+  "unknownDate": {
+    "message": "Unknown date"
+  },
+  "emptyNote": {
+    "message": "Empty note"
+  },
+  "stickyNotesManager": {
+    "message": "Sticky Notes Manager"
+  },
+  "addNewNote": {
+    "message": "Add New Note"
+  },
+  "clearAll": {
+    "message": "Clear All"
+  },
+  "delete": {
+    "message": "Delete"
+  },
+  "selectTextToTranslate": {
+    "message": "Select text on the page to translate"
+  },
+  "sourceLanguage": {
+    "message": "Source Language"
+  },
+  "targetLanguage": {
+    "message": "Target Language"
+  },
+  "enterTextToTranslate": {
+    "message": "Enter text to translate"
+  },
+  "originalText": {
+    "message": "Original"
+  },
+  "translatedText": {
+    "message": "Translation"
+  },
+  "copied": {
+    "message": "Copied!"
+  },
+  "showHighlights": {
+    "message": "Show Highlights"
+  },
+  "hideHighlights": {
+    "message": "Hide Highlights"
+  },
+  "aiProbability": {
+    "message": "AI Probability"
+  },
+  "detailedMetrics": {
+    "message": "Detailed Analysis"
+  },
+  "suspiciousSections": {
+    "message": "Suspicious Sections"
+  },
+  "copyResults": {
+    "message": "Copy Results"
+  },
+  "selectTextOnPage": {
+    "message": "Select text on the page to summarize"
+  },
+  "summary": {
+    "message": "Summary"
+  },
+  "copySummary": {
+    "message": "Copy Summary"
+  },
+  "extractedKeywords": {
+    "message": "Keywords"
+  },
+  "generating": {
+    "message": "Generating summary..."
+  },
+  "enterEmailContext": {
+    "message": "Enter email context"
+  },
+  "generatingEmail": {
+    "message": "Generating email..."
+  },
+  "generatedEmail": {
+    "message": "Generated Email"
+  },
+  "copyEmail": {
+    "message": "Copy Email"
+  },
+  "subjectLine": {
+    "message": "Subject Line"
+  },
+  "emailBody": {
+    "message": "Email Body"
+  },
+  "aiChat": {
+    "message": "AI Chat"
+  },
+  "colorPaletteAnalysis": {
+    "message": "Color Palette Analysis"
+  },
+  "harmonicPalettes": {
+    "message": "Harmonic Palettes"
+  },
+  "accessibilityScores": {
+    "message": "Accessibility Scores"
+  },
+  "exportOptions": {
+    "message": "Export Options"
+  },
+  "copyCSS": {
+    "message": "Copy CSS"
+  },
+  "copyJSON": {
+    "message": "Copy JSON"
+  },
+  "scanningLinks": {
+    "message": "Scanning links…"
+  },
+  "finalising": {
+    "message": "Finalising…"
+  },
+  "chooseHighlightColor": {
+    "message": "Choose Highlight Color"
+  },
+  "removeHighlight": {
+    "message": "Remove Highlight"
+  },
+  "noBookmarksFound": {
+    "message": "No bookmarks found matching your search"
+  },
+  "noFavoriteBookmarksYet": {
+    "message": "No favorite bookmarks yet"
+  },
+  "noBookmarksYet": {
+    "message": "No bookmarks yet. Click + to add your first bookmark!"
+  },
+  "title": {
+    "message": "Title"
+  },
+  "url": {
+    "message": "URL"
+  },
+  "folder": {
+    "message": "Folder"
+  },
+  "tagsCommaSeparated": {
+    "message": "Tags (comma-separated)"
+  },
+  "addBookmark": {
+    "message": "Add Bookmark"
+  },
+  "updateBookmark": {
+    "message": "Update Bookmark"
+  },
+  "videoLabel": {
+    "message": "Video"
+  },
+  "imageLabel": {
+    "message": "Image"
+  },
+  "duration": {
+    "message": "00:00"
+  },
+  "resume": {
+    "message": "Resume"
+  },
+  "pause": {
+    "message": "Pause"
+  },
+  "entireScreen": {
+    "message": "Entire Screen"
+  },
+  "window": {
+    "message": "Window"
+  },
+  "chromeTab": {
+    "message": "Chrome Tab"
+  },
+  "recording": {
+    "message": "Recording"
+  },
+  "recordingInProgress": {
+    "message": "Recording in progress. Keep this window open to manage the capture."
+  },
+  "clickToAddNote": {
+    "message": "Click to add note..."
+  },
+  "searchBookmarks": {
+    "message": "Search bookmarks..."
+  },
+  "folderPlaceholder": {
+    "message": "e.g., Work/Projects"
+  },
+  "tagsPlaceholder": {
+    "message": "e.g., javascript, tools, tutorial"
+  },
+  "notesPlaceholder": {
+    "message": "Optional notes about this bookmark..."
+  },
+  "qrTextPlaceholder": {
+    "message": "Enter text, URL, or any content to generate QR code..."
+  },
+  "searchTools": {
+    "message": "Search tools..."
+  },
+  "filterByCategory": {
+    "message": "Filter by category"
+  },
+  "webPickerTools": {
+    "message": "Web picker tools"
+  },
+  "previousPage": {
+    "message": "Previous page"
+  },
+  "nextPage": {
+    "message": "Next page"
+  },
+  "toolToggles": {
+    "message": "Tool toggles"
+  },
+  "ai": {
+    "message": "AI"
+  },
+  "aiTextSummarizer": {
+    "message": "AI Summarizer"
+  },
+  "aiTextSummarizerTitle": {
+    "message": "AI Summarizer"
+  },
+  "aiTextSummarizerDescription": {
+    "message": "Summarize page content using AI"
+  },
+  "aiTextTranslator": {
+    "message": "AI Translator"
+  },
+  "aiTextTranslatorTitle": {
+    "message": "AI Text Translator"
+  },
+  "aiTextTranslatorDescription": {
+    "message": "Translate text and pages to 40+ languages"
+  },
+  "aiContentDetector": {
+    "message": "AI Content Detector"
+  },
+  "aiContentDetectorTitle": {
+    "message": "AI Content Detector"
+  },
+  "aiContentDetectorDescription": {
+    "message": "Detect AI-generated content with multi-metric analysis"
+  },
+  "aiEmailGenerator": {
+    "message": "AI Email Generator"
+  },
+  "aiEmailGeneratorDescription": {
+    "message": "Generate professional emails with AI"
+  },
+  "aiSEOAnalyzerTitle": {
+    "message": "AI SEO Analyzer"
+  },
+  "aiSEOAnalyzerDescription": {
+    "message": "Analyze and optimize page SEO with AI-powered recommendations"
+  },
+  "aiChatTitle": {
+    "message": "Chat with AI about this page"
+  },
+  "aiChatDescription": {
+    "message": "Have a conversation with AI about the current webpage"
+  },
+  "copyHistoryManagerTitle": {
+    "message": "Track Clipboard History"
+  },
+  "copyHistoryManagerDescription": {
+    "message": "Track and manage copied text and URLs"
+  },
+  "Inspect": {
+    "message": "Inspect"
+  },
+  "analyzeOnPageElementsAndStyles": {
+    "message": "Analyze on-page elements and styles."
+  },
+  "Capture": {
+    "message": "Capture"
+  },
+  "collectAndSaveContentFromAnyPage": {
+    "message": "Collect and save content from any page."
+  },
+  "Enhance": {
+    "message": "Enhance"
+  },
+  "augmentTheBrowsingExperience": {
+    "message": "Augment the browsing experience."
+  },
+  "Utilities": {
+    "message": "Utilities"
+  },
+  "generalPurposeSiteUtilities": {
+    "message": "General purpose site utilities."
+  },
+  "Converters": {
+    "message": "Converters"
+  },
+  "converterToolsForFormatAndUnitTransformations": {
+    "message": "Converter tools for format and unit transformations."
+  },
+  "AI": {
+    "message": "AI"
+  },
+  "aiPoweredToolsForContentAnalysis": {
+    "message": "AI-powered tools for content analysis."
+  },
+  "download": {
+    "message": "Download"
+  },
+  "typeLabel": {
+    "message": "Type"
+  },
+  "primaryUrlLabel": {
+    "message": "Primary URL"
+  },
+  "streamUrlLabel": {
+    "message": "Stream URL"
+  },
+  "urlLabel": {
+    "message": "URL"
+  },
+  "unavailableLabel": {
+    "message": "Unavailable"
+  },
+  "blobUrlWarning": {
+    "message": "⚠️ This video uses a blob URL. Download may not be available."
+  },
+  "blobUrlFallbackNote": {
+    "message": "Primary stream uses a blob URL. A downloadable source was discovered and is used for copy & download actions."
+  },
+  "additionalSources": {
+    "message": "Additional sources"
+  },
+  "copyUrl": {
+    "message": "Copy URL"
+  },
+  "copyUrlUnavailable": {
+    "message": "Copy URL (unavailable)"
+  },
+  "downloadUnavailable": {
+    "message": "Download (unavailable)"
+  },
+  "noFavoriteBookmarks": {
+    "message": "No favorite bookmarks yet"
+  },
+  "cmdColorPicker": {
+    "message": "Activate Color Picker"
+  },
+  "cmdScreenshotPicker": {
+    "message": "Activate Screenshot Picker"
+  },
+  "cmdReadingMode": {
+    "message": "Activate Reading Mode"
+  },
+  "cmdTextHighlighter": {
+    "message": "Activate Text Highlighter"
+  },
+  "elementSelectedAndCopied": {
+    "message": "$1 element selected and copied!"
+  },
+  "linksExtractedFromSource": {
+    "message": "$1 links extracted from $2!"
+  },
+  "failedToGeneratePDF": {
+    "message": "Failed to generate PDF: $1"
+  },
+  "failedToActivatePDFGenerator": {
+    "message": "Failed to activate PDF Generator: $1"
+  },
+  "deletedNotesSuccessfully": {
+    "message": "Deleted $1 notes successfully!"
+  },
+  "importedBookmarks": {
+    "message": "Imported $1 bookmarks$2"
+  },
+  "enterContext": {
+    "message": "Enter Context"
+  },
+  "pageContextMode": {
+    "message": "Page Context"
+  },
+  "generateEmail": {
+    "message": "Generate Email"
+  },
+  "failedToGenerateEmail": {
+    "message": "Failed to generate email"
+  },
+  "emailCopied": {
+    "message": "Email copied to clipboard!"
+  },
+  "failedToCopyEmail": {
+    "message": "Failed to copy email"
+  },
+  "emailGeneratorActivated": {
+    "message": "AI Email Generator activated"
+  },
+  "failedToActivateEmailGenerator": {
+    "message": "Failed to activate email generator"
+  },
+  "toggleFavorite": {
+    "message": "Toggle favorite"
+  },
+  "favoriteTools": {
+    "message": "Favorite Tools"
+  },
+  "export": {
+    "message": "Export"
+  },
+  "favorite": {
+    "message": "Favorite"
+  },
+  "favorites": {
+    "message": "Favorites"
+  },
+  "noFavoritesYet": {
+    "message": "No favorites yet. Click the star button in any tool to add favorites!"
+  },
+  "removedFromFavorites": {
+    "message": "Removed from favorites"
+  },
+  "addToFavorites": {
+    "message": "Add to favorites"
+  },
+  "removeFromFavorites": {
+    "message": "Remove from favorites"
+  },
+  "failedToLoadFavorites": {
+    "message": "Failed to load favorites"
+  },
+  "remove": {
+    "message": "Remove"
+  },
+  "all": {
+    "message": "All"
+  },
+  "folders": {
+    "message": "Folders"
+  },
+  "tags": {
+    "message": "Tags"
+  },
+  "editBookmark": {
+    "message": "Edit Bookmark"
+  },
+  "links": {
+    "message": "Links"
+  },
+  "onboardingStep": {
+    "message": "Step"
+  },
+  "onboardingOf": {
+    "message": "of"
+  },
+  "onboardingPrevious": {
+    "message": "Previous"
+  },
+  "onboardingNext": {
+    "message": "Next"
+  },
+  "onboardingFinish": {
+    "message": "Finish"
+  },
+  "onboardingSkip": {
+    "message": "Skip"
+  },
+  "onboarding_step1_title": {
+    "message": "Welcome to Toolboard!"
+  },
+  "onboarding_step1_desc": {
+    "message": "Toolboard is your unified web toolkit with 83 productivity tools. Let's take a quick tour!"
+  },
+  "onboarding_step2_title": {
+    "message": "Search Tools"
+  },
+  "onboarding_step2_desc": {
+    "message": "Quickly find any tool by typing its name, category, or function. Try typing \"color\" or \"screenshot\"."
+  },
+  "onboarding_step3_title": {
+    "message": "Filter by Category"
+  },
+  "onboarding_step3_desc": {
+    "message": "Browse tools by category: Inspect, Capture, Enhance, Utilities, and AI-powered tools."
+  },
+  "onboarding_step4_title": {
+    "message": "Try a Tool"
+  },
+  "onboarding_step4_desc": {
+    "message": "Click any tool to activate it on the current page. Each tool works on any website!"
+  },
+  "onboarding_step5_title": {
+    "message": "Favorites"
+  },
+  "onboarding_step5_desc": {
+    "message": "Star your favorite tools to keep them at the top of the list."
+  },
+  "onboarding_step6_title": {
+    "message": "Navigate Pages"
+  },
+  "onboarding_step6_desc": {
+    "message": "Use pagination buttons or scroll wheel to browse through all available tools."
+  },
+  "onboarding_step7_title": {
+    "message": "Settings"
+  },
+  "onboarding_step7_desc": {
+    "message": "Customize your experience: change language, theme, hide tools, and configure AI settings."
+  },
+  "onboarding_step8_title": {
+    "message": "AI Settings"
+  },
+  "onboarding_step8_desc": {
+    "message": "Go to AI tab to add your provider API keys and choose your preferred model and language for AI tools."
+  },
+  "onboarding_step9_title": {
+    "message": "Customize Tools"
+  },
+  "onboarding_step9_desc": {
+    "message": "Hide tools you don't use to keep your workspace clean and focused."
+  },
+  "onboarding_step10_title": {
+    "message": "You're All Set!"
+  },
+  "onboarding_step10_desc": {
+    "message": "Press \"/\" to quickly focus search. Click the info icon anytime to see this guide again!"
+  },
+  "aiApiKeyRequired": {
+    "message": "AI API key required. Add your provider API key in settings."
+  },
+  "aiApiKeyRequiredTitle": {
+    "message": "AI API Key Required"
+  },
+  "aiApiKeyRequiredDescription": {
+    "message": "Add an API key for AI tools."
+  },
+  "openSettings": {
+    "message": "Open Settings"
+  },
+  "securityNotice": {
+    "message": "Security Notice"
+  },
+  "apiKeySecurityWarning": {
+    "message": "API keys are encrypted and stored locally on your device. Keep your device secure and don't share screenshots containing API keys"
+  },
+  "noApiKeys": {
+    "message": "No API keys added yet"
+  },
+  "colorPickerName": {
+    "message": "Color Picker"
+  },
+  "readingModeName": {
+    "message": "Reading Mode"
+  },
+  "textHighlighterName": {
+    "message": "Text Highlighter"
+  },
+  "screenshotPickerName": {
+    "message": "Screenshot Picker"
+  },
+  "stickyNotesName": {
+    "message": "Sticky Notes"
+  },
+  "aiTextSummarizerName": {
+    "message": "AI Summarizer"
+  },
+  "aiChatName": {
+    "message": "AI Chat"
+  },
+  "supportTitle": {
+    "message": "Support the Developer"
+  },
+  "supportDescription": {
+    "message": "Toolboard is completely free! If you find it helpful, consider buying me a coffee to support future development."
+  },
+  "unfavorite": {
+    "message": "Removed from favorites"
+  },
+  "errorMessage": {
+    "message": "Error Message"
+  },
+  "sendError": {
+    "message": "Failed to send message"
+  },
+  "analyze": {
+    "message": "Analyze"
+  },
+  "pleaseEnterText": {
+    "message": "Please enter text."
+  },
+  "pleaseSelectText": {
+    "message": "Please select text."
+  },
+  "noContentToAnalyze": {
+    "message": "No content to analyze."
+  },
+  "analysisComplete": {
+    "message": "Analysis complete."
+  },
+  "failedToAnalyze": {
+    "message": "Failed to analyze content."
+  },
+  "writingStyle": {
+    "message": "Writing Style"
+  },
+  "wordChoice": {
+    "message": "Word Choice"
+  },
+  "structureAnalysis": {
+    "message": "Structure Analysis"
+  },
+  "resultsCopied": {
+    "message": "Results copied."
+  },
+  "failedToCopy": {
+    "message": "Failed to copy."
+  },
+  "detectorActivated": {
+    "message": "Detector activated."
+  },
+  "failedToActivate": {
+    "message": "Failed to activate."
+  },
+  "summaryGenerated": {
+    "message": "Summary generated."
+  },
+  "failedToGenerateSummary": {
+    "message": "Failed to generate summary."
+  },
+  "aiSummarizerActivated": {
+    "message": "AI Summarizer activated."
+  },
+  "translateInput": {
+    "message": "Translate input text"
+  },
+  "translateSelection": {
+    "message": "Translate selected text"
+  },
+  "translatePage": {
+    "message": "Translate page"
+  },
+  "translate": {
+    "message": "Translate"
+  },
+  "translationCompleted": {
+    "message": "Translation completed."
+  },
+  "failedToTranslate": {
+    "message": "Failed to translate."
+  },
+  "copyTranslation": {
+    "message": "Copy translation"
+  },
+  "translationCopied": {
+    "message": "Translation copied."
+  },
+  "translatorActivated": {
+    "message": "Translator activated."
+  },
+  "previewers": {
+    "message": "Previewers"
+  },
+  "previewAndInspectStructuredContentFast": {
+    "message": "Preview and inspect structured content fast"
+  },
+  "jsonPreviewer": {
+    "message": "JSON Previewer"
+  },
+  "jsonPreviewerTitle": {
+    "message": "JSON Previewer"
+  },
+  "jsonPreviewerDescription": {
+    "message": "Tree JSON preview with search, collapse, and copy path/value."
+  },
+  "csvTsvPreviewer": {
+    "message": "CSV/TSV Previewer"
+  },
+  "csvTsvPreviewerTitle": {
+    "message": "CSV/TSV Previewer"
+  },
+  "csvTsvPreviewerDescription": {
+    "message": "Preview CSV/TSV tables with auto delimiter detect, sort, and filter."
+  },
+  "markdownPreviewer": {
+    "message": "Markdown Previewer"
+  },
+  "markdownPreviewerTitle": {
+    "message": "Markdown Previewer"
+  },
+  "markdownPreviewerDescription": {
+    "message": "GFM-style markdown preview with code blocks and table of contents."
+  },
+  "xmlPreviewer": {
+    "message": "XML Previewer"
+  },
+  "xmlPreviewerTitle": {
+    "message": "XML Previewer"
+  },
+  "xmlPreviewerDescription": {
+    "message": "Preview XML as a tree and formatted text."
+  },
+  "pdfPreviewInspector": {
+    "message": "PDF Preview Inspector"
+  },
+  "pdfPreviewInspectorTitle": {
+    "message": "PDF Preview Inspector"
+  },
+  "pdfPreviewInspectorDescription": {
+    "message": "Inspect PDF metadata and page overview cards."
+  },
+  "imagePreviewInspector": {
+    "message": "Image Preview Inspector"
+  },
+  "imagePreviewInspectorTitle": {
+    "message": "Image Preview Inspector"
+  },
+  "imagePreviewInspectorDescription": {
+    "message": "Inspect image EXIF, dimensions, and color profile hints."
+  },
+  "openGraphMetaPreviewer": {
+    "message": "OpenGraph/Meta Previewer"
+  },
+  "openGraphMetaPreviewerTitle": {
+    "message": "OpenGraph/Meta Previewer"
+  },
+  "openGraphMetaPreviewerDescription": {
+    "message": "Preview social meta tags like title, description, and image."
+  },
+  "schemaPreviewer": {
+    "message": "Schema Previewer"
+  },
+  "schemaPreviewerTitle": {
+    "message": "Schema Previewer"
+  },
+  "schemaPreviewerDescription": {
+    "message": "Inspect JSON-LD schema and preview JSON Schema/OpenAPI snippets."
+  },
+  "linkPreviewer": {
+    "message": "Link Previewer"
+  },
+  "linkPreviewerTitle": {
+    "message": "Link Previewer"
+  },
+  "linkPreviewerDescription": {
+    "message": "Quickly preview links, target URL, status, and content type."
+  },
+  "jwtClaimsPreviewer": {
+    "message": "JWT Claims Previewer"
+  },
+  "jwtClaimsPreviewerTitle": {
+    "message": "JWT Claims Previewer"
+  },
+  "jwtClaimsPreviewerDescription": {
+    "message": "Decode JWT and visualize exp/nbf/iat claim states."
+  },
+  "zplViewer": {
+    "message": "ZPL Viewer"
+  },
+  "zplViewerTitle": {
+    "message": "ZPL Viewer"
+  },
+  "zplViewerDescription": {
+    "message": "Render ZPL labels and export them as PDF."
+  },
+  "buyCoffee": {
+    "message": "Buy me a coffee"
+  },
+  "jsonPreviewerCopyPath": {
+    "message": "Path"
+  },
+  "jsonPreviewerCopyValue": {
+    "message": "Value"
+  },
+  "csvTsvPreviewerDelimiterTab": {
+    "message": "Tab"
+  },
+  "csvTsvPreviewerDelimiterSemicolon": {
+    "message": "Semicolon"
+  },
+  "csvTsvPreviewerDelimiterPipe": {
+    "message": "Pipe"
+  },
+  "csvTsvPreviewerDelimiterComma": {
+    "message": "Comma"
+  },
+  "openGraphMetaPreviewerNoImage": {
+    "message": "No Image"
+  },
+  "schemaPreviewerValid": {
+    "message": "Valid"
+  },
+  "schemaPreviewerInvalid": {
+    "message": "Invalid"
+  },
+  "linkPreviewerNoText": {
+    "message": "(no text)"
+  },
+  "jwtClaimsPreviewerExpired": {
+    "message": "Expired"
+  },
+  "jwtClaimsPreviewerActive": {
+    "message": "Active"
+  },
+  "jwtClaimsPreviewerNotYetValid": {
+    "message": "Not Yet Valid"
+  },
+  "jwtClaimsPreviewerValid": {
+    "message": "Valid"
+  },
+  "jwtClaimsPreviewerIssued": {
+    "message": "Issued"
+  },
+  "zplViewerDpmm": {
+    "message": "dpmm"
+  },
+  "zplViewerLabelSize": {
+    "message": "Label size (in)"
+  },
+  "zplViewerLabelIndex": {
+    "message": "Label index"
+  },
+  "xmlPreviewerEmptyNode": {
+    "message": "(empty)"
+  },
+  "pdfPreviewInspectorPage": {
+    "message": "Page"
+  },
+  "csvTsvPreviewerEmpty": {
+    "message": "No rows to preview."
+  },
+  "csvTsvPreviewerHeader": {
+    "message": "First row is header"
+  },
+  "csvTsvPreviewerFilter": {
+    "message": "Filter rows..."
+  },
+  "csvTsvPreviewerParse": {
+    "message": "Preview table"
+  },
+  "csvTsvPreviewerInputPlaceholder": {
+    "message": "Paste CSV/TSV here..."
+  },
+  "csvTsvPreviewerStatsPlaceholder": {
+    "message": "No file parsed yet."
+  },
+  "csvTsvPreviewerEmptyInput": {
+    "message": "Please paste CSV/TSV content."
+  },
+  "csvTsvPreviewerParseFailed": {
+    "message": "Failed to parse data."
+  },
+  "csvTsvPreviewerReadFailed": {
+    "message": "Failed to read file."
+  },
+  "imagePreviewInspectorMissingFile": {
+    "message": "Please select an image file."
+  },
+  "imagePreviewInspectorFile": {
+    "message": "File"
+  },
+  "imagePreviewInspectorType": {
+    "message": "Type"
+  },
+  "imagePreviewInspectorSize": {
+    "message": "Size"
+  },
+  "imagePreviewInspectorDimensions": {
+    "message": "Dimensions"
+  },
+  "imagePreviewInspectorMake": {
+    "message": "Make"
+  },
+  "imagePreviewInspectorModel": {
+    "message": "Model"
+  },
+  "imagePreviewInspectorDateTime": {
+    "message": "DateTime"
+  },
+  "imagePreviewInspectorOrientation": {
+    "message": "Orientation"
+  },
+  "imagePreviewInspectorIcc": {
+    "message": "Color Profile (ICC)"
+  },
+  "imagePreviewInspectorIccPresent": {
+    "message": "Present"
+  },
+  "imagePreviewInspectorIccNotDetected": {
+    "message": "Not detected"
+  },
+  "imagePreviewInspectorLoadFailed": {
+    "message": "Failed to load image."
+  },
+  "imagePreviewInspectorFailed": {
+    "message": "Failed to inspect image."
+  },
+  "imagePreviewInspectorInspect": {
+    "message": "Inspect image"
+  },
+  "jsonPreviewerEmptyInput": {
+    "message": "Please paste JSON data."
+  },
+  "jsonPreviewerInvalidJson": {
+    "message": "Invalid JSON."
+  },
+  "jsonPreviewerInput": {
+    "message": "JSON Input"
+  },
+  "jsonPreviewerInputPlaceholder": {
+    "message": "Paste JSON here..."
+  },
+  "jsonPreviewerSearch": {
+    "message": "Search keys/values/path..."
+  },
+  "jsonPreviewerRender": {
+    "message": "Render Tree"
+  },
+  "jsonPreviewerExpand": {
+    "message": "Expand all"
+  },
+  "jsonPreviewerCollapse": {
+    "message": "Collapse all"
+  },
+  "jwtClaimsPreviewerEmptyInput": {
+    "message": "Please enter a JWT token."
+  },
+  "jwtClaimsPreviewerDecodeFailed": {
+    "message": "Failed to decode JWT."
+  },
+  "jwtClaimsPreviewerInputPlaceholder": {
+    "message": "Paste JWT token here..."
+  },
+  "jwtClaimsPreviewerDecode": {
+    "message": "Decode claims"
+  },
+  "jwtClaimsPreviewerCopy": {
+    "message": "Copy result"
+  },
+  "jwtClaimsPreviewerNothingToCopy": {
+    "message": "No result to copy."
+  },
+  "linkPreviewerNoLinks": {
+    "message": "No links found."
+  },
+  "linkPreviewerChecking": {
+    "message": "Checking link..."
+  },
+  "linkPreviewerTarget": {
+    "message": "Target"
+  },
+  "linkPreviewerFinalUrl": {
+    "message": "Final URL"
+  },
+  "linkPreviewerStatus": {
+    "message": "Status"
+  },
+  "linkPreviewerContentType": {
+    "message": "Content-Type"
+  },
+  "linkPreviewerSearch": {
+    "message": "Search links..."
+  },
+  "markdownPreviewerNoToc": {
+    "message": "No headings found."
+  },
+  "markdownPreviewerEmptyInput": {
+    "message": "Please paste markdown content."
+  },
+  "markdownPreviewerRender": {
+    "message": "Render"
+  },
+  "markdownPreviewerCopyHtml": {
+    "message": "Copy HTML"
+  },
+  "markdownPreviewerInputPlaceholder": {
+    "message": "# Title\\n\\nPaste markdown here..."
+  },
+  "markdownPreviewerToc": {
+    "message": "Table of contents"
+  },
+  "markdownPreviewerHint": {
+    "message": "Supports headings, lists, blockquotes, links and fenced code blocks."
+  },
+  "openGraphMetaPreviewerRefresh": {
+    "message": "Refresh preview"
+  },
+  "pdfPreviewInspectorMissingFile": {
+    "message": "Please select a PDF file."
+  },
+  "pdfPreviewInspectorFile": {
+    "message": "File"
+  },
+  "pdfPreviewInspectorSize": {
+    "message": "Size"
+  },
+  "pdfPreviewInspectorPages": {
+    "message": "Pages"
+  },
+  "pdfPreviewInspectorAuthor": {
+    "message": "Author"
+  },
+  "pdfPreviewInspectorSubject": {
+    "message": "Subject"
+  },
+  "pdfPreviewInspectorProducer": {
+    "message": "Producer"
+  },
+  "pdfPreviewInspectorCreator": {
+    "message": "Creator"
+  },
+  "pdfPreviewInspectorCreated": {
+    "message": "Created"
+  },
+  "pdfPreviewInspectorModified": {
+    "message": "Modified"
+  },
+  "pdfPreviewInspectorRenderingThumbs": {
+    "message": "Rendering thumbnails..."
+  },
+  "pdfPreviewInspectorFailed": {
+    "message": "Failed to inspect PDF."
+  },
+  "pdfPreviewInspectorInspect": {
+    "message": "Inspect PDF"
+  },
+  "pdfPreviewInspectorThumbnails": {
+    "message": "Page thumbnails"
+  },
+  "schemaPreviewerNoSchema": {
+    "message": "No JSON-LD schema found on this page."
+  },
+  "schemaPreviewerCustomHint": {
+    "message": "Paste JSON Schema/OpenAPI snippet to inspect."
+  },
+  "schemaPreviewerInvalidJson": {
+    "message": "Invalid JSON."
+  },
+  "schemaPreviewerScan": {
+    "message": "Scan page schema"
+  },
+  "schemaPreviewerPageSchemas": {
+    "message": "Page JSON-LD schemas"
+  },
+  "schemaPreviewerCustom": {
+    "message": "Custom JSON Schema / OpenAPI snippet"
+  },
+  "schemaPreviewerInputPlaceholder": {
+    "message": "{\"openapi\":\"3.1.0\" ... }"
+  },
+  "xmlPreviewerEmptyInput": {
+    "message": "Please paste XML content."
+  },
+  "xmlPreviewerParseFailed": {
+    "message": "Failed to parse XML."
+  },
+  "xmlPreviewerRender": {
+    "message": "Render"
+  },
+  "xmlPreviewerCopyFormatted": {
+    "message": "Copy formatted XML"
+  },
+  "xmlPreviewerInputPlaceholder": {
+    "message": "<root>...</root>"
+  },
+  "xmlPreviewerSearch": {
+    "message": "Search tags/values..."
+  },
+  "xmlPreviewerNothingToCopy": {
+    "message": "Nothing to copy."
+  },
+  "zplViewerEmptyInput": {
+    "message": "Please paste ZPL content."
+  },
+  "zplViewerRendering": {
+    "message": "Rendering..."
+  },
+  "zplViewerRenderFailed": {
+    "message": "Failed to render ZPL."
+  },
+  "zplViewerPdfDownloaded": {
+    "message": "PDF downloaded."
+  },
+  "zplViewerPdfFailed": {
+    "message": "Failed to generate PDF."
+  },
+  "zplViewerPreview": {
+    "message": "Render preview"
+  },
+  "zplViewerDownloadPdf": {
+    "message": "Download PDF"
+  },
+  "htmlCssJsPreviewer": {
+    "message": "HTML/CSS/JS Previewer"
+  },
+  "htmlCssJsPreviewerTitle": {
+    "message": "HTML/CSS/JS Previewer"
+  },
+  "htmlCssJsPreviewerDescription": {
+    "message": "Edit HTML, CSS and JavaScript with instant live preview and console output."
+  },
+  "htmlCssJsPreviewerRun": {
+    "message": "Run Preview"
+  },
+  "htmlCssJsPreviewerReset": {
+    "message": "Reset"
+  },
+  "htmlCssJsPreviewerCopy": {
+    "message": "Copy Bundle"
+  },
+  "htmlCssJsPreviewerDownload": {
+    "message": "Download HTML"
+  },
+  "htmlCssJsPreviewerFullscreen": {
+    "message": "Fullscreen"
+  },
+  "htmlCssJsPreviewerHtmlTab": {
+    "message": "HTML"
+  },
+  "htmlCssJsPreviewerCssTab": {
+    "message": "CSS"
+  },
+  "htmlCssJsPreviewerJsTab": {
+    "message": "JS"
+  },
+  "htmlCssJsPreviewerOutput": {
+    "message": "Output"
+  },
+  "htmlCssJsPreviewerConsole": {
+    "message": "Console"
+  },
+  "htmlCssJsPreviewerReady": {
+    "message": "Preview rendered"
+  },
+  "htmlCssJsPreviewerCopied": {
+    "message": "Bundle copied."
+  },
+  "htmlCssJsPreviewerCopyFailed": {
+    "message": "Copy failed."
+  },
+  "htmlCssJsPreviewerDownloaded": {
+    "message": "HTML downloaded."
+  },
+  "htmlCssJsPreviewerFullscreenFailed": {
+    "message": "Failed to open fullscreen."
+  },
+  "htmlCssJsPreviewerFullscreenNotSupported": {
+    "message": "Fullscreen is not supported on this page."
+  },
+  "htmlViewer": {
+    "message": "HTML Viewer"
+  },
+  "htmlViewerTitle": {
+    "message": "HTML Viewer"
+  },
+  "htmlViewerDescription": {
+    "message": "Load HTML from URL/file, sanitize and render in multiple modes."
+  },
+  "yamlViewer": {
+    "message": "YAML Viewer"
+  },
+  "yamlViewerTitle": {
+    "message": "YAML Viewer"
+  },
+  "yamlViewerDescription": {
+    "message": "Parse YAML into searchable, foldable tree preview."
+  },
+  "tomlIniViewer": {
+    "message": "TOML/INI Viewer"
+  },
+  "tomlIniViewerTitle": {
+    "message": "TOML/INI Viewer"
+  },
+  "tomlIniViewerDescription": {
+    "message": "Inspect TOML/INI config data as structured JSON."
+  },
+  "jsonlViewer": {
+    "message": "JSONL/NDJSON Viewer"
+  },
+  "jsonlViewerTitle": {
+    "message": "JSONL/NDJSON Viewer"
+  },
+  "jsonlViewerDescription": {
+    "message": "Preview line-delimited JSON logs with validation and filtering."
+  },
+  "harViewer": {
+    "message": "HAR Viewer"
+  },
+  "harViewerTitle": {
+    "message": "HAR Viewer"
+  },
+  "harViewerDescription": {
+    "message": "Inspect HAR network exports with fast request filtering."
+  },
+  "diffViewer": {
+    "message": "Diff Viewer"
+  },
+  "diffViewerTitle": {
+    "message": "Diff Viewer"
+  },
+  "diffViewerDescription": {
+    "message": "Side-by-side diff for text, JSON and XML content."
+  },
+  "sqlResultPreviewer": {
+    "message": "SQL Result Previewer"
+  },
+  "sqlResultPreviewerTitle": {
+    "message": "SQL Result Previewer"
+  },
+  "sqlResultPreviewerDescription": {
+    "message": "Preview SQL result datasets from CSV/TSV/JSON table inputs."
+  },
+  "htmlViewerMissingUrl": {
+    "message": "Please enter a URL."
+  },
+  "htmlViewerLoadUrlFailed": {
+    "message": "Failed to load URL."
+  },
+  "htmlViewerEmptyInput": {
+    "message": "Please provide HTML content."
+  },
+  "htmlViewerLoadUrl": {
+    "message": "Load URL"
+  },
+  "htmlViewerUrlPlaceholder": {
+    "message": "https://example.com"
+  },
+  "htmlViewerModeSanitized": {
+    "message": "Sanitized render"
+  },
+  "htmlViewerModeSource": {
+    "message": "Source view"
+  },
+  "htmlViewerModeText": {
+    "message": "Text only"
+  },
+  "htmlViewerRender": {
+    "message": "Render"
+  },
+  "htmlViewerFullscreen": {
+    "message": "Fullscreen"
+  },
+  "htmlViewerInputPlaceholder": {
+    "message": "<html>...</html>"
+  },
+  "htmlViewerFileReadFailed": {
+    "message": "Failed to read file."
+  },
+  "htmlViewerFullscreenOnlyRender": {
+    "message": "Fullscreen is available in sanitized render mode."
+  },
+  "htmlViewerFullscreenNotSupported": {
+    "message": "Fullscreen is not supported on this page."
+  },
+  "htmlViewerFullscreenFailed": {
+    "message": "Failed to open fullscreen."
+  },
+  "yamlViewerEmptyInput": {
+    "message": "Please paste YAML content."
+  },
+  "yamlViewerNoNodes": {
+    "message": "No nodes parsed."
+  },
+  "yamlViewerParseFailed": {
+    "message": "Failed to parse YAML."
+  },
+  "yamlViewerInputPlaceholder": {
+    "message": "key:\n  nested: value"
+  },
+  "yamlViewerRender": {
+    "message": "Render tree"
+  },
+  "yamlViewerExpandAll": {
+    "message": "Expand all"
+  },
+  "yamlViewerCollapseAll": {
+    "message": "Collapse all"
+  },
+  "yamlViewerSearch": {
+    "message": "Search nodes..."
+  },
+  "tomlIniViewerEmptyInput": {
+    "message": "Please paste TOML/INI content."
+  },
+  "tomlIniViewerParseFailed": {
+    "message": "Failed to parse content."
+  },
+  "tomlIniViewerHint": {
+    "message": "Supports INI style and basic TOML sections/keys."
+  },
+  "tomlIniViewerInputPlaceholder": {
+    "message": "[server]\nhost = \"localhost\"\nport = 8080"
+  },
+  "tomlIniViewerParse": {
+    "message": "Parse"
+  },
+  "jsonlViewerEmptyInput": {
+    "message": "Please paste JSONL/NDJSON content."
+  },
+  "jsonlViewerNoRecords": {
+    "message": "No records."
+  },
+  "jsonlViewerRows": {
+    "message": "rows"
+  },
+  "jsonlViewerInvalid": {
+    "message": "invalid"
+  },
+  "jsonlViewerLineColumn": {
+    "message": "Line"
+  },
+  "jsonlViewerStatusColumn": {
+    "message": "Status"
+  },
+  "jsonlViewerPreviewColumn": {
+    "message": "Preview"
+  },
+  "jsonlViewerStatusInvalid": {
+    "message": "Invalid"
+  },
+  "jsonlViewerStatusOk": {
+    "message": "OK"
+  },
+  "jsonlViewerInputPlaceholder": {
+    "message": "{\"level\":\"info\"}\n{\"level\":\"error\"}"
+  },
+  "jsonlViewerParse": {
+    "message": "Parse logs"
+  },
+  "jsonlViewerFilter": {
+    "message": "Filter..."
+  },
+  "harViewerNoEntries": {
+    "message": "No HAR entries."
+  },
+  "harViewerMethodColumn": {
+    "message": "Method"
+  },
+  "harViewerStatusColumn": {
+    "message": "Status"
+  },
+  "harViewerTypeColumn": {
+    "message": "Type"
+  },
+  "harViewerTimeColumn": {
+    "message": "Time (ms)"
+  },
+  "harViewerUrlColumn": {
+    "message": "URL"
+  },
+  "harViewerRequests": {
+    "message": "requests"
+  },
+  "harViewerEmptyInput": {
+    "message": "Please provide HAR JSON content."
+  },
+  "harViewerParseFailed": {
+    "message": "Failed to parse HAR."
+  },
+  "harViewerFileReadFailed": {
+    "message": "Failed to read HAR file."
+  },
+  "harViewerParse": {
+    "message": "Parse HAR"
+  },
+  "harViewerFilter": {
+    "message": "Filter by URL/type/status..."
+  },
+  "harViewerInputPlaceholder": {
+    "message": "Paste HAR JSON..."
+  },
+  "diffViewerEmptyInput": {
+    "message": "Please provide content to compare."
+  },
+  "diffViewerChangedLines": {
+    "message": "changed lines"
+  },
+  "diffViewerCompareFailed": {
+    "message": "Comparison failed."
+  },
+  "diffViewerModeText": {
+    "message": "Text"
+  },
+  "diffViewerModeJson": {
+    "message": "JSON"
+  },
+  "diffViewerModeXml": {
+    "message": "XML"
+  },
+  "diffViewerCompare": {
+    "message": "Compare"
+  },
+  "diffViewerInputA": {
+    "message": "Input A"
+  },
+  "diffViewerInputB": {
+    "message": "Input B"
+  },
+  "sqlResultPreviewerNoRows": {
+    "message": "No rows to show."
+  },
+  "sqlResultPreviewerEmptyInput": {
+    "message": "Please provide SQL result data."
+  },
+  "sqlResultPreviewerRows": {
+    "message": "rows"
+  },
+  "sqlResultPreviewerColumns": {
+    "message": "columns"
+  },
+  "sqlResultPreviewerParseFailed": {
+    "message": "Failed to parse SQL result."
+  },
+  "sqlResultPreviewerFormatAuto": {
+    "message": "Auto"
+  },
+  "sqlResultPreviewerParse": {
+    "message": "Preview table"
+  },
+  "sqlResultPreviewerFilter": {
+    "message": "Filter rows..."
+  },
+  "sqlResultPreviewerInputPlaceholder": {
+    "message": "[{\"id\":1,\"name\":\"Alice\"}]"
+  },
+  "toolUiMediaPreviewPending": {
+    "message": "Preview will appear after processing"
+  },
+  "toolUiMediaPreviewUnavailable": {
+    "message": "Preview unavailable"
+  },
+  "toolUiMediaPreviewAlt": {
+    "message": "Tool preview"
+  },
+  "toolUiFullscreenHint": {
+    "message": "Click to open fullscreen"
+  },
+  "toolUiFullscreenOpen": {
+    "message": "Fullscreen"
+  },
+  "toolUiFullscreenNotSupported": {
+    "message": "Fullscreen is not supported on this page."
+  },
+  "toolUiFullscreenFailed": {
+    "message": "Failed to open fullscreen."
+  },
+  "toolUiFullscreenClose": {
+    "message": "Close"
+  },
+  "imageToPdfInputPreview": {
+    "message": "Input Preview"
+  },
+  "imageToPdfNoPreview": {
+    "message": "No image selected yet."
+  },
+  "accessibilityQuickAudit": {
+    "message": "Accessibility Audit"
+  },
+  "accessibilityQuickAuditTitle": {
+    "message": "Accessibility Quick Audit"
+  },
+  "accessibilityQuickAuditDescription": {
+    "message": "Detect common accessibility issues on the current page quickly."
+  },
+  "accessibilityQuickAuditRun": {
+    "message": "Run audit"
+  },
+  "accessibilityQuickAuditHint": {
+    "message": "Checks common a11y issues: alt text, labels, button names, links, headings."
+  },
+  "accessibilityQuickAuditSummary": {
+    "message": "Issues"
+  },
+  "accessibilityQuickAuditNoIssues": {
+    "message": "No common accessibility issues detected."
+  },
+  "accessibilityQuickAuditColSeverity": {
+    "message": "Severity"
+  },
+  "accessibilityQuickAuditColIssue": {
+    "message": "Issue"
+  },
+  "accessibilityQuickAuditColSelector": {
+    "message": "Selector"
+  },
+  "accessibilityQuickAuditMissingAlt": {
+    "message": "Image missing alt text"
+  },
+  "accessibilityQuickAuditButtonName": {
+    "message": "Button has no accessible name"
+  },
+  "accessibilityQuickAuditFieldLabel": {
+    "message": "Form field has no label"
+  },
+  "accessibilityQuickAuditLinkText": {
+    "message": "Link has no discernible text"
+  },
+  "accessibilityQuickAuditHeadingOrder": {
+    "message": "Heading level skip detected"
+  },
+  "coreWebVitalsAnalyzer": {
+    "message": "Web Vitals"
+  },
+  "coreWebVitalsAnalyzerTitle": {
+    "message": "Core Web Vitals Analyzer"
+  },
+  "coreWebVitalsAnalyzerDescription": {
+    "message": "Monitor LCP, INP, CLS, and FID metrics directly on the page."
+  },
+  "coreWebVitalsAnalyzerStart": {
+    "message": "Start"
+  },
+  "coreWebVitalsAnalyzerStop": {
+    "message": "Stop"
+  },
+  "coreWebVitalsAnalyzerReset": {
+    "message": "Reset"
+  },
+  "coreWebVitalsAnalyzerRunning": {
+    "message": "Collecting vitals. Interact with page to improve INP/FID signal."
+  },
+  "coreWebVitalsAnalyzerStopped": {
+    "message": "Analyzer is stopped."
+  },
+  "coreWebVitalsAnalyzerHint": {
+    "message": "Start collection, interact with the page, then review grades and optimization suggestions."
+  },
+  "coreWebVitalsAnalyzerOverall": {
+    "message": "Overall"
+  },
+  "coreWebVitalsAnalyzerSuggestions": {
+    "message": "Actionable suggestions"
+  },
+  "coreWebVitalsAnalyzerGradeGood": {
+    "message": "Good"
+  },
+  "coreWebVitalsAnalyzerGradeNeeds": {
+    "message": "Needs"
+  },
+  "coreWebVitalsAnalyzerGradePoor": {
+    "message": "Poor"
+  },
+  "coreWebVitalsAnalyzerGradeNa": {
+    "message": "N/A"
+  },
+  "coreWebVitalsAnalyzerOverallHealthy": {
+    "message": "Healthy"
+  },
+  "coreWebVitalsAnalyzerOverallNeedsWork": {
+    "message": "Needs work"
+  },
+  "coreWebVitalsAnalyzerOverallCritical": {
+    "message": "Critical"
+  },
+  "coreWebVitalsAnalyzerTipLcp": {
+    "message": "Reduce render-blocking resources and optimize hero image/font delivery."
+  },
+  "coreWebVitalsAnalyzerTipInput": {
+    "message": "Reduce long main-thread tasks and defer non-critical JavaScript work."
+  },
+  "coreWebVitalsAnalyzerTipCls": {
+    "message": "Reserve fixed space for media/ads and avoid late layout shifts."
+  },
+  "coreWebVitalsAnalyzerTipOk": {
+    "message": "No critical issue detected in current sample. Capture multiple interactions for a stronger signal."
+  },
+  "securityHeadersChecker": {
+    "message": "Security Headers"
+  },
+  "securityHeadersCheckerTitle": {
+    "message": "Security Headers Checker"
+  },
+  "securityHeadersCheckerDescription": {
+    "message": "Inspect key HTTP security headers for the active page."
+  },
+  "securityHeadersCheckerRun": {
+    "message": "Check headers"
+  },
+  "securityHeadersCheckerHint": {
+    "message": "Checks common HTTP security headers for the active page URL."
+  },
+  "securityHeadersCheckerLoading": {
+    "message": "Loading headers..."
+  },
+  "securityHeadersCheckerMissing": {
+    "message": "Missing"
+  },
+  "securityHeadersCheckerSummary": {
+    "message": "Security headers summary (ok: $1, weak: $2, missing: $3)"
+  },
+  "securityHeadersCheckerColHeader": {
+    "message": "Header"
+  },
+  "securityHeadersCheckerColStatus": {
+    "message": "Status"
+  },
+  "securityHeadersCheckerColValue": {
+    "message": "Value"
+  },
+  "securityHeadersCheckerFailed": {
+    "message": "Security header check failed."
+  },
+  "structuredDataValidator": {
+    "message": "Structured Data"
+  },
+  "structuredDataValidatorTitle": {
+    "message": "Structured Data Validator"
+  },
+  "structuredDataValidatorDescription": {
+    "message": "Validate JSON-LD blocks and inspect Microdata/RDFa usage."
+  },
+  "structuredDataValidatorRefresh": {
+    "message": "Refresh analysis"
+  },
+  "structuredDataValidatorHint": {
+    "message": "Validates JSON-LD blocks and lists Microdata/RDFa signals on the page."
+  },
+  "structuredDataValidatorParseError": {
+    "message": "JSON-LD parse error"
+  },
+  "structuredDataValidatorTypes": {
+    "message": "Detected @type values"
+  },
+  "structuredDataValidatorType": {
+    "message": "Type"
+  },
+  "structuredDataValidatorCount": {
+    "message": "Count"
+  },
+  "structuredDataValidatorNoTypes": {
+    "message": "No @type values found"
+  },
+  "structuredDataValidatorErrors": {
+    "message": "Parse errors"
+  },
+  "structuredDataValidatorNoErrors": {
+    "message": "No JSON-LD parse errors."
+  },
+  "socialPreviewPro": {
+    "message": "Social Preview"
+  },
+  "socialPreviewProTitle": {
+    "message": "Social Preview Pro"
+  },
+  "socialPreviewProDescription": {
+    "message": "Preview Open Graph and Twitter Card data with missing-field checks."
+  },
+  "socialPreviewProRefresh": {
+    "message": "Refresh"
+  },
+  "socialPreviewProHint": {
+    "message": "Open Graph + Twitter Card preview and field checks."
+  },
+  "socialPreviewProMissingTitle": {
+    "message": "Missing title"
+  },
+  "socialPreviewProMissingDescription": {
+    "message": "Missing description"
+  },
+  "socialPreviewProMissingImage": {
+    "message": "Missing image"
+  },
+  "socialPreviewProMissingUrl": {
+    "message": "Missing canonical/og:url"
+  },
+  "socialPreviewProMissingTwitterCard": {
+    "message": "Missing twitter:card"
+  },
+  "socialPreviewProNoImage": {
+    "message": "No image"
+  },
+  "socialPreviewProChecks": {
+    "message": "Checks"
+  },
+  "socialPreviewProChecksOk": {
+    "message": "Required social preview fields look good."
+  },
+  "robotsSitemapInspector": {
+    "message": "Robots/Sitemap"
+  },
+  "robotsSitemapInspectorTitle": {
+    "message": "Robots/Sitemap Inspector"
+  },
+  "robotsSitemapInspectorDescription": {
+    "message": "Inspect robots.txt rules and sitemap coverage for the active site."
+  },
+  "robotsSitemapInspectorRun": {
+    "message": "Inspect"
+  },
+  "robotsSitemapInspectorHint": {
+    "message": "Checks robots.txt directives and sitemap URL coverage for the current site."
+  },
+  "robotsSitemapInspectorLoading": {
+    "message": "Loading robots.txt and sitemap..."
+  },
+  "robotsSitemapInspectorFailed": {
+    "message": "Failed to inspect robots/sitemap."
+  },
+  "robotsSitemapInspectorUserAgents": {
+    "message": "User-agents"
+  },
+  "robotsSitemapInspectorDisallow": {
+    "message": "Disallow rules"
+  },
+  "robotsSitemapInspectorAllow": {
+    "message": "Allow rules"
+  },
+  "robotsSitemapInspectorSitemapUrls": {
+    "message": "Sitemap URLs detected"
+  },
+  "robotsSitemapInspectorNoSitemap": {
+    "message": "No sitemap directive in robots.txt"
+  },
+  "robotsSitemapInspectorSitemapCount": {
+    "message": "URL entries in sitemap: $1"
+  },
+  "robotsSitemapInspectorCrossOriginSitemap": {
+    "message": "Sitemap is on another origin and was not fetched."
+  },
+  "harDiffAnalyzer": {
+    "message": "HAR Diff"
+  },
+  "harDiffAnalyzerTitle": {
+    "message": "HAR Diff Analyzer"
+  },
+  "harDiffAnalyzerDescription": {
+    "message": "Compare two HAR files and highlight request/path-level differences."
+  },
+  "harDiffAnalyzerRun": {
+    "message": "Compare HAR files"
+  },
+  "harDiffAnalyzerHint": {
+    "message": "Paste two HAR JSON payloads (before/after) and compare path-level traffic changes."
+  },
+  "harDiffAnalyzerInvalid": {
+    "message": "Invalid HAR format."
+  },
+  "harDiffAnalyzerReqBefore": {
+    "message": "Requests (A)"
+  },
+  "harDiffAnalyzerReqAfter": {
+    "message": "Requests (B)"
+  },
+  "harDiffAnalyzerAvgBefore": {
+    "message": "Avg ms (A)"
+  },
+  "harDiffAnalyzerAvgAfter": {
+    "message": "Avg ms (B)"
+  },
+  "harDiffAnalyzerTopPathChanges": {
+    "message": "Top path changes"
+  },
+  "harDiffAnalyzerPath": {
+    "message": "Path"
+  },
+  "harDiffAnalyzerNoDiff": {
+    "message": "No path-level changes found."
+  },
+  "harDiffAnalyzerInputA": {
+    "message": "HAR A (before)"
+  },
+  "harDiffAnalyzerInputB": {
+    "message": "HAR B (after)"
+  },
+  "cookieStorageAuditor": {
+    "message": "Cookie Auditor"
+  },
+  "cookieStorageAuditorTitle": {
+    "message": "Cookie & Storage Auditor"
+  },
+  "cookieStorageAuditorDescription": {
+    "message": "Audit cookies, localStorage, and sessionStorage usage quickly."
+  },
+  "cookieStorageAuditorRun": {
+    "message": "Run audit"
+  },
+  "cookieStorageAuditorHint": {
+    "message": "Summarizes cookie/localStorage/sessionStorage usage for quick privacy review."
+  },
+  "cookieStorageAuditorFailed": {
+    "message": "Failed to audit storage."
+  },
+  "cookieStorageAuditorCookies": {
+    "message": "Cookies"
+  },
+  "cookieStorageAuditorRiskyCookies": {
+    "message": "Potentially risky cookie names"
+  },
+  "cookieStorageAuditorNoRisky": {
+    "message": "No risky cookie names detected."
+  },
+  "cookieStorageAuditorTopLocal": {
+    "message": "Top localStorage keys"
+  },
+  "cookieStorageAuditorTopSession": {
+    "message": "Top sessionStorage keys"
+  },
+  "macroRecorder": {
+    "message": "Macro Recorder"
+  },
+  "macroRecorderTitle": {
+    "message": "Macro Recorder"
+  },
+  "macroRecorderDescription": {
+    "message": "Record clicks, inputs, and copy steps, then replay them on the current page."
+  },
+  "macroRecorderActivateFailed": {
+    "message": "Failed to activate Macro Recorder."
+  },
+  "macroRecorderAddClick": {
+    "message": "Add click"
+  },
+  "macroRecorderAddCopyText": {
+    "message": "Add copy text"
+  },
+  "macroRecorderAddDelay": {
+    "message": "Add delay"
+  },
+  "macroRecorderAddInputFill": {
+    "message": "Add input fill"
+  },
+  "macroRecorderAddStepButton": {
+    "message": "Add step"
+  },
+  "macroRecorderAddStepTitle": {
+    "message": "Add step"
+  },
+  "macroRecorderAlreadyRecording": {
+    "message": "Recording is already active."
+  },
+  "macroRecorderBadgePlayback": {
+    "message": "Step $1 of $2"
+  },
+  "macroRecorderBadgeRecording": {
+    "message": "$1 steps recorded"
+  },
+  "macroRecorderBadgeWaiting": {
+    "message": "Step $1 of $2 waiting"
+  },
+  "macroRecorderBeforeDelayChip": {
+    "message": "Before: $1 ms"
+  },
+  "macroRecorderBeforeDelayLabel": {
+    "message": "Before delay (ms)"
+  },
+  "macroRecorderCancel": {
+    "message": "Cancel"
+  },
+  "macroRecorderClearCsv": {
+    "message": "Clear CSV"
+  },
+  "macroRecorderClickModalHint": {
+    "message": "Use a stable selector for the click target."
+  },
+  "macroRecorderCloseButton": {
+    "message": "Close tool"
+  },
+  "macroRecorderCollapseButton": {
+    "message": "Collapse"
+  },
+  "macroRecorderCopyModalHint": {
+    "message": "Copy steps collect text content from the matched element during playback."
+  },
+  "macroRecorderCopyTargetMissing": {
+    "message": "Copy target not found."
+  },
+  "macroRecorderCreatedMeta": {
+    "message": "Created: $1"
+  },
+  "macroRecorderCsvCleared": {
+    "message": "CSV data cleared."
+  },
+  "macroRecorderCsvCount": {
+    "message": "$1 rows collected"
+  },
+  "macroRecorderCsvDownloaded": {
+    "message": "CSV downloaded."
+  },
+  "macroRecorderDefaultMacroName": {
+    "message": "Macro $1"
+  },
+  "macroRecorderDelayModalHint": {
+    "message": "Delay is stored in milliseconds."
+  },
+  "macroRecorderDeleteMacro": {
+    "message": "Delete macro"
+  },
+  "macroRecorderDeleteMacroConfirmBody": {
+    "message": "Delete \"$1\"? This cannot be undone."
+  },
+  "macroRecorderDeleteMacroConfirmTitle": {
+    "message": "Delete macro"
+  },
+  "macroRecorderDeleteShort": {
+    "message": "Delete"
+  },
+  "macroRecorderDeleteStep": {
+    "message": "Delete step"
+  },
+  "macroRecorderDeleteStepConfirmBody": {
+    "message": "Delete this step from the macro?"
+  },
+  "macroRecorderDeleteStepConfirmTitle": {
+    "message": "Delete step"
+  },
+  "macroRecorderDescClick": {
+    "message": "Click"
+  },
+  "macroRecorderDescCopyTarget": {
+    "message": "Copy \"$1\""
+  },
+  "macroRecorderDescCopyText": {
+    "message": "Copy"
+  },
+  "macroRecorderDescDelay": {
+    "message": "Delay"
+  },
+  "macroRecorderDescInputFill": {
+    "message": "Fill"
+  },
+  "macroRecorderDescInputFillTarget": {
+    "message": "Fill \"$1\""
+  },
+  "macroRecorderDescSelectTarget": {
+    "message": "Select \"$1\" in $2"
+  },
+  "macroRecorderDescriptionLabel": {
+    "message": "Description"
+  },
+  "macroRecorderDownloadCsv": {
+    "message": "Download CSV"
+  },
+  "macroRecorderDownloadUnsupported": {
+    "message": "Download is not supported in this context."
+  },
+  "macroRecorderDragHandle": {
+    "message": "Drag to reorder"
+  },
+  "macroRecorderDurationChip": {
+    "message": "$1 ms"
+  },
+  "macroRecorderDurationLabel": {
+    "message": "Duration (ms)"
+  },
+  "macroRecorderEditMacro": {
+    "message": "Edit macro"
+  },
+  "macroRecorderEditShort": {
+    "message": "Edit"
+  },
+  "macroRecorderEditStep": {
+    "message": "Edit step"
+  },
+  "macroRecorderEditorEmpty": {
+    "message": "Select a macro from the library to edit its steps."
+  },
+  "macroRecorderEditorTitle": {
+    "message": "Edit macro"
+  },
+  "macroRecorderElementNotFound": {
+    "message": "Element not found."
+  },
+  "macroRecorderEmptyState": {
+    "message": "No macros saved yet. Record one on this page to start."
+  },
+  "macroRecorderExportJson": {
+    "message": "Export JSON"
+  },
+  "macroRecorderFallbackDropdown": {
+    "message": "dropdown"
+  },
+  "macroRecorderFallbackElement": {
+    "message": "target"
+  },
+  "macroRecorderFallbackField": {
+    "message": "field"
+  },
+  "macroRecorderFallbackText": {
+    "message": "text"
+  },
+  "macroRecorderIdleSummary": {
+    "message": "Ready on this page"
+  },
+  "macroRecorderImportFailed": {
+    "message": "Failed to import JSON."
+  },
+  "macroRecorderImportJson": {
+    "message": "Import JSON"
+  },
+  "macroRecorderImportSuccess": {
+    "message": "$1 macros imported."
+  },
+  "macroRecorderInfiniteLoop": {
+    "message": "Infinite loop"
+  },
+  "macroRecorderInputModalHint": {
+    "message": "Selector and value are required for fill steps."
+  },
+  "macroRecorderInputNotFound": {
+    "message": "Input element not found."
+  },
+  "macroRecorderInvalidSelector": {
+    "message": "Enter a valid selector."
+  },
+  "macroRecorderInvalidStep": {
+    "message": "Step data is invalid."
+  },
+  "macroRecorderJsonExported": {
+    "message": "Macro exported."
+  },
+  "macroRecorderKicker": {
+    "message": "Utilities"
+  },
+  "macroRecorderLibraryTitle": {
+    "message": "Macro library"
+  },
+  "macroRecorderLoopCount": {
+    "message": "Loop count"
+  },
+  "macroRecorderLoopCountHint": {
+    "message": "$1 runs"
+  },
+  "macroRecorderLoopInfiniteHint": {
+    "message": "Infinite"
+  },
+  "macroRecorderLoopInfiniteShort": {
+    "message": "infinite"
+  },
+  "macroRecorderLoopSingleHint": {
+    "message": "1 run"
+  },
+  "macroRecorderMacroDeleteFailed": {
+    "message": "Failed to delete macro."
+  },
+  "macroRecorderMacroDeleted": {
+    "message": "Macro deleted."
+  },
+  "macroRecorderModeIdle": {
+    "message": "Idle"
+  },
+  "macroRecorderModePlaying": {
+    "message": "Playing"
+  },
+  "macroRecorderModeRecording": {
+    "message": "Recording"
+  },
+  "macroRecorderMsShort": {
+    "message": "ms"
+  },
+  "macroRecorderNameLabel": {
+    "message": "Macro name"
+  },
+  "macroRecorderNamePlaceholder": {
+    "message": "Checkout flow"
+  },
+  "macroRecorderNameSaveFailed": {
+    "message": "Failed to save macro name."
+  },
+  "macroRecorderNameSaved": {
+    "message": "Macro name saved."
+  },
+  "macroRecorderNameUnchanged": {
+    "message": "Name is unchanged."
+  },
+  "macroRecorderNoCsvRows": {
+    "message": "No CSV rows collected yet."
+  },
+  "macroRecorderNoSelection": {
+    "message": "None"
+  },
+  "macroRecorderPageScope": {
+    "message": "Current page only"
+  },
+  "macroRecorderPlaybackAlreadyRunning": {
+    "message": "Playback is already running."
+  },
+  "macroRecorderPlaybackFailed": {
+    "message": "Playback failed."
+  },
+  "macroRecorderPlaybackFinished": {
+    "message": "Playback finished."
+  },
+  "macroRecorderPlaybackTitle": {
+    "message": "Playback"
+  },
+  "macroRecorderPlayingSummary": {
+    "message": "Step $1 of $2"
+  },
+  "macroRecorderProgressDetail": {
+    "message": "Loop $1, step $2 / $3"
+  },
+  "macroRecorderProgressIdle": {
+    "message": "Playback is idle."
+  },
+  "macroRecorderRecordCardTitle": {
+    "message": "Record on this page"
+  },
+  "macroRecorderRecordingBadge": {
+    "message": "$1 steps captured"
+  },
+  "macroRecorderRecordingSaveFailed": {
+    "message": "Failed to save the recording."
+  },
+  "macroRecorderRecordingSaved": {
+    "message": "Macro saved."
+  },
+  "macroRecorderRecordingStarted": {
+    "message": "Recording started."
+  },
+  "macroRecorderRecordingSummary": {
+    "message": "$1 steps captured"
+  },
+  "macroRecorderSampleTextChip": {
+    "message": "Sample: $1"
+  },
+  "macroRecorderSampleTextLabel": {
+    "message": "Sample text"
+  },
+  "macroRecorderSaveName": {
+    "message": "Save name"
+  },
+  "macroRecorderSaveStep": {
+    "message": "Save step"
+  },
+  "macroRecorderSelectMacro": {
+    "message": "Select macro"
+  },
+  "macroRecorderSelectMacroPrompt": {
+    "message": "Choose a macro first"
+  },
+  "macroRecorderSelectShort": {
+    "message": "Use"
+  },
+  "macroRecorderSelectorLabel": {
+    "message": "Selector"
+  },
+  "macroRecorderStartPlayback": {
+    "message": "Play macro"
+  },
+  "macroRecorderStartRecording": {
+    "message": "Start recording"
+  },
+  "macroRecorderStatusPlaying": {
+    "message": "Playing: $1 (loop $2)"
+  },
+  "macroRecorderStatusRecording": {
+    "message": "Recording: $1"
+  },
+  "macroRecorderStepAdded": {
+    "message": "Step added."
+  },
+  "macroRecorderStepCount": {
+    "message": "$1 steps"
+  },
+  "macroRecorderStepDeleteFailed": {
+    "message": "Failed to delete step."
+  },
+  "macroRecorderStepDeleted": {
+    "message": "Step deleted."
+  },
+  "macroRecorderStepReorderFailed": {
+    "message": "Failed to reorder steps."
+  },
+  "macroRecorderStepReordered": {
+    "message": "Step reordered."
+  },
+  "macroRecorderStepSaved": {
+    "message": "Step saved."
+  },
+  "macroRecorderStepsEmpty": {
+    "message": "No steps yet. Add one manually or record on the page."
+  },
+  "macroRecorderStepsTitle": {
+    "message": "Steps"
+  },
+  "macroRecorderStopPlayback": {
+    "message": "Stop playback"
+  },
+  "macroRecorderStopPlaybackFirst": {
+    "message": "Stop playback before starting a new recording."
+  },
+  "macroRecorderStopRecording": {
+    "message": "Stop and save"
+  },
+  "macroRecorderStopRecordingFirst": {
+    "message": "Stop recording before starting playback."
+  },
+  "macroRecorderStorageBadge": {
+    "message": "$1 macros saved"
+  },
+  "macroRecorderSummaryLoop": {
+    "message": "Loop"
+  },
+  "macroRecorderSummaryMode": {
+    "message": "Mode"
+  },
+  "macroRecorderSummarySelected": {
+    "message": "Selected macro"
+  },
+  "macroRecorderTabEditor": {
+    "message": "Editor"
+  },
+  "macroRecorderTabLibrary": {
+    "message": "Library"
+  },
+  "macroRecorderTypeClick": {
+    "message": "Click"
+  },
+  "macroRecorderTypeCopyText": {
+    "message": "Copy"
+  },
+  "macroRecorderTypeDelay": {
+    "message": "Delay"
+  },
+  "macroRecorderTypeInputFill": {
+    "message": "Input"
+  },
+  "macroRecorderTypeUnknown": {
+    "message": "Step"
+  },
+  "macroRecorderUnsupportedPage": {
+    "message": "Macro Recorder works on normal http/https pages only."
+  },
+  "macroRecorderUntitledMacro": {
+    "message": "Untitled Macro"
+  },
+  "macroRecorderUpdatedMeta": {
+    "message": "Updated: $1"
+  },
+  "macroRecorderValueChip": {
+    "message": "Value: $1"
+  },
+  "macroRecorderValueLabel": {
+    "message": "Value"
+  },
+  "macroRecorderWidgetAriaLabel": {
+    "message": "Open macro recorder"
+  },
+  "macroRecorderWidgetCollapse": {
+    "message": "Collapse macro recorder"
+  },
+  "macroRecorderWidgetExpand": {
+    "message": "Open macro recorder"
+  },
+  "newBadgeLabel": {
+    "message": "NEW"
+  }
+}

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="128" height="128" viewBox="0 0 96 96" preserveAspectRatio="xMidYMid meet" version="1.0">
+  <defs>
+    <clipPath id="round-corners">
+      <rect width="96" height="96" rx="12" ry="12"/>
+    </clipPath>
+  </defs>
+  
+  <!-- Yuvarlak köşeli arka plan -->
+  <rect width="96" height="96" rx="12" ry="12" fill="#191919"/>
+  
+  <!-- Orijinal içerik -->
+  <g clip-path="url(#round-corners)">
+    <rect x="0" y="0" width="96" height="96" fill="#ffffff"/>
+    
+    <!-- Sol üst kare -->
+    <rect x="9.21875" y="8.835938" width="34.921875" height="34.925781" fill="#191919" rx="2" ry="2"/>
+    
+    <!-- Sağ üst kare -->
+    <rect x="51" y="8.835938" width="35.46875" height="34.925781" fill="#191919" rx="2" ry="2"/>
+    
+    <!-- Sol alt kare -->
+    <rect x="9.21875" y="51" width="34.921875" height="35.085938" fill="#191919" rx="2" ry="2"/>
+    
+    <!-- Sağ alt kare -->
+    <rect x="51" y="51" width="35.46875" height="35.085938" fill="#191919" rx="2" ry="2"/>
+  </g>
+</svg>

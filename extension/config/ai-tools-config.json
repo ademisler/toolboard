@@ -1,0 +1,18 @@
+{
+  "toolModelRequirements": {
+    "ai-text-summarizer": "smart",
+    "ai-text-translator": "smart",
+    "ai-content-detector": "smart",
+    "ai-email-generator": "smart",
+    "ai-seo-analyzer": "smart",
+    "ai-chat": "auto"
+  },
+  "modelEndpoints": {
+    "smart": "gemini-2.5-flash",
+    "lite": "gemini-2.5-flash-lite"
+  },
+  "rateLimits": {
+    "requestsPerMinute": 60,
+    "cooldownPeriod": 60000
+  }
+}
