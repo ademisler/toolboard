@@ -1,0 +1,2452 @@
+{
+  "categories": {
+    "inspect": {
+      "name": "Inspect",
+      "description": "analyzeOnPageElementsAndStyles",
+      "order": 1
+    },
+    "capture": {
+      "name": "Capture",
+      "description": "collectAndSaveContentFromAnyPage",
+      "order": 2
+    },
+    "enhance": {
+      "name": "Enhance",
+      "description": "augmentTheBrowsingExperience",
+      "order": 3
+    },
+    "utilities": {
+      "name": "Utilities",
+      "description": "generalPurposeSiteUtilities",
+      "order": 4
+    },
+    "converters": {
+      "name": "Converters",
+      "description": "converterToolsForFormatAndUnitTransformations",
+      "order": 5
+    },
+    "previewers": {
+      "name": "Previewers",
+      "description": "previewAndInspectStructuredContentFast",
+      "order": 6
+    },
+    "ai": {
+      "name": "AI",
+      "description": "aiPoweredToolsForContentAnalysis",
+      "order": 7
+    }
+  },
+  "tools": [
+    {
+      "id": "color-picker",
+      "name": "Color Picker",
+      "category": "inspect",
+      "module": "inspect/colorPicker.js",
+      "order": 12,
+      "icon": "color",
+      "i18n": {
+        "label": "color",
+        "title": "colorPicker",
+        "description": "colorPickerDescription",
+        "name": "colorPickerName"
+      },
+      "tags": [
+        "color",
+        "design",
+        "palette"
+      ],
+      "keywords": [
+        "hex",
+        "rgb",
+        "hsl",
+        "eyedropper"
+      ],
+      "permissions": [
+        "activeTab"
+      ]
+    },
+    {
+      "id": "element-picker",
+      "name": "Element Picker",
+      "category": "inspect",
+      "module": "inspect/elementPicker.js",
+      "order": 14,
+      "icon": "element",
+      "i18n": {
+        "label": "element",
+        "title": "elementPicker",
+        "description": "elementPickerDescription"
+      },
+      "tags": [
+        "dom",
+        "css",
+        "xpath"
+      ],
+      "keywords": [
+        "selector",
+        "xpath",
+        "html"
+      ],
+      "permissions": [
+        "activeTab"
+      ]
+    },
+    {
+      "id": "link-picker",
+      "name": "Link Picker",
+      "category": "inspect",
+      "module": "inspect/linkPicker.js",
+      "order": 15,
+      "icon": "link",
+      "i18n": {
+        "label": "link",
+        "title": "linkPicker",
+        "description": "linkPickerDescription"
+      },
+      "tags": [
+        "links",
+        "urls",
+        "validation"
+      ],
+      "keywords": [
+        "links",
+        "broken links",
+        "urls"
+      ],
+      "permissions": [
+        "activeTab"
+      ]
+    },
+    {
+      "id": "font-picker",
+      "name": "Font Finder",
+      "category": "inspect",
+      "module": "inspect/fontPicker.js",
+      "order": 16,
+      "icon": "font",
+      "i18n": {
+        "label": "font",
+        "title": "fontPicker",
+        "description": "fontPickerDescription"
+      },
+      "tags": [
+        "typography",
+        "design"
+      ],
+      "keywords": [
+        "font",
+        "typography",
+        "weights"
+      ],
+      "permissions": [
+        "activeTab"
+      ]
+    },
+    {
+      "id": "media-picker",
+      "name": "Media Download",
+      "category": "capture",
+      "module": "capture/mediaPicker.js",
+      "order": 7,
+      "icon": "image",
+      "i18n": {
+        "label": "media",
+        "title": "mediaPicker",
+        "description": "mediaPickerDescription"
+      },
+      "tags": [
+        "media",
+        "image",
+        "video"
+      ],
+      "keywords": [
+        "images",
+        "videos",
+        "download"
+      ],
+      "permissions": [
+        "activeTab",
+        "downloads"
+      ]
+    },
+    {
+      "id": "text-picker",
+      "name": "Text Picker",
+      "category": "capture",
+      "module": "capture/textPicker.js",
+      "order": 24,
+      "icon": "text",
+      "i18n": {
+        "label": "text",
+        "title": "textPicker",
+        "description": "textPickerDescription"
+      },
+      "tags": [
+        "text",
+        "content"
+      ],
+      "keywords": [
+        "copy",
+        "extract",
+        "text"
+      ],
+      "permissions": [
+        "activeTab"
+      ]
+    },
+    {
+      "id": "screenshot-picker",
+      "name": "Screenshot Picker",
+      "category": "capture",
+      "module": "capture/screenshotPicker.js",
+      "order": 1,
+      "icon": "screenshot",
+      "i18n": {
+        "label": "screenshot",
+        "title": "screenshotPicker",
+        "description": "screenshotPickerDescription",
+        "name": "screenshotPickerName"
+      },
+      "tags": [
+        "screenshot",
+        "capture"
+      ],
+      "keywords": [
+        "full page",
+        "capture",
+        "screenshot"
+      ],
+      "permissions": [
+        "activeTab"
+      ]
+    },
+    {
+      "id": "pdf-generator",
+      "name": "PDF Generator",
+      "category": "capture",
+      "module": "capture/pdfGenerator.js",
+      "order": 17,
+      "icon": "pdf",
+      "i18n": {
+        "label": "pdf",
+        "title": "pdfGenerator",
+        "description": "pdfGeneratorDescription"
+      },
+      "tags": [
+        "pdf",
+        "capture",
+        "export",
+        "print",
+        "document"
+      ],
+      "keywords": [
+        "pdf",
+        "export",
+        "save",
+        "print",
+        "document",
+        "download"
+      ],
+      "permissions": [
+        "activeTab",
+        "downloads"
+      ]
+    },
+    {
+      "id": "qr-code-generator",
+      "name": "QR Code Generator",
+      "category": "capture",
+      "module": "capture/qrCodeGenerator.js",
+      "order": 18,
+      "icon": "qrcode",
+      "i18n": {
+        "label": "qrcode",
+        "title": "qrCodeGenerator",
+        "description": "qrCodeGeneratorDescription"
+      },
+      "tags": [
+        "qr",
+        "qrcode",
+        "share",
+        "mobile"
+      ],
+      "keywords": [
+        "qr code",
+        "qrcode",
+        "barcode",
+        "share",
+        "mobile",
+        "scan"
+      ],
+      "permissions": [
+        "activeTab"
+      ]
+    },
+    {
+      "id": "sticky-notes-picker",
+      "name": "Sticky Notes",
+      "category": "enhance",
+      "module": "enhance/stickyNotesPicker.js",
+      "order": 2,
+      "icon": "notes",
+      "i18n": {
+        "label": "notes",
+        "title": "stickyNotesPicker",
+        "description": "stickyNotesPickerDescription",
+        "name": "stickyNotesName"
+      },
+      "tags": [
+        "notes",
+        "storage"
+      ],
+      "keywords": [
+        "sticky",
+        "notes",
+        "annotate"
+      ],
+      "permissions": [
+        "activeTab",
+        "storage"
+      ]
+    },
+    {
+      "id": "reading-mode",
+      "name": "Reading Mode",
+      "category": "enhance",
+      "module": "enhance/readingMode.js",
+      "order": 13,
+      "icon": "book-open",
+      "i18n": {
+        "label": "readingMode",
+        "title": "readingModeTitle",
+        "description": "readingModeDescription",
+        "name": "readingModeName"
+      },
+      "tags": [
+        "reading",
+        "focus",
+        "clean"
+      ],
+      "keywords": [
+        "reader",
+        "article",
+        "focus",
+        "distraction-free"
+      ],
+      "permissions": [
+        "activeTab",
+        "storage"
+      ]
+    },
+    {
+      "id": "text-highlighter",
+      "name": "Text Highlighter",
+      "category": "enhance",
+      "module": "enhance/textHighlighter.js",
+      "order": 22,
+      "icon": "highlighter",
+      "i18n": {
+        "label": "highlighter",
+        "title": "textHighlighter",
+        "description": "textHighlighterDescription",
+        "name": "textHighlighterName"
+      },
+      "tags": [
+        "highlight",
+        "text",
+        "annotation",
+        "reading"
+      ],
+      "keywords": [
+        "highlight",
+        "mark",
+        "annotate",
+        "reading"
+      ],
+      "permissions": [
+        "activeTab",
+        "storage"
+      ]
+    },
+    {
+      "id": "site-info-picker",
+      "name": "Site Info",
+      "category": "utilities",
+      "module": "utilities/siteInfoPicker.js",
+      "order": 19,
+      "icon": "info",
+      "i18n": {
+        "label": "info",
+        "title": "siteInfoPicker",
+        "description": "siteInfoPickerDescription"
+      },
+      "tags": [
+        "analysis",
+        "seo"
+      ],
+      "keywords": [
+        "tech stack",
+        "seo",
+        "accessibility"
+      ],
+      "permissions": [
+        "activeTab"
+      ]
+    },
+    {
+      "id": "color-palette-generator",
+      "name": "Color Palette Generator",
+      "category": "utilities",
+      "module": "utilities/colorPaletteGenerator.js",
+      "order": 20,
+      "icon": "palette",
+      "i18n": {
+        "label": "colorPalette",
+        "title": "colorPaletteGenerator",
+        "description": "colorPaletteGeneratorDescription"
+      },
+      "tags": [
+        "color",
+        "design",
+        "palette",
+        "harmony"
+      ],
+      "keywords": [
+        "color scheme",
+        "palette",
+        "harmony",
+        "contrast",
+        "accessibility",
+        "wcag"
+      ],
+      "permissions": [
+        "activeTab"
+      ]
+    },
+    {
+      "id": "bookmark-manager",
+      "name": "Bookmark Manager",
+      "category": "enhance",
+      "module": "enhance/bookmarkManager.js",
+      "order": 5,
+      "icon": "bookmark",
+      "i18n": {
+        "label": "bookmarkManager",
+        "title": "bookmarkManagerTitle",
+        "description": "bookmarkManagerDescription"
+      },
+      "tags": [
+        "bookmarks",
+        "organize",
+        "save",
+        "productivity"
+      ],
+      "keywords": [
+        "bookmark",
+        "save",
+        "organize",
+        "folder",
+        "tag",
+        "search"
+      ],
+      "permissions": [
+        "activeTab",
+        "storage",
+        "tabs"
+      ]
+    },
+    {
+      "id": "video-recorder",
+      "name": "Video Recorder",
+      "category": "capture",
+      "module": "capture/videoRecorder.js",
+      "order": 21,
+      "icon": "video",
+      "i18n": {
+        "label": "videoRecorder",
+        "title": "videoRecorderTitle",
+        "description": "videoRecorderDescription"
+      },
+      "tags": [
+        "video",
+        "recording",
+        "screen",
+        "capture"
+      ],
+      "keywords": [
+        "record",
+        "video",
+        "screen",
+        "webm",
+        "mp4",
+        "capture"
+      ],
+      "permissions": [
+        "activeTab",
+        "tabCapture",
+        "storage"
+      ]
+    },
+    {
+      "id": "dark-mode-toggle",
+      "name": "Dark Mode Toggle",
+      "category": "enhance",
+      "module": "enhance/darkModeToggle.js",
+      "order": 6,
+      "icon": "moon",
+      "i18n": {
+        "label": "darkModeToggle",
+        "title": "darkModeToggleTitle",
+        "description": "darkModeToggleDescription"
+      },
+      "tags": [
+        "dark",
+        "theme",
+        "mode",
+        "night"
+      ],
+      "keywords": [
+        "dark mode",
+        "night mode",
+        "theme",
+        "contrast"
+      ],
+      "permissions": [
+        "activeTab",
+        "storage"
+      ]
+    },
+    {
+      "id": "ai-text-summarizer",
+      "name": "AI Summarizer",
+      "category": "ai",
+      "module": "ai/textSummarizer.js",
+      "order": 3,
+      "icon": "brain",
+      "i18n": {
+        "label": "aiTextSummarizer",
+        "title": "aiTextSummarizerTitle",
+        "description": "aiTextSummarizerDescription",
+        "name": "aiTextSummarizerName"
+      },
+      "tags": [
+        "ai",
+        "summary",
+        "analysis",
+        "text"
+      ],
+      "keywords": [
+        "summarize",
+        "summary",
+        "ai",
+        "keywords",
+        "extract"
+      ],
+      "permissions": [
+        "activeTab",
+        "storage"
+      ]
+    },
+    {
+      "id": "ai-text-translator",
+      "name": "AI Translator",
+      "category": "ai",
+      "module": "ai/textTranslator.js",
+      "order": 8,
+      "icon": "languages",
+      "i18n": {
+        "label": "aiTextTranslator",
+        "title": "aiTextTranslatorTitle",
+        "description": "aiTextTranslatorDescription"
+      },
+      "tags": [
+        "ai",
+        "translation",
+        "language",
+        "text"
+      ],
+      "keywords": [
+        "translate",
+        "translation",
+        "language",
+        "multilingual"
+      ],
+      "permissions": [
+        "activeTab",
+        "storage"
+      ]
+    },
+    {
+      "id": "ai-content-detector",
+      "name": "AI Content Detector",
+      "category": "ai",
+      "module": "ai/contentDetector.js",
+      "order": 9,
+      "icon": "sparkles",
+      "i18n": {
+        "label": "aiContentDetector",
+        "title": "aiContentDetectorTitle",
+        "description": "aiContentDetectorDescription"
+      },
+      "tags": [
+        "ai",
+        "detection",
+        "analysis",
+        "verification"
+      ],
+      "keywords": [
+        "ai detection",
+        "ai generated",
+        "content analysis",
+        "verification",
+        "authenticity"
+      ],
+      "permissions": [
+        "activeTab",
+        "storage"
+      ]
+    },
+    {
+      "id": "ai-email-generator",
+      "name": "AI Email Generator",
+      "category": "ai",
+      "module": "ai/emailGenerator.js",
+      "order": 10,
+      "icon": "email",
+      "i18n": {
+        "label": "aiEmailGenerator",
+        "title": "aiEmailGeneratorTitle",
+        "description": "aiEmailGeneratorDescription"
+      },
+      "tags": [
+        "ai",
+        "email",
+        "writing",
+        "productivity"
+      ],
+      "keywords": [
+        "email",
+        "mail",
+        "compose",
+        "write",
+        "professional"
+      ],
+      "permissions": [
+        "activeTab",
+        "storage"
+      ]
+    },
+    {
+      "id": "ai-seo-analyzer",
+      "name": "AI SEO Analyzer",
+      "category": "ai",
+      "module": "ai/seoAnalyzer.js",
+      "order": 11,
+      "icon": "search-check",
+      "i18n": {
+        "label": "aiSEOAnalyzer",
+        "title": "aiSEOAnalyzerTitle",
+        "description": "aiSEOAnalyzerDescription"
+      },
+      "tags": [
+        "ai",
+        "seo",
+        "optimization",
+        "analysis"
+      ],
+      "keywords": [
+        "seo",
+        "optimization",
+        "meta",
+        "keywords",
+        "ranking",
+        "search"
+      ],
+      "permissions": [
+        "activeTab",
+        "storage"
+      ]
+    },
+    {
+      "id": "ai-chat",
+      "name": "AI Chat",
+      "category": "ai",
+      "module": "ai/aiChat.js",
+      "order": 4,
+      "icon": "message",
+      "i18n": {
+        "label": "aiChat",
+        "title": "aiChatTitle",
+        "description": "aiChatDescription",
+        "name": "aiChatName"
+      },
+      "tags": [
+        "ai",
+        "chat",
+        "assistant",
+        "conversation"
+      ],
+      "keywords": [
+        "chat",
+        "ai",
+        "assistant",
+        "help",
+        "question"
+      ],
+      "permissions": [
+        "activeTab",
+        "storage"
+      ]
+    },
+    {
+      "id": "copy-history-manager",
+      "name": "Copy History Manager",
+      "category": "utilities",
+      "module": "utilities/copyHistoryManager.js",
+      "order": 23,
+      "icon": "clipboard-list",
+      "i18n": {
+        "label": "copyHistoryManager",
+        "title": "copyHistoryManagerTitle",
+        "description": "copyHistoryManagerDescription"
+      },
+      "tags": [
+        "clipboard",
+        "copy",
+        "history",
+        "paste"
+      ],
+      "keywords": [
+        "copy",
+        "clipboard",
+        "history",
+        "paste",
+        "track"
+      ],
+      "permissions": [
+        "activeTab",
+        "storage"
+      ]
+    },
+    {
+      "id": "unit-converter",
+      "name": "Unit Converter",
+      "category": "converters",
+      "module": "converters/unitConverter.js",
+      "order": 25,
+      "icon": "wrench",
+      "i18n": {
+        "label": "unitConverter",
+        "title": "unitConverterTitle",
+        "description": "unitConverterDescription"
+      },
+      "tags": [
+        "converter",
+        "units",
+        "measurement"
+      ],
+      "keywords": [
+        "unit conversion",
+        "length",
+        "weight",
+        "temperature",
+        "speed",
+        "data size"
+      ],
+      "permissions": [
+        "activeTab"
+      ]
+    },
+    {
+      "id": "currency-converter",
+      "name": "Currency Converter",
+      "category": "converters",
+      "module": "converters/currencyConverter.js",
+      "order": 26,
+      "icon": "tag",
+      "i18n": {
+        "label": "currencyConverter",
+        "title": "currencyConverterTitle",
+        "description": "currencyConverterDescription"
+      },
+      "tags": [
+        "converter",
+        "currency",
+        "exchange",
+        "forex"
+      ],
+      "keywords": [
+        "money",
+        "exchange rate",
+        "usd",
+        "eur",
+        "gbp",
+        "try"
+      ],
+      "permissions": [
+        "activeTab"
+      ]
+    },
+    {
+      "id": "time-zone-converter",
+      "name": "Time Zone Converter",
+      "category": "converters",
+      "module": "converters/timeZoneConverter.js",
+      "order": 27,
+      "icon": "site",
+      "i18n": {
+        "label": "timeZoneConverter",
+        "title": "timeZoneConverterTitle",
+        "description": "timeZoneConverterDescription"
+      },
+      "tags": [
+        "converter",
+        "timezone",
+        "time",
+        "date"
+      ],
+      "keywords": [
+        "utc",
+        "gmt",
+        "timezone",
+        "time zone",
+        "date time"
+      ],
+      "permissions": [
+        "activeTab"
+      ]
+    },
+    {
+      "id": "color-converter",
+      "name": "Color Converter",
+      "category": "converters",
+      "module": "converters/colorConverter.js",
+      "order": 28,
+      "icon": "palette",
+      "i18n": {
+        "label": "colorConverter",
+        "title": "colorConverterTitle",
+        "description": "colorConverterDescription"
+      },
+      "tags": [
+        "converter",
+        "color",
+        "hex",
+        "rgb",
+        "hsl",
+        "cmyk"
+      ],
+      "keywords": [
+        "color",
+        "hex",
+        "rgb",
+        "hsl",
+        "cmyk",
+        "design"
+      ],
+      "permissions": [
+        "activeTab"
+      ]
+    },
+    {
+      "id": "unix-time-converter",
+      "name": "Unix Time Converter",
+      "category": "converters",
+      "module": "converters/unixTimeConverter.js",
+      "order": 29,
+      "icon": "file-text",
+      "i18n": {
+        "label": "unixTimeConverter",
+        "title": "unixTimeConverterTitle",
+        "description": "unixTimeConverterDescription"
+      },
+      "tags": [
+        "converter",
+        "unix",
+        "timestamp",
+        "datetime"
+      ],
+      "keywords": [
+        "epoch",
+        "timestamp",
+        "unix",
+        "date",
+        "time"
+      ],
+      "permissions": [
+        "activeTab"
+      ]
+    },
+    {
+      "id": "number-base-converter",
+      "name": "Number Base Converter",
+      "category": "converters",
+      "module": "converters/numberBaseConverter.js",
+      "order": 30,
+      "icon": "binary",
+      "i18n": {
+        "label": "numberBaseConverter",
+        "title": "numberBaseConverterTitle",
+        "description": "numberBaseConverterDescription"
+      },
+      "tags": [
+        "converter",
+        "number",
+        "base",
+        "binary",
+        "hexadecimal"
+      ],
+      "keywords": [
+        "base2",
+        "base8",
+        "base10",
+        "base16",
+        "radix"
+      ],
+      "permissions": [
+        "activeTab"
+      ]
+    },
+    {
+      "id": "base64-converter",
+      "name": "Base64 Encode/Decode",
+      "category": "converters",
+      "module": "converters/base64Converter.js",
+      "order": 31,
+      "icon": "braces",
+      "i18n": {
+        "label": "base64Converter",
+        "title": "base64ConverterTitle",
+        "description": "base64ConverterDescription"
+      },
+      "tags": [
+        "converter",
+        "base64",
+        "encode",
+        "decode",
+        "text"
+      ],
+      "keywords": [
+        "base64",
+        "encode",
+        "decode",
+        "utf-8",
+        "binary"
+      ],
+      "permissions": [
+        "activeTab"
+      ]
+    },
+    {
+      "id": "url-converter",
+      "name": "URL Encode/Decode",
+      "category": "converters",
+      "module": "converters/urlConverter.js",
+      "order": 32,
+      "icon": "link-code",
+      "i18n": {
+        "label": "urlConverter",
+        "title": "urlConverterTitle",
+        "description": "urlConverterDescription"
+      },
+      "tags": [
+        "converter",
+        "url",
+        "encode",
+        "decode",
+        "uri"
+      ],
+      "keywords": [
+        "urlencode",
+        "urldecode",
+        "uri",
+        "query",
+        "percent encoding"
+      ],
+      "permissions": [
+        "activeTab"
+      ]
+    },
+    {
+      "id": "case-converter",
+      "name": "Case Converter",
+      "category": "converters",
+      "module": "converters/caseConverter.js",
+      "order": 33,
+      "icon": "text-case",
+      "i18n": {
+        "label": "caseConverter",
+        "title": "caseConverterTitle",
+        "description": "caseConverterDescription"
+      },
+      "tags": [
+        "converter",
+        "text",
+        "case",
+        "string"
+      ],
+      "keywords": [
+        "uppercase",
+        "lowercase",
+        "title case",
+        "camel case",
+        "snake case"
+      ],
+      "permissions": [
+        "activeTab"
+      ]
+    },
+    {
+      "id": "markdown-html-converter",
+      "name": "Markdown ↔ HTML Converter",
+      "category": "converters",
+      "module": "converters/markdownHtmlConverter.js",
+      "order": 34,
+      "icon": "markdown-html",
+      "i18n": {
+        "label": "markdownHtmlConverter",
+        "title": "markdownHtmlConverterTitle",
+        "description": "markdownHtmlConverterDescription"
+      },
+      "tags": [
+        "converter",
+        "markdown",
+        "html",
+        "text"
+      ],
+      "keywords": [
+        "md",
+        "html",
+        "markup",
+        "format"
+      ],
+      "permissions": [
+        "activeTab"
+      ]
+    },
+    {
+      "id": "html-entity-converter",
+      "name": "HTML Entity Encode/Decode",
+      "category": "converters",
+      "module": "converters/htmlEntityConverter.js",
+      "order": 35,
+      "icon": "entity-code",
+      "i18n": {
+        "label": "htmlEntityConverter",
+        "title": "htmlEntityConverterTitle",
+        "description": "htmlEntityConverterDescription"
+      },
+      "tags": [
+        "converter",
+        "html",
+        "entity",
+        "encode",
+        "decode"
+      ],
+      "keywords": [
+        "html entities",
+        "escape",
+        "unescape",
+        "ampersand",
+        "lt gt"
+      ],
+      "permissions": [
+        "activeTab"
+      ]
+    },
+    {
+      "id": "text-to-slug-converter",
+      "name": "Text to Slug",
+      "category": "converters",
+      "module": "converters/textToSlugConverter.js",
+      "order": 36,
+      "icon": "slug",
+      "i18n": {
+        "label": "textToSlugConverter",
+        "title": "textToSlugConverterTitle",
+        "description": "textToSlugConverterDescription"
+      },
+      "tags": [
+        "converter",
+        "slug",
+        "text",
+        "url"
+      ],
+      "keywords": [
+        "slugify",
+        "url slug",
+        "seo",
+        "title to url"
+      ],
+      "permissions": [
+        "activeTab"
+      ]
+    },
+    {
+      "id": "uuid-converter",
+      "name": "UUID Generator/Validator",
+      "category": "converters",
+      "module": "converters/uuidConverter.js",
+      "order": 37,
+      "icon": "uuid",
+      "i18n": {
+        "label": "uuidConverter",
+        "title": "uuidConverterTitle",
+        "description": "uuidConverterDescription"
+      },
+      "tags": [
+        "converter",
+        "uuid",
+        "guid",
+        "validator",
+        "generator"
+      ],
+      "keywords": [
+        "uuid v4",
+        "guid",
+        "id",
+        "random id"
+      ],
+      "permissions": [
+        "activeTab"
+      ]
+    },
+    {
+      "id": "hash-generator",
+      "name": "Hash Generator",
+      "category": "converters",
+      "module": "converters/hashGenerator.js",
+      "order": 38,
+      "icon": "hash",
+      "i18n": {
+        "label": "hashGenerator",
+        "title": "hashGeneratorTitle",
+        "description": "hashGeneratorDescription"
+      },
+      "tags": [
+        "converter",
+        "hash",
+        "sha",
+        "digest",
+        "checksum"
+      ],
+      "keywords": [
+        "sha1",
+        "sha256",
+        "sha384",
+        "sha512",
+        "digest",
+        "fingerprint"
+      ],
+      "permissions": [
+        "activeTab"
+      ]
+    },
+    {
+      "id": "jwt-decoder",
+      "name": "JWT Decoder",
+      "category": "converters",
+      "module": "converters/jwtDecoder.js",
+      "order": 39,
+      "icon": "jwt-token",
+      "i18n": {
+        "label": "jwtDecoder",
+        "title": "jwtDecoderTitle",
+        "description": "jwtDecoderDescription"
+      },
+      "tags": [
+        "converter",
+        "jwt",
+        "token",
+        "auth",
+        "decode"
+      ],
+      "keywords": [
+        "jwt",
+        "bearer",
+        "claims",
+        "payload",
+        "header"
+      ],
+      "permissions": [
+        "activeTab"
+      ]
+    },
+    {
+      "id": "json-yaml-converter",
+      "name": "JSON ↔ YAML Converter",
+      "category": "converters",
+      "module": "converters/jsonYamlConverter.js",
+      "order": 40,
+      "icon": "json-yaml",
+      "i18n": {
+        "label": "jsonYamlConverter",
+        "title": "jsonYamlConverterTitle",
+        "description": "jsonYamlConverterDescription"
+      },
+      "tags": [
+        "converter",
+        "json",
+        "yaml",
+        "yml",
+        "data"
+      ],
+      "keywords": [
+        "json",
+        "yaml",
+        "yml",
+        "parse",
+        "serialize"
+      ],
+      "permissions": [
+        "activeTab"
+      ]
+    },
+    {
+      "id": "csv-json-converter",
+      "name": "CSV ↔ JSON Converter",
+      "category": "converters",
+      "module": "converters/csvJsonConverter.js",
+      "order": 41,
+      "icon": "table-arrows",
+      "i18n": {
+        "label": "csvJsonConverter",
+        "title": "csvJsonConverterTitle",
+        "description": "csvJsonConverterDescription"
+      },
+      "tags": [
+        "converter",
+        "csv",
+        "json",
+        "table",
+        "data"
+      ],
+      "keywords": [
+        "csv",
+        "json",
+        "delimiter",
+        "comma",
+        "tab"
+      ],
+      "permissions": [
+        "activeTab"
+      ]
+    },
+    {
+      "id": "xml-json-converter",
+      "name": "XML ↔ JSON Converter",
+      "category": "converters",
+      "module": "converters/xmlJsonConverter.js",
+      "order": 42,
+      "icon": "xml-json",
+      "i18n": {
+        "label": "xmlJsonConverter",
+        "title": "xmlJsonConverterTitle",
+        "description": "xmlJsonConverterDescription"
+      },
+      "tags": [
+        "converter",
+        "xml",
+        "json",
+        "data",
+        "markup"
+      ],
+      "keywords": [
+        "xml",
+        "json",
+        "attributes",
+        "nodes",
+        "parse"
+      ],
+      "permissions": [
+        "activeTab"
+      ]
+    },
+    {
+      "id": "image-format-converter",
+      "name": "Image Format Converter",
+      "category": "converters",
+      "module": "converters/imageFormatConverter.js",
+      "order": 43,
+      "icon": "image-convert",
+      "i18n": {
+        "label": "imageFormatConverter",
+        "title": "imageFormatConverterTitle",
+        "description": "imageFormatConverterDescription"
+      },
+      "tags": [
+        "converter",
+        "image",
+        "png",
+        "jpg",
+        "jpeg",
+        "webp"
+      ],
+      "keywords": [
+        "image convert",
+        "png",
+        "jpeg",
+        "webp",
+        "format"
+      ],
+      "permissions": [
+        "activeTab"
+      ]
+    },
+    {
+      "id": "image-resizer-compressor",
+      "name": "Image Resizer/Compressor",
+      "category": "converters",
+      "module": "converters/imageResizerCompressor.js",
+      "order": 44,
+      "icon": "resize-compress",
+      "i18n": {
+        "label": "imageResizerCompressor",
+        "title": "imageResizerCompressorTitle",
+        "description": "imageResizerCompressorDescription"
+      },
+      "tags": [
+        "converter",
+        "image",
+        "resize",
+        "compress",
+        "optimize"
+      ],
+      "keywords": [
+        "image resize",
+        "compress",
+        "quality",
+        "dimensions",
+        "kb"
+      ],
+      "permissions": [
+        "activeTab"
+      ]
+    },
+    {
+      "id": "svg-to-png-converter",
+      "name": "SVG to PNG Converter",
+      "category": "converters",
+      "module": "converters/svgToPngConverter.js",
+      "order": 45,
+      "icon": "svg-png",
+      "i18n": {
+        "label": "svgToPngConverter",
+        "title": "svgToPngConverterTitle",
+        "description": "svgToPngConverterDescription"
+      },
+      "tags": [
+        "converter",
+        "svg",
+        "png",
+        "vector",
+        "image"
+      ],
+      "keywords": [
+        "svg to png",
+        "vector",
+        "raster",
+        "scale",
+        "export"
+      ],
+      "permissions": [
+        "activeTab"
+      ]
+    },
+    {
+      "id": "heic-converter",
+      "name": "HEIC to JPG/PNG",
+      "category": "converters",
+      "module": "converters/heicConverter.js",
+      "order": 46,
+      "icon": "heic-convert",
+      "i18n": {
+        "label": "heicConverter",
+        "title": "heicConverterTitle",
+        "description": "heicConverterDescription"
+      },
+      "tags": [
+        "converter",
+        "heic",
+        "heif",
+        "jpg",
+        "png",
+        "image"
+      ],
+      "keywords": [
+        "heic",
+        "heif",
+        "iphone photo",
+        "jpg",
+        "png",
+        "convert"
+      ],
+      "permissions": [
+        "activeTab"
+      ]
+    },
+    {
+      "id": "pdf-to-image-converter",
+      "name": "PDF to Image",
+      "category": "converters",
+      "module": "converters/pdfToImageConverter.js",
+      "order": 47,
+      "icon": "pdf-image",
+      "i18n": {
+        "label": "pdfToImage",
+        "title": "pdfToImageTitle",
+        "description": "pdfToImageDescription"
+      },
+      "tags": [
+        "converter",
+        "pdf",
+        "image",
+        "png",
+        "jpg"
+      ],
+      "keywords": [
+        "pdf to image",
+        "pdf page",
+        "png",
+        "jpeg",
+        "export"
+      ],
+      "permissions": [
+        "activeTab"
+      ]
+    },
+    {
+      "id": "image-to-pdf-converter",
+      "name": "Image to PDF",
+      "category": "converters",
+      "module": "converters/imageToPdfConverter.js",
+      "order": 48,
+      "icon": "image-pdf",
+      "i18n": {
+        "label": "imageToPdf",
+        "title": "imageToPdfTitle",
+        "description": "imageToPdfDescription"
+      },
+      "tags": [
+        "converter",
+        "image",
+        "pdf",
+        "jpg",
+        "png"
+      ],
+      "keywords": [
+        "image to pdf",
+        "jpg to pdf",
+        "png to pdf",
+        "merge images",
+        "photo pdf"
+      ],
+      "permissions": [
+        "activeTab"
+      ]
+    },
+    {
+      "id": "pdf-merge-split-converter",
+      "name": "PDF Merge/Split",
+      "category": "converters",
+      "module": "converters/pdfMergeSplitConverter.js",
+      "order": 49,
+      "icon": "pdf-merge",
+      "i18n": {
+        "label": "pdfMergeSplit",
+        "title": "pdfMergeSplitTitle",
+        "description": "pdfMergeSplitDescription"
+      },
+      "tags": [
+        "converter",
+        "pdf",
+        "merge",
+        "split",
+        "extract"
+      ],
+      "keywords": [
+        "pdf merge",
+        "pdf split",
+        "extract pages",
+        "combine pdf",
+        "pdf pages"
+      ],
+      "permissions": [
+        "activeTab"
+      ]
+    },
+    {
+      "id": "pdf-compress-converter",
+      "name": "PDF Compress",
+      "category": "converters",
+      "module": "converters/pdfCompressConverter.js",
+      "order": 50,
+      "icon": "pdf-compress",
+      "i18n": {
+        "label": "pdfCompress",
+        "title": "pdfCompressTitle",
+        "description": "pdfCompressDescription"
+      },
+      "tags": [
+        "converter",
+        "pdf",
+        "compress",
+        "optimize"
+      ],
+      "keywords": [
+        "pdf compress",
+        "reduce pdf size",
+        "smaller pdf",
+        "optimize pdf"
+      ],
+      "permissions": [
+        "activeTab"
+      ]
+    },
+    {
+      "id": "qr-text-converter",
+      "name": "QR Text Converter",
+      "category": "converters",
+      "module": "converters/qrTextConverter.js",
+      "order": 51,
+      "icon": "qr-convert",
+      "i18n": {
+        "label": "qrText",
+        "title": "qrTextTitle",
+        "description": "qrTextDescription"
+      },
+      "tags": [
+        "converter",
+        "qr",
+        "qrcode",
+        "decode",
+        "encode"
+      ],
+      "keywords": [
+        "qr to text",
+        "text to qr",
+        "qrcode decode",
+        "qrcode encode"
+      ],
+      "permissions": [
+        "activeTab"
+      ]
+    },
+    {
+      "id": "audio-format-converter",
+      "name": "Audio Format Converter",
+      "category": "converters",
+      "module": "converters/audioFormatConverter.js",
+      "order": 52,
+      "icon": "audio-convert",
+      "i18n": {
+        "label": "audioConverter",
+        "title": "audioConverterTitle",
+        "description": "audioConverterDescription"
+      },
+      "tags": [
+        "converter",
+        "audio",
+        "wav",
+        "ogg",
+        "webm"
+      ],
+      "keywords": [
+        "audio converter",
+        "wav converter",
+        "ogg converter",
+        "webm audio"
+      ],
+      "permissions": [
+        "activeTab"
+      ]
+    },
+    {
+      "id": "video-format-converter",
+      "name": "Video Format Converter",
+      "category": "converters",
+      "module": "converters/videoFormatConverter.js",
+      "order": 53,
+      "icon": "video-convert",
+      "i18n": {
+        "label": "videoConverter",
+        "title": "videoConverterTitle",
+        "description": "videoConverterDescription"
+      },
+      "tags": [
+        "converter",
+        "video",
+        "webm",
+        "mp4"
+      ],
+      "keywords": [
+        "video converter",
+        "webm converter",
+        "mp4 converter",
+        "re-encode video"
+      ],
+      "permissions": [
+        "activeTab"
+      ]
+    },
+    {
+      "id": "subtitle-converter",
+      "name": "Subtitle Converter",
+      "category": "converters",
+      "module": "converters/subtitleConverter.js",
+      "order": 54,
+      "icon": "subtitle-convert",
+      "i18n": {
+        "label": "subtitleConverter",
+        "title": "subtitleTitle",
+        "description": "subtitleDescription"
+      },
+      "tags": [
+        "converter",
+        "subtitle",
+        "srt",
+        "vtt"
+      ],
+      "keywords": [
+        "subtitle converter",
+        "srt to vtt",
+        "vtt to srt",
+        "caption convert"
+      ],
+      "permissions": [
+        "activeTab"
+      ]
+    },
+    {
+      "id": "roman-numeral-converter",
+      "name": "Roman Numeral Converter",
+      "category": "converters",
+      "module": "converters/romanNumeralConverter.js",
+      "order": 55,
+      "icon": "roman-convert",
+      "i18n": {
+        "label": "romanNumeralConverter",
+        "title": "romanNumeralConverterTitle",
+        "description": "romanNumeralConverterDescription"
+      },
+      "tags": [
+        "converter",
+        "roman",
+        "numeral",
+        "number"
+      ],
+      "keywords": [
+        "roman numeral",
+        "number to roman",
+        "roman to number",
+        "i v x l c d m"
+      ],
+      "permissions": [
+        "activeTab"
+      ]
+    },
+    {
+      "id": "json-previewer",
+      "name": "JSON Previewer",
+      "category": "previewers",
+      "module": "previewers/jsonPreviewer.js",
+      "order": 56,
+      "icon": "json-tree",
+      "i18n": {
+        "label": "jsonPreviewer",
+        "title": "jsonPreviewerTitle",
+        "description": "jsonPreviewerDescription"
+      },
+      "tags": [
+        "preview",
+        "json",
+        "tree",
+        "inspect"
+      ],
+      "keywords": [
+        "json",
+        "tree",
+        "collapse",
+        "copy path",
+        "copy value"
+      ],
+      "permissions": [
+        "activeTab"
+      ]
+    },
+    {
+      "id": "csv-tsv-previewer",
+      "name": "CSV/TSV Previewer",
+      "category": "previewers",
+      "module": "previewers/csvTsvPreviewer.js",
+      "order": 57,
+      "icon": "table-preview",
+      "i18n": {
+        "label": "csvTsvPreviewer",
+        "title": "csvTsvPreviewerTitle",
+        "description": "csvTsvPreviewerDescription"
+      },
+      "tags": [
+        "preview",
+        "csv",
+        "tsv",
+        "table"
+      ],
+      "keywords": [
+        "csv",
+        "tsv",
+        "delimiter",
+        "filter",
+        "sort"
+      ],
+      "permissions": [
+        "activeTab"
+      ]
+    },
+    {
+      "id": "markdown-previewer",
+      "name": "Markdown Previewer",
+      "category": "previewers",
+      "module": "previewers/markdownPreviewer.js",
+      "order": 58,
+      "icon": "markdown-preview",
+      "i18n": {
+        "label": "markdownPreviewer",
+        "title": "markdownPreviewerTitle",
+        "description": "markdownPreviewerDescription"
+      },
+      "tags": [
+        "preview",
+        "markdown",
+        "gfm",
+        "toc"
+      ],
+      "keywords": [
+        "markdown",
+        "preview",
+        "toc",
+        "code block",
+        "gfm"
+      ],
+      "permissions": [
+        "activeTab"
+      ]
+    },
+    {
+      "id": "xml-previewer",
+      "name": "XML Previewer",
+      "category": "previewers",
+      "module": "previewers/xmlPreviewer.js",
+      "order": 59,
+      "icon": "xml-tree",
+      "i18n": {
+        "label": "xmlPreviewer",
+        "title": "xmlPreviewerTitle",
+        "description": "xmlPreviewerDescription"
+      },
+      "tags": [
+        "preview",
+        "xml",
+        "tree",
+        "format"
+      ],
+      "keywords": [
+        "xml",
+        "tree",
+        "format",
+        "pretty",
+        "nodes"
+      ],
+      "permissions": [
+        "activeTab"
+      ]
+    },
+    {
+      "id": "pdf-preview-inspector",
+      "name": "PDF Preview Inspector",
+      "category": "previewers",
+      "module": "previewers/pdfPreviewInspector.js",
+      "order": 60,
+      "icon": "pdf-preview",
+      "i18n": {
+        "label": "pdfPreviewInspector",
+        "title": "pdfPreviewInspectorTitle",
+        "description": "pdfPreviewInspectorDescription"
+      },
+      "tags": [
+        "preview",
+        "pdf",
+        "metadata",
+        "pages"
+      ],
+      "keywords": [
+        "pdf",
+        "pages",
+        "thumbnail",
+        "metadata"
+      ],
+      "permissions": [
+        "activeTab"
+      ]
+    },
+    {
+      "id": "image-preview-inspector",
+      "name": "Image Preview Inspector",
+      "category": "previewers",
+      "module": "previewers/imagePreviewInspector.js",
+      "order": 61,
+      "icon": "image-inspector",
+      "i18n": {
+        "label": "imagePreviewInspector",
+        "title": "imagePreviewInspectorTitle",
+        "description": "imagePreviewInspectorDescription"
+      },
+      "tags": [
+        "preview",
+        "image",
+        "exif",
+        "metadata"
+      ],
+      "keywords": [
+        "image",
+        "exif",
+        "dimensions",
+        "icc",
+        "color profile"
+      ],
+      "permissions": [
+        "activeTab"
+      ]
+    },
+    {
+      "id": "opengraph-meta-previewer",
+      "name": "OpenGraph/Meta Previewer",
+      "category": "previewers",
+      "module": "previewers/openGraphMetaPreviewer.js",
+      "order": 62,
+      "icon": "social-preview",
+      "i18n": {
+        "label": "openGraphMetaPreviewer",
+        "title": "openGraphMetaPreviewerTitle",
+        "description": "openGraphMetaPreviewerDescription"
+      },
+      "tags": [
+        "preview",
+        "meta",
+        "opengraph",
+        "social"
+      ],
+      "keywords": [
+        "og:title",
+        "og:image",
+        "twitter card",
+        "meta"
+      ],
+      "permissions": [
+        "activeTab"
+      ]
+    },
+    {
+      "id": "schema-previewer",
+      "name": "Schema Previewer",
+      "category": "previewers",
+      "module": "previewers/schemaPreviewer.js",
+      "order": 63,
+      "icon": "schema-preview",
+      "i18n": {
+        "label": "schemaPreviewer",
+        "title": "schemaPreviewerTitle",
+        "description": "schemaPreviewerDescription"
+      },
+      "tags": [
+        "preview",
+        "schema",
+        "json schema",
+        "openapi"
+      ],
+      "keywords": [
+        "schema",
+        "json schema",
+        "openapi",
+        "properties",
+        "components"
+      ],
+      "permissions": [
+        "activeTab"
+      ]
+    },
+    {
+      "id": "link-previewer",
+      "name": "Link Previewer",
+      "category": "previewers",
+      "module": "previewers/linkPreviewer.js",
+      "order": 64,
+      "icon": "link-preview",
+      "i18n": {
+        "label": "linkPreviewer",
+        "title": "linkPreviewerTitle",
+        "description": "linkPreviewerDescription"
+      },
+      "tags": [
+        "preview",
+        "link",
+        "url",
+        "status"
+      ],
+      "keywords": [
+        "link",
+        "target",
+        "status",
+        "content-type",
+        "head"
+      ],
+      "permissions": [
+        "activeTab"
+      ]
+    },
+    {
+      "id": "jwt-claims-previewer",
+      "name": "JWT Claims Previewer",
+      "category": "previewers",
+      "module": "previewers/jwtClaimsPreviewer.js",
+      "order": 65,
+      "icon": "jwt-claims",
+      "i18n": {
+        "label": "jwtClaimsPreviewer",
+        "title": "jwtClaimsPreviewerTitle",
+        "description": "jwtClaimsPreviewerDescription"
+      },
+      "tags": [
+        "preview",
+        "jwt",
+        "claims",
+        "token"
+      ],
+      "keywords": [
+        "jwt",
+        "claims",
+        "exp",
+        "nbf",
+        "iat",
+        "decode"
+      ],
+      "permissions": [
+        "activeTab"
+      ]
+    },
+    {
+      "id": "zpl-viewer",
+      "name": "ZPL Viewer",
+      "category": "previewers",
+      "module": "previewers/zplViewer.js",
+      "order": 66,
+      "icon": "zpl-viewer",
+      "i18n": {
+        "label": "zplViewer",
+        "title": "zplViewerTitle",
+        "description": "zplViewerDescription"
+      },
+      "tags": [
+        "preview",
+        "zpl",
+        "label",
+        "barcode"
+      ],
+      "keywords": [
+        "zpl",
+        "labelary",
+        "label",
+        "pdf",
+        "download"
+      ],
+      "permissions": [
+        "activeTab",
+        "downloads"
+      ]
+    },
+    {
+      "id": "html-css-js-previewer",
+      "name": "HTML/CSS/JS Previewer",
+      "category": "previewers",
+      "module": "previewers/htmlCssJsPreviewer.js",
+      "order": 67,
+      "icon": "code-preview",
+      "i18n": {
+        "label": "htmlCssJsPreviewer",
+        "title": "htmlCssJsPreviewerTitle",
+        "description": "htmlCssJsPreviewerDescription"
+      },
+      "tags": [
+        "preview",
+        "html",
+        "css",
+        "js",
+        "playground"
+      ],
+      "keywords": [
+        "html",
+        "css",
+        "javascript",
+        "live preview",
+        "playground"
+      ],
+      "permissions": [
+        "activeTab"
+      ]
+    },
+    {
+      "id": "html-viewer",
+      "name": "HTML Viewer",
+      "category": "previewers",
+      "module": "previewers/htmlViewer.js",
+      "order": 68,
+      "icon": "html-viewer",
+      "i18n": {
+        "label": "htmlViewer",
+        "title": "htmlViewerTitle",
+        "description": "htmlViewerDescription"
+      },
+      "tags": [
+        "preview",
+        "html",
+        "sanitize",
+        "render"
+      ],
+      "keywords": [
+        "html",
+        "viewer",
+        "sanitize",
+        "url",
+        "file"
+      ],
+      "permissions": [
+        "activeTab"
+      ]
+    },
+    {
+      "id": "yaml-viewer",
+      "name": "YAML Viewer",
+      "category": "previewers",
+      "module": "previewers/yamlViewer.js",
+      "order": 69,
+      "icon": "yaml-viewer",
+      "i18n": {
+        "label": "yamlViewer",
+        "title": "yamlViewerTitle",
+        "description": "yamlViewerDescription"
+      },
+      "tags": [
+        "preview",
+        "yaml",
+        "tree",
+        "search"
+      ],
+      "keywords": [
+        "yaml",
+        "tree",
+        "fold",
+        "search"
+      ],
+      "permissions": [
+        "activeTab"
+      ]
+    },
+    {
+      "id": "toml-ini-viewer",
+      "name": "TOML/INI Viewer",
+      "category": "previewers",
+      "module": "previewers/tomlIniViewer.js",
+      "order": 70,
+      "icon": "toml-ini",
+      "i18n": {
+        "label": "tomlIniViewer",
+        "title": "tomlIniViewerTitle",
+        "description": "tomlIniViewerDescription"
+      },
+      "tags": [
+        "preview",
+        "toml",
+        "ini",
+        "config"
+      ],
+      "keywords": [
+        "toml",
+        "ini",
+        "section",
+        "key value"
+      ],
+      "permissions": [
+        "activeTab"
+      ]
+    },
+    {
+      "id": "jsonl-ndjson-viewer",
+      "name": "JSONL/NDJSON Viewer",
+      "category": "previewers",
+      "module": "previewers/jsonlViewer.js",
+      "order": 71,
+      "icon": "jsonl-viewer",
+      "i18n": {
+        "label": "jsonlViewer",
+        "title": "jsonlViewerTitle",
+        "description": "jsonlViewerDescription"
+      },
+      "tags": [
+        "preview",
+        "jsonl",
+        "ndjson",
+        "logs"
+      ],
+      "keywords": [
+        "jsonl",
+        "ndjson",
+        "logs",
+        "line json"
+      ],
+      "permissions": [
+        "activeTab"
+      ]
+    },
+    {
+      "id": "har-viewer",
+      "name": "HAR Viewer",
+      "category": "previewers",
+      "module": "previewers/harViewer.js",
+      "order": 72,
+      "icon": "har-viewer",
+      "i18n": {
+        "label": "harViewer",
+        "title": "harViewerTitle",
+        "description": "harViewerDescription"
+      },
+      "tags": [
+        "preview",
+        "har",
+        "network",
+        "http"
+      ],
+      "keywords": [
+        "har",
+        "network export",
+        "requests",
+        "waterfall"
+      ],
+      "permissions": [
+        "activeTab"
+      ]
+    },
+    {
+      "id": "diff-viewer",
+      "name": "Diff Viewer",
+      "category": "previewers",
+      "module": "previewers/diffViewer.js",
+      "order": 73,
+      "icon": "diff-viewer",
+      "i18n": {
+        "label": "diffViewer",
+        "title": "diffViewerTitle",
+        "description": "diffViewerDescription"
+      },
+      "tags": [
+        "preview",
+        "diff",
+        "json",
+        "xml",
+        "text"
+      ],
+      "keywords": [
+        "diff",
+        "compare",
+        "side by side",
+        "json diff",
+        "xml diff"
+      ],
+      "permissions": [
+        "activeTab"
+      ]
+    },
+    {
+      "id": "sql-result-previewer",
+      "name": "SQL Result Previewer",
+      "category": "previewers",
+      "module": "previewers/sqlResultPreviewer.js",
+      "order": 74,
+      "icon": "sql-result",
+      "i18n": {
+        "label": "sqlResultPreviewer",
+        "title": "sqlResultPreviewerTitle",
+        "description": "sqlResultPreviewerDescription"
+      },
+      "tags": [
+        "preview",
+        "sql",
+        "table",
+        "csv",
+        "json"
+      ],
+      "keywords": [
+        "sql result",
+        "csv",
+        "tsv",
+        "json table"
+      ],
+      "permissions": [
+        "activeTab"
+      ]
+    },
+    {
+      "id": "accessibility-quick-audit",
+      "name": "Accessibility Quick Audit",
+      "category": "inspect",
+      "module": "inspect/accessibilityQuickAudit.js",
+      "order": 75,
+      "icon": "a11y-audit",
+      "i18n": {
+        "label": "accessibilityQuickAudit",
+        "title": "accessibilityQuickAuditTitle",
+        "description": "accessibilityQuickAuditDescription"
+      },
+      "tags": [
+        "inspect",
+        "a11y",
+        "accessibility",
+        "audit"
+      ],
+      "keywords": [
+        "accessibility audit",
+        "a11y",
+        "alt text",
+        "labels",
+        "wcag"
+      ],
+      "permissions": [
+        "activeTab"
+      ]
+    },
+    {
+      "id": "core-web-vitals-analyzer",
+      "name": "Core Web Vitals Analyzer",
+      "category": "inspect",
+      "module": "inspect/coreWebVitalsAnalyzer.js",
+      "order": 76,
+      "icon": "web-vitals",
+      "i18n": {
+        "label": "coreWebVitalsAnalyzer",
+        "title": "coreWebVitalsAnalyzerTitle",
+        "description": "coreWebVitalsAnalyzerDescription"
+      },
+      "tags": [
+        "inspect",
+        "performance",
+        "web vitals"
+      ],
+      "keywords": [
+        "lcp",
+        "cls",
+        "inp",
+        "fid",
+        "core web vitals"
+      ],
+      "permissions": [
+        "activeTab"
+      ]
+    },
+    {
+      "id": "security-headers-checker",
+      "name": "Security Headers Checker",
+      "category": "inspect",
+      "module": "inspect/securityHeadersChecker.js",
+      "order": 77,
+      "icon": "security-headers",
+      "i18n": {
+        "label": "securityHeadersChecker",
+        "title": "securityHeadersCheckerTitle",
+        "description": "securityHeadersCheckerDescription"
+      },
+      "tags": [
+        "inspect",
+        "security",
+        "headers"
+      ],
+      "keywords": [
+        "csp",
+        "hsts",
+        "security headers",
+        "permissions policy"
+      ],
+      "permissions": [
+        "activeTab"
+      ]
+    },
+    {
+      "id": "structured-data-validator",
+      "name": "Structured Data Validator",
+      "category": "previewers",
+      "module": "previewers/structuredDataValidator.js",
+      "order": 78,
+      "icon": "structured-data",
+      "i18n": {
+        "label": "structuredDataValidator",
+        "title": "structuredDataValidatorTitle",
+        "description": "structuredDataValidatorDescription"
+      },
+      "tags": [
+        "preview",
+        "schema",
+        "json-ld",
+        "microdata"
+      ],
+      "keywords": [
+        "structured data",
+        "json-ld",
+        "schema.org",
+        "microdata",
+        "rdfa"
+      ],
+      "permissions": [
+        "activeTab"
+      ]
+    },
+    {
+      "id": "social-preview-pro",
+      "name": "Social Preview Pro",
+      "category": "previewers",
+      "module": "previewers/socialPreviewPro.js",
+      "order": 79,
+      "icon": "social-preview-pro",
+      "i18n": {
+        "label": "socialPreviewPro",
+        "title": "socialPreviewProTitle",
+        "description": "socialPreviewProDescription"
+      },
+      "tags": [
+        "preview",
+        "social",
+        "open graph",
+        "twitter"
+      ],
+      "keywords": [
+        "social preview",
+        "open graph",
+        "twitter card",
+        "meta tags"
+      ],
+      "permissions": [
+        "activeTab"
+      ]
+    },
+    {
+      "id": "robots-sitemap-inspector",
+      "name": "Robots/Sitemap Inspector",
+      "category": "utilities",
+      "module": "utilities/robotsSitemapInspector.js",
+      "order": 80,
+      "icon": "robots-sitemap",
+      "i18n": {
+        "label": "robotsSitemapInspector",
+        "title": "robotsSitemapInspectorTitle",
+        "description": "robotsSitemapInspectorDescription"
+      },
+      "tags": [
+        "utilities",
+        "seo",
+        "robots",
+        "sitemap"
+      ],
+      "keywords": [
+        "robots.txt",
+        "sitemap.xml",
+        "indexability",
+        "crawl rules"
+      ],
+      "permissions": [
+        "activeTab"
+      ]
+    },
+    {
+      "id": "har-diff-analyzer",
+      "name": "HAR Diff Analyzer",
+      "category": "previewers",
+      "module": "previewers/harDiffAnalyzer.js",
+      "order": 81,
+      "icon": "har-diff",
+      "i18n": {
+        "label": "harDiffAnalyzer",
+        "title": "harDiffAnalyzerTitle",
+        "description": "harDiffAnalyzerDescription"
+      },
+      "tags": [
+        "preview",
+        "har",
+        "network",
+        "diff"
+      ],
+      "keywords": [
+        "har diff",
+        "network compare",
+        "request delta",
+        "latency"
+      ],
+      "permissions": [
+        "activeTab"
+      ]
+    },
+    {
+      "id": "cookie-storage-auditor",
+      "name": "Cookie & Storage Auditor",
+      "category": "utilities",
+      "module": "utilities/cookieStorageAuditor.js",
+      "order": 82,
+      "icon": "cookie-auditor",
+      "i18n": {
+        "label": "cookieStorageAuditor",
+        "title": "cookieStorageAuditorTitle",
+        "description": "cookieStorageAuditorDescription"
+      },
+      "tags": [
+        "utilities",
+        "privacy",
+        "cookie",
+        "storage"
+      ],
+      "keywords": [
+        "cookies",
+        "localstorage",
+        "sessionstorage",
+        "privacy"
+      ],
+      "permissions": [
+        "activeTab"
+      ]
+    },
+    {
+      "id": "macro-recorder",
+      "name": "Macro Recorder",
+      "category": "utilities",
+      "module": "utilities/macroRecorder.js",
+      "order": 83,
+      "icon": "macro-recorder",
+      "i18n": {
+        "label": "macroRecorder",
+        "title": "macroRecorderTitle",
+        "description": "macroRecorderDescription"
+      },
+      "tags": [
+        "utilities",
+        "automation",
+        "macro",
+        "playback"
+      ],
+      "keywords": [
+        "macro recorder",
+        "record clicks",
+        "automation",
+        "workflow replay"
+      ],
+      "permissions": [
+        "activeTab",
+        "storage"
+      ]
+    }
+  ]
+}

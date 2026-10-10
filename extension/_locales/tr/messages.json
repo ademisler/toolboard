@@ -1,0 +1,5513 @@
+{
+  "extensionName": {
+    "message": "Toolboard – Web Verimlilik Araçları"
+  },
+  "extensionShortName": {
+    "message": "Toolboard"
+  },
+  "extensionDescription": {
+    "message": "AI destekli özellikler, dönüştürücüler ve akıllı favori sistemi ile 83 web verimlilik aracı içeren kapsamlı Chrome eklentisi"
+  },
+  "buyMeACoffee": {
+    "message": "Kahve Ismarla"
+  },
+  "color": {
+    "message": "Renk"
+  },
+  "element": {
+    "message": "Öğe"
+  },
+  "link": {
+    "message": "Bağlantı"
+  },
+  "font": {
+    "message": "Font Bul"
+  },
+  "media": {
+    "message": "Medya İndir"
+  },
+  "text": {
+    "message": "Metin"
+  },
+  "close": {
+    "message": "Kapat"
+  },
+  "copy": {
+    "message": "Kopyala"
+  },
+  "colorPicker": {
+    "message": "Renk Seçici"
+  },
+  "elementPicker": {
+    "message": "Öğe Seçici"
+  },
+  "linkPicker": {
+    "message": "Bağlantı Seçici"
+  },
+  "fontPicker": {
+    "message": "Font Bul"
+  },
+  "mediaPicker": {
+    "message": "Medya İndir"
+  },
+  "textPicker": {
+    "message": "Metin Seçici"
+  },
+  "screenshot": {
+    "message": "Ekran Görüntüsü"
+  },
+  "notes": {
+    "message": "Notlar"
+  },
+  "info": {
+    "message": "Bilgi"
+  },
+  "screenshotPicker": {
+    "message": "Ekran Görüntüsü Alıcı"
+  },
+  "stickyNotesPicker": {
+    "message": "Yapışkan Notlar"
+  },
+  "siteInfoPicker": {
+    "message": "Site Bilgi Analizi"
+  },
+  "colorCopied": {
+    "message": "Renk kopyalandı"
+  },
+  "colorCopiedToClipboard": {
+    "message": "Renk $1 panoya kopyalandı!"
+  },
+  "elementInfo": {
+    "message": "Öğe Bilgisi"
+  },
+  "textTitle": {
+    "message": "Metin"
+  },
+  "themeAuto": {
+    "message": "Otomatik"
+  },
+  "themeLight": {
+    "message": "Aydınlık"
+  },
+  "themeDark": {
+    "message": "Karanlık"
+  },
+  "eyeDropperNotSupported": {
+    "message": "Bu tarayıcıda EyeDropper API desteklenmiyor. Lütfen Chrome 95+ kullanın veya farklı bir araç deneyin."
+  },
+  "clickToPickColor": {
+    "message": "Renk seçmek için herhangi bir yere tıklayın..."
+  },
+  "colorPickingCancelled": {
+    "message": "Renk seçimi iptal edildi"
+  },
+  "failedToProcessColor": {
+    "message": "Renk işlenemedi. Lütfen tekrar deneyin."
+  },
+  "failedToActivateColorPicker": {
+    "message": "Renk seçici etkinleştirilemedi. Lütfen tekrar deneyin."
+  },
+  "failedToExtractElementInfo": {
+    "message": "Element bilgileri çıkarılamadı. Lütfen tekrar deneyin."
+  },
+  "hoverToInspectElements": {
+    "message": "Elementleri incelemek için üzerine gelin • Seçmek için tıklayın • Gezinmek için ok tuşlarını kullanın"
+  },
+  "failedToActivateElementPicker": {
+    "message": "Element seçici etkinleştirilemedi. Lütfen tekrar deneyin."
+  },
+  "screenshotDownloadFailed": {
+    "message": "Ekran görüntüsü alındı ancak indirme başarısız."
+  },
+  "screenshotCaptureInProgress": {
+    "message": "Ekran görüntüsü alma işlemi devam ediyor. Lütfen bekleyin…"
+  },
+  "failedToCaptureScreenshot": {
+    "message": "Ekran görüntüsü alınamadı."
+  },
+  "screenshotFailedVisibleTab": {
+    "message": "Görünür sekme yakalanamadı."
+  },
+  "screenshotFailedLoadImage": {
+    "message": "Yakalanan görüntü yüklenemedi."
+  },
+  "screenshotFailedCanvasContext": {
+    "message": "Canvas çizim bağlamı kullanılamıyor."
+  },
+  "screenshotNoCaptureData": {
+    "message": "Birleştirilecek ekran görüntüsü verisi yok."
+  },
+  "screenshotUnableDimensions": {
+    "message": "Sayfa boyutları belirlenemedi."
+  },
+  "screenshotPageTooTall": {
+    "message": "Sayfa tamamen yakalanamayacak kadar uzun."
+  },
+  "screenshotCaptureCancelled": {
+    "message": "Ekran görüntüsü alma işlemi iptal edildi."
+  },
+  "screenshotReadyForCopy": {
+    "message": "Ekran görüntüsü indirildi. İstersen panoya da kopyalayabilirsin."
+  },
+  "screenshotDownloadedAndCopied": {
+    "message": "Ekran görüntüsü indirildi ve panoya kopyalandı."
+  },
+  "screenshotCopyButton": {
+    "message": "Görseli Kopyala"
+  },
+  "screenshotCopyAgainButton": {
+    "message": "Tekrar Kopyala"
+  },
+  "screenshotCopyHint": {
+    "message": "Sohbet veya dokümana hızlı yapıştırmak için kopyalama kullanışlıdır."
+  },
+  "screenshotAutoCopyFailed": {
+    "message": "Otomatik kopyalama başarısız oldu. Butonla tekrar deneyebilirsin."
+  },
+  "screenshotPreparingCapture": {
+    "message": "Temiz ekran görüntüsü hazırlanıyor..."
+  },
+  "screenshotCaptureProgress": {
+    "message": "Sayfa görüntüleniyor..."
+  },
+  "screenshotCopying": {
+    "message": "Görsel panoya kopyalanıyor..."
+  },
+  "screenshotCopiedToClipboard": {
+    "message": "Ekran görüntüsü panoya kopyalandı."
+  },
+  "screenshotCopyFailed": {
+    "message": "Ekran görüntüsü panoya kopyalanamadı."
+  },
+  "screenshotCopyUnavailable": {
+    "message": "Bu tarayıcıda görseli panoya kopyalama desteklenmiyor."
+  },
+  "textCopiedToClipboard": {
+    "message": "Metin panoya kopyalandı"
+  },
+  "failedToAnalyzeText": {
+    "message": "Metin analiz edilemedi. Lütfen tekrar deneyin."
+  },
+  "hoverToAnalyzeText": {
+    "message": "Metin elementlerini analiz etmek için üzerine gelin • Seçmek için tıklayın • Seçmek için Enter • İptal için Esc"
+  },
+  "failedToActivateTextPicker": {
+    "message": "Metin seçici etkinleştirilemedi. Lütfen tekrar deneyin."
+  },
+  "dragToSelectLinks": {
+    "message": "Linkleri seçmek için sürükleyin • Çıkarmak için bırakın • Tüm linkler için Ctrl/Cmd+A • İptal için Esc"
+  },
+  "failedToStartLinkSelection": {
+    "message": "Link seçimi başlatılamadı. Lütfen tekrar deneyin."
+  },
+  "failedToExtractLinks": {
+    "message": "Linkler çıkarılamadı. Lütfen tekrar deneyin."
+  },
+  "failedToActivateLinkPicker": {
+    "message": "Link seçici etkinleştirilemedi. Lütfen tekrar deneyin."
+  },
+  "fontInfoCopiedToClipboard": {
+    "message": "Font bilgisi panoya kopyalandı!"
+  },
+  "failedToExtractFontInfo": {
+    "message": "Font bilgileri çıkarılamadı. Lütfen tekrar deneyin."
+  },
+  "hoverToInspectFonts": {
+    "message": "Fontları incelemek için metin elementlerinin üzerine gelin • Seçmek için tıklayın • Seçmek için Enter • İptal için Esc"
+  },
+  "failedToActivateFontPicker": {
+    "message": "Font seçici etkinleştirilemedi. Lütfen tekrar deneyin."
+  },
+  "alternateMediaUrlCopied": {
+    "message": "Alternatif medya URL'si kopyalandı."
+  },
+  "mediaUrlCopiedToClipboard": {
+    "message": "Medya URL'si panoya kopyalandı!"
+  },
+  "failedToShowMediaDetails": {
+    "message": "Medya detayları gösterilemedi."
+  },
+  "mediaUrlUnavailable": {
+    "message": "Medya URL'si mevcut değil."
+  },
+  "blobUrlCannotDownload": {
+    "message": "Bu medya blob URL kullanıyor ve doğrudan indirilemez."
+  },
+  "failedToDownloadMedia": {
+    "message": "Medya indirilemedi."
+  },
+  "downloadStarted": {
+    "message": "İndirme başlatıldı."
+  },
+  "blobUrlUsingAlternateSource": {
+    "message": "Akış blob URL kullanıyor — kopyalama ve indirme için alternatif kaynak kullanılıyor."
+  },
+  "mediaDetailsAvailable": {
+    "message": "Medya detayları mevcut. İndirme seçenekleri için modalı inceleyin."
+  },
+  "failedToInspectMedia": {
+    "message": "Medya incelenemedi."
+  },
+  "hoverToInspectMedia": {
+    "message": "Resim veya videoları incelemek için üzerine gelin • İncelemek için tıklayın • Seçmek için Enter • İptal için Esc"
+  },
+  "failedToActivateMediaPicker": {
+    "message": "Medya seçici etkinleştirilemedi."
+  },
+  "analyzingWebsite": {
+    "message": "Web sitesi analiz ediliyor..."
+  },
+  "siteAnalysisCompleted": {
+    "message": "Site analizi tamamlandı!"
+  },
+  "failedToGenerateSiteReport": {
+    "message": "Site raporu oluşturulamadı. Lütfen tekrar deneyin."
+  },
+  "failedToActivateSiteInfoTool": {
+    "message": "Site bilgi aracı etkinleştirilemedi. Lütfen tekrar deneyin."
+  },
+  "siteAnalysisCompletedInfo": {
+    "message": "Site analizi tamamlandı"
+  },
+  "noExistingNotesFound": {
+    "message": "Bu sayfa için mevcut not bulunamadı. Sayfaya tıklayarak yeni notlar oluşturabilirsiniz."
+  },
+  "failedToLoadExistingNotes": {
+    "message": "Mevcut notlar yüklenemedi. Lütfen tekrar deneyin."
+  },
+  "failedToActivateStickyNotes": {
+    "message": "Yapışkan notlar etkinleştirilemedi. Lütfen tekrar deneyin."
+  },
+  "failedToCreateStickyNote": {
+    "message": "Yapışkan not oluşturulamadı. Lütfen tekrar deneyin."
+  },
+  "allStickyNotesRemoved": {
+    "message": "Tüm yapışkan notlar kaldırıldı"
+  },
+  "failedToClearNotes": {
+    "message": "Notlar temizlenemedi. Lütfen tekrar deneyin."
+  },
+  "notesSavedSuccessfully": {
+    "message": "Notlar başarıyla kaydedildi!"
+  },
+  "failedToSaveNotes": {
+    "message": "Notlar kaydedilemedi"
+  },
+  "notesExportedSuccessfully": {
+    "message": "Notlar başarıyla dışa aktarıldı!"
+  },
+  "failedToExportNotes": {
+    "message": "Notlar dışa aktarılamadı"
+  },
+  "notesImportedSuccessfully": {
+    "message": "Notlar başarıyla içe aktarıldı!"
+  },
+  "invalidNotesFileFormat": {
+    "message": "Geçersiz not dosyası formatı"
+  },
+  "failedToParseNotesFile": {
+    "message": "Not dosyası ayrıştırılamadı"
+  },
+  "failedToProcessSelectedFile": {
+    "message": "Seçilen dosya işlenemedi"
+  },
+  "failedToImportNotes": {
+    "message": "Notlar içe aktarılamadı"
+  },
+  "noteDeletedSuccessfully": {
+    "message": "Not başarıyla silindi"
+  },
+  "failedToDeleteNote": {
+    "message": "Not silinemedi"
+  },
+  "failedToFocusNote": {
+    "message": "Not odaklanamadı"
+  },
+  "noNotesToDeleteForSite": {
+    "message": "Bu site için silinecek not yok."
+  },
+  "failedToDeleteAllNotes": {
+    "message": "Tüm notlar silinemedi. Lütfen tekrar deneyin."
+  },
+  "noteDeletedSuccessfullyExclamation": {
+    "message": "Not başarıyla silindi!"
+  },
+  "failedToDeleteNoteExclamation": {
+    "message": "Not silinemedi. Lütfen tekrar deneyin."
+  },
+  "cssCopiedToClipboard": {
+    "message": "CSS panoya kopyalandı!"
+  },
+  "jsonCopiedToClipboard": {
+    "message": "JSON panoya kopyalandı!"
+  },
+  "analyzingPageColors": {
+    "message": "Sayfa renkleri analiz ediliyor..."
+  },
+  "noColorsFoundOnPage": {
+    "message": "Bu sayfada renk bulunamadı. Daha fazla görsel içerik olan bir sayfa deneyin."
+  },
+  "colorAnalysisCompleted": {
+    "message": "Renk analizi tamamlandı!"
+  },
+  "failedToAnalyzePageColors": {
+    "message": "Sayfa renkleri analiz edilemedi. Lütfen tekrar deneyin."
+  },
+  "failedToGenerateQRCode": {
+    "message": "QR kod oluşturulamadı"
+  },
+  "failedToActivateQRCodeGenerator": {
+    "message": "QR kod oluşturucu etkinleştirilemedi"
+  },
+  "failedToLoadBookmarks": {
+    "message": "Yer imleri yüklenemedi"
+  },
+  "failedToSaveBookmarks": {
+    "message": "Yer imleri kaydedilemedi"
+  },
+  "urlAlreadyBookmarked": {
+    "message": "Bu URL zaten yer imlerinde"
+  },
+  "videoRecorderWindowClosed": {
+    "message": "Video kaydedici penceresi kapatıldı."
+  },
+  "recordingControlsNotReachable": {
+    "message": "Kayıt kontrolleri erişilebilir değil. Lütfen tekrar deneyin."
+  },
+  "recordingStarted": {
+    "message": "Kayıt başlatıldı. Kayıt sırasında kontrol penceresini açık tutun."
+  },
+  "recordingAlreadyInProgress": {
+    "message": "Kayıt zaten devam ediyor."
+  },
+  "recordingSavedDownloadStarted": {
+    "message": "Kayıt kaydedildi. İndirme başlatıldı."
+  },
+  "videoRecorderError": {
+    "message": "Video kaydedici bir hata ile karşılaştı."
+  },
+  "videoRecorderNotSupported": {
+    "message": "Video kaydedici bu bağlamda desteklenmiyor."
+  },
+  "videoRecorderWindowAlreadyOpen": {
+    "message": "Video kaydedici penceresi zaten açık."
+  },
+  "popupBlockedAllowPopups": {
+    "message": "Popup engellendi. Video kaydediciyi kullanmak için Toolboard için popup'lara izin verin."
+  },
+  "recordingControlsOpened": {
+    "message": "Kayıt kontrolleri yeni bir pencerede açıldı. Kayıt sırasında açık tutun."
+  },
+  "failedToOpenVideoRecorder": {
+    "message": "Video kaydedici açılamadı."
+  },
+  "noReadableContentFound": {
+    "message": "Bu sayfada okunabilir içerik bulunamadı"
+  },
+  "unableToCleanContent": {
+    "message": "Okuma için içerik temizlenemedi"
+  },
+  "readingModeActivated": {
+    "message": "Okuma Modu etkinleştirildi"
+  },
+  "failedToActivateReadingMode": {
+    "message": "Okuma Modu etkinleştirilemedi"
+  },
+  "exitReadingMode": {
+    "message": "Okuma Modundan Çık"
+  },
+  "decreaseFontSize": {
+    "message": "Font boyutunu küçült"
+  },
+  "increaseFontSize": {
+    "message": "Font boyutunu büyüt"
+  },
+  "toggleTheme": {
+    "message": "Açık, karanlık veya sistem tercihlerini takip etme arasında geçiş yapın."
+  },
+  "showToolbar": {
+    "message": "Araç çubuğunu göster"
+  },
+  "hideToolbar": {
+    "message": "Araç çubuğunu gizle"
+  },
+  "bookmarkAddedSuccessfully": {
+    "message": "Yer imi başarıyla eklendi!"
+  },
+  "failedToAddBookmark": {
+    "message": "Yer imi eklenemedi"
+  },
+  "bookmarkNotFound": {
+    "message": "Yer imi bulunamadı"
+  },
+  "bookmarkUpdated": {
+    "message": "Yer imi güncellendi!"
+  },
+  "failedToUpdateBookmark": {
+    "message": "Yer imi güncellenemedi"
+  },
+  "bookmarkDeleted": {
+    "message": "Yer imi silindi!"
+  },
+  "failedToDeleteBookmark": {
+    "message": "Yer imi silinemedi"
+  },
+  "failedToUpdateFavoriteStatus": {
+    "message": "Favori durumu güncellenemedi"
+  },
+  "bookmarksExportedSuccessfully": {
+    "message": "Yer imleri başarıyla dışa aktarıldı!"
+  },
+  "failedToExportBookmarks": {
+    "message": "Yer imleri dışa aktarılamadı"
+  },
+  "failedToImportBookmarks": {
+    "message": "Yer imleri içe aktarılamadı. Lütfen dosya formatını kontrol edin."
+  },
+  "failedToOpenAddBookmarkDialog": {
+    "message": "Yer imi ekleme dialogu açılamadı"
+  },
+  "bookmarkManagerActivated": {
+    "message": "Yer İmi Yöneticisi etkinleştirildi. Yer imlerinizi yönetmek için yer imi simgesine tıklayın!"
+  },
+  "failedToActivateBookmarkManager": {
+    "message": "Yer İmi Yöneticisi etkinleştirilemedi"
+  },
+  "qrCodeGenerated": {
+    "message": "QR kod oluşturuldu"
+  },
+  "noQrCodeAvailableToDownload": {
+    "message": "İndirilecek QR kod mevcut değil"
+  },
+  "qrCodeDownloaded": {
+    "message": "QR kod indirildi"
+  },
+  "failedToDownloadQrCode": {
+    "message": "QR kod indirilemedi"
+  },
+  "nothingToCopy": {
+    "message": "Kopyalanacak bir şey yok"
+  },
+  "failedToCopyText": {
+    "message": "Metin kopyalanamadı"
+  },
+  "failedToLoadQrCodeLibrary": {
+    "message": "QR kod kütüphanesi yüklenemedi"
+  },
+  "pdfGeneratedAndDownloadedSuccessfully": {
+    "message": "PDF başarıyla oluşturuldu ve indirildi!"
+  },
+  "highlightRemoved": {
+    "message": "Vurgu kaldırıldı"
+  },
+  "failedToRemoveHighlight": {
+    "message": "Vurgu kaldırılamadı"
+  },
+  "failedToHighlightText": {
+    "message": "Metin vurgulanamadı"
+  },
+  "noValidLinksDetected": {
+    "message": "Geçerli bağlantı tespit edilmedi."
+  },
+  "noTextContentFoundInElement": {
+    "message": "Bu öğede metin içeriği bulunamadı."
+  },
+  "allTools": {
+    "message": "Tüm Araçlar"
+  },
+  "developer": {
+    "message": "Geliştirici"
+  },
+  "developerTitle": {
+    "message": "Geliştirici"
+  },
+  "developerDescription": {
+    "message": "Adem İşler tarafından geliştirildi. Daha fazla proje görmek ve iletişime geçmek için web sitemi ziyaret edin."
+  },
+  "visitWebsite": {
+    "message": "Web Sitesini Ziyaret Et"
+  },
+  "active": {
+    "message": "Aktif"
+  },
+  "error": {
+    "message": "Hata"
+  },
+  "rateLimited": {
+    "message": "Hız Sınırı"
+  },
+  "unknown": {
+    "message": "Bilinmiyor"
+  },
+  "apiKeyPlaceholder": {
+    "message": "API anahtarı girin"
+  },
+  "hideApiKey": {
+    "message": "API anahtarını gizle"
+  },
+  "showApiKey": {
+    "message": "API anahtarını göster"
+  },
+  "testApiKey": {
+    "message": "API anahtarını test et"
+  },
+  "saveApiKey": {
+    "message": "API anahtarını kaydet"
+  },
+  "removeApiKeyTooltip": {
+    "message": "API anahtarını kaldır"
+  },
+  "apiKeySaved": {
+    "message": "API anahtarı kaydedildi"
+  },
+  "apiKeyValid": {
+    "message": "API anahtarı geçerli!"
+  },
+  "apiKeyTestFailed": {
+    "message": "API anahtarı testi başarısız"
+  },
+  "testing": {
+    "message": "Test ediliyor..."
+  },
+  "enterApiKeyFirst": {
+    "message": "Lütfen önce bir API anahtarı girin"
+  },
+  "unknownError": {
+    "message": "Bilinmeyen hata"
+  },
+  "copyFailed": {
+    "message": "Kopyalama başarısız. Lütfen manuel olarak deneyin."
+  },
+  "failedToUpdateFavorites": {
+    "message": "Favoriler güncellenemedi"
+  },
+  "copiedToClipboard": {
+    "message": "Panoya kopyalandı!"
+  },
+  "settingsUpdated": {
+    "message": "Ayarlar güncellendi"
+  },
+  "colorPickerDescription": {
+    "message": "Elementlere tıklayarak renk alın"
+  },
+  "elementPickerDescription": {
+    "message": "HTML ve CSS yapısını inceleyin"
+  },
+  "linkPickerDescription": {
+    "message": "Sayfadaki linkleri bulun"
+  },
+  "fontPickerDescription": {
+    "message": "Fontları aile ve boyut detaylarıyla tanımlayın"
+  },
+  "mediaPickerDescription": {
+    "message": "Resim ve medya dosyalarını indirin"
+  },
+  "textPickerDescription": {
+    "message": "Metin içeriğini seçin ve kopyalayın"
+  },
+  "screenshotPickerDescription": {
+    "message": "Tam sayfa ekran görüntüleri alın"
+  },
+  "stickyNotesPickerDescription": {
+    "message": "Web sayfalarına yapışkan notlar ekleyin"
+  },
+  "siteInfoPickerDescription": {
+    "message": "Web sitesi teknoloji verilerini analiz edin"
+  },
+  "settings": {
+    "message": "Ayarlar"
+  },
+  "settingsSections": {
+    "message": "Ayar bölümleri"
+  },
+  "preferences": {
+    "message": "Tercihler"
+  },
+  "tools": {
+    "message": "Araçlar"
+  },
+  "about": {
+    "message": "Hakkında"
+  },
+  "language": {
+    "message": "Türkçe"
+  },
+  "theme": {
+    "message": "Tema"
+  },
+  "interface": {
+    "message": "Arayüz"
+  },
+  "visibility": {
+    "message": "Görünürlük"
+  },
+  "hideTools": {
+    "message": "Araçları başlatıcı ızgarasından gizleyin, ancak aranabilir tutun."
+  },
+  "tunePopup": {
+    "message": "Popup'ı çalışma şeklinize uyacak şekilde ayarlayın."
+  },
+  "switchLanguage": {
+    "message": "Popup dilini anında değiştirin."
+  },
+  "reset": {
+    "message": "Sıfırla"
+  },
+  "save": {
+    "message": "Kaydet"
+  },
+  "english": {
+    "message": "English"
+  },
+  "turkish": {
+    "message": "Türkçe"
+  },
+  "french": {
+    "message": "Français"
+  },
+  "aboutToolboard": {
+    "message": "Toolboard Hakkında"
+  },
+  "infoTitle": {
+    "message": "83 Verimlilik Aracı"
+  },
+  "infoDescription": {
+    "message": "Güçlü araçlarla herhangi bir web sayfasını inceleyin, yakalayın, geliştirin ve analiz edin. Renk seçiminden AI destekli içerik analizine kadar."
+  },
+  "keyboardShortcuts": {
+    "message": "Klavye Kısayolları"
+  },
+  "colorPalette": {
+    "message": "Renk Paleti"
+  },
+  "colorPaletteGenerator": {
+    "message": "Renk Paleti Oluşturucu"
+  },
+  "colorPaletteGeneratorDescription": {
+    "message": "Sayfa renklerini çıkar ve uyumlu paletler oluştur"
+  },
+  "inspect": {
+    "message": "İncele"
+  },
+  "capture": {
+    "message": "Yakala"
+  },
+  "enhance": {
+    "message": "Geliştir"
+  },
+  "utilities": {
+    "message": "Araçlar"
+  },
+  "converters": {
+    "message": "Dönüştürücüler"
+  },
+  "unitConverter": {
+    "message": "Birim Dönüştürücü"
+  },
+  "unitConverterTitle": {
+    "message": "Birim Dönüştürücü"
+  },
+  "unitConverterDescription": {
+    "message": "Yaygın ölçü birimleri arasında hızlıca dönüşüm yapın"
+  },
+  "unitConverterCategory": {
+    "message": "Kategori"
+  },
+  "unitConverterValue": {
+    "message": "Değer"
+  },
+  "unitConverterInputPlaceholder": {
+    "message": "0"
+  },
+  "unitConverterFrom": {
+    "message": "Kaynak"
+  },
+  "unitConverterTo": {
+    "message": "Hedef"
+  },
+  "unitConverterSwap": {
+    "message": "Değiştir"
+  },
+  "unitConverterResult": {
+    "message": "Sonuç"
+  },
+  "unitConverterCopyResult": {
+    "message": "Sonucu Kopyala"
+  },
+  "unitConverterInvalidNumber": {
+    "message": "Geçerli bir sayı girin."
+  },
+  "unitConverterCopied": {
+    "message": "Sonuç kopyalandı."
+  },
+  "unitConverterConversionFailed": {
+    "message": "Dönüştürme başarısız."
+  },
+  "unitConverterGroupLength": {
+    "message": "Uzunluk"
+  },
+  "unitConverterGroupMass": {
+    "message": "Kütle"
+  },
+  "unitConverterGroupTemperature": {
+    "message": "Sıcaklık"
+  },
+  "unitConverterGroupSpeed": {
+    "message": "Hız"
+  },
+  "unitConverterGroupVolume": {
+    "message": "Hacim"
+  },
+  "unitConverterGroupArea": {
+    "message": "Alan"
+  },
+  "unitConverterGroupData": {
+    "message": "Veri"
+  },
+  "unitConverterUnitMillimeter": {
+    "message": "Milimetre (mm)"
+  },
+  "unitConverterUnitCentimeter": {
+    "message": "Santimetre (cm)"
+  },
+  "unitConverterUnitMeter": {
+    "message": "Metre (m)"
+  },
+  "unitConverterUnitKilometer": {
+    "message": "Kilometre (km)"
+  },
+  "unitConverterUnitInch": {
+    "message": "İnç (in)"
+  },
+  "unitConverterUnitFoot": {
+    "message": "Fit (ft)"
+  },
+  "unitConverterUnitYard": {
+    "message": "Yarda (yd)"
+  },
+  "unitConverterUnitMile": {
+    "message": "Mil (mi)"
+  },
+  "unitConverterUnitMilligram": {
+    "message": "Miligram (mg)"
+  },
+  "unitConverterUnitGram": {
+    "message": "Gram (g)"
+  },
+  "unitConverterUnitKilogram": {
+    "message": "Kilogram (kg)"
+  },
+  "unitConverterUnitTon": {
+    "message": "Ton (t)"
+  },
+  "unitConverterUnitOunce": {
+    "message": "Ons (oz)"
+  },
+  "unitConverterUnitPound": {
+    "message": "Pound (lb)"
+  },
+  "unitConverterUnitCelsius": {
+    "message": "Santigrat (°C)"
+  },
+  "unitConverterUnitFahrenheit": {
+    "message": "Fahrenheit (°F)"
+  },
+  "unitConverterUnitKelvin": {
+    "message": "Kelvin (K)"
+  },
+  "unitConverterUnitMeterPerSecond": {
+    "message": "Metre/saniye (m/s)"
+  },
+  "unitConverterUnitKilometerPerHour": {
+    "message": "Kilometre/saat (km/h)"
+  },
+  "unitConverterUnitMilePerHour": {
+    "message": "Mil/saat (mph)"
+  },
+  "unitConverterUnitKnot": {
+    "message": "Deniz mili (kn)"
+  },
+  "unitConverterUnitMilliliter": {
+    "message": "Mililitre (mL)"
+  },
+  "unitConverterUnitLiter": {
+    "message": "Litre (L)"
+  },
+  "unitConverterUnitCubicMeter": {
+    "message": "Metreküp (m³)"
+  },
+  "unitConverterUnitCubicFoot": {
+    "message": "Kübik fit (ft³)"
+  },
+  "unitConverterUnitUSGallon": {
+    "message": "ABD galonu (gal)"
+  },
+  "unitConverterUnitSquareMeter": {
+    "message": "Metrekare (m²)"
+  },
+  "unitConverterUnitSquareKilometer": {
+    "message": "Kilometrekare (km²)"
+  },
+  "unitConverterUnitSquareFoot": {
+    "message": "Kare fit (ft²)"
+  },
+  "unitConverterUnitSquareYard": {
+    "message": "Kare yarda (yd²)"
+  },
+  "unitConverterUnitHectare": {
+    "message": "Hektar (ha)"
+  },
+  "unitConverterUnitAcre": {
+    "message": "Akr (ac)"
+  },
+  "unitConverterUnitByte": {
+    "message": "Bayt (B)"
+  },
+  "unitConverterUnitKilobyte": {
+    "message": "Kilobayt (KB)"
+  },
+  "unitConverterUnitMegabyte": {
+    "message": "Megabayt (MB)"
+  },
+  "unitConverterUnitGigabyte": {
+    "message": "Gigabayt (GB)"
+  },
+  "unitConverterUnitTerabyte": {
+    "message": "Terabayt (TB)"
+  },
+  "currencyConverter": {
+    "message": "Para Birimi Dönüştürücü"
+  },
+  "currencyConverterTitle": {
+    "message": "Para Birimi Dönüştürücü"
+  },
+  "currencyConverterDescription": {
+    "message": "Güncel kurlarla para birimleri arasında dönüşüm yapın"
+  },
+  "currencyConverterAmount": {
+    "message": "Tutar"
+  },
+  "currencyConverterAmountPlaceholder": {
+    "message": "1"
+  },
+  "currencyConverterFrom": {
+    "message": "Kaynak"
+  },
+  "currencyConverterTo": {
+    "message": "Hedef"
+  },
+  "currencyConverterSwap": {
+    "message": "Değiştir"
+  },
+  "currencyConverterConvert": {
+    "message": "Dönüştür"
+  },
+  "currencyConverterConverting": {
+    "message": "Dönüştürülüyor..."
+  },
+  "currencyConverterResult": {
+    "message": "Sonuç"
+  },
+  "currencyConverterRate": {
+    "message": "Kur"
+  },
+  "currencyConverterUpdated": {
+    "message": "Güncelleme"
+  },
+  "currencyConverterInvalidAmount": {
+    "message": "Sıfırdan büyük geçerli bir tutar girin."
+  },
+  "currencyConverterFetchError": {
+    "message": "Kur bilgisi alınamadı. Lütfen tekrar deneyin."
+  },
+  "currencyConverterCopyResult": {
+    "message": "Sonucu Kopyala"
+  },
+  "currencyConverterNothingToCopy": {
+    "message": "Kopyalanacak dönüşüm sonucu yok."
+  },
+  "currencyConverterCopied": {
+    "message": "Sonuç kopyalandı."
+  },
+  "timeZoneConverter": {
+    "message": "Saat Dilimi Dönüştürücü"
+  },
+  "timeZoneConverterTitle": {
+    "message": "Saat Dilimi Dönüştürücü"
+  },
+  "timeZoneConverterDescription": {
+    "message": "Tarih ve saati önemli saat dilimleri arasında dönüştürün"
+  },
+  "timeZoneConverterDateTime": {
+    "message": "Tarih ve Saat"
+  },
+  "timeZoneConverterFrom": {
+    "message": "Kaynak Saat Dilimi"
+  },
+  "timeZoneConverterTo": {
+    "message": "Hedef Saat Dilimi"
+  },
+  "timeZoneConverterSwap": {
+    "message": "Değiştir"
+  },
+  "timeZoneConverterConvert": {
+    "message": "Dönüştür"
+  },
+  "timeZoneConverterResult": {
+    "message": "Sonuç"
+  },
+  "timeZoneConverterInvalidDate": {
+    "message": "Geçerli bir tarih ve saat girin."
+  },
+  "timeZoneConverterConversionFailed": {
+    "message": "Saat dilimi dönüştürme başarısız."
+  },
+  "timeZoneConverterCopyResult": {
+    "message": "Sonucu Kopyala"
+  },
+  "timeZoneConverterNothingToCopy": {
+    "message": "Kopyalanacak dönüşüm sonucu yok."
+  },
+  "timeZoneConverterCopied": {
+    "message": "Sonuç kopyalandı."
+  },
+  "colorConverter": {
+    "message": "Renk Dönüştürücü"
+  },
+  "colorConverterTitle": {
+    "message": "Renk Dönüştürücü"
+  },
+  "colorConverterDescription": {
+    "message": "Renk değerlerini HEX, RGB, HSL ve CMYK arasında dönüştürün"
+  },
+  "colorConverterConvert": {
+    "message": "Dönüştür"
+  },
+  "colorConverterCopyAll": {
+    "message": "Tümünü Kopyala"
+  },
+  "colorConverterInputPlaceholder": {
+    "message": "#FF8800 / 255,136,0 / 32,100,50 / 0,47,100,0"
+  },
+  "colorConverterHexLabel": {
+    "message": "HEX"
+  },
+  "colorConverterRgbLabel": {
+    "message": "RGB"
+  },
+  "colorConverterHslLabel": {
+    "message": "HSL"
+  },
+  "colorConverterCmykLabel": {
+    "message": "CMYK"
+  },
+  "colorConverterInvalidInput": {
+    "message": "Geçersiz renk değeri."
+  },
+  "colorConverterNothingToCopy": {
+    "message": "Kopyalanacak dönüştürülmüş değer yok."
+  },
+  "colorConverterCopied": {
+    "message": "Değerler kopyalandı."
+  },
+  "unixTimeConverter": {
+    "message": "Unix Zaman Dönüştürücü"
+  },
+  "unixTimeConverterTitle": {
+    "message": "Unix Zaman Dönüştürücü"
+  },
+  "unixTimeConverterDescription": {
+    "message": "Unix zaman damgası ile okunabilir tarih/saat arasında dönüşüm yapın"
+  },
+  "unixTimeConverterUnixToDate": {
+    "message": "Unix → Tarih Saat"
+  },
+  "unixTimeConverterDateToUnix": {
+    "message": "Tarih Saat → Unix"
+  },
+  "unixTimeConverterSeconds": {
+    "message": "Saniye"
+  },
+  "unixTimeConverterMilliseconds": {
+    "message": "Milisaniye"
+  },
+  "unixTimeConverterUnixPlaceholder": {
+    "message": "1700000000"
+  },
+  "unixTimeConverterConvert": {
+    "message": "Dönüştür"
+  },
+  "unixTimeConverterResult": {
+    "message": "Sonuç"
+  },
+  "unixTimeConverterCopyResult": {
+    "message": "Sonucu Kopyala"
+  },
+  "unixTimeConverterInvalidUnix": {
+    "message": "Geçerli bir Unix değeri girin."
+  },
+  "unixTimeConverterInvalidDateTime": {
+    "message": "Geçerli bir tarih ve saat girin."
+  },
+  "unixTimeConverterNothingToCopy": {
+    "message": "Kopyalanacak dönüşüm sonucu yok."
+  },
+  "unixTimeConverterCopied": {
+    "message": "Sonuç kopyalandı."
+  },
+  "unixTimeConverterLocalLabel": {
+    "message": "Yerel"
+  },
+  "unixTimeConverterUtcLabel": {
+    "message": "UTC"
+  },
+  "unixTimeConverterIsoLabel": {
+    "message": "ISO"
+  },
+  "unixTimeConverterSecondsLabel": {
+    "message": "Saniye"
+  },
+  "unixTimeConverterMillisecondsLabel": {
+    "message": "Milisaniye"
+  },
+  "numberBaseConverter": {
+    "message": "Sayı Tabanı Dönüştürücü"
+  },
+  "numberBaseConverterTitle": {
+    "message": "Sayı Tabanı Dönüştürücü"
+  },
+  "numberBaseConverterDescription": {
+    "message": "Sayıları 2 ile 36 arasındaki tabanlar arasında dönüştürün"
+  },
+  "numberBaseConverterValue": {
+    "message": "Değer"
+  },
+  "numberBaseConverterInputPlaceholder": {
+    "message": "FF / 101101 / 12345"
+  },
+  "numberBaseConverterFromBase": {
+    "message": "Kaynak Taban"
+  },
+  "numberBaseConverterToBase": {
+    "message": "Hedef Taban"
+  },
+  "numberBaseConverterSwap": {
+    "message": "Değiştir"
+  },
+  "numberBaseConverterConvert": {
+    "message": "Dönüştür"
+  },
+  "numberBaseConverterCopyResult": {
+    "message": "Sonucu Kopyala"
+  },
+  "numberBaseConverterInvalidBase": {
+    "message": "Taban 2 ile 36 arasında olmalıdır."
+  },
+  "numberBaseConverterInvalidNumber": {
+    "message": "Seçilen kaynak taban için geçersiz sayı."
+  },
+  "numberBaseConverterConverted": {
+    "message": "Dönüştürülen"
+  },
+  "numberBaseConverterNormalized": {
+    "message": "Normalize giriş"
+  },
+  "numberBaseConverterNothingToCopy": {
+    "message": "Kopyalanacak dönüşüm sonucu yok."
+  },
+  "numberBaseConverterCopied": {
+    "message": "Sonuç kopyalandı."
+  },
+  "base64Converter": {
+    "message": "Base64 Dönüştürücü"
+  },
+  "base64ConverterTitle": {
+    "message": "Base64 Kodlama/Kod Çözme"
+  },
+  "base64ConverterDescription": {
+    "message": "UTF-8 desteğiyle Base64 kodlayın ve çözün"
+  },
+  "base64ConverterInput": {
+    "message": "Girdi"
+  },
+  "base64ConverterOutput": {
+    "message": "Çıktı"
+  },
+  "base64ConverterInputPlaceholder": {
+    "message": "Metin veya Base64 girin..."
+  },
+  "base64ConverterEncode": {
+    "message": "Kodla"
+  },
+  "base64ConverterDecode": {
+    "message": "Çöz"
+  },
+  "base64ConverterSwap": {
+    "message": "Değiştir"
+  },
+  "base64ConverterCopyResult": {
+    "message": "Sonucu Kopyala"
+  },
+  "base64ConverterEmptyInput": {
+    "message": "Lütfen metin girin."
+  },
+  "base64ConverterEncodeFailed": {
+    "message": "Kodlama başarısız."
+  },
+  "base64ConverterInvalidInput": {
+    "message": "Geçersiz Base64 girdisi."
+  },
+  "base64ConverterNothingToCopy": {
+    "message": "Kopyalanacak sonuç yok."
+  },
+  "base64ConverterCopied": {
+    "message": "Sonuç kopyalandı."
+  },
+  "urlConverter": {
+    "message": "URL Dönüştürücü"
+  },
+  "urlConverterTitle": {
+    "message": "URL Kodlama/Kod Çözme"
+  },
+  "urlConverterDescription": {
+    "message": "URL değerlerini güvenli şekilde kodlayın ve çözün"
+  },
+  "urlConverterMode": {
+    "message": "Mod"
+  },
+  "urlConverterComponentMode": {
+    "message": "Bileşen (query/değer)"
+  },
+  "urlConverterUriMode": {
+    "message": "Tam URL (URI)"
+  },
+  "urlConverterInput": {
+    "message": "Girdi"
+  },
+  "urlConverterOutput": {
+    "message": "Çıktı"
+  },
+  "urlConverterInputPlaceholder": {
+    "message": "URL veya metin girin..."
+  },
+  "urlConverterEncode": {
+    "message": "Kodla"
+  },
+  "urlConverterDecode": {
+    "message": "Çöz"
+  },
+  "urlConverterSwap": {
+    "message": "Değiştir"
+  },
+  "urlConverterCopyResult": {
+    "message": "Sonucu Kopyala"
+  },
+  "urlConverterEmptyInput": {
+    "message": "Lütfen metin girin."
+  },
+  "urlConverterEncodeFailed": {
+    "message": "URL kodlama başarısız."
+  },
+  "urlConverterInvalidInput": {
+    "message": "Geçersiz URL kodlu girdi."
+  },
+  "urlConverterNothingToCopy": {
+    "message": "Kopyalanacak sonuç yok."
+  },
+  "urlConverterCopied": {
+    "message": "Sonuç kopyalandı."
+  },
+  "caseConverter": {
+    "message": "Yazım Dönüştürücü"
+  },
+  "caseConverterTitle": {
+    "message": "Yazım Dönüştürücü"
+  },
+  "caseConverterDescription": {
+    "message": "Metni yaygın harf biçimleri arasında dönüştürün"
+  },
+  "caseConverterInput": {
+    "message": "Girdi"
+  },
+  "caseConverterOutput": {
+    "message": "Çıktı"
+  },
+  "caseConverterInputPlaceholder": {
+    "message": "Metin girin..."
+  },
+  "caseConverterMode": {
+    "message": "Yazım Türü"
+  },
+  "caseConverterLower": {
+    "message": "küçük harf"
+  },
+  "caseConverterUpper": {
+    "message": "BÜYÜK HARF"
+  },
+  "caseConverterTitleCase": {
+    "message": "Başlık Biçimi"
+  },
+  "caseConverterSentence": {
+    "message": "Cümle biçimi"
+  },
+  "caseConverterCamel": {
+    "message": "camelCase"
+  },
+  "caseConverterPascal": {
+    "message": "PascalCase"
+  },
+  "caseConverterSnake": {
+    "message": "snake_case"
+  },
+  "caseConverterKebab": {
+    "message": "kebab-case"
+  },
+  "caseConverterConvert": {
+    "message": "Dönüştür"
+  },
+  "caseConverterCopyResult": {
+    "message": "Sonucu Kopyala"
+  },
+  "caseConverterEmptyInput": {
+    "message": "Lütfen metin girin."
+  },
+  "caseConverterNothingToCopy": {
+    "message": "Kopyalanacak sonuç yok."
+  },
+  "caseConverterCopied": {
+    "message": "Sonuç kopyalandı."
+  },
+  "markdownHtmlConverter": {
+    "message": "Markdown HTML Dönüştürücü"
+  },
+  "markdownHtmlConverterTitle": {
+    "message": "Markdown ↔ HTML Dönüştürücü"
+  },
+  "markdownHtmlConverterDescription": {
+    "message": "Metni Markdown ve HTML biçimleri arasında dönüştürün"
+  },
+  "markdownHtmlConverterMode": {
+    "message": "Mod"
+  },
+  "markdownHtmlConverterMdToHtml": {
+    "message": "Markdown → HTML"
+  },
+  "markdownHtmlConverterHtmlToMd": {
+    "message": "HTML → Markdown"
+  },
+  "markdownHtmlConverterInput": {
+    "message": "Girdi"
+  },
+  "markdownHtmlConverterOutput": {
+    "message": "Çıktı"
+  },
+  "markdownHtmlConverterInputPlaceholder": {
+    "message": "Markdown veya HTML girin..."
+  },
+  "markdownHtmlConverterConvert": {
+    "message": "Dönüştür"
+  },
+  "markdownHtmlConverterSwap": {
+    "message": "Değiştir"
+  },
+  "markdownHtmlConverterCopyResult": {
+    "message": "Sonucu Kopyala"
+  },
+  "markdownHtmlConverterEmptyInput": {
+    "message": "Lütfen metin girin."
+  },
+  "markdownHtmlConverterConversionFailed": {
+    "message": "Dönüştürme başarısız."
+  },
+  "markdownHtmlConverterNothingToCopy": {
+    "message": "Kopyalanacak sonuç yok."
+  },
+  "markdownHtmlConverterCopied": {
+    "message": "Sonuç kopyalandı."
+  },
+  "htmlEntityConverter": {
+    "message": "HTML Entity Dönüştürücü"
+  },
+  "htmlEntityConverterTitle": {
+    "message": "HTML Entity Kodlama/Kod Çözme"
+  },
+  "htmlEntityConverterDescription": {
+    "message": "HTML entity değerlerini güvenli şekilde kodlayın ve çözün"
+  },
+  "htmlEntityConverterInput": {
+    "message": "Girdi"
+  },
+  "htmlEntityConverterOutput": {
+    "message": "Çıktı"
+  },
+  "htmlEntityConverterInputPlaceholder": {
+    "message": "Metin veya entity girin..."
+  },
+  "htmlEntityConverterNumericMode": {
+    "message": "ASCII dışı karakterler için sayısal entity kullan"
+  },
+  "htmlEntityConverterEncode": {
+    "message": "Kodla"
+  },
+  "htmlEntityConverterDecode": {
+    "message": "Çöz"
+  },
+  "htmlEntityConverterSwap": {
+    "message": "Değiştir"
+  },
+  "htmlEntityConverterCopyResult": {
+    "message": "Sonucu Kopyala"
+  },
+  "htmlEntityConverterEmptyInput": {
+    "message": "Lütfen metin girin."
+  },
+  "htmlEntityConverterEncodeFailed": {
+    "message": "Kodlama başarısız."
+  },
+  "htmlEntityConverterDecodeFailed": {
+    "message": "Çözme başarısız."
+  },
+  "htmlEntityConverterNothingToCopy": {
+    "message": "Kopyalanacak sonuç yok."
+  },
+  "htmlEntityConverterCopied": {
+    "message": "Sonuç kopyalandı."
+  },
+  "textToSlugConverter": {
+    "message": "Metinden Slug"
+  },
+  "textToSlugConverterTitle": {
+    "message": "Metinden Slug"
+  },
+  "textToSlugConverterDescription": {
+    "message": "Metni temiz ve URL uyumlu slug biçimine dönüştürün"
+  },
+  "textToSlugConverterInput": {
+    "message": "Girdi"
+  },
+  "textToSlugConverterOutput": {
+    "message": "Çıktı"
+  },
+  "textToSlugConverterInputPlaceholder": {
+    "message": "Başlık veya metin girin..."
+  },
+  "textToSlugConverterSeparator": {
+    "message": "Ayırıcı"
+  },
+  "textToSlugConverterLowercase": {
+    "message": "Küçük harf çıktı"
+  },
+  "textToSlugConverterConvert": {
+    "message": "Dönüştür"
+  },
+  "textToSlugConverterCopyResult": {
+    "message": "Sonucu Kopyala"
+  },
+  "textToSlugConverterEmptyInput": {
+    "message": "Lütfen metin girin."
+  },
+  "textToSlugConverterNothingToCopy": {
+    "message": "Kopyalanacak sonuç yok."
+  },
+  "textToSlugConverterCopied": {
+    "message": "Sonuç kopyalandı."
+  },
+  "uuidConverter": {
+    "message": "UUID Dönüştürücü"
+  },
+  "uuidConverterTitle": {
+    "message": "UUID Oluşturucu/Doğrulayıcı"
+  },
+  "uuidConverterDescription": {
+    "message": "UUID v4 üretin ve UUID sürümlerini doğrulayın"
+  },
+  "uuidConverterGenerateCount": {
+    "message": "Üretim Adedi"
+  },
+  "uuidConverterGenerate": {
+    "message": "v4 Üret"
+  },
+  "uuidConverterValidate": {
+    "message": "Doğrula"
+  },
+  "uuidConverterInput": {
+    "message": "Girdi (doğrulama için satır başına bir değer)"
+  },
+  "uuidConverterInputPlaceholder": {
+    "message": "UUID değerlerini buraya yapıştırın..."
+  },
+  "uuidConverterOutput": {
+    "message": "Çıktı"
+  },
+  "uuidConverterCopyResult": {
+    "message": "Sonucu Kopyala"
+  },
+  "uuidConverterEmptyInput": {
+    "message": "Lütfen UUID metni girin."
+  },
+  "uuidConverterValidVersion": {
+    "message": "Geçerli (v$1)"
+  },
+  "uuidConverterInvalid": {
+    "message": "Geçersiz"
+  },
+  "uuidConverterNothingToCopy": {
+    "message": "Kopyalanacak sonuç yok."
+  },
+  "uuidConverterCopied": {
+    "message": "Sonuç kopyalandı."
+  },
+  "hashGenerator": {
+    "message": "Hash Üretici"
+  },
+  "hashGeneratorTitle": {
+    "message": "Hash Üretici"
+  },
+  "hashGeneratorDescription": {
+    "message": "Metin girdisinden SHA hash değerleri üretin"
+  },
+  "hashGeneratorInput": {
+    "message": "Girdi"
+  },
+  "hashGeneratorInputPlaceholder": {
+    "message": "Metin girin..."
+  },
+  "hashGeneratorAlgorithm": {
+    "message": "Algoritma"
+  },
+  "hashGeneratorFormat": {
+    "message": "Çıktı Formatı"
+  },
+  "hashGeneratorGenerate": {
+    "message": "Üret"
+  },
+  "hashGeneratorCopyResult": {
+    "message": "Sonucu Kopyala"
+  },
+  "hashGeneratorOutput": {
+    "message": "Çıktı"
+  },
+  "hashGeneratorEmptyInput": {
+    "message": "Lütfen metin girin."
+  },
+  "hashGeneratorFailed": {
+    "message": "Hash üretimi başarısız oldu."
+  },
+  "hashGeneratorNothingToCopy": {
+    "message": "Kopyalanacak sonuç yok."
+  },
+  "hashGeneratorCopied": {
+    "message": "Sonuç kopyalandı."
+  },
+  "jwtDecoder": {
+    "message": "JWT Çözücü"
+  },
+  "jwtDecoderTitle": {
+    "message": "JWT Çözücü"
+  },
+  "jwtDecoderDescription": {
+    "message": "JWT header ve payload claim alanlarını çözümleyin"
+  },
+  "jwtDecoderInput": {
+    "message": "JWT Token"
+  },
+  "jwtDecoderInputPlaceholder": {
+    "message": "JWT token'ı buraya yapıştırın..."
+  },
+  "jwtDecoderDecode": {
+    "message": "Çözümle"
+  },
+  "jwtDecoderCopyResult": {
+    "message": "Sonucu Kopyala"
+  },
+  "jwtDecoderAdvanced": {
+    "message": "Gelişmiş Analiz"
+  },
+  "jwtDecoderHeader": {
+    "message": "Header"
+  },
+  "jwtDecoderPayload": {
+    "message": "Payload"
+  },
+  "jwtDecoderSignature": {
+    "message": "İmza (ham)"
+  },
+  "jwtDecoderEmptyInput": {
+    "message": "Lütfen bir JWT token girin."
+  },
+  "jwtDecoderInvalidFormat": {
+    "message": "Geçersiz JWT formatı. 3 parça bekleniyor."
+  },
+  "jwtDecoderInvalidPayload": {
+    "message": "JWT header veya payload çözümlenemedi."
+  },
+  "jwtDecoderNoTemporalClaims": {
+    "message": "Zaman claim'i bulunamadı."
+  },
+  "jwtDecoderExp": {
+    "message": "exp"
+  },
+  "jwtDecoderNbf": {
+    "message": "nbf"
+  },
+  "jwtDecoderIat": {
+    "message": "iat"
+  },
+  "jwtDecoderExpired": {
+    "message": "Süresi dolmuş"
+  },
+  "jwtDecoderActive": {
+    "message": "Aktif"
+  },
+  "jwtDecoderNotYetValid": {
+    "message": "Henüz geçerli değil"
+  },
+  "jwtDecoderValidNow": {
+    "message": "Şu an geçerli"
+  },
+  "jwtDecoderNothingToCopy": {
+    "message": "Kopyalanacak sonuç yok."
+  },
+  "jwtDecoderCopied": {
+    "message": "Sonuç kopyalandı."
+  },
+  "jsonYamlConverter": {
+    "message": "JSON ↔ YAML Dönüştürücü"
+  },
+  "jsonYamlConverterTitle": {
+    "message": "JSON ↔ YAML Dönüştürücü"
+  },
+  "jsonYamlConverterDescription": {
+    "message": "JSON ve YAML formatları arasında dönüştürme yapın"
+  },
+  "jsonYamlConverterMode": {
+    "message": "Dönüşüm Yönü"
+  },
+  "jsonYamlConverterJsonToYaml": {
+    "message": "JSON → YAML"
+  },
+  "jsonYamlConverterYamlToJson": {
+    "message": "YAML → JSON"
+  },
+  "jsonYamlConverterConvert": {
+    "message": "Dönüştür"
+  },
+  "jsonYamlConverterSwap": {
+    "message": "Yer Değiştir"
+  },
+  "jsonYamlConverterCopyResult": {
+    "message": "Sonucu Kopyala"
+  },
+  "jsonYamlConverterHint": {
+    "message": "Yaygın YAML yapıları desteklenir (nesneler, diziler, skaler değerler)."
+  },
+  "jsonYamlConverterInput": {
+    "message": "Girdi"
+  },
+  "jsonYamlConverterInputPlaceholder": {
+    "message": "JSON veya YAML içeriğini buraya yapıştırın..."
+  },
+  "jsonYamlConverterOutput": {
+    "message": "Çıktı"
+  },
+  "jsonYamlConverterEmptyInput": {
+    "message": "Lütfen dönüştürülecek veri girin."
+  },
+  "jsonYamlConverterFailed": {
+    "message": "Dönüştürme başarısız."
+  },
+  "jsonYamlConverterIndentError": {
+    "message": "Geçersiz girinti."
+  },
+  "jsonYamlConverterMixedTypeError": {
+    "message": "Aynı girinti seviyesinde liste ve nesne karıştırılamaz."
+  },
+  "jsonYamlConverterInvalidLine": {
+    "message": "Geçersiz YAML satırı."
+  },
+  "jsonYamlConverterNothingToCopy": {
+    "message": "Kopyalanacak sonuç yok."
+  },
+  "jsonYamlConverterCopied": {
+    "message": "Sonuç kopyalandı."
+  },
+  "csvJsonConverter": {
+    "message": "CSV ↔ JSON Dönüştürücü"
+  },
+  "csvJsonConverterTitle": {
+    "message": "CSV ↔ JSON Dönüştürücü"
+  },
+  "csvJsonConverterDescription": {
+    "message": "CSV ve JSON veri formatları arasında dönüştürme yapın"
+  },
+  "csvJsonConverterMode": {
+    "message": "Dönüşüm Yönü"
+  },
+  "csvJsonConverterCsvToJson": {
+    "message": "CSV → JSON"
+  },
+  "csvJsonConverterJsonToCsv": {
+    "message": "JSON → CSV"
+  },
+  "csvJsonConverterDelimiter": {
+    "message": "Ayraç"
+  },
+  "csvJsonConverterDelimiterComma": {
+    "message": "Virgül (,)"
+  },
+  "csvJsonConverterDelimiterSemicolon": {
+    "message": "Noktalı virgül (;)"
+  },
+  "csvJsonConverterDelimiterTab": {
+    "message": "Sekme"
+  },
+  "csvJsonConverterDelimiterPipe": {
+    "message": "Dikey çizgi (|)"
+  },
+  "csvJsonConverterUseHeader": {
+    "message": "İlk satırı başlık olarak kullan"
+  },
+  "csvJsonConverterTypecast": {
+    "message": "Sayı/boolean tipine çevir (CSV → JSON)"
+  },
+  "csvJsonConverterConvert": {
+    "message": "Dönüştür"
+  },
+  "csvJsonConverterSwap": {
+    "message": "Yer Değiştir"
+  },
+  "csvJsonConverterCopyResult": {
+    "message": "Sonucu Kopyala"
+  },
+  "csvJsonConverterHint": {
+    "message": "Tırnaklı alanları ve satır sonlarını destekler. Dosyanıza göre ayraç seçin."
+  },
+  "csvJsonConverterInput": {
+    "message": "Girdi"
+  },
+  "csvJsonConverterInputPlaceholder": {
+    "message": "CSV veya JSON içeriğini buraya yapıştırın..."
+  },
+  "csvJsonConverterOutput": {
+    "message": "Çıktı"
+  },
+  "csvJsonConverterEmptyInput": {
+    "message": "Lütfen dönüştürülecek veri girin."
+  },
+  "csvJsonConverterFailed": {
+    "message": "Dönüştürme başarısız."
+  },
+  "csvJsonConverterUnclosedQuote": {
+    "message": "CSV içinde kapanmamış tırnaklı alan var."
+  },
+  "csvJsonConverterNothingToCopy": {
+    "message": "Kopyalanacak sonuç yok."
+  },
+  "csvJsonConverterCopied": {
+    "message": "Sonuç kopyalandı."
+  },
+  "xmlJsonConverter": {
+    "message": "XML ↔ JSON Dönüştürücü"
+  },
+  "xmlJsonConverterTitle": {
+    "message": "XML ↔ JSON Dönüştürücü"
+  },
+  "xmlJsonConverterDescription": {
+    "message": "XML ve JSON yapıları arasında dönüştürme yapın"
+  },
+  "xmlJsonConverterMode": {
+    "message": "Dönüşüm Yönü"
+  },
+  "xmlJsonConverterXmlToJson": {
+    "message": "XML → JSON"
+  },
+  "xmlJsonConverterJsonToXml": {
+    "message": "JSON → XML"
+  },
+  "xmlJsonConverterTypecast": {
+    "message": "Temel tipleri dönüştür (XML → JSON)"
+  },
+  "xmlJsonConverterPrettyXml": {
+    "message": "Biçimli XML çıktısı (JSON → XML)"
+  },
+  "xmlJsonConverterRootName": {
+    "message": "Kök adı (JSON → XML)"
+  },
+  "xmlJsonConverterConvert": {
+    "message": "Dönüştür"
+  },
+  "xmlJsonConverterSwap": {
+    "message": "Yer Değiştir"
+  },
+  "xmlJsonConverterCopyResult": {
+    "message": "Sonucu Kopyala"
+  },
+  "xmlJsonConverterHint": {
+    "message": "XML attribute alanları @attributes, metin düğümleri #text olarak map edilir."
+  },
+  "xmlJsonConverterInput": {
+    "message": "Girdi"
+  },
+  "xmlJsonConverterInputPlaceholder": {
+    "message": "XML veya JSON içeriğini buraya yapıştırın..."
+  },
+  "xmlJsonConverterOutput": {
+    "message": "Çıktı"
+  },
+  "xmlJsonConverterEmptyInput": {
+    "message": "Lütfen dönüştürülecek veri girin."
+  },
+  "xmlJsonConverterFailed": {
+    "message": "Dönüştürme başarısız."
+  },
+  "xmlJsonConverterInvalidXml": {
+    "message": "Geçersiz XML girdisi."
+  },
+  "xmlJsonConverterNothingToCopy": {
+    "message": "Kopyalanacak sonuç yok."
+  },
+  "xmlJsonConverterCopied": {
+    "message": "Sonuç kopyalandı."
+  },
+  "imageFormatConverter": {
+    "message": "Görsel Format Dönüştürücü"
+  },
+  "imageFormatConverterTitle": {
+    "message": "Görsel Format Dönüştürücü"
+  },
+  "imageFormatConverterDescription": {
+    "message": "Görselleri PNG, JPG ve WEBP formatları arasında dönüştürün"
+  },
+  "imageFormatConverterSourceImage": {
+    "message": "Kaynak Görsel"
+  },
+  "imageFormatConverterTargetFormat": {
+    "message": "Hedef Format"
+  },
+  "imageFormatConverterQuality": {
+    "message": "Kalite"
+  },
+  "imageFormatConverterConvert": {
+    "message": "Dönüştür"
+  },
+  "imageFormatConverterDownload": {
+    "message": "İndir"
+  },
+  "imageFormatConverterChooseFile": {
+    "message": "Başlamak için bir görsel dosyası seçin."
+  },
+  "imageFormatConverterFileReady": {
+    "message": "Dosya seçildi. Dönüştür'e tıklayın."
+  },
+  "imageFormatConverterConverting": {
+    "message": "Görsel dönüştürülüyor..."
+  },
+  "imageFormatConverterReadyToDownload": {
+    "message": "Dönüştürme tamamlandı. İndirmeye hazır."
+  },
+  "imageFormatConverterInputPreview": {
+    "message": "Girdi Önizleme"
+  },
+  "imageFormatConverterOutputPreview": {
+    "message": "Çıktı Önizleme"
+  },
+  "imageFormatConverterNoFile": {
+    "message": "Lütfen önce bir görsel seçin."
+  },
+  "imageFormatConverterInvalidImage": {
+    "message": "Geçersiz görsel dosyası."
+  },
+  "imageFormatConverterReadFailed": {
+    "message": "Seçilen dosya okunamadı."
+  },
+  "imageFormatConverterCanvasUnavailable": {
+    "message": "Canvas çizimi kullanılamıyor."
+  },
+  "imageFormatConverterConvertFailed": {
+    "message": "Görsel dönüştürme başarısız oldu."
+  },
+  "imageFormatConverterNothingToDownload": {
+    "message": "İndirilecek dönüştürülmüş dosya yok."
+  },
+  "imageFormatConverterDownloaded": {
+    "message": "Dönüştürülmüş görsel indirildi."
+  },
+  "imageResizerCompressor": {
+    "message": "Görsel Boyutlandırıcı/Sıkıştırıcı"
+  },
+  "imageResizerCompressorTitle": {
+    "message": "Görsel Boyutlandırıcı/Sıkıştırıcı"
+  },
+  "imageResizerCompressorDescription": {
+    "message": "Boyut ve kalite ayarlarıyla görselleri yeniden boyutlandırın ve sıkıştırın"
+  },
+  "imageResizerCompressorSourceImage": {
+    "message": "Kaynak Görsel"
+  },
+  "imageResizerCompressorWidth": {
+    "message": "Genişlik (px)"
+  },
+  "imageResizerCompressorHeight": {
+    "message": "Yükseklik (px)"
+  },
+  "imageResizerCompressorKeepAspect": {
+    "message": "En-boy oranını koru"
+  },
+  "imageResizerCompressorQuality": {
+    "message": "Kalite"
+  },
+  "imageResizerCompressorOutputFormat": {
+    "message": "Çıktı Formatı"
+  },
+  "imageResizerCompressorOutputSource": {
+    "message": "Kaynakla aynı"
+  },
+  "imageResizerCompressorProcess": {
+    "message": "Boyutlandır ve Sıkıştır"
+  },
+  "imageResizerCompressorDownload": {
+    "message": "İndir"
+  },
+  "imageResizerCompressorChooseFile": {
+    "message": "Başlamak için bir görsel dosyası seçin."
+  },
+  "imageResizerCompressorFileReady": {
+    "message": "Dosya seçildi. Ayarları yapıp işlemi başlatın."
+  },
+  "imageResizerCompressorProcessing": {
+    "message": "Görsel işleniyor..."
+  },
+  "imageResizerCompressorReady": {
+    "message": "İşlem tamamlandı. İndirmeye hazır."
+  },
+  "imageResizerCompressorInputPreview": {
+    "message": "Girdi Önizleme"
+  },
+  "imageResizerCompressorOutputPreview": {
+    "message": "Çıktı Önizleme"
+  },
+  "imageResizerCompressorNoFile": {
+    "message": "Lütfen önce bir görsel seçin."
+  },
+  "imageResizerCompressorInvalidImage": {
+    "message": "Geçersiz görsel dosyası."
+  },
+  "imageResizerCompressorReadFailed": {
+    "message": "Seçilen dosya okunamadı."
+  },
+  "imageResizerCompressorCanvasUnavailable": {
+    "message": "Canvas çizimi kullanılamıyor."
+  },
+  "imageResizerCompressorConvertFailed": {
+    "message": "Görsel işleme başarısız oldu."
+  },
+  "imageResizerCompressorNothingToDownload": {
+    "message": "İndirilecek işlenmiş dosya yok."
+  },
+  "imageResizerCompressorDownloaded": {
+    "message": "İşlenmiş görsel indirildi."
+  },
+  "svgToPngConverter": {
+    "message": "SVG'den PNG'ye Dönüştürücü"
+  },
+  "svgToPngConverterTitle": {
+    "message": "SVG'den PNG'ye Dönüştürücü"
+  },
+  "svgToPngConverterDescription": {
+    "message": "SVG metni veya dosyalarını PNG görsellerine dönüştürün"
+  },
+  "svgToPngConverterSourceSvg": {
+    "message": "Kaynak SVG"
+  },
+  "svgToPngConverterScale": {
+    "message": "Ölçek"
+  },
+  "svgToPngConverterWhiteBackground": {
+    "message": "Beyaz arka plan"
+  },
+  "svgToPngConverterConvert": {
+    "message": "PNG'ye Dönüştür"
+  },
+  "svgToPngConverterDownload": {
+    "message": "PNG İndir"
+  },
+  "svgToPngConverterHint": {
+    "message": "Başlamak için SVG yapıştırın veya SVG dosyası seçin."
+  },
+  "svgToPngConverterSvgInput": {
+    "message": "SVG Girdisi"
+  },
+  "svgToPngConverterInputPlaceholder": {
+    "message": "SVG kodunu buraya yapıştırın..."
+  },
+  "svgToPngConverterInputMeta": {
+    "message": "Girdi"
+  },
+  "svgToPngConverterOutputMeta": {
+    "message": "Çıktı"
+  },
+  "svgToPngConverterNoInput": {
+    "message": "Lütfen SVG içeriği sağlayın."
+  },
+  "svgToPngConverterInvalidFile": {
+    "message": "Lütfen bir SVG dosyası seçin."
+  },
+  "svgToPngConverterInvalidSvg": {
+    "message": "Geçersiz SVG içeriği."
+  },
+  "svgToPngConverterRenderFailed": {
+    "message": "SVG işlenemedi."
+  },
+  "svgToPngConverterCanvasUnavailable": {
+    "message": "Canvas çizimi kullanılamıyor."
+  },
+  "svgToPngConverterConvertFailed": {
+    "message": "SVG'den PNG'ye dönüştürme başarısız oldu."
+  },
+  "svgToPngConverterConverting": {
+    "message": "SVG dönüştürülüyor..."
+  },
+  "svgToPngConverterReady": {
+    "message": "Dönüştürme tamamlandı. İndirmeye hazır."
+  },
+  "svgToPngConverterFileReady": {
+    "message": "SVG yüklendi. Dönüştür'e tıklayın."
+  },
+  "svgToPngConverterNothingToDownload": {
+    "message": "İndirilecek PNG çıktısı yok."
+  },
+  "svgToPngConverterDownloaded": {
+    "message": "PNG indirildi."
+  },
+  "heicConverter": {
+    "message": "HEIC'ten JPG/PNG'ye"
+  },
+  "heicConverterTitle": {
+    "message": "HEIC'ten JPG/PNG'ye"
+  },
+  "heicConverterDescription": {
+    "message": "Decode desteği varsa HEIC/HEIF fotoğrafları JPG veya PNG'ye dönüştürün"
+  },
+  "heicConverterSourceFile": {
+    "message": "HEIC/HEIF Dosyası"
+  },
+  "heicConverterTargetFormat": {
+    "message": "Hedef Format"
+  },
+  "heicConverterQuality": {
+    "message": "Kalite"
+  },
+  "heicConverterConvert": {
+    "message": "Dönüştür"
+  },
+  "heicConverterDownload": {
+    "message": "İndir"
+  },
+  "heicConverterHint": {
+    "message": "HEIC decode desteği Chrome/sistem codec'lerinize bağlıdır."
+  },
+  "heicConverterInputPreview": {
+    "message": "Girdi Önizleme"
+  },
+  "heicConverterOutputPreview": {
+    "message": "Çıktı Önizleme"
+  },
+  "heicConverterNoFile": {
+    "message": "Lütfen önce bir HEIC dosyası seçin."
+  },
+  "heicConverterInvalidFile": {
+    "message": "Lütfen bir HEIC/HEIF dosyası seçin."
+  },
+  "heicConverterBitmapUnsupported": {
+    "message": "Bu tarayıcı bu özellik için görsel decode'u desteklemiyor."
+  },
+  "heicConverterDecodeUnsupported": {
+    "message": "Bu sistem/tarayıcıda HEIC decode desteklenmiyor."
+  },
+  "heicConverterCanvasUnavailable": {
+    "message": "Canvas çizimi kullanılamıyor."
+  },
+  "heicConverterConvertFailed": {
+    "message": "HEIC dönüştürme başarısız oldu."
+  },
+  "heicConverterConverting": {
+    "message": "HEIC görsel dönüştürülüyor..."
+  },
+  "heicConverterReady": {
+    "message": "Dönüştürme tamamlandı. İndirmeye hazır."
+  },
+  "heicConverterCheckingSupport": {
+    "message": "HEIC decode desteği kontrol ediliyor..."
+  },
+  "heicConverterFileReady": {
+    "message": "HEIC dosyası yüklendi. Dönüştür'e tıklayın."
+  },
+  "heicConverterUnsupportedHint": {
+    "message": "Decode desteği yoksa önce HEIC'i Fotoğraflar/Preview ile dönüştürmeyi deneyin."
+  },
+  "heicConverterNothingToDownload": {
+    "message": "İndirilecek dönüştürülmüş çıktı yok."
+  },
+  "heicConverterDownloaded": {
+    "message": "Dönüştürülmüş görsel indirildi."
+  },
+  "pdfToImage": {
+    "message": "PDF'ten Görsele"
+  },
+  "pdfToImageTitle": {
+    "message": "PDF'ten Görsele"
+  },
+  "pdfToImageDescription": {
+    "message": "Herhangi bir PDF sayfasını PNG veya JPG olarak işleyip indirin"
+  },
+  "pdfToImageNoPdf": {
+    "message": "Lütfen önce bir PDF dosyası seçin."
+  },
+  "pdfToImageRendering": {
+    "message": "Sayfa işleniyor..."
+  },
+  "pdfToImageCanvasUnavailable": {
+    "message": "Canvas çizimi kullanılamıyor."
+  },
+  "pdfToImageRenderFailed": {
+    "message": "PDF sayfasından görsel oluşturulamadı."
+  },
+  "pdfToImageReady": {
+    "message": "$1. sayfa işlendi. Görsel indirmeye hazır."
+  },
+  "pdfToImageNothingToDownload": {
+    "message": "İndirilecek çıktı görseli yok."
+  },
+  "pdfToImageDownloaded": {
+    "message": "Görsel indirildi."
+  },
+  "pdfToImageInvalidFile": {
+    "message": "Lütfen bir PDF dosyası seçin."
+  },
+  "pdfToImageLoadingPdf": {
+    "message": "PDF yükleniyor..."
+  },
+  "pdfToImageFileReady": {
+    "message": "PDF yüklendi. Bir sayfa seçip işleyin."
+  },
+  "pdfToImageLoadFailed": {
+    "message": "PDF dosyası yüklenemedi."
+  },
+  "pdfToImageSourcePdf": {
+    "message": "Kaynak PDF"
+  },
+  "pdfToImagePage": {
+    "message": "Sayfa"
+  },
+  "pdfToImageScale": {
+    "message": "Ölçek"
+  },
+  "pdfToImageFormat": {
+    "message": "Çıktı Formatı"
+  },
+  "pdfToImageQuality": {
+    "message": "JPG Kalitesi"
+  },
+  "pdfToImageRender": {
+    "message": "Sayfayı İşle"
+  },
+  "pdfToImageDownload": {
+    "message": "Görseli İndir"
+  },
+  "pdfToImageHint": {
+    "message": "Bir PDF dosyası seçin, sonra ihtiyacınız olan sayfayı işleyin."
+  },
+  "pdfToImageInputInfo": {
+    "message": "Girdi"
+  },
+  "pdfToImageOutputInfo": {
+    "message": "Çıktı"
+  },
+  "imageToPdf": {
+    "message": "Görselden PDF'e"
+  },
+  "imageToPdfTitle": {
+    "message": "Görselden PDF'e"
+  },
+  "imageToPdfDescription": {
+    "message": "Birden fazla görseli tek bir indirilebilir PDF'te birleştirin"
+  },
+  "imageToPdfSourceImages": {
+    "message": "Kaynak Görseller"
+  },
+  "imageToPdfAdvancedOptions": {
+    "message": "Gelişmiş Seçenekler"
+  },
+  "imageToPdfPageSize": {
+    "message": "Sayfa Boyutu"
+  },
+  "imageToPdfAutoSize": {
+    "message": "Otomatik (görsel boyutu)"
+  },
+  "imageToPdfOrientation": {
+    "message": "Yön"
+  },
+  "imageToPdfAuto": {
+    "message": "Otomatik"
+  },
+  "imageToPdfPortrait": {
+    "message": "Dikey"
+  },
+  "imageToPdfLandscape": {
+    "message": "Yatay"
+  },
+  "imageToPdfFitMode": {
+    "message": "Yerleşim Modu"
+  },
+  "imageToPdfContain": {
+    "message": "Sığdır (tamamını koru)"
+  },
+  "imageToPdfCover": {
+    "message": "Kapla (sayfayı doldur)"
+  },
+  "imageToPdfMarginMm": {
+    "message": "Kenar Boşluğu (mm)"
+  },
+  "imageToPdfQuality": {
+    "message": "Görsel Kalitesi"
+  },
+  "imageToPdfBuild": {
+    "message": "PDF Oluştur"
+  },
+  "imageToPdfDownload": {
+    "message": "PDF İndir"
+  },
+  "imageToPdfHint": {
+    "message": "Bir veya daha fazla görsel seçin, ardından PDF oluşturun."
+  },
+  "imageToPdfInputInfo": {
+    "message": "Girdi"
+  },
+  "imageToPdfOutputInfo": {
+    "message": "Çıktı"
+  },
+  "imageToPdfNoImages": {
+    "message": "Lütfen en az bir görsel seçin."
+  },
+  "imageToPdfInvalidFiles": {
+    "message": "Lütfen yalnızca görsel dosyaları seçin."
+  },
+  "imageToPdfFilesReady": {
+    "message": "Görseller yüklendi. PDF Oluştur'a tıklayın."
+  },
+  "imageToPdfBuilding": {
+    "message": "Görsellerden PDF oluşturuluyor..."
+  },
+  "imageToPdfProcessingPage": {
+    "message": "$1/$2 görsel işleniyor..."
+  },
+  "imageToPdfReady": {
+    "message": "PDF hazır. Şimdi indirebilirsiniz."
+  },
+  "imageToPdfBuilt": {
+    "message": "PDF başarıyla oluşturuldu."
+  },
+  "imageToPdfBuildFailed": {
+    "message": "PDF oluşturma başarısız oldu."
+  },
+  "imageToPdfNothingToDownload": {
+    "message": "İndirilecek PDF çıktısı yok."
+  },
+  "imageToPdfDownloaded": {
+    "message": "PDF indirildi."
+  },
+  "imageToPdfImageLoadFailed": {
+    "message": "Görsel dosyası çözümlenemedi."
+  },
+  "imageToPdfCanvasUnavailable": {
+    "message": "Canvas çizimi kullanılamıyor."
+  },
+  "imageToPdfInvalidImage": {
+    "message": "Geçersiz görsel verisi."
+  },
+  "pdfMergeSplit": {
+    "message": "PDF Birleştir/Böl"
+  },
+  "pdfMergeSplitTitle": {
+    "message": "PDF Birleştir/Böl"
+  },
+  "pdfMergeSplitDescription": {
+    "message": "Birden fazla PDF'i birleştirin veya tek PDF'ten sayfa ayırın"
+  },
+  "pdfMergeSplitModeMerge": {
+    "message": "PDF Birleştir"
+  },
+  "pdfMergeSplitModeSplit": {
+    "message": "Böl/Ayıkla"
+  },
+  "pdfMergeSplitMergeFiles": {
+    "message": "PDF Dosyaları"
+  },
+  "pdfMergeSplitSourceFile": {
+    "message": "Kaynak PDF"
+  },
+  "pdfMergeSplitRange": {
+    "message": "Sayfa Aralığı"
+  },
+  "pdfMergeSplitRangePlaceholder": {
+    "message": "Örnek: 1-3,5"
+  },
+  "pdfMergeSplitProcess": {
+    "message": "PDF İşle"
+  },
+  "pdfMergeSplitDownload": {
+    "message": "PDF İndir"
+  },
+  "pdfMergeSplitMergeHint": {
+    "message": "Birden fazla PDF seçin ve İşle'ye tıklayın."
+  },
+  "pdfMergeSplitSplitHint": {
+    "message": "Bir PDF seçin ve sayfa aralığı girin (örnek: 1-3,5)."
+  },
+  "pdfMergeSplitInputInfo": {
+    "message": "Girdi"
+  },
+  "pdfMergeSplitOutputInfo": {
+    "message": "Çıktı"
+  },
+  "pdfMergeSplitNoMergeFiles": {
+    "message": "Birleştirmek için PDF dosyaları seçin."
+  },
+  "pdfMergeSplitNoSplitFile": {
+    "message": "Bölmek için bir PDF dosyası seçin."
+  },
+  "pdfMergeSplitNoPagesSelected": {
+    "message": "Hiç sayfa seçilmedi."
+  },
+  "pdfMergeSplitInvalidPdf": {
+    "message": "Lütfen bir PDF dosyası seçin."
+  },
+  "pdfMergeSplitInvalidRange": {
+    "message": "Geçersiz sayfa aralığı."
+  },
+  "pdfMergeSplitMerging": {
+    "message": "PDF dosyaları birleştiriliyor..."
+  },
+  "pdfMergeSplitSplitting": {
+    "message": "Bölünmüş PDF hazırlanıyor..."
+  },
+  "pdfMergeSplitProcessingFile": {
+    "message": "$1/$2 dosya işleniyor..."
+  },
+  "pdfMergeSplitMerged": {
+    "message": "PDF dosyaları başarıyla birleştirildi."
+  },
+  "pdfMergeSplitSplitDone": {
+    "message": "PDF sayfaları başarıyla ayıklandı."
+  },
+  "pdfMergeSplitMergeFailed": {
+    "message": "PDF dosyaları birleştirilemedi."
+  },
+  "pdfMergeSplitSplitFailed": {
+    "message": "PDF bölme başarısız oldu."
+  },
+  "pdfMergeSplitReady": {
+    "message": "PDF indirilmeye hazır."
+  },
+  "pdfMergeSplitNothingToDownload": {
+    "message": "İndirilecek PDF çıktısı yok."
+  },
+  "pdfMergeSplitDownloaded": {
+    "message": "PDF indirildi."
+  },
+  "pdfMergeSplitGenericError": {
+    "message": "PDF işlemi başarısız oldu."
+  },
+  "pdfCompress": {
+    "message": "PDF Sıkıştır"
+  },
+  "pdfCompressTitle": {
+    "message": "PDF Sıkıştır"
+  },
+  "pdfCompressDescription": {
+    "message": "Görsel tabanlı sıkıştırma ön ayarlarıyla PDF boyutunu küçültün"
+  },
+  "pdfCompressSourcePdf": {
+    "message": "Kaynak PDF"
+  },
+  "pdfCompressPreset": {
+    "message": "Sıkıştırma Ön Ayarı"
+  },
+  "pdfCompressLight": {
+    "message": "Hafif (daha iyi kalite)"
+  },
+  "pdfCompressBalanced": {
+    "message": "Dengeli"
+  },
+  "pdfCompressStrong": {
+    "message": "Güçlü (daha küçük dosya)"
+  },
+  "pdfCompressAdvancedOptions": {
+    "message": "Gelişmiş Seçenekler"
+  },
+  "pdfCompressScale": {
+    "message": "İşleme Ölçeği"
+  },
+  "pdfCompressQuality": {
+    "message": "JPEG Kalitesi"
+  },
+  "pdfCompressInfo": {
+    "message": "Sıkıştırma sayfaları görsel olarak yeniden işler. Metin seçme/arama azalabilir."
+  },
+  "pdfCompressRun": {
+    "message": "PDF Sıkıştır"
+  },
+  "pdfCompressDownload": {
+    "message": "Sıkıştırılmış PDF İndir"
+  },
+  "pdfCompressHint": {
+    "message": "Bir PDF seçin ve Sıkıştır'a tıklayın."
+  },
+  "pdfCompressInputInfo": {
+    "message": "Girdi"
+  },
+  "pdfCompressOutputInfo": {
+    "message": "Çıktı"
+  },
+  "pdfCompressNoFile": {
+    "message": "Lütfen önce bir PDF dosyası seçin."
+  },
+  "pdfCompressInvalidFile": {
+    "message": "Lütfen bir PDF dosyası seçin."
+  },
+  "pdfCompressFileReady": {
+    "message": "PDF yüklendi. Sıkıştır'a tıklayın."
+  },
+  "pdfCompressPreparing": {
+    "message": "PDF sayfaları sıkıştırılıyor..."
+  },
+  "pdfCompressProcessingPage": {
+    "message": "$1/$2 sayfa işleniyor..."
+  },
+  "pdfCompressCanvasUnavailable": {
+    "message": "Canvas çizimi kullanılamıyor."
+  },
+  "pdfCompressRenderFailed": {
+    "message": "PDF sayfası işlenemedi."
+  },
+  "pdfCompressDone": {
+    "message": "PDF başarıyla sıkıştırıldı."
+  },
+  "pdfCompressReady": {
+    "message": "Sıkıştırılmış PDF indirilmeye hazır."
+  },
+  "pdfCompressFailed": {
+    "message": "PDF sıkıştırma başarısız oldu."
+  },
+  "pdfCompressNothingToDownload": {
+    "message": "İndirilecek sıkıştırılmış PDF yok."
+  },
+  "pdfCompressDownloaded": {
+    "message": "Sıkıştırılmış PDF indirildi."
+  },
+  "qrText": {
+    "message": "QR Metin Dönüştürücü"
+  },
+  "qrTextTitle": {
+    "message": "QR ↔ Metin"
+  },
+  "qrTextDescription": {
+    "message": "Metni QR'a dönüştürün ve QR görsellerini tekrar metne çözün"
+  },
+  "qrTextModeEncode": {
+    "message": "Metinden QR'a"
+  },
+  "qrTextModeDecode": {
+    "message": "QR'dan Metne"
+  },
+  "qrTextHintEncode": {
+    "message": "Metin girin ve QR oluşturun."
+  },
+  "qrTextHintDecode": {
+    "message": "Metni çözmek için QR görseli yükleyin."
+  },
+  "qrTextInput": {
+    "message": "Girdi Metni"
+  },
+  "qrTextInputPlaceholder": {
+    "message": "Metin veya URL yazın..."
+  },
+  "qrTextSize": {
+    "message": "Boyut"
+  },
+  "qrTextGenerate": {
+    "message": "QR Oluştur"
+  },
+  "qrTextDownload": {
+    "message": "PNG İndir"
+  },
+  "qrTextImage": {
+    "message": "QR Görseli"
+  },
+  "qrTextDecodedLabel": {
+    "message": "Çözülen Metin"
+  },
+  "qrTextCopy": {
+    "message": "Metni Kopyala"
+  },
+  "qrTextNoInput": {
+    "message": "Lütfen önce metin girin."
+  },
+  "qrTextCanvasUnavailable": {
+    "message": "Canvas çizimi kullanılamıyor."
+  },
+  "qrTextReady": {
+    "message": "QR hazır."
+  },
+  "qrTextGenerated": {
+    "message": "QR oluşturuldu."
+  },
+  "qrTextGenerateFailed": {
+    "message": "QR oluşturma başarısız oldu."
+  },
+  "qrTextInvalidImage": {
+    "message": "Lütfen bir görsel dosyası seçin."
+  },
+  "qrTextDetectorUnsupported": {
+    "message": "Bu Chrome sürümünde QR çözme desteklenmiyor."
+  },
+  "qrTextDecoding": {
+    "message": "QR çözülüyor..."
+  },
+  "qrTextNotFound": {
+    "message": "Görselde QR kod bulunamadı."
+  },
+  "qrTextDecodeEmpty": {
+    "message": "QR içeriği boş."
+  },
+  "qrTextDecoded": {
+    "message": "QR başarıyla çözüldü."
+  },
+  "qrTextDecodeFailed": {
+    "message": "QR çözme başarısız oldu."
+  },
+  "qrTextNothingToDownload": {
+    "message": "İndirilecek QR görseli yok."
+  },
+  "qrTextDownloaded": {
+    "message": "QR görseli indirildi."
+  },
+  "qrTextDownloadFailed": {
+    "message": "QR görseli indirilemedi."
+  },
+  "qrTextNothingToCopy": {
+    "message": "Kopyalanacak çözülen metin yok."
+  },
+  "qrTextCopied": {
+    "message": "Çözülen metin kopyalandı."
+  },
+  "qrTextCopyFailed": {
+    "message": "Metin kopyalanamadı."
+  },
+  "qrTextGenericError": {
+    "message": "QR dönüştürme başarısız oldu."
+  },
+  "audioConverter": {
+    "message": "Ses Format Dönüştürücü"
+  },
+  "audioConverterTitle": {
+    "message": "Ses Format Dönüştürücü"
+  },
+  "audioConverterDescription": {
+    "message": "Ses dosyalarını WAV ve tarayıcı destekli sıkıştırılmış formatlara dönüştürün"
+  },
+  "audioConverterSourceFile": {
+    "message": "Kaynak Ses Dosyası"
+  },
+  "audioConverterTargetFormat": {
+    "message": "Hedef Format"
+  },
+  "audioConverterSampleRate": {
+    "message": "WAV Örnekleme Hızı"
+  },
+  "audioConverterRealtimeHint": {
+    "message": "Bu format tarayıcıda gerçek zamanlı kayıt kullanır. Dönüşüm, ses süresi kadar sürebilir."
+  },
+  "audioConverterConvert": {
+    "message": "Sesi Dönüştür"
+  },
+  "audioConverterDownload": {
+    "message": "Sesi İndir"
+  },
+  "audioConverterHint": {
+    "message": "Bir ses dosyası seçin, sonra Dönüştür'e tıklayın."
+  },
+  "audioConverterInputInfo": {
+    "message": "Girdi"
+  },
+  "audioConverterOutputInfo": {
+    "message": "Çıktı"
+  },
+  "audioConverterInvalidFile": {
+    "message": "Lütfen bir ses dosyası seçin."
+  },
+  "audioConverterLoading": {
+    "message": "Ses dosyası yükleniyor..."
+  },
+  "audioConverterDecodeUnavailable": {
+    "message": "Bu tarayıcıda ses çözümleme desteklenmiyor."
+  },
+  "audioConverterDecodeFailed": {
+    "message": "Ses dosyası çözümlenemedi."
+  },
+  "audioConverterReady": {
+    "message": "Ses yüklendi. Dönüştür'e tıklayın."
+  },
+  "audioConverterNoFile": {
+    "message": "Lütfen önce bir ses dosyası seçin."
+  },
+  "audioConverterConverting": {
+    "message": "Ses dönüştürülüyor..."
+  },
+  "audioConverterConvertingRealtime": {
+    "message": "Ses gerçek zamanlı dönüştürülüyor..."
+  },
+  "audioConverterConverted": {
+    "message": "Dönüşüm tamamlandı. İndirmeye hazır."
+  },
+  "audioConverterConvertFailed": {
+    "message": "Ses dönüştürme başarısız oldu."
+  },
+  "audioConverterRecorderUnavailable": {
+    "message": "Bu format tarayıcınızda desteklenmiyor."
+  },
+  "audioConverterNothingToDownload": {
+    "message": "İndirilecek dönüştürülmüş ses yok."
+  },
+  "audioConverterDownloaded": {
+    "message": "Dönüştürülmüş ses indirildi."
+  },
+  "videoConverter": {
+    "message": "Video Format Dönüştürücü"
+  },
+  "videoConverterTitle": {
+    "message": "Video Format Dönüştürücü"
+  },
+  "videoConverterDescription": {
+    "message": "Videoları tarayıcı destekli formatlara çözünürlük ve FPS kontrolleriyle dönüştürün"
+  },
+  "videoConverterSourceFile": {
+    "message": "Kaynak Video Dosyası"
+  },
+  "videoConverterTargetFormat": {
+    "message": "Hedef Format"
+  },
+  "videoConverterResolution": {
+    "message": "Çözünürlük"
+  },
+  "videoConverterResolutionOriginal": {
+    "message": "Orijinal"
+  },
+  "videoConverterFps": {
+    "message": "FPS"
+  },
+  "videoConverterBitrate": {
+    "message": "Bit hızı (kbps)"
+  },
+  "videoConverterRealtimeHint": {
+    "message": "Video dönüşümü tarayıcıda gerçek zamanlı çalışır. 2 dakikalık video yaklaşık 2 dakika sürebilir."
+  },
+  "videoConverterConvert": {
+    "message": "Videoyu Dönüştür"
+  },
+  "videoConverterDownload": {
+    "message": "Videoyu İndir"
+  },
+  "videoConverterHint": {
+    "message": "Bir video dosyası seçin, sonra Dönüştür'e tıklayın."
+  },
+  "videoConverterInputInfo": {
+    "message": "Girdi"
+  },
+  "videoConverterOutputInfo": {
+    "message": "Çıktı"
+  },
+  "videoConverterInvalidFile": {
+    "message": "Lütfen bir video dosyası seçin."
+  },
+  "videoConverterLoading": {
+    "message": "Video metadatası yükleniyor..."
+  },
+  "videoConverterReady": {
+    "message": "Video yüklendi. Dönüştür'e tıklayın."
+  },
+  "videoConverterLoadFailed": {
+    "message": "Video dosyası yüklenemedi."
+  },
+  "videoConverterNoFile": {
+    "message": "Lütfen önce bir video dosyası seçin."
+  },
+  "videoConverterNoFormats": {
+    "message": "Desteklenen çıktı formatı yok"
+  },
+  "videoConverterFormatUnsupported": {
+    "message": "Bu tarayıcıda desteklenen çıktı formatı yok."
+  },
+  "videoConverterPreparing": {
+    "message": "Dönüşüm hazırlanıyor..."
+  },
+  "videoConverterConvertingRealtime": {
+    "message": "Video gerçek zamanlı dönüştürülüyor..."
+  },
+  "videoConverterConverted": {
+    "message": "Dönüşüm tamamlandı. İndirmeye hazır."
+  },
+  "videoConverterCaptureUnsupported": {
+    "message": "Bu tarayıcıda video yakalama desteklenmiyor."
+  },
+  "videoConverterCanvasUnavailable": {
+    "message": "Canvas çizimi kullanılamıyor."
+  },
+  "videoConverterConvertFailed": {
+    "message": "Video dönüştürme başarısız oldu."
+  },
+  "videoConverterNothingToDownload": {
+    "message": "İndirilecek dönüştürülmüş video yok."
+  },
+  "videoConverterDownloaded": {
+    "message": "Dönüştürülmüş video indirildi."
+  },
+  "subtitleConverter": {
+    "message": "Altyazı Dönüştürücü"
+  },
+  "subtitleTitle": {
+    "message": "Altyazı Dönüştürücü (SRT/VTT)"
+  },
+  "subtitleDescription": {
+    "message": "Altyazı dosyalarını SRT ve VTT formatları arasında dönüştürün"
+  },
+  "subtitleFile": {
+    "message": "Altyazı Dosyası"
+  },
+  "subtitleSource": {
+    "message": "Kaynak Format"
+  },
+  "subtitleTarget": {
+    "message": "Hedef Format"
+  },
+  "subtitleAuto": {
+    "message": "Otomatik Algıla"
+  },
+  "subtitleInput": {
+    "message": "Girdi Altyazı"
+  },
+  "subtitleOutput": {
+    "message": "Çıktı Altyazı"
+  },
+  "subtitleInputPlaceholder": {
+    "message": "SRT veya VTT metnini buraya yapıştırın..."
+  },
+  "subtitleConvert": {
+    "message": "Altyazıyı Dönüştür"
+  },
+  "subtitleDownload": {
+    "message": "İndir"
+  },
+  "subtitleCopy": {
+    "message": "Kopyala"
+  },
+  "subtitleHint": {
+    "message": "Altyazı dosyası yükleyin veya metni yapıştırın, ardından dönüştürün."
+  },
+  "subtitleInvalidFile": {
+    "message": "Lütfen bir SRT veya VTT dosyası seçin."
+  },
+  "subtitleFileLoaded": {
+    "message": "Altyazı dosyası yüklendi."
+  },
+  "subtitleLoadFailed": {
+    "message": "Altyazı dosyası okunamadı."
+  },
+  "subtitleNoInput": {
+    "message": "Lütfen önce altyazı içeriği girin."
+  },
+  "subtitleDetectFailed": {
+    "message": "Altyazı formatı algılanamadı. Lütfen kaynak formatı manuel seçin."
+  },
+  "subtitleAlreadyTarget": {
+    "message": "Kaynak zaten hedef formatla aynı."
+  },
+  "subtitleParseFailed": {
+    "message": "Altyazı içeriği ayrıştırılamadı."
+  },
+  "subtitleConverted": {
+    "message": "$1 cue başarıyla dönüştürüldü."
+  },
+  "subtitleConvertDone": {
+    "message": "Altyazı başarıyla dönüştürüldü."
+  },
+  "subtitleConvertFailed": {
+    "message": "Altyazı dönüştürme başarısız oldu."
+  },
+  "subtitleNothingToDownload": {
+    "message": "İndirilecek dönüştürülmüş altyazı yok."
+  },
+  "subtitleDownloaded": {
+    "message": "Altyazı dosyası indirildi."
+  },
+  "subtitleNothingToCopy": {
+    "message": "Kopyalanacak dönüştürülmüş altyazı yok."
+  },
+  "subtitleCopied": {
+    "message": "Dönüştürülmüş altyazı kopyalandı."
+  },
+  "subtitleCopyFailed": {
+    "message": "Altyazı metni kopyalanamadı."
+  },
+  "romanNumeralConverter": {
+    "message": "Roma Rakamı Dönüştürücü"
+  },
+  "romanNumeralConverterTitle": {
+    "message": "Roma Rakamı Dönüştürücü"
+  },
+  "romanNumeralConverterDescription": {
+    "message": "Sayıları Roma rakamına ve Roma rakamlarını sayıya dönüştürün"
+  },
+  "romanNumeralConverterInput": {
+    "message": "Girdi"
+  },
+  "romanNumeralConverterInputPlaceholder": {
+    "message": "Bir sayı (2026) veya Roma rakamı (MMXXVI) yazın"
+  },
+  "romanNumeralConverterDirection": {
+    "message": "Yön"
+  },
+  "romanNumeralConverterDirectionAuto": {
+    "message": "Otomatik algıla"
+  },
+  "romanNumeralConverterDirectionNumberToRoman": {
+    "message": "Sayıdan Roma Rakamına"
+  },
+  "romanNumeralConverterDirectionRomanToNumber": {
+    "message": "Roma Rakamından Sayıya"
+  },
+  "romanNumeralConverterConvert": {
+    "message": "Dönüştür"
+  },
+  "romanNumeralConverterSwap": {
+    "message": "Değiştir"
+  },
+  "romanNumeralConverterCopyResult": {
+    "message": "Sonucu Kopyala"
+  },
+  "romanNumeralConverterOutput": {
+    "message": "Çıktı"
+  },
+  "romanNumeralConverterHint": {
+    "message": "1-3999 aralığını ve standart Roma rakamı yazımını destekler."
+  },
+  "romanNumeralConverterNoInput": {
+    "message": "Lütfen önce bir değer girin."
+  },
+  "romanNumeralConverterDetectFailed": {
+    "message": "Dönüşüm yönü algılanamadı. Yönü manuel seçin."
+  },
+  "romanNumeralConverterInvalidNumber": {
+    "message": "Lütfen geçerli bir sayı girin."
+  },
+  "romanNumeralConverterNumberRange": {
+    "message": "Sayı 1 ile 3999 arasında olmalıdır."
+  },
+  "romanNumeralConverterInvalidRoman": {
+    "message": "Geçersiz Roma rakamı."
+  },
+  "romanNumeralConverterConverted": {
+    "message": "Dönüşüm tamamlandı."
+  },
+  "romanNumeralConverterNothingToCopy": {
+    "message": "Kopyalanacak dönüşüm sonucu yok."
+  },
+  "romanNumeralConverterCopied": {
+    "message": "Sonuç kopyalandı."
+  },
+  "pdf": {
+    "message": "PDF"
+  },
+  "pdfGenerator": {
+    "message": "PDF Oluşturucu"
+  },
+  "pdfGeneratorDescription": {
+    "message": "Mevcut sayfayı PDF'e çevir ve indir"
+  },
+  "highlighter": {
+    "message": "İşaretleyici"
+  },
+  "textHighlighter": {
+    "message": "Metin İşaretleyici"
+  },
+  "textHighlighterDescription": {
+    "message": "Metni renklerle işaretle ve site bazında kaydet"
+  },
+  "readingMode": {
+    "message": "Okuma Modu"
+  },
+  "readingModeTitle": {
+    "message": "Dikkat Dağıtmayan Okuma"
+  },
+  "readingModeDescription": {
+    "message": "Odaklanmış okuma için temiz sayfa içeriği"
+  },
+  "qrcode": {
+    "message": "QR Kod"
+  },
+  "qrCodeGenerator": {
+    "message": "QR Kod Oluşturucu"
+  },
+  "qrCodeGeneratorDescription": {
+    "message": "Mevcut sayfa için özelleştirilebilir QR kod oluştur"
+  },
+  "bookmarkManager": {
+    "message": "Yer İmi Yöneticisi"
+  },
+  "bookmarkManagerTitle": {
+    "message": "Yer İmi Yöneticisi"
+  },
+  "bookmarkManagerDescription": {
+    "message": "Klasörler ve etiketler ile yer imlerini kaydet"
+  },
+  "videoRecorder": {
+    "message": "Video Kaydedici"
+  },
+  "videoRecorderTitle": {
+    "message": "Ekran Video Kaydı"
+  },
+  "videoRecorderDescription": {
+    "message": "Ses desteği ile ekran aktivitenizi kaydedin"
+  },
+  "darkModeToggle": {
+    "message": "Karanlık Mod"
+  },
+  "darkModeToggleTitle": {
+    "message": "Karanlık Modu Değiştir"
+  },
+  "darkModeToggleDescription": {
+    "message": "Herhangi bir web sitesine karanlık mod uygula"
+  },
+  "darkModeEnabled": {
+    "message": "Karanlık mod etkinleştirildi"
+  },
+  "darkModeDisabled": {
+    "message": "Karanlık mod devre dışı bırakıldı"
+  },
+  "failedToActivateDarkModeToggle": {
+    "message": "Karanlık mod değiştirici etkinleştirilemedi"
+  },
+  "aiSettings": {
+    "message": "AI"
+  },
+  "aiSettingsDescription": {
+    "message": "AI sağlayıcılarını, API anahtarlarını ve model tercihlerini yapılandırın"
+  },
+  "aiProvider": {
+    "message": "Sağlayıcı"
+  },
+  "aiProviderDescription": {
+    "message": "Sağlayıcı seçin, API anahtarı ekleyin, AI araçlarını kullanın."
+  },
+  "aiModel": {
+    "message": "AI Modeli"
+  },
+  "aiModelDescription": {
+    "message": "Model zeka seviyesini seçin"
+  },
+  "aiModelAuto": {
+    "message": "Otomatik (Araç karar verir)"
+  },
+  "aiModelSmart": {
+    "message": "Akıllı (Yüksek kaliteli model)"
+  },
+  "aiModelLite": {
+    "message": "Hafif (Hızlı/maliyet odaklı model)"
+  },
+  "aiKeys": {
+    "message": "API Anahtarları"
+  },
+  "aiKeysDescription": {
+    "message": "Döndürme ve hata toleransı için birden fazla API anahtarı ekleyin"
+  },
+  "addApiKey": {
+    "message": "API Anahtarı Ekle"
+  },
+  "aiAdvancedOptions": {
+    "message": "Gelişmiş sağlayıcı seçenekleri"
+  },
+  "optional": {
+    "message": "İsteğe bağlı"
+  },
+  "aiAdvancedDescription": {
+    "message": "Endpoint/auth/model davranışını geçersiz kılın veya özel bir fetch wrapper tanımlayın."
+  },
+  "aiBaseUrl": {
+    "message": "Temel URL"
+  },
+  "aiPath": {
+    "message": "Yol"
+  },
+  "aiAuthHeader": {
+    "message": "Yetkilendirme Başlığı"
+  },
+  "aiAuthPrefix": {
+    "message": "Yetkilendirme Ön Eki"
+  },
+  "aiSmartModel": {
+    "message": "Akıllı Model (otomatik/akıllı için kullanılır)"
+  },
+  "aiLiteModel": {
+    "message": "Hafif Model"
+  },
+  "aiResponseParser": {
+    "message": "Yanıt Ayrıştırıcı"
+  },
+  "aiResponseParserOpenAI": {
+    "message": "OpenAI uyumlu"
+  },
+  "aiResponseParserGemini": {
+    "message": "Gemini"
+  },
+  "aiResponseParserAnthropic": {
+    "message": "Anthropic"
+  },
+  "aiExtraHeaders": {
+    "message": "Ek Başlıklar (JSON nesnesi)"
+  },
+  "aiBodyTemplate": {
+    "message": "Gövde Şablonu ({{prompt}} ve {{model}} içeren isteğe bağlı JSON)"
+  },
+  "aiLanguage": {
+    "message": "Yanıt Dili"
+  },
+  "aiLanguageDescription": {
+    "message": "AI yanıtları için dil seçin"
+  },
+  "aiLanguageAuto": {
+    "message": "Otomatik (Tarayıcı Dili)"
+  },
+  "aiLanguageAutoDescription": {
+    "message": "Arayüz İngilizce olsa bile AI yanıtları için tarayıcı dilinizi otomatik algılar"
+  },
+  "chatWelcome": {
+    "message": "Merhaba! Yardım etmeye hazırım. Bana her şeyi sorabilirsin!"
+  },
+  "typeMessage": {
+    "message": "Mesajınızı yazın..."
+  },
+  "typeOrPasteText": {
+    "message": "Metni buraya yazın veya yapıştırın..."
+  },
+  "aiSEOAnalyzer": {
+    "message": "AI SEO Analizci"
+  },
+  "seoAnalyzing": {
+    "message": "SEO analizi yapılıyor..."
+  },
+  "seoAnalyzingDescription": {
+    "message": "Sayfa SEO performansını analiz ediyoruz. Bu işlem birkaç saniye sürebilir."
+  },
+  "seoAnalysisSteps": {
+    "message": "Analiz Adımları"
+  },
+  "seoStep1": {
+    "message": "Meta etiketleri ve başlık analizi"
+  },
+  "seoStep2": {
+    "message": "İçerik kalitesi değerlendirmesi"
+  },
+  "seoStep3": {
+    "message": "Görsel ve bağlantı optimizasyonu"
+  },
+  "seoStep4": {
+    "message": "Teknik SEO kontrolleri"
+  },
+  "seoMetaAndTitle": {
+    "message": "Meta & Başlık"
+  },
+  "seoContentQuality": {
+    "message": "İçerik Kalitesi"
+  },
+  "seoHeadingStructure": {
+    "message": "Başlık Yapısı"
+  },
+  "seoImageOptimization": {
+    "message": "Görsel Optimizasyonu"
+  },
+  "seoLinkStrategy": {
+    "message": "Bağlantı Stratejisi"
+  },
+  "seoTechnicalSEO": {
+    "message": "Teknik SEO"
+  },
+  "seoOverallScore": {
+    "message": "Genel SEO Skoru"
+  },
+  "seoSummary": {
+    "message": "Özet"
+  },
+  "seoCopyReport": {
+    "message": "Raporu Kopyala"
+  },
+  "seoReportCopied": {
+    "message": "SEO raporu panoya kopyalandı!"
+  },
+  "seoCopyFailed": {
+    "message": "Rapor kopyalanamadı"
+  },
+  "seoAnalysisComplete": {
+    "message": "SEO analizi tamamlandı!"
+  },
+  "seoAnalysisFailed": {
+    "message": "SEO analizi başarısız oldu"
+  },
+  "seoExcellent": {
+    "message": "Mükemmel SEO performansı!"
+  },
+  "seoGood": {
+    "message": "İyi SEO performansı"
+  },
+  "seoFair": {
+    "message": "Orta düzeyde SEO performansı"
+  },
+  "seoNeedsImprovement": {
+    "message": "SEO iyileştirme gerekiyor"
+  },
+  "seoPoor": {
+    "message": "Zayıf SEO performansı"
+  },
+  "summaryLengthShort": {
+    "message": "Kısa (~50 kelime)"
+  },
+  "summaryLengthMedium": {
+    "message": "Orta (~150 kelime)"
+  },
+  "summaryLengthLong": {
+    "message": "Uzun (~300 kelime)"
+  },
+  "length": {
+    "message": "Uzunluk"
+  },
+  "summarizeAuto": {
+    "message": "Sayfa İçeriği"
+  },
+  "summarizeManual": {
+    "message": "Metin Seç"
+  },
+  "noContentToSummarize": {
+    "message": "Özetlenecek içerik bulunamadı"
+  },
+  "selectTextFirst": {
+    "message": "Lütfen önce sayfada metin seçin"
+  },
+  "autoDetect": {
+    "message": "Otomatik Algıla"
+  },
+  "noTextToTranslate": {
+    "message": "Bu sayfada çevrilecek metin bulunamadı"
+  },
+  "pageTranslated": {
+    "message": "Sayfa başarıyla çevrildi!"
+  },
+  "translating": {
+    "message": "Çevriliyor..."
+  },
+  "noTranslationToRestore": {
+    "message": "Geri yüklenecek çeviri yok"
+  },
+  "pageRestored": {
+    "message": "Orijinal sayfa geri yüklendi"
+  },
+  "failedToRestore": {
+    "message": "Orijinal sayfa geri yüklenemedi"
+  },
+  "restoreOriginal": {
+    "message": "Orijinali Geri Yükle"
+  },
+  "textTruncated": {
+    "message": "Çeviri için metin 5000 karaktere kısaltıldı"
+  },
+  "analyzing": {
+    "message": "Analiz ediliyor..."
+  },
+  "selectTextToAnalyze": {
+    "message": "Analiz etmek için sayfada metin seçin"
+  },
+  "cancel": {
+    "message": "İptal"
+  },
+  "analyzeInput": {
+    "message": "Metin Gir"
+  },
+  "analyzeSelection": {
+    "message": "Metin Seç"
+  },
+  "analyzePage": {
+    "message": "Sayfa İçeriği"
+  },
+  "enterTextToAnalyze": {
+    "message": "Analiz etmek için metin girin"
+  },
+  "aiEmailGeneratorTitle": {
+    "message": "AI E-posta Oluşturucu"
+  },
+  "emailType": {
+    "message": "E-posta Türü"
+  },
+  "emailTone": {
+    "message": "E-posta Tonu"
+  },
+  "emailLength": {
+    "message": "E-posta Uzunluğu"
+  },
+  "typeFollowUp": {
+    "message": "Takip"
+  },
+  "typeThankYou": {
+    "message": "Teşekkür"
+  },
+  "typeRequest": {
+    "message": "Talep"
+  },
+  "typeComplaint": {
+    "message": "Şikayet"
+  },
+  "typeIntroduction": {
+    "message": "Tanıtım"
+  },
+  "typeApology": {
+    "message": "Özür"
+  },
+  "typeReminder": {
+    "message": "Hatırlatma"
+  },
+  "typeInvitation": {
+    "message": "Davet"
+  },
+  "toneProfessional": {
+    "message": "Profesyonel"
+  },
+  "toneFriendly": {
+    "message": "Dostane"
+  },
+  "toneFormal": {
+    "message": "Resmi"
+  },
+  "toneCasual": {
+    "message": "Günlük"
+  },
+  "tonePersuasive": {
+    "message": "İkna Edici"
+  },
+  "emailLengthShort": {
+    "message": "Kısa (~50 kelime)"
+  },
+  "emailLengthMedium": {
+    "message": "Orta (~150 kelime)"
+  },
+  "emailLengthLong": {
+    "message": "Uzun (~300 kelime)"
+  },
+  "pleaseEnterEmailContext": {
+    "message": "Lütfen e-posta bağlamını girin"
+  },
+  "noContentToGenerateEmail": {
+    "message": "E-posta oluşturmak için içerik bulunamadı"
+  },
+  "emailGenerated": {
+    "message": "E-posta başarıyla oluşturuldu!"
+  },
+  "analyzeContent": {
+    "message": "İçeriği Analiz Et"
+  },
+  "itemCopied": {
+    "message": "Öğe geçmişe eklendi"
+  },
+  "copyHistoryManager": {
+    "message": "Kopya Geçmişi"
+  },
+  "searchHistory": {
+    "message": "Geçmişi ara..."
+  },
+  "clearAllHistory": {
+    "message": "Tüm Geçmişi Temizle"
+  },
+  "confirmClearAll": {
+    "message": "Tüm geçmişi temizlemek istediğinizden emin misiniz?"
+  },
+  "copyAgain": {
+    "message": "Kopyala"
+  },
+  "noItemsYet": {
+    "message": "Henüz öğe yok"
+  },
+  "startCopyingHint": {
+    "message": "Burada görmek için metin kopyalamaya başlayın"
+  },
+  "historyCleared": {
+    "message": "Geçmiş temizlendi"
+  },
+  "clearHistoryError": {
+    "message": "Geçmiş temizlenemedi"
+  },
+  "activationError": {
+    "message": "Kopyalama Geçmişi Yöneticisi etkinleştirilemedi"
+  },
+  "failedToActivateTool": {
+    "message": "Araç etkinleştirilemedi."
+  },
+  "allNotesFromAllSites": {
+    "message": "Tüm Sitelerden Notlar"
+  },
+  "noStickyNotesYet": {
+    "message": "Henüz yapışkan not yok"
+  },
+  "createFirstNoteHint": {
+    "message": "İlk yapışkan notunuzu oluşturmak için sayfada herhangi bir yere tıklayın. Her not kendi sitesine sabitlenir."
+  },
+  "unknownDate": {
+    "message": "Bilinmeyen tarih"
+  },
+  "emptyNote": {
+    "message": "Boş not"
+  },
+  "stickyNotesManager": {
+    "message": "Yapışkan Notlar Yöneticisi"
+  },
+  "addNewNote": {
+    "message": "Yeni Not Ekle"
+  },
+  "clearAll": {
+    "message": "Tümünü Temizle"
+  },
+  "delete": {
+    "message": "Sil"
+  },
+  "selectTextToTranslate": {
+    "message": "Çevirmek için sayfada metin seçin"
+  },
+  "sourceLanguage": {
+    "message": "Kaynak Dil"
+  },
+  "targetLanguage": {
+    "message": "Hedef Dil"
+  },
+  "enterTextToTranslate": {
+    "message": "Çevirmek için metin girin"
+  },
+  "originalText": {
+    "message": "Orijinal"
+  },
+  "translatedText": {
+    "message": "Çeviri"
+  },
+  "copied": {
+    "message": "Kopyalandı!"
+  },
+  "showHighlights": {
+    "message": "Vurguları Göster"
+  },
+  "hideHighlights": {
+    "message": "Vurguları Gizle"
+  },
+  "aiProbability": {
+    "message": "AI Olasılığı"
+  },
+  "detailedMetrics": {
+    "message": "Detaylı Analiz"
+  },
+  "suspiciousSections": {
+    "message": "Şüpheli Bölümler"
+  },
+  "copyResults": {
+    "message": "Sonuçları Kopyala"
+  },
+  "selectTextOnPage": {
+    "message": "Özetlemek için sayfada metin seçin"
+  },
+  "summary": {
+    "message": "Özet"
+  },
+  "copySummary": {
+    "message": "Özeti Kopyala"
+  },
+  "extractedKeywords": {
+    "message": "Anahtar Kelimeler"
+  },
+  "generating": {
+    "message": "Özet oluşturuluyor..."
+  },
+  "enterEmailContext": {
+    "message": "E-posta bağlamını girin"
+  },
+  "generatingEmail": {
+    "message": "E-posta oluşturuluyor..."
+  },
+  "generatedEmail": {
+    "message": "Oluşturulan E-posta"
+  },
+  "copyEmail": {
+    "message": "E-postayı Kopyala"
+  },
+  "subjectLine": {
+    "message": "Konu Satırı"
+  },
+  "emailBody": {
+    "message": "E-posta İçeriği"
+  },
+  "aiChat": {
+    "message": "AI Sohbet"
+  },
+  "colorPaletteAnalysis": {
+    "message": "Renk Paleti Analizi"
+  },
+  "harmonicPalettes": {
+    "message": "Harmonik Paletler"
+  },
+  "accessibilityScores": {
+    "message": "Erişilebilirlik Puanları"
+  },
+  "exportOptions": {
+    "message": "Dışa Aktarma Seçenekleri"
+  },
+  "copyCSS": {
+    "message": "CSS Kopyala"
+  },
+  "copyJSON": {
+    "message": "JSON Kopyala"
+  },
+  "scanningLinks": {
+    "message": "Bağlantılar taranıyor…"
+  },
+  "finalising": {
+    "message": "Sonlandırılıyor…"
+  },
+  "chooseHighlightColor": {
+    "message": "Vurgu Rengini Seçin"
+  },
+  "removeHighlight": {
+    "message": "Vurguyu Kaldır"
+  },
+  "noBookmarksFound": {
+    "message": "Aramanızla eşleşen yer imi bulunamadı"
+  },
+  "noFavoriteBookmarksYet": {
+    "message": "Henüz favori yer imi yok"
+  },
+  "noBookmarksYet": {
+    "message": "Henüz yer imi yok. İlk yer iminizi eklemek için + tıklayın!"
+  },
+  "title": {
+    "message": "Başlık"
+  },
+  "url": {
+    "message": "URL"
+  },
+  "folder": {
+    "message": "Klasör"
+  },
+  "tagsCommaSeparated": {
+    "message": "Etiketler (virgülle ayrılmış)"
+  },
+  "addBookmark": {
+    "message": "Yer İmi Ekle"
+  },
+  "updateBookmark": {
+    "message": "Yer İmini Güncelle"
+  },
+  "videoLabel": {
+    "message": "Video"
+  },
+  "imageLabel": {
+    "message": "Resim"
+  },
+  "duration": {
+    "message": "00:00"
+  },
+  "resume": {
+    "message": "Devam Et"
+  },
+  "pause": {
+    "message": "Duraklat"
+  },
+  "entireScreen": {
+    "message": "Tüm Ekran"
+  },
+  "window": {
+    "message": "Pencere"
+  },
+  "chromeTab": {
+    "message": "Chrome Sekmesi"
+  },
+  "recording": {
+    "message": "Kayıt"
+  },
+  "recordingInProgress": {
+    "message": "Kayıt devam ediyor. Yakalamayı yönetmek için bu pencereyi açık tutun."
+  },
+  "clickToAddNote": {
+    "message": "Not eklemek için tıklayın..."
+  },
+  "searchBookmarks": {
+    "message": "Yer imlerini ara..."
+  },
+  "folderPlaceholder": {
+    "message": "örn., İş/Projeler"
+  },
+  "tagsPlaceholder": {
+    "message": "örn., javascript, araçlar, eğitim"
+  },
+  "notesPlaceholder": {
+    "message": "Bu yer imi hakkında isteğe bağlı notlar..."
+  },
+  "qrTextPlaceholder": {
+    "message": "QR kod oluşturmak için metin, URL veya herhangi bir içerik girin..."
+  },
+  "searchTools": {
+    "message": "Araçları ara..."
+  },
+  "filterByCategory": {
+    "message": "Kategoriye göre filtrele"
+  },
+  "webPickerTools": {
+    "message": "Web seçici araçları"
+  },
+  "previousPage": {
+    "message": "Önceki sayfa"
+  },
+  "nextPage": {
+    "message": "Sonraki sayfa"
+  },
+  "toolToggles": {
+    "message": "Araç geçişleri"
+  },
+  "ai": {
+    "message": "Yapay Zeka"
+  },
+  "aiTextSummarizer": {
+    "message": "AI Özetleyici"
+  },
+  "aiTextSummarizerTitle": {
+    "message": "AI Özetleyici"
+  },
+  "aiTextSummarizerDescription": {
+    "message": "Sayfa içeriğini yapay zeka ile özetle"
+  },
+  "aiTextTranslator": {
+    "message": "Yapay Zeka Çevirici"
+  },
+  "aiTextTranslatorTitle": {
+    "message": "Yapay Zeka Metin Çevirici"
+  },
+  "aiTextTranslatorDescription": {
+    "message": "Metinleri ve sayfaları 40+ dile çevirin"
+  },
+  "aiContentDetector": {
+    "message": "AI İçerik Dedektörü"
+  },
+  "aiContentDetectorTitle": {
+    "message": "AI İçerik Dedektörü"
+  },
+  "aiContentDetectorDescription": {
+    "message": "Çok metrikli analiz ile AI içeriği tespit edin"
+  },
+  "aiEmailGenerator": {
+    "message": "AI E-posta Oluşturucu"
+  },
+  "aiEmailGeneratorDescription": {
+    "message": "AI ile profesyonel e-postalar oluşturun"
+  },
+  "aiSEOAnalyzerTitle": {
+    "message": "AI SEO Analizci"
+  },
+  "aiSEOAnalyzerDescription": {
+    "message": "AI destekli önerilerle sayfa SEO'sunu analiz edin ve optimize edin"
+  },
+  "aiChatTitle": {
+    "message": "Bu sayfa hakkında AI ile sohbet et"
+  },
+  "aiChatDescription": {
+    "message": "Mevcut web sayfası hakkında AI ile konuşun"
+  },
+  "copyHistoryManagerTitle": {
+    "message": "Pano Geçmişini İzle"
+  },
+  "copyHistoryManagerDescription": {
+    "message": "Kopyalanan metin ve URL'leri izle ve yönet"
+  },
+  "Inspect": {
+    "message": "İncele"
+  },
+  "analyzeOnPageElementsAndStyles": {
+    "message": "Sayfa elementlerini ve stillerini analiz edin."
+  },
+  "Capture": {
+    "message": "Yakala"
+  },
+  "collectAndSaveContentFromAnyPage": {
+    "message": "Herhangi bir sayfadan içerik toplayın ve kaydedin."
+  },
+  "Enhance": {
+    "message": "Geliştir"
+  },
+  "augmentTheBrowsingExperience": {
+    "message": "Gezinti deneyimini artırın."
+  },
+  "Utilities": {
+    "message": "Araçlar"
+  },
+  "generalPurposeSiteUtilities": {
+    "message": "Genel amaçlı site araçları."
+  },
+  "Converters": {
+    "message": "Dönüştürücüler"
+  },
+  "converterToolsForFormatAndUnitTransformations": {
+    "message": "Format ve birim dönüşümü için dönüştürücü araçlar."
+  },
+  "AI": {
+    "message": "Yapay Zeka"
+  },
+  "aiPoweredToolsForContentAnalysis": {
+    "message": "İçerik analizi için yapay zeka destekli araçlar."
+  },
+  "download": {
+    "message": "İndir"
+  },
+  "typeLabel": {
+    "message": "Tür"
+  },
+  "primaryUrlLabel": {
+    "message": "Ana URL"
+  },
+  "streamUrlLabel": {
+    "message": "Akış URL'si"
+  },
+  "urlLabel": {
+    "message": "URL"
+  },
+  "unavailableLabel": {
+    "message": "Mevcut değil"
+  },
+  "blobUrlWarning": {
+    "message": "⚠️ Bu video blob URL kullanıyor. İndirme mevcut olmayabilir."
+  },
+  "blobUrlFallbackNote": {
+    "message": "Ana akış blob URL kullanıyor. Kopyalama ve indirme işlemleri için indirilebilir kaynak keşfedildi ve kullanılıyor."
+  },
+  "additionalSources": {
+    "message": "Ek kaynaklar"
+  },
+  "copyUrl": {
+    "message": "URL'yi Kopyala"
+  },
+  "copyUrlUnavailable": {
+    "message": "URL'yi Kopyala (mevcut değil)"
+  },
+  "downloadUnavailable": {
+    "message": "İndir (mevcut değil)"
+  },
+  "noFavoriteBookmarks": {
+    "message": "Henüz favori yer imi yok"
+  },
+  "cmdColorPicker": {
+    "message": "Renk Seçiciyi Etkinleştir"
+  },
+  "cmdScreenshotPicker": {
+    "message": "Ekran Görüntüsü Alıcıyı Etkinleştir"
+  },
+  "cmdReadingMode": {
+    "message": "Okuma Modunu Etkinleştir"
+  },
+  "cmdTextHighlighter": {
+    "message": "Metin İşaretleyiciyi Etkinleştir"
+  },
+  "elementSelectedAndCopied": {
+    "message": "$1 öğesi seçildi ve kopyalandı!"
+  },
+  "linksExtractedFromSource": {
+    "message": "$1 bağlantı $2'den çıkarıldı!"
+  },
+  "failedToGeneratePDF": {
+    "message": "PDF oluşturulamadı: $1"
+  },
+  "failedToActivatePDFGenerator": {
+    "message": "PDF Oluşturucu etkinleştirilemedi: $1"
+  },
+  "deletedNotesSuccessfully": {
+    "message": "$1 not başarıyla silindi!"
+  },
+  "importedBookmarks": {
+    "message": "$1 yer imi içe aktarıldı$2"
+  },
+  "enterContext": {
+    "message": "Bağlam Girin"
+  },
+  "pageContextMode": {
+    "message": "Sayfa Bağlamı"
+  },
+  "generateEmail": {
+    "message": "E-posta Oluştur"
+  },
+  "failedToGenerateEmail": {
+    "message": "E-posta oluşturulamadı"
+  },
+  "emailCopied": {
+    "message": "E-posta panoya kopyalandı!"
+  },
+  "failedToCopyEmail": {
+    "message": "E-posta kopyalanamadı"
+  },
+  "emailGeneratorActivated": {
+    "message": "AI E-posta Oluşturucu etkinleştirildi"
+  },
+  "failedToActivateEmailGenerator": {
+    "message": "E-posta oluşturucu etkinleştirilemedi"
+  },
+  "toggleFavorite": {
+    "message": "Favoriyi değiştir"
+  },
+  "favoriteTools": {
+    "message": "Favori Araçlar"
+  },
+  "export": {
+    "message": "Dışa Aktar"
+  },
+  "favorite": {
+    "message": "Favori"
+  },
+  "favorites": {
+    "message": "Favoriler"
+  },
+  "noFavoritesYet": {
+    "message": "Henüz favori yok. Favori eklemek için herhangi bir araçtaki yıldız butonuna tıklayın!"
+  },
+  "removedFromFavorites": {
+    "message": "Favorilerden kaldırıldı"
+  },
+  "addToFavorites": {
+    "message": "Favorilere ekle"
+  },
+  "removeFromFavorites": {
+    "message": "Favorilerden kaldır"
+  },
+  "failedToLoadFavorites": {
+    "message": "Favoriler yüklenemedi"
+  },
+  "remove": {
+    "message": "Kaldır"
+  },
+  "all": {
+    "message": "Tümü"
+  },
+  "folders": {
+    "message": "Klasörler"
+  },
+  "tags": {
+    "message": "Etiketler"
+  },
+  "editBookmark": {
+    "message": "Yer İmini Düzenle"
+  },
+  "links": {
+    "message": "Bağlantılar"
+  },
+  "onboardingStep": {
+    "message": "Adım"
+  },
+  "onboardingOf": {
+    "message": "/"
+  },
+  "onboardingPrevious": {
+    "message": "Önceki"
+  },
+  "onboardingNext": {
+    "message": "Sonraki"
+  },
+  "onboardingFinish": {
+    "message": "Bitir"
+  },
+  "onboardingSkip": {
+    "message": "Atla"
+  },
+  "onboarding_step1_title": {
+    "message": "Toolboard'ye Hoş Geldiniz!"
+  },
+  "onboarding_step1_desc": {
+    "message": "Toolboard, 83 verimlilik aracı ile birleşik web araç setinizdir. Hızlı bir tur atalım!"
+  },
+  "onboarding_step2_title": {
+    "message": "Araçları Ara"
+  },
+  "onboarding_step2_desc": {
+    "message": "Araç adını, kategorisini veya işlevini yazarak hızlıca bulun. \"renk\" veya \"ekran görüntüsü\" yazmayı deneyin."
+  },
+  "onboarding_step3_title": {
+    "message": "Kategoriye Göre Filtrele"
+  },
+  "onboarding_step3_desc": {
+    "message": "Araçları kategoriye göre göz atın: İnceleme, Yakalama, Geliştirme, Yardımcılar ve AI destekli araçlar."
+  },
+  "onboarding_step4_title": {
+    "message": "Bir Araç Deneyin"
+  },
+  "onboarding_step4_desc": {
+    "message": "Mevcut sayfada etkinleştirmek için herhangi bir araca tıklayın. Her araç her web sitesinde çalışır!"
+  },
+  "onboarding_step5_title": {
+    "message": "Favoriler"
+  },
+  "onboarding_step5_desc": {
+    "message": "Favori araçlarını yıldızla işaretleyin ve listede üstte tutun."
+  },
+  "onboarding_step6_title": {
+    "message": "Sayfaları Gezin"
+  },
+  "onboarding_step6_desc": {
+    "message": "Tüm mevcut araçları göz atmak için sayfalama butonlarını veya kaydırma tekerleğini kullanın."
+  },
+  "onboarding_step7_title": {
+    "message": "Ayarlar"
+  },
+  "onboarding_step7_desc": {
+    "message": "Deneyiminizi özelleştirin: dili değiştirin, temayı ayarlayın, araçları gizleyin ve AI ayarlarını yapılandırın."
+  },
+  "onboarding_step8_title": {
+    "message": "AI Ayarları"
+  },
+  "onboarding_step8_desc": {
+    "message": "AI araçları için sağlayıcı API anahtarlarınızı eklemek ve tercih ettiğiniz model ile dili seçmek için AI sekmesine gidin."
+  },
+  "onboarding_step9_title": {
+    "message": "Araçları Özelleştir"
+  },
+  "onboarding_step9_desc": {
+    "message": "Çalışma alanınızı temiz ve odaklı tutmak için kullanmadığınız araçları gizleyin."
+  },
+  "onboarding_step10_title": {
+    "message": "Hazırsınız!"
+  },
+  "onboarding_step10_desc": {
+    "message": "Aramayı hızlıca odaklamak için \"/\" tuşuna basın. Bu rehberi tekrar görmek için istediğiniz zaman bilgi simgesine tıklayın!"
+  },
+  "aiApiKeyRequired": {
+    "message": "AI API anahtarı gerekli. Ayarlardan sağlayıcı API anahtarınızı ekleyin."
+  },
+  "aiApiKeyRequiredTitle": {
+    "message": "AI API Anahtarı Gerekli"
+  },
+  "aiApiKeyRequiredDescription": {
+    "message": "AI araçları için bir API anahtarı ekleyin."
+  },
+  "openSettings": {
+    "message": "Ayarları Aç"
+  },
+  "securityNotice": {
+    "message": "Güvenlik Uyarısı"
+  },
+  "apiKeySecurityWarning": {
+    "message": "API anahtarları cihazınızda şifrelenmiş şekilde yerel olarak saklanır. Cihazınızı güvende tutun ve API anahtarlarını içeren ekran görüntülerini paylaşmayın"
+  },
+  "noApiKeys": {
+    "message": "Henüz API anahtarı eklenmedi"
+  },
+  "colorPickerName": {
+    "message": "Renk Seçici"
+  },
+  "readingModeName": {
+    "message": "Okuma Modu"
+  },
+  "textHighlighterName": {
+    "message": "Metin Vurgulayıcı"
+  },
+  "screenshotPickerName": {
+    "message": "Ekran Görüntüsü Alıcı"
+  },
+  "stickyNotesName": {
+    "message": "Yapışkan Notlar"
+  },
+  "aiTextSummarizerName": {
+    "message": "AI Özetleyici"
+  },
+  "aiChatName": {
+    "message": "AI Sohbet"
+  },
+  "supportTitle": {
+    "message": "Geliştiriciyi Destekle"
+  },
+  "supportDescription": {
+    "message": "Toolboard tamamen ücretsiz! Eğer faydalı buluyorsanız, gelecekteki geliştirmeleri desteklemek için bana bir kahve ısmarlayabilirsiniz."
+  },
+  "unfavorite": {
+    "message": "Favorilerden çıkarıldı"
+  },
+  "errorMessage": {
+    "message": "Hata Mesajı"
+  },
+  "sendError": {
+    "message": "Mesaj gönderilemedi"
+  },
+  "analyze": {
+    "message": "Analiz Et"
+  },
+  "pleaseEnterText": {
+    "message": "Lütfen metin girin."
+  },
+  "pleaseSelectText": {
+    "message": "Lütfen metin seçin."
+  },
+  "noContentToAnalyze": {
+    "message": "Analiz edilecek içerik yok."
+  },
+  "analysisComplete": {
+    "message": "Analiz tamamlandı."
+  },
+  "failedToAnalyze": {
+    "message": "İçerik analiz edilemedi."
+  },
+  "writingStyle": {
+    "message": "Yazım Stili"
+  },
+  "wordChoice": {
+    "message": "Kelime Seçimi"
+  },
+  "structureAnalysis": {
+    "message": "Yapı Analizi"
+  },
+  "resultsCopied": {
+    "message": "Sonuçlar kopyalandı."
+  },
+  "failedToCopy": {
+    "message": "Kopyalanamadı."
+  },
+  "detectorActivated": {
+    "message": "Dedektör etkinleştirildi."
+  },
+  "failedToActivate": {
+    "message": "Etkinleştirilemedi."
+  },
+  "summaryGenerated": {
+    "message": "Özet oluşturuldu."
+  },
+  "failedToGenerateSummary": {
+    "message": "Özet oluşturulamadı."
+  },
+  "aiSummarizerActivated": {
+    "message": "AI Özetleyici etkinleştirildi."
+  },
+  "translateInput": {
+    "message": "Girilen metni çevir"
+  },
+  "translateSelection": {
+    "message": "Seçili metni çevir"
+  },
+  "translatePage": {
+    "message": "Sayfayı çevir"
+  },
+  "translate": {
+    "message": "Çevir"
+  },
+  "translationCompleted": {
+    "message": "Çeviri tamamlandı."
+  },
+  "failedToTranslate": {
+    "message": "Çeviri yapılamadı."
+  },
+  "copyTranslation": {
+    "message": "Çeviriyi kopyala"
+  },
+  "translationCopied": {
+    "message": "Çeviri kopyalandı."
+  },
+  "translatorActivated": {
+    "message": "Çevirmen etkinleştirildi."
+  },
+  "previewers": {
+    "message": "Önizleyiciler"
+  },
+  "previewAndInspectStructuredContentFast": {
+    "message": "Yapılandırılmış içeriği hızlıca önizleyin ve inceleyin"
+  },
+  "jsonPreviewer": {
+    "message": "JSON Önizleyici"
+  },
+  "jsonPreviewerTitle": {
+    "message": "JSON Önizleyici"
+  },
+  "jsonPreviewerDescription": {
+    "message": "Arama, daraltma ve yol/değer kopyalama ile ağaç JSON önizleme."
+  },
+  "csvTsvPreviewer": {
+    "message": "CSV/TSV Önizleyici"
+  },
+  "csvTsvPreviewerTitle": {
+    "message": "CSV/TSV Önizleyici"
+  },
+  "csvTsvPreviewerDescription": {
+    "message": "Otomatik ayraç algılama, sıralama ve filtre ile CSV/TSV tablo önizleme."
+  },
+  "markdownPreviewer": {
+    "message": "Markdown Önizleyici"
+  },
+  "markdownPreviewerTitle": {
+    "message": "Markdown Önizleyici"
+  },
+  "markdownPreviewerDescription": {
+    "message": "Kod blokları ve içindekiler ile GFM tarzı Markdown önizleme."
+  },
+  "xmlPreviewer": {
+    "message": "XML Önizleyici"
+  },
+  "xmlPreviewerTitle": {
+    "message": "XML Önizleyici"
+  },
+  "xmlPreviewerDescription": {
+    "message": "XML'i ağaç görünümü ve formatlı metin olarak önizleyin."
+  },
+  "pdfPreviewInspector": {
+    "message": "PDF Önizleme Denetleyici"
+  },
+  "pdfPreviewInspectorTitle": {
+    "message": "PDF Önizleme Denetleyici"
+  },
+  "pdfPreviewInspectorDescription": {
+    "message": "PDF metadata bilgisini ve sayfa özet kartlarını inceleyin."
+  },
+  "imagePreviewInspector": {
+    "message": "Görsel Önizleme Denetleyici"
+  },
+  "imagePreviewInspectorTitle": {
+    "message": "Görsel Önizleme Denetleyici"
+  },
+  "imagePreviewInspectorDescription": {
+    "message": "EXIF, boyutlar ve renk profili ipuçlarını inceleyin."
+  },
+  "openGraphMetaPreviewer": {
+    "message": "OpenGraph/Meta Önizleyici"
+  },
+  "openGraphMetaPreviewerTitle": {
+    "message": "OpenGraph/Meta Önizleyici"
+  },
+  "openGraphMetaPreviewerDescription": {
+    "message": "Başlık, açıklama ve görsel gibi sosyal meta etiketlerini önizleyin."
+  },
+  "schemaPreviewer": {
+    "message": "Schema Önizleyici"
+  },
+  "schemaPreviewerTitle": {
+    "message": "Schema Önizleyici"
+  },
+  "schemaPreviewerDescription": {
+    "message": "JSON-LD şemalarını inceleyin, JSON Schema/OpenAPI parçalarını önizleyin."
+  },
+  "linkPreviewer": {
+    "message": "Link Önizleyici"
+  },
+  "linkPreviewerTitle": {
+    "message": "Link Önizleyici"
+  },
+  "linkPreviewerDescription": {
+    "message": "Hedef URL, durum kodu ve içerik tipini hızlıca önizleyin."
+  },
+  "jwtClaimsPreviewer": {
+    "message": "JWT Claim Önizleyici"
+  },
+  "jwtClaimsPreviewerTitle": {
+    "message": "JWT Claim Önizleyici"
+  },
+  "jwtClaimsPreviewerDescription": {
+    "message": "JWT çözümleyip exp/nbf/iat durumlarını görselleştirin."
+  },
+  "zplViewer": {
+    "message": "ZPL Görüntüleyici"
+  },
+  "zplViewerTitle": {
+    "message": "ZPL Görüntüleyici"
+  },
+  "zplViewerDescription": {
+    "message": "ZPL etiketlerini görüntüleyin ve PDF olarak indirin."
+  },
+  "buyCoffee": {
+    "message": "Bana kahve ısmarla"
+  },
+  "jsonPreviewerCopyPath": {
+    "message": "Yol"
+  },
+  "jsonPreviewerCopyValue": {
+    "message": "Değer"
+  },
+  "csvTsvPreviewerDelimiterTab": {
+    "message": "Sekme"
+  },
+  "csvTsvPreviewerDelimiterSemicolon": {
+    "message": "Noktalı virgül"
+  },
+  "csvTsvPreviewerDelimiterPipe": {
+    "message": "Dikey çizgi"
+  },
+  "csvTsvPreviewerDelimiterComma": {
+    "message": "Virgül"
+  },
+  "openGraphMetaPreviewerNoImage": {
+    "message": "Görsel yok"
+  },
+  "schemaPreviewerValid": {
+    "message": "Geçerli"
+  },
+  "schemaPreviewerInvalid": {
+    "message": "Geçersiz"
+  },
+  "linkPreviewerNoText": {
+    "message": "(metin yok)"
+  },
+  "jwtClaimsPreviewerExpired": {
+    "message": "Süresi doldu"
+  },
+  "jwtClaimsPreviewerActive": {
+    "message": "Aktif"
+  },
+  "jwtClaimsPreviewerNotYetValid": {
+    "message": "Henüz geçerli değil"
+  },
+  "jwtClaimsPreviewerValid": {
+    "message": "Geçerli"
+  },
+  "jwtClaimsPreviewerIssued": {
+    "message": "Oluşturuldu"
+  },
+  "zplViewerDpmm": {
+    "message": "dpmm"
+  },
+  "zplViewerLabelSize": {
+    "message": "Etiket boyutu (inç)"
+  },
+  "zplViewerLabelIndex": {
+    "message": "Etiket sırası"
+  },
+  "xmlPreviewerEmptyNode": {
+    "message": "(boş)"
+  },
+  "pdfPreviewInspectorPage": {
+    "message": "Sayfa"
+  },
+  "csvTsvPreviewerEmpty": {
+    "message": "Önizlenecek satır yok."
+  },
+  "csvTsvPreviewerHeader": {
+    "message": "İlk satır başlık"
+  },
+  "csvTsvPreviewerFilter": {
+    "message": "Satırları filtrele..."
+  },
+  "csvTsvPreviewerParse": {
+    "message": "Tabloyu önizle"
+  },
+  "csvTsvPreviewerInputPlaceholder": {
+    "message": "CSV/TSV içeriğini buraya yapıştırın..."
+  },
+  "csvTsvPreviewerStatsPlaceholder": {
+    "message": "Henüz dosya ayrıştırılmadı."
+  },
+  "csvTsvPreviewerEmptyInput": {
+    "message": "Lütfen CSV/TSV içeriği girin."
+  },
+  "csvTsvPreviewerParseFailed": {
+    "message": "Veri ayrıştırılamadı."
+  },
+  "csvTsvPreviewerReadFailed": {
+    "message": "Dosya okunamadı."
+  },
+  "imagePreviewInspectorMissingFile": {
+    "message": "Lütfen bir görsel dosyası seçin."
+  },
+  "imagePreviewInspectorFile": {
+    "message": "Dosya"
+  },
+  "imagePreviewInspectorType": {
+    "message": "Tür"
+  },
+  "imagePreviewInspectorSize": {
+    "message": "Boyut"
+  },
+  "imagePreviewInspectorDimensions": {
+    "message": "Boyutlar"
+  },
+  "imagePreviewInspectorMake": {
+    "message": "Üretici"
+  },
+  "imagePreviewInspectorModel": {
+    "message": "Model"
+  },
+  "imagePreviewInspectorDateTime": {
+    "message": "Tarih/Saat"
+  },
+  "imagePreviewInspectorOrientation": {
+    "message": "Yön"
+  },
+  "imagePreviewInspectorIcc": {
+    "message": "Renk Profili (ICC)"
+  },
+  "imagePreviewInspectorIccPresent": {
+    "message": "Mevcut"
+  },
+  "imagePreviewInspectorIccNotDetected": {
+    "message": "Algılanmadı"
+  },
+  "imagePreviewInspectorLoadFailed": {
+    "message": "Görsel yüklenemedi."
+  },
+  "imagePreviewInspectorFailed": {
+    "message": "Görsel incelenemedi."
+  },
+  "imagePreviewInspectorInspect": {
+    "message": "Görseli incele"
+  },
+  "jsonPreviewerEmptyInput": {
+    "message": "Lütfen JSON verisi yapıştırın."
+  },
+  "jsonPreviewerInvalidJson": {
+    "message": "Geçersiz JSON."
+  },
+  "jsonPreviewerInput": {
+    "message": "JSON Girdisi"
+  },
+  "jsonPreviewerInputPlaceholder": {
+    "message": "JSON verisini buraya yapıştırın..."
+  },
+  "jsonPreviewerSearch": {
+    "message": "Anahtar/değer/yol ara..."
+  },
+  "jsonPreviewerRender": {
+    "message": "Ağacı oluştur"
+  },
+  "jsonPreviewerExpand": {
+    "message": "Tümünü aç"
+  },
+  "jsonPreviewerCollapse": {
+    "message": "Tümünü kapat"
+  },
+  "jwtClaimsPreviewerEmptyInput": {
+    "message": "Lütfen JWT token girin."
+  },
+  "jwtClaimsPreviewerDecodeFailed": {
+    "message": "JWT çözümlenemedi."
+  },
+  "jwtClaimsPreviewerInputPlaceholder": {
+    "message": "JWT tokenını buraya yapıştırın..."
+  },
+  "jwtClaimsPreviewerDecode": {
+    "message": "Claimleri çözümle"
+  },
+  "jwtClaimsPreviewerCopy": {
+    "message": "Sonucu kopyala"
+  },
+  "jwtClaimsPreviewerNothingToCopy": {
+    "message": "Kopyalanacak sonuç yok."
+  },
+  "linkPreviewerNoLinks": {
+    "message": "Bağlantı bulunamadı."
+  },
+  "linkPreviewerChecking": {
+    "message": "Bağlantı kontrol ediliyor..."
+  },
+  "linkPreviewerTarget": {
+    "message": "Hedef"
+  },
+  "linkPreviewerFinalUrl": {
+    "message": "Nihai URL"
+  },
+  "linkPreviewerStatus": {
+    "message": "Durum"
+  },
+  "linkPreviewerContentType": {
+    "message": "İçerik Türü"
+  },
+  "linkPreviewerSearch": {
+    "message": "Bağlantılarda ara..."
+  },
+  "markdownPreviewerNoToc": {
+    "message": "Başlık bulunamadı."
+  },
+  "markdownPreviewerEmptyInput": {
+    "message": "Lütfen markdown içeriği yapıştırın."
+  },
+  "markdownPreviewerRender": {
+    "message": "Önizle"
+  },
+  "markdownPreviewerCopyHtml": {
+    "message": "HTML kopyala"
+  },
+  "markdownPreviewerInputPlaceholder": {
+    "message": "# Başlık\\n\\nMarkdown içeriğini buraya yapıştırın..."
+  },
+  "markdownPreviewerToc": {
+    "message": "İçindekiler"
+  },
+  "markdownPreviewerHint": {
+    "message": "Başlıklar, listeler, alıntılar, bağlantılar ve kod bloklarını destekler."
+  },
+  "openGraphMetaPreviewerRefresh": {
+    "message": "Önizlemeyi yenile"
+  },
+  "pdfPreviewInspectorMissingFile": {
+    "message": "Lütfen bir PDF dosyası seçin."
+  },
+  "pdfPreviewInspectorFile": {
+    "message": "Dosya"
+  },
+  "pdfPreviewInspectorSize": {
+    "message": "Boyut"
+  },
+  "pdfPreviewInspectorPages": {
+    "message": "Sayfa"
+  },
+  "pdfPreviewInspectorAuthor": {
+    "message": "Yazar"
+  },
+  "pdfPreviewInspectorSubject": {
+    "message": "Konu"
+  },
+  "pdfPreviewInspectorProducer": {
+    "message": "Üreten"
+  },
+  "pdfPreviewInspectorCreator": {
+    "message": "Oluşturan"
+  },
+  "pdfPreviewInspectorCreated": {
+    "message": "Oluşturulma"
+  },
+  "pdfPreviewInspectorModified": {
+    "message": "Değiştirilme"
+  },
+  "pdfPreviewInspectorRenderingThumbs": {
+    "message": "Önizlemeler oluşturuluyor..."
+  },
+  "pdfPreviewInspectorFailed": {
+    "message": "PDF incelenemedi."
+  },
+  "pdfPreviewInspectorInspect": {
+    "message": "PDF incele"
+  },
+  "pdfPreviewInspectorThumbnails": {
+    "message": "Sayfa önizlemeleri"
+  },
+  "schemaPreviewerNoSchema": {
+    "message": "Bu sayfada JSON-LD şeması bulunamadı."
+  },
+  "schemaPreviewerCustomHint": {
+    "message": "İncelemek için JSON Schema/OpenAPI içeriği yapıştırın."
+  },
+  "schemaPreviewerInvalidJson": {
+    "message": "Geçersiz JSON."
+  },
+  "schemaPreviewerScan": {
+    "message": "Sayfa şemasını tara"
+  },
+  "schemaPreviewerPageSchemas": {
+    "message": "Sayfadaki JSON-LD şemaları"
+  },
+  "schemaPreviewerCustom": {
+    "message": "Özel JSON Schema / OpenAPI içeriği"
+  },
+  "schemaPreviewerInputPlaceholder": {
+    "message": "{\"openapi\":\"3.1.0\" ... }"
+  },
+  "xmlPreviewerEmptyInput": {
+    "message": "Lütfen XML içeriği yapıştırın."
+  },
+  "xmlPreviewerParseFailed": {
+    "message": "XML ayrıştırılamadı."
+  },
+  "xmlPreviewerRender": {
+    "message": "Önizle"
+  },
+  "xmlPreviewerCopyFormatted": {
+    "message": "Formatlı XML kopyala"
+  },
+  "xmlPreviewerInputPlaceholder": {
+    "message": "<root>...</root>"
+  },
+  "xmlPreviewerSearch": {
+    "message": "Etiket/değer ara..."
+  },
+  "xmlPreviewerNothingToCopy": {
+    "message": "Kopyalanacak içerik yok."
+  },
+  "zplViewerEmptyInput": {
+    "message": "Lütfen ZPL içeriği yapıştırın."
+  },
+  "zplViewerRendering": {
+    "message": "Oluşturuluyor..."
+  },
+  "zplViewerRenderFailed": {
+    "message": "ZPL oluşturulamadı."
+  },
+  "zplViewerPdfDownloaded": {
+    "message": "PDF indirildi."
+  },
+  "zplViewerPdfFailed": {
+    "message": "PDF üretilemedi."
+  },
+  "zplViewerPreview": {
+    "message": "Önizlemeyi oluştur"
+  },
+  "zplViewerDownloadPdf": {
+    "message": "PDF indir"
+  },
+  "htmlCssJsPreviewer": {
+    "message": "HTML/CSS/JS Önizleyici"
+  },
+  "htmlCssJsPreviewerTitle": {
+    "message": "HTML/CSS/JS Önizleyici"
+  },
+  "htmlCssJsPreviewerDescription": {
+    "message": "HTML, CSS ve JavaScript kodunu canlı önizleme ve konsol çıktısıyla düzenleyin."
+  },
+  "htmlCssJsPreviewerRun": {
+    "message": "Önizlemeyi Çalıştır"
+  },
+  "htmlCssJsPreviewerReset": {
+    "message": "Sıfırla"
+  },
+  "htmlCssJsPreviewerCopy": {
+    "message": "Paketi Kopyala"
+  },
+  "htmlCssJsPreviewerDownload": {
+    "message": "HTML İndir"
+  },
+  "htmlCssJsPreviewerFullscreen": {
+    "message": "Tam Ekran"
+  },
+  "htmlCssJsPreviewerHtmlTab": {
+    "message": "HTML"
+  },
+  "htmlCssJsPreviewerCssTab": {
+    "message": "CSS"
+  },
+  "htmlCssJsPreviewerJsTab": {
+    "message": "JS"
+  },
+  "htmlCssJsPreviewerOutput": {
+    "message": "Çıktı"
+  },
+  "htmlCssJsPreviewerConsole": {
+    "message": "Konsol"
+  },
+  "htmlCssJsPreviewerReady": {
+    "message": "Önizleme oluşturuldu"
+  },
+  "htmlCssJsPreviewerCopied": {
+    "message": "Paket kopyalandı."
+  },
+  "htmlCssJsPreviewerCopyFailed": {
+    "message": "Kopyalama başarısız."
+  },
+  "htmlCssJsPreviewerDownloaded": {
+    "message": "HTML indirildi."
+  },
+  "htmlCssJsPreviewerFullscreenFailed": {
+    "message": "Tam ekran açılamadı."
+  },
+  "htmlCssJsPreviewerFullscreenNotSupported": {
+    "message": "Bu sayfada tam ekran desteklenmiyor."
+  },
+  "htmlViewer": {
+    "message": "HTML Görüntüleyici"
+  },
+  "htmlViewerTitle": {
+    "message": "HTML Görüntüleyici"
+  },
+  "htmlViewerDescription": {
+    "message": "URL/dosyadan HTML yükleyin, temizleyin ve farklı modlarda görüntüleyin."
+  },
+  "yamlViewer": {
+    "message": "YAML Görüntüleyici"
+  },
+  "yamlViewerTitle": {
+    "message": "YAML Görüntüleyici"
+  },
+  "yamlViewerDescription": {
+    "message": "YAML içeriğini aranabilir, katlanabilir ağaçta gösterin."
+  },
+  "tomlIniViewer": {
+    "message": "TOML/INI Görüntüleyici"
+  },
+  "tomlIniViewerTitle": {
+    "message": "TOML/INI Görüntüleyici"
+  },
+  "tomlIniViewerDescription": {
+    "message": "TOML/INI yapılandırmalarını düzenli JSON olarak inceleyin."
+  },
+  "jsonlViewer": {
+    "message": "JSONL/NDJSON Görüntüleyici"
+  },
+  "jsonlViewerTitle": {
+    "message": "JSONL/NDJSON Görüntüleyici"
+  },
+  "jsonlViewerDescription": {
+    "message": "Satır bazlı JSON loglarını doğrulama ve filtre ile önizleyin."
+  },
+  "harViewer": {
+    "message": "HAR Görüntüleyici"
+  },
+  "harViewerTitle": {
+    "message": "HAR Görüntüleyici"
+  },
+  "harViewerDescription": {
+    "message": "HAR ağ kayıtlarını hızlı filtreleme ile inceleyin."
+  },
+  "diffViewer": {
+    "message": "Diff Görüntüleyici"
+  },
+  "diffViewerTitle": {
+    "message": "Diff Görüntüleyici"
+  },
+  "diffViewerDescription": {
+    "message": "Metin, JSON ve XML için yan yana fark karşılaştırması."
+  },
+  "sqlResultPreviewer": {
+    "message": "SQL Sonuç Görüntüleyici"
+  },
+  "sqlResultPreviewerTitle": {
+    "message": "SQL Sonuç Görüntüleyici"
+  },
+  "sqlResultPreviewerDescription": {
+    "message": "CSV/TSV/JSON girdilerinden SQL tablo sonuçlarını önizleyin."
+  },
+  "htmlViewerMissingUrl": {
+    "message": "Lütfen bir URL girin."
+  },
+  "htmlViewerLoadUrlFailed": {
+    "message": "URL yüklenemedi."
+  },
+  "htmlViewerEmptyInput": {
+    "message": "Lütfen HTML içeriği sağlayın."
+  },
+  "htmlViewerLoadUrl": {
+    "message": "URL Yükle"
+  },
+  "htmlViewerUrlPlaceholder": {
+    "message": "https://ornek.com"
+  },
+  "htmlViewerModeSanitized": {
+    "message": "Temizlenmiş görünüm"
+  },
+  "htmlViewerModeSource": {
+    "message": "Kaynak görünümü"
+  },
+  "htmlViewerModeText": {
+    "message": "Sadece metin"
+  },
+  "htmlViewerRender": {
+    "message": "Görüntüle"
+  },
+  "htmlViewerFullscreen": {
+    "message": "Tam Ekran"
+  },
+  "htmlViewerInputPlaceholder": {
+    "message": "<html>...</html>"
+  },
+  "htmlViewerFileReadFailed": {
+    "message": "Dosya okunamadı."
+  },
+  "htmlViewerFullscreenOnlyRender": {
+    "message": "Tam ekran yalnızca temizlenmiş görünüm modunda kullanılabilir."
+  },
+  "htmlViewerFullscreenNotSupported": {
+    "message": "Bu sayfada tam ekran desteklenmiyor."
+  },
+  "htmlViewerFullscreenFailed": {
+    "message": "Tam ekran açılamadı."
+  },
+  "yamlViewerEmptyInput": {
+    "message": "Lütfen YAML içeriği yapıştırın."
+  },
+  "yamlViewerNoNodes": {
+    "message": "Çözümlenen düğüm yok."
+  },
+  "yamlViewerParseFailed": {
+    "message": "YAML ayrıştırılamadı."
+  },
+  "yamlViewerInputPlaceholder": {
+    "message": "key:\n  nested: value"
+  },
+  "yamlViewerRender": {
+    "message": "Ağacı oluştur"
+  },
+  "yamlViewerExpandAll": {
+    "message": "Tümünü aç"
+  },
+  "yamlViewerCollapseAll": {
+    "message": "Tümünü kapat"
+  },
+  "yamlViewerSearch": {
+    "message": "Düğümlerde ara..."
+  },
+  "tomlIniViewerEmptyInput": {
+    "message": "Lütfen TOML/INI içeriği yapıştırın."
+  },
+  "tomlIniViewerParseFailed": {
+    "message": "İçerik ayrıştırılamadı."
+  },
+  "tomlIniViewerHint": {
+    "message": "INI stili ve temel TOML bölüm/anahtarları desteklenir."
+  },
+  "tomlIniViewerInputPlaceholder": {
+    "message": "[server]\nhost = \"localhost\"\nport = 8080"
+  },
+  "tomlIniViewerParse": {
+    "message": "Ayrıştır"
+  },
+  "jsonlViewerEmptyInput": {
+    "message": "Lütfen JSONL/NDJSON içeriği yapıştırın."
+  },
+  "jsonlViewerNoRecords": {
+    "message": "Kayıt yok."
+  },
+  "jsonlViewerRows": {
+    "message": "satır"
+  },
+  "jsonlViewerInvalid": {
+    "message": "geçersiz"
+  },
+  "jsonlViewerLineColumn": {
+    "message": "Satır"
+  },
+  "jsonlViewerStatusColumn": {
+    "message": "Durum"
+  },
+  "jsonlViewerPreviewColumn": {
+    "message": "Önizleme"
+  },
+  "jsonlViewerStatusInvalid": {
+    "message": "Geçersiz"
+  },
+  "jsonlViewerStatusOk": {
+    "message": "Tamam"
+  },
+  "jsonlViewerInputPlaceholder": {
+    "message": "{\"level\":\"info\"}\n{\"level\":\"error\"}"
+  },
+  "jsonlViewerParse": {
+    "message": "Logları ayrıştır"
+  },
+  "jsonlViewerFilter": {
+    "message": "Filtrele..."
+  },
+  "harViewerNoEntries": {
+    "message": "HAR kaydı yok."
+  },
+  "harViewerMethodColumn": {
+    "message": "Metot"
+  },
+  "harViewerStatusColumn": {
+    "message": "Durum"
+  },
+  "harViewerTypeColumn": {
+    "message": "Tür"
+  },
+  "harViewerTimeColumn": {
+    "message": "Süre (ms)"
+  },
+  "harViewerUrlColumn": {
+    "message": "URL"
+  },
+  "harViewerRequests": {
+    "message": "istek"
+  },
+  "harViewerEmptyInput": {
+    "message": "Lütfen HAR JSON içeriği sağlayın."
+  },
+  "harViewerParseFailed": {
+    "message": "HAR ayrıştırılamadı."
+  },
+  "harViewerFileReadFailed": {
+    "message": "HAR dosyası okunamadı."
+  },
+  "harViewerParse": {
+    "message": "HAR Ayrıştır"
+  },
+  "harViewerFilter": {
+    "message": "URL/tür/duruma göre filtrele..."
+  },
+  "harViewerInputPlaceholder": {
+    "message": "HAR JSON yapıştırın..."
+  },
+  "diffViewerEmptyInput": {
+    "message": "Karşılaştırmak için içerik girin."
+  },
+  "diffViewerChangedLines": {
+    "message": "değişen satır"
+  },
+  "diffViewerCompareFailed": {
+    "message": "Karşılaştırma başarısız."
+  },
+  "diffViewerModeText": {
+    "message": "Metin"
+  },
+  "diffViewerModeJson": {
+    "message": "JSON"
+  },
+  "diffViewerModeXml": {
+    "message": "XML"
+  },
+  "diffViewerCompare": {
+    "message": "Karşılaştır"
+  },
+  "diffViewerInputA": {
+    "message": "Girdi A"
+  },
+  "diffViewerInputB": {
+    "message": "Girdi B"
+  },
+  "sqlResultPreviewerNoRows": {
+    "message": "Gösterilecek satır yok."
+  },
+  "sqlResultPreviewerEmptyInput": {
+    "message": "Lütfen SQL sonuç verisi sağlayın."
+  },
+  "sqlResultPreviewerRows": {
+    "message": "satır"
+  },
+  "sqlResultPreviewerColumns": {
+    "message": "sütun"
+  },
+  "sqlResultPreviewerParseFailed": {
+    "message": "SQL sonuç verisi ayrıştırılamadı."
+  },
+  "sqlResultPreviewerFormatAuto": {
+    "message": "Otomatik"
+  },
+  "sqlResultPreviewerParse": {
+    "message": "Tabloyu önizle"
+  },
+  "sqlResultPreviewerFilter": {
+    "message": "Satırları filtrele..."
+  },
+  "sqlResultPreviewerInputPlaceholder": {
+    "message": "[{\"id\":1,\"name\":\"Alice\"}]"
+  },
+  "toolUiMediaPreviewPending": {
+    "message": "Önizleme işlem tamamlandıktan sonra görünecek"
+  },
+  "toolUiMediaPreviewUnavailable": {
+    "message": "Önizleme kullanılamıyor"
+  },
+  "toolUiMediaPreviewAlt": {
+    "message": "Araç önizlemesi"
+  },
+  "toolUiFullscreenHint": {
+    "message": "Tam ekran açmak için tıklayın"
+  },
+  "toolUiFullscreenOpen": {
+    "message": "Tam ekran"
+  },
+  "toolUiFullscreenNotSupported": {
+    "message": "Bu sayfada tam ekran desteklenmiyor."
+  },
+  "toolUiFullscreenFailed": {
+    "message": "Tam ekran açılamadı."
+  },
+  "toolUiFullscreenClose": {
+    "message": "Kapat"
+  },
+  "imageToPdfInputPreview": {
+    "message": "Girdi Önizlemesi"
+  },
+  "imageToPdfNoPreview": {
+    "message": "Henüz görsel seçilmedi."
+  },
+  "accessibilityQuickAudit": {
+    "message": "Erişilebilirlik Denetimi"
+  },
+  "accessibilityQuickAuditTitle": {
+    "message": "Hızlı Erişilebilirlik Denetimi"
+  },
+  "accessibilityQuickAuditDescription": {
+    "message": "Mevcut sayfadaki yaygın erişilebilirlik sorunlarını hızlıca tespit eder."
+  },
+  "accessibilityQuickAuditRun": {
+    "message": "Denetimi çalıştır"
+  },
+  "accessibilityQuickAuditHint": {
+    "message": "Alt metin, etiket, buton adı, bağlantı metni ve başlık sırası gibi yaygın a11y sorunlarını kontrol eder."
+  },
+  "accessibilityQuickAuditSummary": {
+    "message": "Sorunlar"
+  },
+  "accessibilityQuickAuditNoIssues": {
+    "message": "Yaygın erişilebilirlik sorunu bulunmadı."
+  },
+  "accessibilityQuickAuditColSeverity": {
+    "message": "Seviye"
+  },
+  "accessibilityQuickAuditColIssue": {
+    "message": "Sorun"
+  },
+  "accessibilityQuickAuditColSelector": {
+    "message": "Seçici"
+  },
+  "accessibilityQuickAuditMissingAlt": {
+    "message": "Görselde alt metin yok"
+  },
+  "accessibilityQuickAuditButtonName": {
+    "message": "Butonun erişilebilir adı yok"
+  },
+  "accessibilityQuickAuditFieldLabel": {
+    "message": "Form alanının etiketi yok"
+  },
+  "accessibilityQuickAuditLinkText": {
+    "message": "Bağlantının anlaşılır metni yok"
+  },
+  "accessibilityQuickAuditHeadingOrder": {
+    "message": "Başlık seviyesi atlaması tespit edildi"
+  },
+  "coreWebVitalsAnalyzer": {
+    "message": "Web Vitals"
+  },
+  "coreWebVitalsAnalyzerTitle": {
+    "message": "Core Web Vitals Analiz Aracı"
+  },
+  "coreWebVitalsAnalyzerDescription": {
+    "message": "LCP, INP, CLS ve FID metriklerini sayfa üzerinde izler."
+  },
+  "coreWebVitalsAnalyzerStart": {
+    "message": "Başlat"
+  },
+  "coreWebVitalsAnalyzerStop": {
+    "message": "Durdur"
+  },
+  "coreWebVitalsAnalyzerReset": {
+    "message": "Sıfırla"
+  },
+  "coreWebVitalsAnalyzerRunning": {
+    "message": "Metrikler toplanıyor. INP/FID için sayfada etkileşime geçin."
+  },
+  "coreWebVitalsAnalyzerStopped": {
+    "message": "Analiz durduruldu."
+  },
+  "coreWebVitalsAnalyzerHint": {
+    "message": "Toplamayı başlatın, sayfayla etkileşin, sonra kalite durumları ve optimizasyon önerilerini inceleyin."
+  },
+  "coreWebVitalsAnalyzerOverall": {
+    "message": "Genel Durum"
+  },
+  "coreWebVitalsAnalyzerSuggestions": {
+    "message": "Uygulanabilir öneriler"
+  },
+  "coreWebVitalsAnalyzerGradeGood": {
+    "message": "İyi"
+  },
+  "coreWebVitalsAnalyzerGradeNeeds": {
+    "message": "Geliştirilmeli"
+  },
+  "coreWebVitalsAnalyzerGradePoor": {
+    "message": "Kötü"
+  },
+  "coreWebVitalsAnalyzerGradeNa": {
+    "message": "Yok"
+  },
+  "coreWebVitalsAnalyzerOverallHealthy": {
+    "message": "Sağlıklı"
+  },
+  "coreWebVitalsAnalyzerOverallNeedsWork": {
+    "message": "İyileştirme gerekli"
+  },
+  "coreWebVitalsAnalyzerOverallCritical": {
+    "message": "Kritik"
+  },
+  "coreWebVitalsAnalyzerTipLcp": {
+    "message": "Render engelleyen kaynakları azaltın ve hero görsel/font yüklemesini optimize edin."
+  },
+  "coreWebVitalsAnalyzerTipInput": {
+    "message": "Uzun ana iş parçacığı görevlerini azaltın ve kritik olmayan JavaScript işlerini erteleyin."
+  },
+  "coreWebVitalsAnalyzerTipCls": {
+    "message": "Medya/reklam alanları için sabit yer ayırın ve geç düzen kaymalarını önleyin."
+  },
+  "coreWebVitalsAnalyzerTipOk": {
+    "message": "Bu örnekte kritik sorun görünmüyor. Daha güçlü sinyal için birden fazla etkileşim toplayın."
+  },
+  "securityHeadersChecker": {
+    "message": "Güvenlik Başlıkları"
+  },
+  "securityHeadersCheckerTitle": {
+    "message": "Güvenlik Başlık Denetleyici"
+  },
+  "securityHeadersCheckerDescription": {
+    "message": "Etkin sayfadaki temel HTTP güvenlik başlıklarını denetler."
+  },
+  "securityHeadersCheckerRun": {
+    "message": "Başlıkları denetle"
+  },
+  "securityHeadersCheckerHint": {
+    "message": "Etkin sayfa URL’si için yaygın HTTP güvenlik başlıklarını kontrol eder."
+  },
+  "securityHeadersCheckerLoading": {
+    "message": "Başlıklar yükleniyor..."
+  },
+  "securityHeadersCheckerMissing": {
+    "message": "Eksik"
+  },
+  "securityHeadersCheckerSummary": {
+    "message": "Güvenlik başlığı özeti (iyi: $1, zayıf: $2, eksik: $3)"
+  },
+  "securityHeadersCheckerColHeader": {
+    "message": "Başlık"
+  },
+  "securityHeadersCheckerColStatus": {
+    "message": "Durum"
+  },
+  "securityHeadersCheckerColValue": {
+    "message": "Değer"
+  },
+  "securityHeadersCheckerFailed": {
+    "message": "Güvenlik başlığı denetimi başarısız."
+  },
+  "structuredDataValidator": {
+    "message": "Yapısal Veri"
+  },
+  "structuredDataValidatorTitle": {
+    "message": "Yapısal Veri Doğrulayıcı"
+  },
+  "structuredDataValidatorDescription": {
+    "message": "JSON-LD bloklarını doğrular, Microdata/RDFa kullanımını inceler."
+  },
+  "structuredDataValidatorRefresh": {
+    "message": "Analizi yenile"
+  },
+  "structuredDataValidatorHint": {
+    "message": "JSON-LD bloklarını doğrular ve sayfadaki Microdata/RDFa sinyallerini listeler."
+  },
+  "structuredDataValidatorParseError": {
+    "message": "JSON-LD ayrıştırma hatası"
+  },
+  "structuredDataValidatorTypes": {
+    "message": "Tespit edilen @type değerleri"
+  },
+  "structuredDataValidatorType": {
+    "message": "Tür"
+  },
+  "structuredDataValidatorCount": {
+    "message": "Adet"
+  },
+  "structuredDataValidatorNoTypes": {
+    "message": "@type değeri bulunamadı"
+  },
+  "structuredDataValidatorErrors": {
+    "message": "Ayrıştırma hataları"
+  },
+  "structuredDataValidatorNoErrors": {
+    "message": "JSON-LD ayrıştırma hatası yok."
+  },
+  "socialPreviewPro": {
+    "message": "Sosyal Önizleme"
+  },
+  "socialPreviewProTitle": {
+    "message": "Sosyal Önizleme Pro"
+  },
+  "socialPreviewProDescription": {
+    "message": "Open Graph ve Twitter Card verilerini eksik alan kontrolleriyle önizler."
+  },
+  "socialPreviewProRefresh": {
+    "message": "Yenile"
+  },
+  "socialPreviewProHint": {
+    "message": "Open Graph + Twitter Card önizleme ve alan kontrolü."
+  },
+  "socialPreviewProMissingTitle": {
+    "message": "Başlık eksik"
+  },
+  "socialPreviewProMissingDescription": {
+    "message": "Açıklama eksik"
+  },
+  "socialPreviewProMissingImage": {
+    "message": "Görsel eksik"
+  },
+  "socialPreviewProMissingUrl": {
+    "message": "Canonical/og:url eksik"
+  },
+  "socialPreviewProMissingTwitterCard": {
+    "message": "twitter:card eksik"
+  },
+  "socialPreviewProNoImage": {
+    "message": "Görsel yok"
+  },
+  "socialPreviewProChecks": {
+    "message": "Kontroller"
+  },
+  "socialPreviewProChecksOk": {
+    "message": "Gerekli sosyal önizleme alanları iyi görünüyor."
+  },
+  "robotsSitemapInspector": {
+    "message": "Robots/Sitemap"
+  },
+  "robotsSitemapInspectorTitle": {
+    "message": "Robots/Sitemap İnceleyici"
+  },
+  "robotsSitemapInspectorDescription": {
+    "message": "Etkin site için robots.txt kurallarını ve sitemap kapsamını inceler."
+  },
+  "robotsSitemapInspectorRun": {
+    "message": "İncele"
+  },
+  "robotsSitemapInspectorHint": {
+    "message": "Mevcut site için robots.txt yönergelerini ve sitemap URL kapsamını kontrol eder."
+  },
+  "robotsSitemapInspectorLoading": {
+    "message": "robots.txt ve sitemap yükleniyor..."
+  },
+  "robotsSitemapInspectorFailed": {
+    "message": "robots/sitemap inceleme başarısız."
+  },
+  "robotsSitemapInspectorUserAgents": {
+    "message": "User-agent"
+  },
+  "robotsSitemapInspectorDisallow": {
+    "message": "Disallow kuralı"
+  },
+  "robotsSitemapInspectorAllow": {
+    "message": "Allow kuralı"
+  },
+  "robotsSitemapInspectorSitemapUrls": {
+    "message": "Tespit edilen sitemap URL’leri"
+  },
+  "robotsSitemapInspectorNoSitemap": {
+    "message": "robots.txt içinde sitemap yönergesi yok"
+  },
+  "robotsSitemapInspectorSitemapCount": {
+    "message": "Sitemap içindeki URL sayısı: $1"
+  },
+  "robotsSitemapInspectorCrossOriginSitemap": {
+    "message": "Sitemap farklı origin üzerinde olduğu için alınamadı."
+  },
+  "harDiffAnalyzer": {
+    "message": "HAR Farkı"
+  },
+  "harDiffAnalyzerTitle": {
+    "message": "HAR Fark Analiz Aracı"
+  },
+  "harDiffAnalyzerDescription": {
+    "message": "İki HAR dosyasını karşılaştırır ve istek/yol farklarını öne çıkarır."
+  },
+  "harDiffAnalyzerRun": {
+    "message": "HAR dosyalarını karşılaştır"
+  },
+  "harDiffAnalyzerHint": {
+    "message": "İki HAR JSON içeriğini (önce/sonra) yapıştırın ve yol bazlı trafik değişimini karşılaştırın."
+  },
+  "harDiffAnalyzerInvalid": {
+    "message": "Geçersiz HAR formatı."
+  },
+  "harDiffAnalyzerReqBefore": {
+    "message": "İstek (A)"
+  },
+  "harDiffAnalyzerReqAfter": {
+    "message": "İstek (B)"
+  },
+  "harDiffAnalyzerAvgBefore": {
+    "message": "Ortalama ms (A)"
+  },
+  "harDiffAnalyzerAvgAfter": {
+    "message": "Ortalama ms (B)"
+  },
+  "harDiffAnalyzerTopPathChanges": {
+    "message": "En çok değişen yollar"
+  },
+  "harDiffAnalyzerPath": {
+    "message": "Yol"
+  },
+  "harDiffAnalyzerNoDiff": {
+    "message": "Yol bazında değişiklik bulunamadı."
+  },
+  "harDiffAnalyzerInputA": {
+    "message": "HAR A (önce)"
+  },
+  "harDiffAnalyzerInputB": {
+    "message": "HAR B (sonra)"
+  },
+  "cookieStorageAuditor": {
+    "message": "Çerez Denetimi"
+  },
+  "cookieStorageAuditorTitle": {
+    "message": "Çerez ve Depolama Denetleyici"
+  },
+  "cookieStorageAuditorDescription": {
+    "message": "Çerez, localStorage ve sessionStorage kullanımını hızlıca denetler."
+  },
+  "cookieStorageAuditorRun": {
+    "message": "Denetimi çalıştır"
+  },
+  "cookieStorageAuditorHint": {
+    "message": "Hızlı gizlilik incelemesi için cookie/localStorage/sessionStorage kullanımını özetler."
+  },
+  "cookieStorageAuditorFailed": {
+    "message": "Depolama denetimi başarısız."
+  },
+  "cookieStorageAuditorCookies": {
+    "message": "Çerezler"
+  },
+  "cookieStorageAuditorRiskyCookies": {
+    "message": "Potansiyel riskli çerez adları"
+  },
+  "cookieStorageAuditorNoRisky": {
+    "message": "Riskli çerez adı tespit edilmedi."
+  },
+  "cookieStorageAuditorTopLocal": {
+    "message": "En büyük localStorage anahtarları"
+  },
+  "cookieStorageAuditorTopSession": {
+    "message": "En büyük sessionStorage anahtarları"
+  },
+  "macroRecorder": {
+    "message": "Makro Kaydedici"
+  },
+  "macroRecorderTitle": {
+    "message": "Makro Kaydedici"
+  },
+  "macroRecorderDescription": {
+    "message": "Tıklama, giriş ve metin kopyalama adımlarını kaydeder; sonra mevcut sayfada yeniden oynatır."
+  },
+  "macroRecorderActivateFailed": {
+    "message": "Makro Kaydedici etkinleştirilemedi."
+  },
+  "macroRecorderAddClick": {
+    "message": "Tıklama ekle"
+  },
+  "macroRecorderAddCopyText": {
+    "message": "Metin kopyalama ekle"
+  },
+  "macroRecorderAddDelay": {
+    "message": "Bekleme ekle"
+  },
+  "macroRecorderAddInputFill": {
+    "message": "Giriş doldurma ekle"
+  },
+  "macroRecorderAddStepButton": {
+    "message": "Adım ekle"
+  },
+  "macroRecorderAddStepTitle": {
+    "message": "Adım ekle"
+  },
+  "macroRecorderAlreadyRecording": {
+    "message": "Kayıt zaten aktif."
+  },
+  "macroRecorderBadgePlayback": {
+    "message": "Adım $1 / $2"
+  },
+  "macroRecorderBadgeRecording": {
+    "message": "$1 adım kaydedildi"
+  },
+  "macroRecorderBadgeWaiting": {
+    "message": "$2 adımın $1. adımı bekliyor"
+  },
+  "macroRecorderBeforeDelayChip": {
+    "message": "Önce: $1 ms"
+  },
+  "macroRecorderBeforeDelayLabel": {
+    "message": "Ön bekleme (ms)"
+  },
+  "macroRecorderCancel": {
+    "message": "İptal"
+  },
+  "macroRecorderClearCsv": {
+    "message": "CSV temizle"
+  },
+  "macroRecorderClickModalHint": {
+    "message": "Tıklama hedefi için stabil bir selector kullanın."
+  },
+  "macroRecorderCloseButton": {
+    "message": "Aracı kapat"
+  },
+  "macroRecorderCollapseButton": {
+    "message": "Daralt"
+  },
+  "macroRecorderCopyModalHint": {
+    "message": "Kopya adımları oynatma sırasında eşleşen elementten metin toplar."
+  },
+  "macroRecorderCopyTargetMissing": {
+    "message": "Kopyalama hedefi bulunamadı."
+  },
+  "macroRecorderCreatedMeta": {
+    "message": "Oluşturulma: $1"
+  },
+  "macroRecorderCsvCleared": {
+    "message": "CSV verisi temizlendi."
+  },
+  "macroRecorderCsvCount": {
+    "message": "$1 satır toplandı"
+  },
+  "macroRecorderCsvDownloaded": {
+    "message": "CSV indirildi."
+  },
+  "macroRecorderDefaultMacroName": {
+    "message": "Makro $1"
+  },
+  "macroRecorderDelayModalHint": {
+    "message": "Bekleme süresi milisaniye olarak saklanır."
+  },
+  "macroRecorderDeleteMacro": {
+    "message": "Makroyu sil"
+  },
+  "macroRecorderDeleteMacroConfirmBody": {
+    "message": "\"$1\" silinsin mi? Bu işlem geri alınamaz."
+  },
+  "macroRecorderDeleteMacroConfirmTitle": {
+    "message": "Makroyu sil"
+  },
+  "macroRecorderDeleteShort": {
+    "message": "Sil"
+  },
+  "macroRecorderDeleteStep": {
+    "message": "Adımı sil"
+  },
+  "macroRecorderDeleteStepConfirmBody": {
+    "message": "Bu adım makrodan silinsin mi?"
+  },
+  "macroRecorderDeleteStepConfirmTitle": {
+    "message": "Adımı sil"
+  },
+  "macroRecorderDescClick": {
+    "message": "Tıkla"
+  },
+  "macroRecorderDescCopyTarget": {
+    "message": "\"$1\" kopyala"
+  },
+  "macroRecorderDescCopyText": {
+    "message": "Kopyala"
+  },
+  "macroRecorderDescDelay": {
+    "message": "Bekleme"
+  },
+  "macroRecorderDescInputFill": {
+    "message": "Doldur"
+  },
+  "macroRecorderDescInputFillTarget": {
+    "message": "\"$1\" alanını doldur"
+  },
+  "macroRecorderDescSelectTarget": {
+    "message": "$2 içinde \"$1\" seç"
+  },
+  "macroRecorderDescriptionLabel": {
+    "message": "Açıklama"
+  },
+  "macroRecorderDownloadCsv": {
+    "message": "CSV indir"
+  },
+  "macroRecorderDownloadUnsupported": {
+    "message": "Bu ortamda indirme desteklenmiyor."
+  },
+  "macroRecorderDragHandle": {
+    "message": "Yeniden sıralamak için sürükle"
+  },
+  "macroRecorderDurationChip": {
+    "message": "$1 ms"
+  },
+  "macroRecorderDurationLabel": {
+    "message": "Süre (ms)"
+  },
+  "macroRecorderEditMacro": {
+    "message": "Makroyu düzenle"
+  },
+  "macroRecorderEditShort": {
+    "message": "Düzenle"
+  },
+  "macroRecorderEditStep": {
+    "message": "Adımı düzenle"
+  },
+  "macroRecorderEditorEmpty": {
+    "message": "Adımları düzenlemek için kütüphaneden bir makro seçin."
+  },
+  "macroRecorderEditorTitle": {
+    "message": "Makroyu düzenle"
+  },
+  "macroRecorderElementNotFound": {
+    "message": "Element bulunamadı."
+  },
+  "macroRecorderEmptyState": {
+    "message": "Henüz kayıtlı makro yok. Başlamak için bu sayfada bir tane kaydedin."
+  },
+  "macroRecorderExportJson": {
+    "message": "JSON dışa aktar"
+  },
+  "macroRecorderFallbackDropdown": {
+    "message": "açılır liste"
+  },
+  "macroRecorderFallbackElement": {
+    "message": "hedef"
+  },
+  "macroRecorderFallbackField": {
+    "message": "alan"
+  },
+  "macroRecorderFallbackText": {
+    "message": "metin"
+  },
+  "macroRecorderIdleSummary": {
+    "message": "Bu sayfada hazır"
+  },
+  "macroRecorderImportFailed": {
+    "message": "JSON içe aktarılamadı."
+  },
+  "macroRecorderImportJson": {
+    "message": "JSON içe aktar"
+  },
+  "macroRecorderImportSuccess": {
+    "message": "$1 makro içe aktarıldı."
+  },
+  "macroRecorderInfiniteLoop": {
+    "message": "Sonsuz döngü"
+  },
+  "macroRecorderInputModalHint": {
+    "message": "Doldurma adımları için selector ve değer gereklidir."
+  },
+  "macroRecorderInputNotFound": {
+    "message": "Giriş elementi bulunamadı."
+  },
+  "macroRecorderInvalidSelector": {
+    "message": "Geçerli bir selector girin."
+  },
+  "macroRecorderInvalidStep": {
+    "message": "Adım verisi geçersiz."
+  },
+  "macroRecorderJsonExported": {
+    "message": "Makro dışa aktarıldı."
+  },
+  "macroRecorderKicker": {
+    "message": "Yardımcı Araçlar"
+  },
+  "macroRecorderLibraryTitle": {
+    "message": "Makro kütüphanesi"
+  },
+  "macroRecorderLoopCount": {
+    "message": "Döngü sayısı"
+  },
+  "macroRecorderLoopCountHint": {
+    "message": "$1 kez çalıştır"
+  },
+  "macroRecorderLoopInfiniteHint": {
+    "message": "Sonsuz"
+  },
+  "macroRecorderLoopInfiniteShort": {
+    "message": "sonsuz"
+  },
+  "macroRecorderLoopSingleHint": {
+    "message": "1 kez çalıştır"
+  },
+  "macroRecorderMacroDeleteFailed": {
+    "message": "Makro silinemedi."
+  },
+  "macroRecorderMacroDeleted": {
+    "message": "Makro silindi."
+  },
+  "macroRecorderModeIdle": {
+    "message": "Boşta"
+  },
+  "macroRecorderModePlaying": {
+    "message": "Oynatılıyor"
+  },
+  "macroRecorderModeRecording": {
+    "message": "Kaydediliyor"
+  },
+  "macroRecorderMsShort": {
+    "message": "ms"
+  },
+  "macroRecorderNameLabel": {
+    "message": "Makro adı"
+  },
+  "macroRecorderNamePlaceholder": {
+    "message": "Checkout akışı"
+  },
+  "macroRecorderNameSaveFailed": {
+    "message": "Makro adı kaydedilemedi."
+  },
+  "macroRecorderNameSaved": {
+    "message": "Makro adı kaydedildi."
+  },
+  "macroRecorderNameUnchanged": {
+    "message": "Ad değişmedi."
+  },
+  "macroRecorderNoCsvRows": {
+    "message": "Henüz CSV satırı toplanmadı."
+  },
+  "macroRecorderNoSelection": {
+    "message": "Yok"
+  },
+  "macroRecorderPageScope": {
+    "message": "Yalnızca mevcut sayfa"
+  },
+  "macroRecorderPlaybackAlreadyRunning": {
+    "message": "Oynatma zaten çalışıyor."
+  },
+  "macroRecorderPlaybackFailed": {
+    "message": "Oynatma başarısız."
+  },
+  "macroRecorderPlaybackFinished": {
+    "message": "Oynatma tamamlandı."
+  },
+  "macroRecorderPlaybackTitle": {
+    "message": "Oynatma"
+  },
+  "macroRecorderPlayingSummary": {
+    "message": "$2 adımın $1. adımı"
+  },
+  "macroRecorderProgressDetail": {
+    "message": "Döngü $1, adım $2 / $3"
+  },
+  "macroRecorderProgressIdle": {
+    "message": "Oynatma boşta."
+  },
+  "macroRecorderRecordCardTitle": {
+    "message": "Bu sayfada kaydet"
+  },
+  "macroRecorderRecordingBadge": {
+    "message": "$1 adım yakalandı"
+  },
+  "macroRecorderRecordingSaveFailed": {
+    "message": "Kayıt kaydedilemedi."
+  },
+  "macroRecorderRecordingSaved": {
+    "message": "Makro kaydedildi."
+  },
+  "macroRecorderRecordingStarted": {
+    "message": "Kayıt başladı."
+  },
+  "macroRecorderRecordingSummary": {
+    "message": "$1 adım yakalandı"
+  },
+  "macroRecorderSampleTextChip": {
+    "message": "Örnek: $1"
+  },
+  "macroRecorderSampleTextLabel": {
+    "message": "Örnek metin"
+  },
+  "macroRecorderSaveName": {
+    "message": "Adı kaydet"
+  },
+  "macroRecorderSaveStep": {
+    "message": "Adımı kaydet"
+  },
+  "macroRecorderSelectMacro": {
+    "message": "Makroyu seç"
+  },
+  "macroRecorderSelectMacroPrompt": {
+    "message": "Önce bir makro seçin"
+  },
+  "macroRecorderSelectShort": {
+    "message": "Kullan"
+  },
+  "macroRecorderSelectorLabel": {
+    "message": "Selector"
+  },
+  "macroRecorderStartPlayback": {
+    "message": "Makroyu oynat"
+  },
+  "macroRecorderStartRecording": {
+    "message": "Kaydı başlat"
+  },
+  "macroRecorderStatusPlaying": {
+    "message": "Oynatılıyor: $1 (döngü $2)"
+  },
+  "macroRecorderStatusRecording": {
+    "message": "Kaydediliyor: $1"
+  },
+  "macroRecorderStepAdded": {
+    "message": "Adım eklendi."
+  },
+  "macroRecorderStepCount": {
+    "message": "$1 adım"
+  },
+  "macroRecorderStepDeleteFailed": {
+    "message": "Adım silinemedi."
+  },
+  "macroRecorderStepDeleted": {
+    "message": "Adım silindi."
+  },
+  "macroRecorderStepReorderFailed": {
+    "message": "Adımlar yeniden sıralanamadı."
+  },
+  "macroRecorderStepReordered": {
+    "message": "Adım yeniden sıralandı."
+  },
+  "macroRecorderStepSaved": {
+    "message": "Adım kaydedildi."
+  },
+  "macroRecorderStepsEmpty": {
+    "message": "Henüz adım yok. Elle ekleyin ya da sayfada kaydedin."
+  },
+  "macroRecorderStepsTitle": {
+    "message": "Adımlar"
+  },
+  "macroRecorderStopPlayback": {
+    "message": "Oynatmayı durdur"
+  },
+  "macroRecorderStopPlaybackFirst": {
+    "message": "Yeni kayıt başlatmadan önce oynatmayı durdurun."
+  },
+  "macroRecorderStopRecording": {
+    "message": "Durdur ve kaydet"
+  },
+  "macroRecorderStopRecordingFirst": {
+    "message": "Oynatma başlatmadan önce kaydı durdurun."
+  },
+  "macroRecorderStorageBadge": {
+    "message": "$1 makro kaydedildi"
+  },
+  "macroRecorderSummaryLoop": {
+    "message": "Döngü"
+  },
+  "macroRecorderSummaryMode": {
+    "message": "Mod"
+  },
+  "macroRecorderSummarySelected": {
+    "message": "Seçili makro"
+  },
+  "macroRecorderTabEditor": {
+    "message": "Düzenleyici"
+  },
+  "macroRecorderTabLibrary": {
+    "message": "Kütüphane"
+  },
+  "macroRecorderTypeClick": {
+    "message": "Tıklama"
+  },
+  "macroRecorderTypeCopyText": {
+    "message": "Kopya"
+  },
+  "macroRecorderTypeDelay": {
+    "message": "Bekleme"
+  },
+  "macroRecorderTypeInputFill": {
+    "message": "Giriş"
+  },
+  "macroRecorderTypeUnknown": {
+    "message": "Adım"
+  },
+  "macroRecorderUnsupportedPage": {
+    "message": "Makro Kaydedici yalnızca normal http/https sayfalarında çalışır."
+  },
+  "macroRecorderUntitledMacro": {
+    "message": "Adsız Makro"
+  },
+  "macroRecorderUpdatedMeta": {
+    "message": "Güncellenme: $1"
+  },
+  "macroRecorderValueChip": {
+    "message": "Değer: $1"
+  },
+  "macroRecorderValueLabel": {
+    "message": "Değer"
+  },
+  "macroRecorderWidgetAriaLabel": {
+    "message": "Makro kaydediciyi aç"
+  },
+  "macroRecorderWidgetCollapse": {
+    "message": "Makro kaydediciyi daralt"
+  },
+  "macroRecorderWidgetExpand": {
+    "message": "Makro kaydediciyi aç"
+  },
+  "newBadgeLabel": {
+    "message": "YENİ"
+  }
+}

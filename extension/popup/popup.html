@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Toolboard – unified web picker toolkit for instant capture and inspection.">
+  <meta name="theme-color" content="#1f3c88">
+  <title data-i18n="extensionName">Toolboard</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <header class="header" role="banner">
+    <div class="header-top">
+      <h1 class="logo">
+        <span class="logo-icon" aria-hidden="true">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="3" y="3" width="7" height="7" fill="currentColor"/>
+            <rect x="14" y="3" width="7" height="7" fill="currentColor"/>
+            <rect x="14" y="14" width="7" height="7" fill="currentColor"/>
+            <rect x="3" y="14" width="7" height="7" fill="currentColor"/>
+          </svg>
+        </span>
+        <span class="logo-text">Toolboard</span>
+        <span id="version-badge" class="version-badge">V3.0.1</span>
+      </h1>
+      <div class="header-actions">
+        <button id="info-btn" class="icon-btn" type="button" aria-label="Help & Guide" title="Help & Guide">
+          <span class="sr-only">Help & Guide</span>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10"></circle>
+            <path d="M12 16v-4"></path>
+            <path d="M12 8h.01"></path>
+          </svg>
+        </button>
+        <button id="settings-btn" class="icon-btn" type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="settings-panel" title="Settings">
+          <span class="sr-only">Settings</span>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="3"></circle>
+            <path d="M19.4 15a1.78 1.78 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.78 1.78 0 0 0-1.82-.33 1.78 1.78 0 0 0-1.09 1.64V21a2 2 0 0 1-4 0v-.09A1.78 1.78 0 0 0 9.6 19a1.78 1.78 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06A1.78 1.78 0 0 0 5.4 15a1.78 1.78 0 0 0-1.64-1.09H3.67a2 2 0 0 1 0-4h.09A1.78 1.78 0 0 0 5.4 9a1.78 1.78 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06A1.78 1.78 0 0 0 9.6 5a1.78 1.78 0 0 0 1.09-1.64V3a2 2 0 0 1 4 0v.09A1.78 1.78 0 0 0 14.4 5a1.78 1.78 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06A1.78 1.78 0 0 0 18.6 9a1.78 1.78 0 0 0 1.64 1.09H21a2 2 0 0 1 0 4h-.09A1.78 1.78 0 0 0 19.4 15z"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div class="search-bar">
+      <div class="search-bar__input">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="11" cy="11" r="8"/>
+          <path d="m21 21-4.35-4.35"/>
+        </svg>
+        <input id="tool-search" type="search" placeholder="Search tools..." autocomplete="off" spellcheck="false" data-i18n-placeholder="searchTools">
+      </div>
+      <button id="category-menu-btn" class="category-menu-btn" type="button" aria-haspopup="menu" aria-expanded="false" aria-controls="category-menu" title="Filter by category" data-i18n-title="filterByCategory">
+        <svg id="category-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="3" y="3" width="7" height="7"/>
+          <rect x="14" y="3" width="7" height="7"/>
+          <rect x="14" y="14" width="7" height="7"/>
+          <rect x="3" y="14" width="7" height="7"/>
+        </svg>
+      </button>
+      <div id="category-menu" class="category-menu hidden" hidden>
+      <button type="button" class="category-menu-item" data-category="all">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="3" y="3" width="7" height="7"/>
+          <rect x="14" y="3" width="7" height="7"/>
+          <rect x="14" y="14" width="7" height="7"/>
+          <rect x="3" y="14" width="7" height="7"/>
+        </svg>
+        <span data-i18n="allTools">All Tools</span>
+      </button>
+      <button type="button" class="category-menu-item" data-category="inspect">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="11" cy="11" r="8"/>
+          <path d="m21 21-4.35-4.35"/>
+        </svg>
+        <span data-i18n="inspect">Inspect</span>
+      </button>
+      <button type="button" class="category-menu-item" data-category="capture">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M14.5 4h-5L7 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3l-2.5-3z"/>
+          <circle cx="12" cy="13" r="3"/>
+        </svg>
+        <span data-i18n="capture">Capture</span>
+      </button>
+      <button type="button" class="category-menu-item" data-category="enhance">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1-.365-.567L2.5 4.5a.5.5 0 0 1 .567-.365L9.937 5.5A2 2 0 0 0 11.5 6.937l6.135 1.582a.5.5 0 0 1 .365.567L17.5 19.5a.5.5 0 0 1-.567.365L9.937 15.5Z"/>
+          <path d="M12 2v4"/>
+          <path d="M12 18v4"/>
+          <path d="M4.93 4.93l2.83 2.83"/>
+          <path d="M16.24 16.24l2.83 2.83"/>
+          <path d="M2 12h4"/>
+          <path d="M18 12h4"/>
+          <path d="M4.93 19.07l2.83-2.83"/>
+          <path d="M16.24 7.76l2.83-2.83"/>
+        </svg>
+        <span data-i18n="enhance">Enhance</span>
+      </button>
+      <button type="button" class="category-menu-item" data-category="utilities">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
+        </svg>
+        <span data-i18n="utilities">Utilities</span>
+      </button>
+      <button type="button" class="category-menu-item" data-category="converters">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="m7 7 4-4 4 4"/>
+          <path d="M11 3v14"/>
+          <path d="m17 17-4 4-4-4"/>
+          <path d="M13 21V7"/>
+        </svg>
+        <span data-i18n="converters">Converters</span>
+      </button>
+      <button type="button" class="category-menu-item" data-category="previewers">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="3" y="4" width="18" height="14" rx="2"/>
+          <path d="M7 20h10"/>
+          <path d="M12 18v2"/>
+        </svg>
+        <span data-i18n="previewers">Previewers</span>
+      </button>
+      <button type="button" class="category-menu-item" data-category="ai">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M12 5a3 3 0 1 0-5.997.125 4 4 0 0 0-2.526 5.77 4 4 0 0 0 .556 6.588A4 4 0 1 0 12 18Z"/>
+          <path d="M12 5a3 3 0 1 1 5.997.125 4 4 0 0 1 2.526 5.77 4 4 0 0 1-.556 6.588A4 4 0 1 1 12 18Z"/>
+          <path d="M15 13a4.5 4.5 0 0 1-3-4 4.5 4.5 0 0 1-3 4"/>
+          <path d="M17.599 6.5a3 3 0 0 0 .399-1.375"/>
+          <path d="M6.003 5.125A3 3 0 0 0 6.401 6.5"/>
+          <path d="M3.477 10.896a4 4 0 0 1 .585-.396"/>
+          <path d="M19.938 10.5a4 4 0 0 1 .585.396"/>
+          <path d="M6 18a4 4 0 0 1-1.967-.516"/>
+          <path d="M19.967 17.484A4 4 0 0 1 18 18"/>
+        </svg>
+        <span data-i18n="ai">AI</span>
+      </button>
+      </div>
+    </div>
+    </div>
+    <div id="search-feedback" class="search-feedback" aria-live="polite">
+      <div id="search-chips" class="search-chips"></div>
+      <span id="search-result-count" class="search-feedback__count"></span>
+    </div>
+  </header>
+
+  <main class="main" role="main">
+    <section id="tools-section" class="tool-section">
+      <div class="tools-virtual-container" data-section="all" tabindex="0">
+        <div class="tools-grid" role="grid" aria-label="Web picker tools" data-i18n-aria-label="webPickerTools"></div>
+        <div class="virtual-sentinel" aria-hidden="true"></div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Minimal pagination - only left/right arrows -->
+  <div id="pagination" class="pagination" hidden>
+    <button id="prev-page" class="pagination-btn" type="button" aria-label="Previous page" disabled data-i18n-aria-label="previousPage">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="m15 18-6-6 6-6"/>
+      </svg>
+    </button>
+    <div id="page-number" class="pagination-number">
+      <span id="current-page">1</span>
+      <span class="pagination-separator">/</span>
+      <span id="total-pages">1</span>
+    </div>
+    <button id="next-page" class="pagination-btn" type="button" aria-label="Next page" disabled data-i18n-aria-label="nextPage">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="m9 18 6-6-6-6"/>
+      </svg>
+    </button>
+  </div>
+
+
+  <aside id="settings-panel" class="settings-panel" role="dialog" aria-modal="true" aria-labelledby="settings-title" hidden>
+    <div class="settings-panel__content">
+      <header class="settings-panel__header">
+        <h2 id="settings-title" data-i18n="settings">Settings</h2>
+        <button id="close-settings" class="icon-btn" type="button">
+          <span class="sr-only" data-i18n="close">Close settings</span>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M18 6 6 18"></path>
+            <path d="m6 6 12 12"></path>
+          </svg>
+        </button>
+      </header>
+      <div class="settings-panel__main">
+        <nav class="settings-panel__tabs" role="tablist" aria-label="Settings sections" data-i18n-aria-label="settingsSections">
+          <button id="settings-tab-preferences" class="settings-tab active" data-tab="preferences" role="tab" aria-selected="true" aria-controls="settings-content-preferences" data-i18n="preferences">Preferences</button>
+          <button id="settings-tab-tools" class="settings-tab" data-tab="tools" role="tab" aria-selected="false" aria-controls="settings-content-tools" data-i18n="tools">Tools</button>
+          <button id="settings-tab-ai" class="settings-tab" data-tab="ai" role="tab" aria-selected="false" aria-controls="settings-content-ai" data-i18n="aiSettings">AI</button>
+          <button id="settings-tab-about" class="settings-tab" data-tab="about" role="tab" aria-selected="false" aria-controls="settings-content-about" data-i18n="about">About</button>
+        </nav>
+        <div class="settings-panel__body" role="document">
+          <div id="settings-content-preferences" class="settings-content active" role="tabpanel" aria-labelledby="settings-tab-preferences" aria-hidden="false" tabindex="0">
+            <section class="settings-section">
+              <h3 class="settings-section__title" data-i18n="interface">Interface</h3>
+              <p class="settings-section__description" data-i18n="tunePopup">Tune the popup to match how you work.</p>
+              <div class="settings-grid">
+                <div class="settings-card">
+                  <div class="settings-card__header">
+                    <span class="settings-card__eyebrow" data-i18n="language">Language</span>
+                    <p class="settings-card__text" data-i18n="switchLanguage">Switch the popup language instantly.</p>
+                  </div>
+                  <select id="settings-lang-select" class="settings-select">
+                    <option value="en" data-i18n="english">English</option>
+                    <option value="tr" data-i18n="turkish">Türkçe</option>
+                    <option value="fr" data-i18n="french">Français</option>
+                  </select>
+                </div>
+                <div class="settings-card">
+                  <div class="settings-card__header">
+                    <span class="settings-card__eyebrow" data-i18n="theme">Theme</span>
+                    <p class="settings-card__text" data-i18n="toggleTheme">Toggle between light, dark, or follow system preferences.</p>
+                  </div>
+                  <select id="settings-theme-select" class="settings-select">
+                    <option value="system" data-i18n="themeAuto">Auto</option>
+                    <option value="light" data-i18n="themeLight">Light</option>
+                    <option value="dark" data-i18n="themeDark">Dark</option>
+                  </select>
+                </div>
+              </div>
+            </section>
+          </div>
+          <div id="settings-content-tools" class="settings-content" role="tabpanel" aria-labelledby="settings-tab-tools" aria-hidden="true" tabindex="-1">
+            <section class="settings-section">
+              <h3 class="settings-section__title" data-i18n="visibility">Visibility</h3>
+              <p class="settings-section__description" data-i18n="hideTools">Hide tools from the launcher grid while keeping them searchable.</p>
+              <div id="settings-tool-list" class="settings-tool-list" role="group" aria-label="Tool toggles" data-i18n-aria-label="toolToggles"></div>
+            </section>
+          </div>
+          <div id="settings-content-ai" class="settings-content" role="tabpanel" aria-labelledby="settings-tab-ai" aria-hidden="true" tabindex="-1">
+            <section class="settings-section">
+              <h3 class="settings-section__title" data-i18n="aiSettings">AI Configuration</h3>
+              <p class="settings-section__description" data-i18n="aiSettingsDescription">Configure AI providers, API keys, and model preferences</p>
+
+              <div class="settings-card">
+                <div class="settings-card__header">
+                  <span class="settings-card__eyebrow" data-i18n="aiProvider">Provider</span>
+                  <p class="settings-card__text" data-i18n="aiProviderDescription">Choose provider, add API key, start using AI tools.</p>
+                </div>
+                <select id="settings-ai-provider-select" class="settings-select">
+                  <option value="gemini">Google Gemini</option>
+                  <option value="openrouter">OpenRouter</option>
+                  <option value="minimax">MiniMax</option>
+                  <option value="openai">OpenAI</option>
+                  <option value="groq">Groq</option>
+                  <option value="together">Together AI</option>
+                  <option value="mistral">Mistral</option>
+                  <option value="fireworks">Fireworks AI</option>
+                  <option value="deepseek">DeepSeek</option>
+                  <option value="anthropic">Anthropic (Claude)</option>
+                  <option value="xai">xAI (Grok)</option>
+                  <option value="perplexity">Perplexity</option>
+                  <option value="custom">Custom (Fetch Wrapper)</option>
+                </select>
+              </div>
+
+              <div class="settings-card settings-card--advanced">
+                <details id="settings-ai-advanced-details" class="settings-advanced">
+                  <summary class="settings-advanced__summary">
+                    <span data-i18n="aiAdvancedOptions">Advanced provider options</span>
+                    <span class="settings-advanced__hint" data-i18n="optional">Optional</span>
+                  </summary>
+                  <div class="settings-advanced__content">
+                    <p class="settings-card__text" data-i18n="aiAdvancedDescription">Override endpoint/auth/model behavior or define a custom fetch wrapper.</p>
+
+                    <label class="settings-label" for="settings-ai-base-url-input" data-i18n="aiBaseUrl">Base URL</label>
+                    <input id="settings-ai-base-url-input" class="settings-input" type="text" placeholder="https://api.example.com/v1">
+
+                    <label class="settings-label" for="settings-ai-path-input" data-i18n="aiPath">Path</label>
+                    <input id="settings-ai-path-input" class="settings-input" type="text" placeholder="/chat/completions">
+
+                    <label class="settings-label" for="settings-ai-auth-header-input" data-i18n="aiAuthHeader">Auth Header</label>
+                    <input id="settings-ai-auth-header-input" class="settings-input" type="text" placeholder="Authorization">
+
+                    <label class="settings-label" for="settings-ai-auth-prefix-input" data-i18n="aiAuthPrefix">Auth Prefix</label>
+                    <input id="settings-ai-auth-prefix-input" class="settings-input" type="text" placeholder="Bearer ">
+
+                    <label class="settings-label" for="settings-ai-smart-model-input" data-i18n="aiSmartModel">Smart Model (used for auto/smart)</label>
+                    <input id="settings-ai-smart-model-input" class="settings-input" type="text" placeholder="gpt-4.1 / gemini-2.5-flash / ...">
+
+                    <label class="settings-label" for="settings-ai-lite-model-input" data-i18n="aiLiteModel">Lite Model</label>
+                    <input id="settings-ai-lite-model-input" class="settings-input" type="text" placeholder="gpt-4o-mini / gemini-2.5-flash-lite / ...">
+
+                    <label class="settings-label" for="settings-ai-response-parser-select" data-i18n="aiResponseParser">Response Parser</label>
+                    <select id="settings-ai-response-parser-select" class="settings-select">
+                      <option value="openai" data-i18n="aiResponseParserOpenAI">OpenAI-compatible</option>
+                      <option value="gemini" data-i18n="aiResponseParserGemini">Gemini</option>
+                      <option value="anthropic" data-i18n="aiResponseParserAnthropic">Anthropic</option>
+                    </select>
+
+                    <label class="settings-label" for="settings-ai-extra-headers-input" data-i18n="aiExtraHeaders">Extra Headers (JSON object)</label>
+                    <textarea id="settings-ai-extra-headers-input" class="settings-textarea" rows="3" placeholder='{"X-Title":"Toolboard"}'></textarea>
+
+                    <label class="settings-label" for="settings-ai-body-template-input" data-i18n="aiBodyTemplate">Body Template (optional JSON with {{prompt}} and {{model}})</label>
+                    <textarea id="settings-ai-body-template-input" class="settings-textarea" rows="4" placeholder='{"model":"{{model}}","messages":[{"role":"user","content":"{{prompt}}"}]}'></textarea>
+                  </div>
+                </details>
+              </div>
+              
+              <!-- Model Selection -->
+              <div class="settings-card">
+                <div class="settings-card__header">
+                  <span class="settings-card__eyebrow" data-i18n="aiModel">AI Model</span>
+                  <p class="settings-card__text" data-i18n="aiModelDescription">Choose model intelligence level</p>
+                </div>
+                <select id="settings-ai-model-select" class="settings-select">
+                  <option value="auto" data-i18n="aiModelAuto">Auto (Tool decides)</option>
+                  <option value="smart" data-i18n="aiModelSmart">Smart (Gemini 2.5 Flash)</option>
+                  <option value="lite" data-i18n="aiModelLite">Lite (Gemini 2.5 Flash-Lite)</option>
+                </select>
+              </div>
+              
+              <!-- Language Selection -->
+              <div class="settings-card">
+                <div class="settings-card__header">
+                  <span class="settings-card__eyebrow" data-i18n="aiLanguage">Response Language</span>
+                  <p class="settings-card__text" data-i18n="aiLanguageDescription">Choose language for AI responses</p>
+                  <p class="settings-card__text" style="font-size: 12px; color: var(--toolary-text-secondary); margin-top: 4px;" data-i18n="aiLanguageAutoDescription">Automatically detects your browser language for AI responses, even if the UI is in English</p>
+                </div>
+                <select id="settings-ai-language-select" class="settings-select">
+                  <option value="auto" data-i18n="aiLanguageAuto">Auto (Browser Language)</option>
+                  <option value="en">English</option>
+                  <option value="tr">Türkçe</option>
+                  <option value="fr">Français</option>
+                  <option value="es">Español</option>
+                  <option value="de">Deutsch</option>
+                  <option value="it">Italiano</option>
+                  <option value="pt">Português</option>
+                  <option value="ru">Русский</option>
+                  <option value="zh">中文</option>
+                  <option value="ja">日本語</option>
+                  <option value="ko">한국어</option>
+                  <option value="ar">العربية</option>
+                  <option value="nl">Nederlands</option>
+                  <option value="sv">Svenska</option>
+                  <option value="no">Norsk</option>
+                  <option value="da">Dansk</option>
+                  <option value="fi">Suomi</option>
+                  <option value="pl">Polski</option>
+                  <option value="cs">Čeština</option>
+                  <option value="hu">Magyar</option>
+                  <option value="ro">Română</option>
+                  <option value="bg">Български</option>
+                  <option value="hr">Hrvatski</option>
+                  <option value="sr">Српски</option>
+                  <option value="sk">Slovenčina</option>
+                  <option value="sl">Slovenščina</option>
+                  <option value="et">Eesti</option>
+                  <option value="lv">Latviešu</option>
+                  <option value="lt">Lietuvių</option>
+                  <option value="uk">Українська</option>
+                  <option value="el">Ελληνικά</option>
+                  <option value="he">עברית</option>
+                  <option value="hi">हिन्दी</option>
+                  <option value="th">ไทย</option>
+                  <option value="vi">Tiếng Việt</option>
+                  <option value="id">Bahasa Indonesia</option>
+                  <option value="ms">Bahasa Melayu</option>
+                  <option value="tl">Filipino</option>
+                </select>
+              </div>
+              
+              <!-- API Keys Management -->
+              <div class="settings-card">
+                <div class="settings-card__header">
+                  <span class="settings-card__eyebrow" data-i18n="aiKeys">API Keys</span>
+                  <p class="settings-card__text" data-i18n="aiKeysDescription">Add multiple API keys for rotation and failover on your selected provider</p>
+                </div>
+                <div id="ai-keys-container" class="ai-keys-list"></div>
+                <button id="add-ai-key-btn" class="secondary-btn" type="button" data-i18n="addApiKey">
+                  + Add API Key
+                </button>
+              </div>
+            </section>
+          </div>
+          <div id="settings-content-about" class="settings-content" role="tabpanel" aria-labelledby="settings-tab-about" aria-hidden="true" tabindex="-1">
+            <section class="settings-section">
+              <h3 class="settings-section__title" data-i18n="aboutToolboard">About Toolboard</h3>
+              
+              <div class="settings-card settings-card--info">
+                <div class="info-message">
+                  <div class="info-icon">🛠️</div>
+                  <div class="info-content">
+                    <h4 data-i18n="infoTitle">24 Productivity Tools</h4>
+                    <p data-i18n="infoDescription">Inspect, capture, enhance, and analyze any webpage with powerful tools. From color picking to AI-powered content analysis.</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="settings-card settings-card--support">
+                <div class="support-message">
+                  <div class="support-icon">☕</div>
+                  <div class="support-content">
+                    <h4 data-i18n="supportTitle">Support the Developer</h4>
+                    <p data-i18n="supportDescription">Toolboard is completely free! If you find it helpful, consider buying me a coffee to support future development.</p>
+                    <a href="https://buymeacoffee.com/ademisler" target="_blank" rel="noopener noreferrer" class="support-button">
+                      <span data-i18n="buyCoffee">Buy me a coffee</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="settings-card settings-card--developer">
+                <div class="developer-message">
+                  <div class="developer-icon">👨‍💻</div>
+                  <div class="developer-content">
+                    <h4 data-i18n="developerTitle">Developer</h4>
+                    <p data-i18n="developerDescription">Created by Adem İşler. Visit my website to see more projects and get in touch.</p>
+                    <a href="https://ademisler.com/en" target="_blank" rel="noopener noreferrer" class="developer-button">
+                      <span data-i18n="visitWebsite">Visit Website</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+      <footer class="settings-panel__footer">
+        <button id="settings-reset" class="link-btn" type="button" data-i18n="reset">Reset</button>
+        <button id="settings-save" class="primary-btn" type="button" data-i18n="save">Save</button>
+      </footer>
+    </div>
+  </aside>
+
+  <div id="onboarding-overlay" class="onboarding-overlay" hidden>
+    <div class="onboarding-backdrop"></div>
+    <div class="onboarding-spotlight"></div>
+    <div class="onboarding-tooltip">
+      <div class="onboarding-tooltip__header">
+        <span class="onboarding-tooltip__step"></span>
+        <button id="onboarding-close" class="onboarding-tooltip__close" type="button" aria-label="Close guide">×</button>
+      </div>
+      <div class="onboarding-tooltip__content">
+        <h3 class="onboarding-tooltip__title"></h3>
+        <p class="onboarding-tooltip__description"></p>
+      </div>
+      <div class="onboarding-tooltip__footer">
+        <button id="onboarding-skip" class="onboarding-btn onboarding-btn--secondary" type="button">Skip</button>
+        <div class="onboarding-tooltip__nav">
+          <button id="onboarding-prev" class="onboarding-btn onboarding-btn--secondary" type="button">Previous</button>
+          <button id="onboarding-next" class="onboarding-btn onboarding-btn--primary" type="button">Next</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="popup-toast-region" class="toast-region" role="status" aria-live="polite" aria-atomic="true"></div>
+
+  <script type="module" src="popup.js"></script>
+</body>
+</html>
